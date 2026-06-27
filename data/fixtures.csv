@@ -1,6 +1,6 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824257,2026-06-27,116,117,Detroit Tigers,Houston Astros,664285,678906,Framber Valdez,Kai-Wei Teng,2394,Scheduled
-824745,2026-06-27,111,147,Boston Red Sox,New York Yankees,687562,543037,Jake Bennett,Gerrit Cole,3,Scheduled
+824257,2026-06-27,116,117,Detroit Tigers,Houston Astros,664285,678906,Framber Valdez,Kai-Wei Teng,2394,Pre-Game
+824745,2026-06-27,111,147,Boston Red Sox,New York Yankees,687562,543037,Jake Bennett,Gerrit Cole,3,Pre-Game
 822794,2026-06-27,141,140,Toronto Blue Jays,Texas Rangers,656302,615698,Dylan Cease,Cal Quantrill,14,Scheduled
 823364,2026-06-27,134,113,Pittsburgh Pirates,Cincinnati Reds,683003,695505,Jared Jones,Chase Burns,31,Scheduled
 823609,2026-06-27,121,143,New York Mets,Philadelphia Phillies,681035,660604,Christian Scott,Alan Rangel,3289,Scheduled
@@ -16,8 +16,8 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824015,2026-06-27,108,133,Los Angeles Angels,Athletics,672282,678022,Reid Detmers,Jack Perkins,1,Scheduled
 824821,2026-06-28,110,120,Baltimore Orioles,Washington Nationals,680694,641793,Kyle Bradish,Zack Littell,2,Scheduled
 823362,2026-06-28,134,113,Pittsburgh Pirates,Cincinnati Reds,656605,663903,Mitch Keller,Brady Singer,31,Scheduled
-822795,2026-06-28,141,140,Toronto Blue Jays,Texas Rangers,669456,,Shane Bieber,,14,Scheduled
-824256,2026-06-28,116,117,Detroit Tigers,Houston Astros,,686613,,Hunter Brown,2394,Scheduled
+822795,2026-06-28,141,140,Toronto Blue Jays,Texas Rangers,669456,677958,Shane Bieber,Kumar Rocker,14,Scheduled
+824256,2026-06-28,116,117,Detroit Tigers,Houston Astros,656427,686613,Jack Flaherty,Hunter Brown,2394,Scheduled
 824422,2026-06-28,114,136,Cleveland Guardians,Seattle Mariners,668909,669923,Gavin Williams,George Kirby,5,Scheduled
 822959,2026-06-28,139,109,Tampa Bay Rays,Arizona Diamondbacks,656876,518876,Drew Rasmussen,Merrill Kelly,12,Scheduled
 823608,2026-06-28,121,143,New York Mets,Philadelphia Phillies,,666200,,Jesús Luzardo,3289,Scheduled
