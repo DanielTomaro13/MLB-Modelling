@@ -25,8 +25,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Run pipeline (model + best-effort odds; books that respond over plain HTTP)
-        run: python -m src.run_daily
+      - name: Run pipeline (model only — odds are scraped by the local AU cron in mlb-162-0)
+        run: python -m src.run_daily --no-odds
 
       - name: Commit refreshed site + reports
         run: |
