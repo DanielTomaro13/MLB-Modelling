@@ -226,6 +226,65 @@ def project_game(home, away, home_sp, away_sp, park, cfg, elo_home_wp: float | N
     }
 
 
+def distributions(home, away, home_sp, away_sp, park, cfg, elo_home_wp: float | None = None) -> dict:
+    """Pricing primitives for one game so any bookmaker line can be priced exactly.
+
+    Returns the per-team run pmfs (full game + first-5) and the headline win probs,
+    plus closures the odds layer calls with arbitrary lines.
+    """
+    phi = cfg["sim"]["overdispersion"]
+    n = cfg["sim"]["max_team_runs"]
+    mu = team_means(home, away, home_sp, away_sp, park, cfg)
+    ph, pa = nb_pmf(mu["home"], phi, n), nb_pmf(mu["away"], phi, n)
+    ph5, pa5 = nb_pmf(mu["home_f5"], phi, 12), nb_pmf(mu["away_f5"], phi, 12)
+
+    # Headline win prob from the joint grid (ties split by mean), optionally Elo-blended.
+    g = _grid_markets(ph, pa, mu["home"], mu["away"], cfg)
+    win_home = g["win_home"]
+    if elo_home_wp is not None:
+        win_home = _logit_blend(g["win_home"], elo_home_wp, cfg["sim"]["elo_weight"])
+
+    def total_over(line: float, f5: bool = False) -> float:
+        a, b = (ph5, pa5) if f5 else (ph, pa)
+        s = 0.0
+        for i in range(len(a)):
+            for j in range(len(b)):
+                if i + j > line:
+                    s += a[i] * b[j]
+        return s
+
+    def run_line(side: str, line: float) -> float:
+        # home -line wins if home_runs - away_runs > line; away +line is the complement.
+        s = 0.0
+        for i in range(len(ph)):
+            for j in range(len(pa)):
+                if i - j > line:
+                    s += ph[i] * pa[j]
+        return s if side == "home" else 1 - s
+
+    def team_total_over(side: str, line: float) -> float:
+        pmf = ph if side == "home" else pa
+        return sum(pmf[k] for k in range(len(pmf)) if k > line)
+
+    def handicap_cover(side: str, signed: float) -> float:
+        """P(side covers a signed handicap), e.g. home -1.5 -> handicap_cover('home', -1.5)."""
+        s = 0.0
+        for i in range(len(ph)):
+            for j in range(len(pa)):
+                margin = (i - j) if side == "home" else (j - i)
+                if margin + signed > 0:
+                    s += ph[i] * pa[j]
+        return s
+
+    return {
+        "win_home": win_home, "win_away": 1 - win_home,
+        "mu_home": mu["home"], "mu_away": mu["away"],
+        "ph": ph, "pa": pa,
+        "total_over": total_over, "run_line": run_line,
+        "team_total_over": team_total_over, "handicap_cover": handicap_cover,
+    }
+
+
 def _logit(p: float) -> float:
     p = min(max(p, 1e-6), 1 - 1e-6)
     return math.log(p / (1 - p))

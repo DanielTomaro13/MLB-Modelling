@@ -15,8 +15,8 @@ leagues:                          # statsapi league ids (used by standings)
 data:
   api_base: "https://statsapi.mlb.com/api/v1"
   api_base_live: "https://statsapi.mlb.com/api/v1.1"
-  season: 2025                    # current modelling season
-  history_seasons: [2023, 2024, 2025]   # seasons pulled for Elo / backtest
+  season: 2026                    # current modelling season
+  history_seasons: [2024, 2025, 2026]   # seasons pulled for Elo / backtest
   raw_dir: "data/raw"
   processed_dir: "data/processed"
   park_factors_file: "data/park_factors.csv"
@@ -78,4 +78,4 @@ paths:
 # Backtest
 # --------------------------------------------------------------------------- #
 backtest:
-  holdout_start_season: 2025      # walk-forward: score games from this season on
+  holdout_start_season: 2026      # walk-forward: score games from this season on
