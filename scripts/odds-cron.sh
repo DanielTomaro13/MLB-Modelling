@@ -14,6 +14,9 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
 LOG="scripts/odds-cron.log"
 echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) odds refresh ===" >>"$LOG"
 
+# Pull the CI's model refresh first so the odds push rebases cleanly on top.
+git pull --rebase --autostash >>"$LOG" 2>&1 || true
+
 # Predictions must exist/are current before odds prices against them.
 python3 -m src.predict   >>"$LOG" 2>&1 || true
 python3 -m src.odds      >>"$LOG" 2>&1 || true
