@@ -17,7 +17,7 @@ import time
 
 from . import fixtures, ratings, sim, util
 
-TOP_BATTERS = 5
+TOP_BATTERS = 9  # a full batting order
 
 
 def _top_batters(profiles: dict, team_id: int) -> list[dict]:

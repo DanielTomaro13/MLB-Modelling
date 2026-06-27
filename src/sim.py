@@ -298,32 +298,47 @@ def _logit_blend(p_sim: float, p_elo: float, w_elo: float) -> float:
 # --------------------------------------------------------------------------- #
 # Player props
 # --------------------------------------------------------------------------- #
+def _prop(stat: str, mu: float, lines: list[float]) -> dict:
+    return {"stat": stat, "mu": round(mu, 3),
+            "lines": [{"line": ln, "over": round(poisson_over(mu, ln), 4),
+                       "under": round(1 - poisson_over(mu, ln), 4),
+                       "over_fair": fair(poisson_over(mu, ln)),
+                       "under_fair": fair(1 - poisson_over(mu, ln))} for ln in lines]}
+
+
+def _lines_around(mu: float, base: list[float]) -> list[float]:
+    """Keep the standard book lines plus the half-integer either side of the mean."""
+    near = round(max(mu, 0.5) - 0.5) + 0.5
+    return sorted(set(base) | {near, near + 1})
+
+
 def batter_props(batter: dict) -> list[dict]:
     pa = PA_PER_GAME
-    out = []
-    for stat, rate_key, lines in (
-        ("Hits", "hits_pa", [0.5, 1.5, 2.5]),
-        ("Total bases", "tb_pa", [1.5, 2.5, 3.5]),
-        ("Home run", "hr_pa", [0.5]),
-    ):
-        mu = batter.get(rate_key, 0.0) * pa
-        sels = [{"line": ln, "over": round(poisson_over(mu, ln), 4),
-                 "over_fair": fair(poisson_over(mu, ln))} for ln in lines]
-        out.append({"stat": stat, "mu": round(mu, 3), "lines": sels})
-    # Stolen base is a per-game rate already.
-    sb_mu = batter.get("sb_pg", 0.0)
-    out.append({"stat": "Stolen base", "mu": round(sb_mu, 3),
-                "lines": [{"line": 0.5, "over": round(poisson_over(sb_mu, 0.5), 4),
-                           "over_fair": fair(poisson_over(sb_mu, 0.5))}]})
+    out = [
+        _prop("Hits", batter.get("hits_pa", 0.0) * pa, [0.5, 1.5, 2.5]),
+        _prop("Total bases", batter.get("tb_pa", 0.0) * pa, [1.5, 2.5, 3.5]),
+        _prop("Home run", batter.get("hr_pa", 0.0) * pa, [0.5, 1.5]),
+        _prop("RBIs", batter.get("rbi_pg", 0.0), [0.5, 1.5, 2.5]),
+        _prop("Runs", batter.get("runs_pg", 0.0), [0.5, 1.5]),
+        _prop("Walks", batter.get("bb_pa", 0.0) * pa, [0.5, 1.5]),
+        _prop("Strikeouts", batter.get("k_pa", 0.0) * pa, [0.5, 1.5, 2.5]),
+        _prop("Stolen base", batter.get("sb_pg", 0.0), [0.5, 1.5]),
+        _prop("Doubles", batter.get("doubles_pg", 0.0), [0.5, 1.5]),
+    ]
     return out
 
 
 def pitcher_props(pitcher: dict) -> list[dict]:
-    # Estimate batters faced this start from innings/start (or a 5.5 IP default).
     ip_start = (pitcher["ip"] / pitcher["gs"]) if pitcher.get("gs") else 5.5
-    bf = max(ip_start, 3.0) * 4.3
-    mu_k = pitcher.get("k_rate", 0.22) * bf
-    lines = [4.5, 5.5, 6.5, 7.5]
-    sels = [{"line": ln, "over": round(poisson_over(mu_k, ln), 4),
-             "over_fair": fair(poisson_over(mu_k, ln))} for ln in lines]
-    return [{"stat": "Strikeouts", "mu": round(mu_k, 3), "lines": sels}]
+    ip_start = max(ip_start, 3.0)
+    bf = ip_start * 4.3
+    league_ra9 = 4.45
+    out = [
+        _prop("Strikeouts", pitcher.get("k_rate", 0.22) * bf, [4.5, 5.5, 6.5, 7.5, 8.5]),
+        _prop("Walks", pitcher.get("bb_rate", 0.08) * bf, [1.5, 2.5, 3.5]),
+        _prop("Outs", ip_start * 3, [14.5, 15.5, 16.5, 17.5, 18.5]),
+        _prop("Earned runs", pitcher.get("ra9", league_ra9) * ip_start / 9.0, [1.5, 2.5, 3.5]),
+        # Hits allowed ≈ balls in play that fall + ... approximated from non-K, non-BB PAs.
+        _prop("Hits allowed", max(bf * (1 - pitcher.get("k_rate", 0.22) - pitcher.get("bb_rate", 0.08)) * 0.30, 0.1), [3.5, 4.5, 5.5, 6.5]),
+    ]
+    return out

@@ -252,7 +252,8 @@ DAB_BASEBALL = "656e9e24-f955-4413-8bcb-4d7026b1f9bb"
 DAB_PICKEM_STAT = {  # Dabble stat slug -> model prop stat label
     "hits": "Hits", "total-bases": "Total bases", "home-runs": "Home run",
     "stolen-bases": "Stolen base", "strikeouts": "Strikeouts", "pitcher-strikeouts": "Strikeouts",
-    "rbis": "RBIs", "runs": "Runs",
+    "rbis": "RBIs", "runs": "Runs", "walks": "Walks", "doubles": "Doubles",
+    "pitching-outs": "Outs", "outs": "Outs", "earned-runs": "Earned runs", "hits-allowed": "Hits allowed",
 }
 
 
