@@ -163,10 +163,32 @@ def lad_markets(ev):
     by_market = {}
     for ent in d.get("entrants", {}).values():
         by_market.setdefault(ent.get("market_id"), []).append(ent)
+
+    # Find the favourite (shortest Head-to-Head price) so the Line handicap gets the right sign.
+    fav_name = None
+    best = 1e9
+    for mid, ents in by_market.items():
+        if (d.get("markets", {}).get(mid) or {}).get("name", "") == "Head To Head":
+            for e in ents:
+                p = price(e["id"])
+                if p and p < best:
+                    best, fav_name = p, e.get("name", "")
+
     out = []
     for mid, ents in by_market.items():
-        mname = (d.get("markets", {}).get(mid) or {}).get("name", "")
-        sels = [{"name": e.get("name", ""), "price": price(e["id"]), "hcap": e.get("handicap"), "disp": e.get("name", "")} for e in ents]
+        m = d.get("markets", {}).get(mid) or {}
+        mname = m.get("name", "")
+        mh = m.get("handicap")  # Ladbrokes carries the line/handicap on the market, not the entrant
+        sels = []
+        for e in ents:
+            nm = e.get("name", "")
+            hc = None
+            if mname == "Line" and mh is not None:
+                # favourite gets -|h|, underdog +|h|
+                hc = -abs(mh) if nm == fav_name else abs(mh)
+            elif mname == "Total" and mh is not None:
+                hc = abs(mh)
+            sels.append({"name": nm, "price": price(e["id"]), "hcap": hc, "disp": nm})
         out.append((mname, sels))
     return out
 
@@ -406,7 +428,10 @@ FI_NAMES = {"1st inning total runs", "first inning total runs", "1st inning runs
 
 def canon(mname, sels, home, away):
     """Yield (mkt, side, line, price, label) for each priced selection in a main market."""
-    low = (mname or "").strip().lower()
+    # PointsBet appends " (Away @ Home)" to every market name — strip it before matching
+    # (also so the team-names in that suffix don't masquerade as a team-total market).
+    clean = re.sub(r"\s*\([^)]*\)\s*$", "", (mname or "").strip()).strip()
+    low = clean.lower()
     out = []
 
     def emit(mkt, side, line, price, label):
@@ -469,7 +494,7 @@ def canon(mname, sels, home, away):
         return out
 
     # Team totals — "{Team} Total Runs".
-    team_in_market = _team_side(mname, home, away)
+    team_in_market = _team_side(clean, home, away)
     if team_in_market and "total" in low and "run" in low:
         for s in sels:
             ou, line = over_under(s), _signed(s.get("hcap"), s["name"])
