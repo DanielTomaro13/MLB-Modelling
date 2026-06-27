@@ -50,10 +50,11 @@ elo:
 sim:
   innings: 9
   league_runs_per_team: 4.45      # league baseline R/G per team (fallback)
-  max_team_runs: 20               # run-distribution support cutoff
-  overdispersion: 1.30            # negative-binomial variance / mean (runs are over-Poisson)
+  max_team_runs: 22               # run-distribution support cutoff
+  overdispersion: 2.0             # neg-binomial var/mean — fit to actual run distribution (var/mean≈2.0 conditional)
   elo_weight: 0.45                # blend weight of Elo win-prob into the sim headline
-  home_field_runs: 0.16           # extra expected runs for the home team
+  home_field_runs: 0.04           # extra expected runs for the home team (empirical edge ≈0.025)
+  home_field_wp: 0.10             # logit bump to the home win prob (home edge beyond runs: last AB, travel)
   totals_lines: [6.5, 7.5, 8.5, 9.5, 10.5, 11.5]
   run_line: 1.5
   first_five: true                # price the first-5-innings (F5) markets

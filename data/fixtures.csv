@@ -3,7 +3,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824745,2026-06-27,111,147,Boston Red Sox,New York Yankees,687562,543037,Jake Bennett,Gerrit Cole,3,Scheduled
 822794,2026-06-27,141,140,Toronto Blue Jays,Texas Rangers,656302,615698,Dylan Cease,Cal Quantrill,14,Scheduled
 823364,2026-06-27,134,113,Pittsburgh Pirates,Cincinnati Reds,683003,695505,Jared Jones,Chase Burns,31,Scheduled
-823609,2026-06-27,121,143,New York Mets,Philadelphia Phillies,,660604,,Alan Rangel,3289,Scheduled
+823609,2026-06-27,121,143,New York Mets,Philadelphia Phillies,681035,660604,Christian Scott,Alan Rangel,3289,Scheduled
 824581,2026-06-27,145,118,Chicago White Sox,Kansas City Royals,663436,608379,Davis Martin,Michael Wacha,4,Scheduled
 822960,2026-06-27,139,109,Tampa Bay Rays,Arizona Diamondbacks,642121,703615,Cole Sulser,Jose Cabrera,12,Scheduled
 824825,2026-06-27,110,120,Baltimore Orioles,Washington Nationals,687064,656492,Brandon Young,Foster Griffin,2,Scheduled

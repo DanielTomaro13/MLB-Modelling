@@ -162,11 +162,11 @@ def project_game(home, away, home_sp, away_sp, park, cfg, elo_home_wp: float | N
     ph, pa = nb_pmf(mu["home"], phi, n), nb_pmf(mu["away"], phi, n)
     g = _grid_markets(ph, pa, mu["home"], mu["away"], cfg)
 
-    # Blend the sim moneyline with the Elo win prob (logit space) for the headline.
-    win_home = g["win_home"]
+    # Home edge beyond run-scoring (last at-bat, travel) — bump the sim win prob so it
+    # carries the full ~53% home edge before blending with Elo.
+    win_home = _logit_bump(g["win_home"], cfg["sim"].get("home_field_wp", 0.0))
     if elo_home_wp is not None:
-        w = cfg["sim"]["elo_weight"]
-        win_home = _logit_blend(g["win_home"], elo_home_wp, w)
+        win_home = _logit_blend(win_home, elo_home_wp, cfg["sim"]["elo_weight"])
     win_away = 1 - win_home
 
     markets = []
@@ -247,9 +247,9 @@ def distributions(home, away, home_sp, away_sp, park, cfg, elo_home_wp: float | 
 
     # Headline win prob from the joint grid (ties split by mean), optionally Elo-blended.
     g = _grid_markets(ph, pa, mu["home"], mu["away"], cfg)
-    win_home = g["win_home"]
+    win_home = _logit_bump(g["win_home"], cfg["sim"].get("home_field_wp", 0.0))
     if elo_home_wp is not None:
-        win_home = _logit_blend(g["win_home"], elo_home_wp, cfg["sim"]["elo_weight"])
+        win_home = _logit_blend(win_home, elo_home_wp, cfg["sim"]["elo_weight"])
 
     def total_over(line: float, f5: bool = False) -> float:
         a, b = (ph5, pa5) if f5 else (ph, pa)
@@ -307,6 +307,12 @@ def distributions(home, away, home_sp, away_sp, park, cfg, elo_home_wp: float | 
 def _logit(p: float) -> float:
     p = min(max(p, 1e-6), 1 - 1e-6)
     return math.log(p / (1 - p))
+
+
+def _logit_bump(p: float, bump: float) -> float:
+    if not bump:
+        return p
+    return 1.0 / (1.0 + math.exp(-(_logit(p) + bump)))
 
 
 def _logit_blend(p_sim: float, p_elo: float, w_elo: float) -> float:
