@@ -57,6 +57,16 @@ def poisson_over(mu: float, line: float) -> float:
     return sum(pmf[k:])
 
 
+PROP_PHI = 1.5  # player counting stats are lumpy (more 0-games than Poisson) — overdisperse.
+
+
+def over_prob(mu: float, line: float, phi: float = PROP_PHI) -> float:
+    """P(count > line) for an over-dispersed (negative-binomial) player-prop count."""
+    k = int(math.floor(line)) + 1
+    pmf = nb_pmf(mu, phi, max(k + 40, 22))
+    return sum(pmf[k:])
+
+
 def fair(prob: float) -> float | None:
     return round(1.0 / prob, 3) if prob and prob > 1e-9 else None
 
@@ -325,10 +335,10 @@ def _logit_blend(p_sim: float, p_elo: float, w_elo: float) -> float:
 # --------------------------------------------------------------------------- #
 def _prop(stat: str, mu: float, lines: list[float]) -> dict:
     return {"stat": stat, "mu": round(mu, 3),
-            "lines": [{"line": ln, "over": round(poisson_over(mu, ln), 4),
-                       "under": round(1 - poisson_over(mu, ln), 4),
-                       "over_fair": fair(poisson_over(mu, ln)),
-                       "under_fair": fair(1 - poisson_over(mu, ln))} for ln in lines]}
+            "lines": [{"line": ln, "over": round(over_prob(mu, ln), 4),
+                       "under": round(1 - over_prob(mu, ln), 4),
+                       "over_fair": fair(over_prob(mu, ln)),
+                       "under_fair": fair(1 - over_prob(mu, ln))} for ln in lines]}
 
 
 def _lines_around(mu: float, base: list[float]) -> list[float]:

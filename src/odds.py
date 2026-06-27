@@ -543,8 +543,38 @@ def model_prob(dist, mkt, side, line):
 
 
 MARKET_LABEL = {"ml": "Moneyline", "rl": "Run line", "total": "Total runs", "f5_total": "First 5 — total",
-                "f5_ml": "First 5 — winner", "fi": "First inning (NRFI/YRFI)", "team_total": "Team totals"}
-MARKET_ORDER = ["ml", "rl", "total", "f5_total", "f5_ml", "fi", "team_total"]
+                "f5_ml": "First 5 — winner", "fi": "First inning (NRFI/YRFI)", "team_total": "Team totals",
+                "prop": "Player props"}
+MARKET_ORDER = ["ml", "rl", "total", "f5_total", "f5_ml", "fi", "team_total", "prop"]
+
+# Bookmaker player-prop stat phrase -> model prop stat label.
+PROP_STAT = {
+    "total bases": "Total bases", "batter hits": "Hits", "hits": "Hits",
+    "home runs": "Home run", "home run": "Home run", "rbis": "RBIs", "rbi": "RBIs",
+    "runs scored": "Runs", "runs": "Runs", "batter walks": "Walks", "walks": "Walks",
+    "batter strikeouts": "Strikeouts", "batter strike outs": "Strikeouts", "strikeouts": "Strikeouts",
+    "pitcher strikeouts": "Strikeouts", "stolen bases": "Stolen base", "stolen base": "Stolen base",
+    "batter doubles": "Doubles", "doubles": "Doubles",
+}
+
+
+def parse_player_prop(mname, sels):
+    """Individual player props, e.g. Dabble '{Player} - {Stat} O/U ({line})'.
+    Yields (player, model_stat, over/under, line, price)."""
+    if " - " not in mname or "o/u" not in mname.lower():
+        return []
+    player, _, rest = mname.partition(" - ")
+    stat = PROP_STAT.get(rest.lower().split(" o/u")[0].strip())
+    if not stat:
+        return []
+    out = []
+    for s in sels:
+        sn = (s.get("name") or "").lower()
+        ou = "over" if "over" in sn else "under" if "under" in sn else None
+        line = _signed(s.get("hcap"), s.get("name"), mname)
+        if ou and line is not None and s.get("price"):
+            out.append((player.strip(), stat, ou, line, float(s["price"])))
+    return out
 
 
 # --------------------------------------------------------------------------- #
@@ -582,6 +612,18 @@ def run(cfg):
     elo = util.read_json(elo_path) if os.path.exists(elo_path) else None
     fxs = fixtures.load_fixtures(cfg, profiles)
 
+    # Model player-prop projections (mu per player+stat), indexed by matchup, for pricing
+    # the books' individual player-prop markets.
+    pred_path = util.abspath(os.path.join(dd, "predictions.json"))
+    pred_index = {}
+    if os.path.exists(pred_path):
+        for g in util.read_json(pred_path).get("games", []):
+            pm = {}
+            for s in ("home", "away"):
+                for pl in g.get("props", {}).get(s, []):
+                    pm[norm(pl["player"])] = {p["stat"]: p["mu"] for p in pl["props"]}
+            pred_index[(norm(g["home"]), norm(g["away"]))] = pm
+
     # Fetch each book's board once.
     book_events = {}
     for name, (lister, _) in BOOKS.items():
@@ -596,7 +638,9 @@ def run(cfg):
             elo_wp = ratings.elo_win_prob(elo, f["homeId"], f["awayId"], elo.get("_meta", {}).get("home_field", 24.0))
         dist = sim.distributions(f["home_team"], f["away_team"], f["home_sp"], f["away_sp"], f["park"], cfg, elo_home_wp=elo_wp)
 
+        prop_mu = pred_index.get((norm(f["home"]), norm(f["away"])), {})
         sel_books, sel_label, sel_meta = {}, {}, {}
+        prop_sel = {}  # sid -> {model, label, books}
         for book, (_, get_markets) in BOOKS.items():
             ev = _match_event(book_events[book], f["home"], f["away"])
             if not ev:
@@ -608,7 +652,19 @@ def run(cfg):
                     sel_label[sid] = label
                     sel_meta[sid] = (mkt, side, line)
                     books_present.add(book)
-        if not sel_books:
+                # Individual player props, priced off the model's projection (Poisson over).
+                for player, stat, ou, line, price in parse_player_prop(mname, sels):
+                    mu = prop_mu.get(norm(player), {}).get(stat)
+                    if mu is None:
+                        continue
+                    ov = sim.over_prob(mu, line)
+                    model = ov if ou == "over" else 1 - ov
+                    sid = f"prop|{norm(player)}|{stat}|{ou}|{line}"
+                    cell = prop_sel.setdefault(sid, {"model": round(model, 4),
+                                                     "label": f"{player} {ou.title()} {line:g} {stat}", "books": {}})
+                    cell["books"][book] = round(price, 2)
+                    books_present.add(book)
+        if not sel_books and not prop_sel:
             continue
 
         markets = {}
@@ -632,6 +688,23 @@ def run(cfg):
                 "best": {"price": best, "book": best_book},
                 "ev": round(mp * best - 1, 4), "edge": round(mp - 1 / best, 4),
             })
+        # Player props (model prob already computed via Poisson over).
+        for sid, c in prop_sel.items():
+            if not c["books"] or c["model"] <= 0:
+                continue
+            best_book = max(c["books"], key=c["books"].get)
+            best = c["books"][best_book]
+            ev_chk = c["model"] * best - 1
+            if ev_chk > 0.40 or ev_chk < -0.45:
+                continue
+            markets.setdefault("prop", {"key": "prop", "label": MARKET_LABEL["prop"], "selections": []})
+            markets["prop"]["selections"].append({
+                "id": sid, "label": c["label"], "model": c["model"],
+                "fair": round(1 / c["model"], 2), "books": c["books"],
+                "best": {"price": best, "book": best_book},
+                "ev": round(ev_chk, 4), "edge": round(c["model"] - 1 / best, 4),
+            })
+
         ordered = [markets[k] for k in MARKET_ORDER if k in markets]
         for m in ordered:
             m["selections"].sort(key=lambda s: -s["ev"])
