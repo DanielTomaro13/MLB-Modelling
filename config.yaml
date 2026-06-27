@@ -39,10 +39,10 @@ features:
 # --------------------------------------------------------------------------- #
 elo:
   initial: 1500.0
-  k: 4.0                          # MLB games are high-variance -> small K
-  home_field: 24.0               # Elo points added to the home team
+  k: 2.0                          # tuned on backtest — small K suits MLB's high variance
+  home_field: 20.0               # ≈ the empirical 52.8% home win rate
   mov_mult: true                 # scale K by margin of victory (run diff)
-  season_regression: 0.25        # regress toward mean between seasons
+  season_regression: 0.5         # tuned — regress hard toward mean between seasons
 
 # --------------------------------------------------------------------------- #
 # Run-scoring simulation engine

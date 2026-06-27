@@ -217,6 +217,13 @@ def project_game(home, away, home_sp, away_sp, park, cfg, elo_home_wp: float | N
                         "over_fair": fair(ov), "under_fair": fair(1 - ov)})
         markets.append({"key": "f5_total", "label": "First 5 — total", "lines": f5t})
 
+    # First-inning runs (NRFI / YRFI) — the lead-off third of the order scores a bit
+    # above the per-inning average, so scale the team rate up slightly.
+    mu_fi = (mu["home"] + mu["away"]) / 9.0 * 0.85  # first inning ≈ league per-inning rate (NRFI ~43%)
+    p_nrfi = math.exp(-mu_fi)
+    markets.append({"key": "fi", "label": "First inning", "selections": [
+        _selection("No run (NRFI)", p_nrfi), _selection("Run (YRFI)", 1 - p_nrfi)]})
+
     return {
         "mu_home": round(mu["home"], 3), "mu_away": round(mu["away"], 3),
         "total_mean": round(mu["home"] + mu["away"], 3),
@@ -276,10 +283,22 @@ def distributions(home, away, home_sp, away_sp, park, cfg, elo_home_wp: float | 
                     s += ph[i] * pa[j]
         return s
 
+    # First-5 three-way (ties stay as a draw selection) and NRFI.
+    f5h = f5a = f5t = 0.0
+    for i in range(len(ph5)):
+        for j in range(len(pa5)):
+            p = ph5[i] * pa5[j]
+            if i > j: f5h += p
+            elif j > i: f5a += p
+            else: f5t += p
+    mu_fi = (mu["home"] + mu["away"]) / 9.0 * 0.85  # first inning ≈ league per-inning rate (NRFI ~43%)
+    nrfi = math.exp(-mu_fi)
+
     return {
         "win_home": win_home, "win_away": 1 - win_home,
         "mu_home": mu["home"], "mu_away": mu["away"],
         "ph": ph, "pa": pa,
+        "f5_win_home": f5h, "f5_win_away": f5a, "f5_tie": f5t, "nrfi": nrfi,
         "total_over": total_over, "run_line": run_line,
         "team_total_over": team_total_over, "handicap_cover": handicap_cover,
     }
@@ -329,8 +348,9 @@ def batter_props(batter: dict) -> list[dict]:
 
 
 def pitcher_props(pitcher: dict) -> list[dict]:
-    ip_start = (pitcher["ip"] / pitcher["gs"]) if pitcher.get("gs") else 5.5
-    ip_start = max(ip_start, 3.0)
+    # IP/GS counts relief innings too, so clamp to a realistic start length (~5–6 IP).
+    ip_start = (pitcher["ip"] / pitcher["gs"]) if pitcher.get("gs") else 5.3
+    ip_start = min(max(ip_start, 4.0), 6.5)
     bf = ip_start * 4.3
     league_ra9 = 4.45
     out = [

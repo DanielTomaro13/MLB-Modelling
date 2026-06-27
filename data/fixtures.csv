@@ -10,7 +10,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824421,2026-06-27,114,136,Cleveland Guardians,Seattle Mariners,677944,669302,Slade Cecconi,Logan Gilbert,5,Scheduled
 823689,2026-06-27,142,115,Minnesota Twins,Colorado Rockies,702474,547179,Mike Paredes,Michael Lorenzen,3312,Scheduled
 823770,2026-06-27,158,112,Milwaukee Brewers,Chicago Cubs,690986,656849,Kyle Harrison,David Peterson,32,Scheduled
-823038,2026-06-27,138,146,St. Louis Cardinals,Miami Marlins,,,,,2889,Scheduled
+823038,2026-06-27,138,146,St. Louis Cardinals,Miami Marlins,669467,687473,Andre Pallante,Ryan Gusto,2889,Scheduled
 823283,2026-06-27,135,119,San Diego Padres,Los Angeles Dodgers,681190,808967,Randy Vásquez,Yoshinobu Yamamoto,2680,Scheduled
 823207,2026-06-27,137,144,San Francisco Giants,Atlanta Braves,657277,693821,Logan Webb,Bryce Elder,2395,Scheduled
 824015,2026-06-27,108,133,Los Angeles Angels,Athletics,672282,678022,Reid Detmers,Jack Perkins,1,Scheduled
@@ -24,7 +24,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823686,2026-06-28,142,115,Minnesota Twins,Colorado Rockies,687570,663372,Connor Prielipp,Ryan Feltner,3312,Scheduled
 824580,2026-06-28,145,118,Chicago White Sox,Kansas City Royals,641743,679883,Anthony Kay,Luinder Avila,4,Scheduled
 823769,2026-06-28,158,112,Milwaukee Brewers,Chicago Cubs,605540,,Brandon Woodruff,,32,Scheduled
-823037,2026-06-28,138,146,St. Louis Cardinals,Miami Marlins,,,,,2889,Scheduled
+823037,2026-06-28,138,146,St. Louis Cardinals,Miami Marlins,681517,,Kyle Leahy,,2889,Scheduled
 824011,2026-06-28,108,133,Los Angeles Angels,Athletics,,650644,,Aaron Civale,1,Scheduled
 823204,2026-06-28,137,144,San Francisco Giants,Atlanta Braves,592662,519242,Robbie Ray,Chris Sale,2395,Scheduled
 823281,2026-06-28,135,119,San Diego Padres,Los Angeles Dodgers,650633,686218,Michael King,Emmet Sheehan,2680,Scheduled

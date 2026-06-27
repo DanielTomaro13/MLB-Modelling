@@ -386,6 +386,9 @@ RL_NAMES = {"run line", "line", "handicap", "point spread", "spread", "run line 
 TOTAL_NAMES = {"total runs", "total match runs", "total", "totals", "match total", "total runs over/under"}
 F5_TOTAL_NAMES = {"1st 5 innings total runs", "first 5 innings total runs", "1st half total runs",
                   "first half total runs", "1st half total", "1st 5 innings total"}
+F5_ML_NAMES = {"1st half money line", "1st 5 innings money line", "first 5 innings money line",
+               "1st half result", "1st 5 innings result"}
+FI_NAMES = {"1st inning total runs", "first inning total runs", "1st inning runs", "run in 1st inning"}
 
 
 def canon(mname, sels, home, away):
@@ -422,6 +425,26 @@ def canon(mname, sels, home, away):
             h = _signed(s.get("disp"), s.get("hcap"), s["name"])
             if side and h is not None and 1.0 <= abs(h) <= 3.5:
                 emit("rl", side, h, s["price"], f"{home if side == 'home' else away} {h:+g}")
+        return out
+
+    # First-5 moneyline — 3-way (home / tie / away).
+    if low in F5_ML_NAMES:
+        for s in sels:
+            sn = (s["name"] or "").lower()
+            if "tie" in sn or "draw" in sn:
+                emit("f5_ml", "tie", None, s["price"], "First 5 — tie")
+            else:
+                side = _team_side(s["name"], home, away)
+                if side:
+                    emit("f5_ml", side, None, s["price"], f"First 5 — {home if side == 'home' else away}")
+        return out
+
+    # First-inning runs (NRFI / YRFI) — books post it as a total over/under 0.5.
+    if low in FI_NAMES:
+        for s in sels:
+            ou, line = over_under(s), _signed(s.get("hcap"), s["name"])
+            if ou and line is not None and abs(line - 0.5) < 0.01:
+                emit("fi", ou, 0.5, s["price"], "Run in 1st inning (YRFI)" if ou == "over" else "No run 1st inning (NRFI)")
         return out
 
     # First-5 total — typical F5 lines cluster around 4–5 runs.
@@ -468,11 +491,16 @@ def model_prob(dist, mkt, side, line):
         tside, ou = side.split("_")
         ov = dist["team_total_over"](tside, line)
         return ov if ou == "over" else 1 - ov
+    if mkt == "f5_ml":
+        return {"home": dist["f5_win_home"], "away": dist["f5_win_away"], "tie": dist["f5_tie"]}.get(side)
+    if mkt == "fi":
+        return (1 - dist["nrfi"]) if side == "over" else dist["nrfi"]
     return None
 
 
-MARKET_LABEL = {"ml": "Moneyline", "rl": "Run line", "total": "Total runs", "f5_total": "First 5 — total", "team_total": "Team totals"}
-MARKET_ORDER = ["ml", "rl", "total", "f5_total", "team_total"]
+MARKET_LABEL = {"ml": "Moneyline", "rl": "Run line", "total": "Total runs", "f5_total": "First 5 — total",
+                "f5_ml": "First 5 — winner", "fi": "First inning (NRFI/YRFI)", "team_total": "Team totals"}
+MARKET_ORDER = ["ml", "rl", "total", "f5_total", "f5_ml", "fi", "team_total"]
 
 
 # --------------------------------------------------------------------------- #
@@ -503,6 +531,9 @@ def run(cfg):
     dd = cfg["paths"]["docs_data_dir"]
     md = cfg["paths"]["models_dir"]
     profiles = util.read_json(util.abspath(os.path.join(md, "profiles.json")))
+    lg = profiles.get("league", {}).get("runs_per_team_game")
+    if lg:
+        cfg["sim"]["league_runs_per_team"] = lg
     elo_path = util.abspath(os.path.join(md, "elo.json"))
     elo = util.read_json(elo_path) if os.path.exists(elo_path) else None
     fxs = fixtures.load_fixtures(cfg, profiles)

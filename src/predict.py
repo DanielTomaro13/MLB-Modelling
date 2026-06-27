@@ -58,6 +58,10 @@ def project_fixture(cfg: dict, fx: dict, profiles: dict, elo: dict | None) -> di
 
 def run(cfg: dict) -> list[dict]:
     profiles = util.read_json(util.abspath(os.path.join(cfg["paths"]["models_dir"], "profiles.json")))
+    # Use the actual league run environment (not the static config fallback).
+    lg = profiles.get("league", {}).get("runs_per_team_game")
+    if lg:
+        cfg["sim"]["league_runs_per_team"] = lg
     elo_path = util.abspath(os.path.join(cfg["paths"]["models_dir"], "elo.json"))
     elo = util.read_json(elo_path) if os.path.exists(elo_path) else None
     fxs = fixtures.load_fixtures(cfg, profiles)
