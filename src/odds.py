@@ -229,14 +229,27 @@ TAB = "https://api.beta.tab.com.au/v1/tab-info-service"
 
 def _tab_token():
     cid, csec = os.environ.get("TAB_CLIENT_ID", "").strip(), os.environ.get("TAB_CLIENT_SECRET", "").strip()
-    creq = _cffi()
-    if cid and csec and creq:
+    if cid and csec:
+        body = {"grant_type": "client_credentials", "client_id": cid, "client_secret": csec}
+        creq = _cffi()
+        if creq is not None:
+            try:
+                r = creq.post("https://api.beta.tab.com.au/oauth/token", data=body,
+                              headers={"Accept": "application/json"}, impersonate="chrome", timeout=15)
+                if r.status_code == 200 and r.json().get("access_token"):
+                    return r.json()["access_token"]
+            except Exception:  # noqa: BLE001
+                pass
+        # urllib fallback — the OAuth endpoint is a plain form POST, no impersonation needed.
         try:
-            r = creq.post("https://api.beta.tab.com.au/oauth/token",
-                          data={"grant_type": "client_credentials", "client_id": cid, "client_secret": csec},
-                          headers={"Accept": "application/json"}, impersonate="chrome", timeout=15)
-            if r.status_code == 200 and r.json().get("access_token"):
-                return r.json()["access_token"]
+            import urllib.request
+            data = urllib.parse.urlencode(body).encode()
+            req = urllib.request.Request("https://api.beta.tab.com.au/oauth/token", data=data,
+                                         headers={"Accept": "application/json", "Content-Type": "application/x-www-form-urlencoded"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                tok = json.loads(resp.read().decode("utf-8", "replace")).get("access_token")
+                if tok:
+                    return tok
         except Exception:  # noqa: BLE001
             pass
     return os.environ.get("TAB_ACCESS_TOKEN", "").strip() or None
