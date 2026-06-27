@@ -594,9 +594,15 @@ def run(cfg):
                               "homeAbbr": f["homeAbbr"], "awayAbbr": f["awayAbbr"], "markets": ordered})
 
     out_games.sort(key=lambda g: g["date"])
-    util.write_json(util.abspath(os.path.join(dd, "odds.json")),
-                    {"generated": _now(), "books": sorted(books_present), "count": len(out_games), "games": out_games})
-    util.log(f"odds: {len(out_games)} games priced across {sorted(books_present)}")
+    odds_path = util.abspath(os.path.join(dd, "odds.json"))
+    # Don't clobber good odds (from the local AU cron) with an empty board when the
+    # books geo-block this host (e.g. a GitHub Actions runner).
+    if not out_games and os.path.exists(odds_path):
+        util.log("odds: no books reachable here — keeping the existing odds.json")
+    else:
+        util.write_json(odds_path, {"generated": _now(), "books": sorted(books_present),
+                                    "count": len(out_games), "games": out_games})
+        util.log(f"odds: {len(out_games)} games priced across {sorted(books_present)}")
 
     # Dabble Pick'em (multiplier game) — its own MLB Pick'em competitions.
     _safe(dab_pickem)
