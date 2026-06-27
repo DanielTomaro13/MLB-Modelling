@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- launchd agent — run the MLB odds refresh every 30 minutes from a local AU machine.
+     Install:  cp scripts/com.danieltomaro.mlb-odds.plist ~/Library/LaunchAgents/
+               launchctl load ~/Library/LaunchAgents/com.danieltomaro.mlb-odds.plist
+     Edit the WorkingDirectory / ProgramArguments path to match your checkout. -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.danieltomaro.mlb-odds</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/danieltomaro/Documents/Projects/MLB-Model/scripts/odds-cron.sh</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/danieltomaro/Documents/Projects/MLB-Model</string>
+    <key>StartInterval</key>
+    <integer>1800</integer>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/danieltomaro/Documents/Projects/MLB-Model/scripts/odds-cron.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/danieltomaro/Documents/Projects/MLB-Model/scripts/odds-cron.err.log</string>
+</dict>
+</plist>

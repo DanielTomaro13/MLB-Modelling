@@ -1,0 +1,3 @@
+gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
+,2025-06-28,147,111,New York Yankees,Boston Red Sox,,,,,3313,Scheduled
+,2025-06-28,119,135,Los Angeles Dodgers,San Diego Padres,,,,,22,Scheduled

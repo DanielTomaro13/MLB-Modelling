@@ -1,0 +1,81 @@
+# ===========================================================================
+# MLB-Modelling configuration
+# ===========================================================================
+# Single source of truth for the pipeline. Loaded once by util.load_config and
+# threaded through every stage — no env vars, no globals.
+
+sport_id: 1                       # MLB
+leagues:                          # statsapi league ids (used by standings)
+  al: 103
+  nl: 104
+
+# --------------------------------------------------------------------------- #
+# Data ingest (public MLB Stats API — no auth)
+# --------------------------------------------------------------------------- #
+data:
+  api_base: "https://statsapi.mlb.com/api/v1"
+  api_base_live: "https://statsapi.mlb.com/api/v1.1"
+  season: 2025                    # current modelling season
+  history_seasons: [2023, 2024, 2025]   # seasons pulled for Elo / backtest
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  park_factors_file: "data/park_factors.csv"
+
+# --------------------------------------------------------------------------- #
+# Team / pitcher / batter profiles
+# --------------------------------------------------------------------------- #
+features:
+  # Shrinkage: blend a team/player rate toward the league mean with this many
+  # "prior" plate appearances / batters faced.
+  team_prior_games: 20
+  pitcher_prior_bf: 200           # batters faced of league-average prior
+  batter_prior_pa: 150
+  min_pitcher_bf: 80              # below this a starter is treated as league-avg
+  min_batter_pa: 40
+  recency_half_life_days: 240     # exponential decay on game recency (unused v1)
+
+# --------------------------------------------------------------------------- #
+# Team Elo (results-based baseline)
+# --------------------------------------------------------------------------- #
+elo:
+  initial: 1500.0
+  k: 4.0                          # MLB games are high-variance -> small K
+  home_field: 24.0               # Elo points added to the home team
+  mov_mult: true                 # scale K by margin of victory (run diff)
+  season_regression: 0.25        # regress toward mean between seasons
+
+# --------------------------------------------------------------------------- #
+# Run-scoring simulation engine
+# --------------------------------------------------------------------------- #
+sim:
+  innings: 9
+  league_runs_per_team: 4.45      # league baseline R/G per team (fallback)
+  max_team_runs: 20               # run-distribution support cutoff
+  overdispersion: 1.30            # negative-binomial variance / mean (runs are over-Poisson)
+  elo_weight: 0.45                # blend weight of Elo win-prob into the sim headline
+  home_field_runs: 0.16           # extra expected runs for the home team
+  totals_lines: [6.5, 7.5, 8.5, 9.5, 10.5, 11.5]
+  run_line: 1.5
+  first_five: true                # price the first-5-innings (F5) markets
+
+# --------------------------------------------------------------------------- #
+# Upcoming fixtures
+# --------------------------------------------------------------------------- #
+fixtures:
+  days_ahead: 3                   # schedule window to price
+  manual_file: "data/manual_fixtures.csv"
+
+# --------------------------------------------------------------------------- #
+# Output paths
+# --------------------------------------------------------------------------- #
+paths:
+  models_dir: "models"
+  reports_dir: "reports"
+  docs_dir: "docs"
+  docs_data_dir: "docs/data"
+
+# --------------------------------------------------------------------------- #
+# Backtest
+# --------------------------------------------------------------------------- #
+backtest:
+  holdout_start_season: 2025      # walk-forward: score games from this season on

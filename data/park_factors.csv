@@ -1,0 +1,31 @@
+team_id,abbr,team,park_factor
+133,ATH,Athletics,0.98
+144,ATL,Atlanta Braves,1.00
+109,AZ,Arizona Diamondbacks,1.03
+110,BAL,Baltimore Orioles,1.01
+111,BOS,Boston Red Sox,1.04
+112,CHC,Chicago Cubs,1.00
+113,CIN,Cincinnati Reds,1.06
+114,CLE,Cleveland Guardians,0.98
+115,COL,Colorado Rockies,1.14
+145,CWS,Chicago White Sox,0.99
+116,DET,Detroit Tigers,0.97
+117,HOU,Houston Astros,1.00
+118,KC,Kansas City Royals,1.03
+108,LAA,Los Angeles Angels,1.01
+119,LAD,Los Angeles Dodgers,0.98
+146,MIA,Miami Marlins,0.95
+158,MIL,Milwaukee Brewers,0.99
+142,MIN,Minnesota Twins,1.00
+121,NYM,New York Mets,0.97
+147,NYY,New York Yankees,1.00
+143,PHI,Philadelphia Phillies,1.02
+134,PIT,Pittsburgh Pirates,0.98
+135,SD,San Diego Padres,0.96
+136,SEA,Seattle Mariners,0.94
+137,SF,San Francisco Giants,0.97
+138,STL,St. Louis Cardinals,0.99
+139,TB,Tampa Bay Rays,0.97
+140,TEX,Texas Rangers,1.02
+141,TOR,Toronto Blue Jays,1.01
+120,WSH,Washington Nationals,1.01
