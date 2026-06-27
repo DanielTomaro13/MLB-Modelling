@@ -298,13 +298,14 @@ def _dab_headers():
 
 def _dab_get(path):
     creq = _cffi()
-    if creq is None:
-        return None
-    try:
-        r = creq.get(DAB + path, headers=_dab_headers(), impersonate="safari_ios", timeout=25)
-        return r.json() if r.status_code == 200 else None
-    except Exception:  # noqa: BLE001
-        return None
+    if creq is not None:
+        try:
+            r = creq.get(DAB + path, headers=_dab_headers(), impersonate="safari_ios", timeout=25)
+            if r.status_code == 200:
+                return r.json()
+        except Exception:  # noqa: BLE001
+            pass
+    return _urllib_json(DAB + path, _dab_headers(), timeout=25)
 
 
 def _dab_comps():
@@ -407,7 +408,7 @@ def _team_side(name, home, away):
 # Exact main-market names we price, per canonical type. Anything else (3-way,
 # odd/even, winning margin, race-to, alternates, innings props) is ignored — far
 # safer than keyword-guessing across a book's dozens of exotic markets.
-ML_NAMES = {"money line", "moneyline", "head to head", "match betting", "h2h", "match result", "winner"}
+ML_NAMES = {"money line", "moneyline", "head to head", "match betting", "h2h", "match result", "winner", "match winner"}
 RL_NAMES = {"run line", "line", "handicap", "point spread", "spread", "run line (2-way)"}
 TOTAL_NAMES = {"total runs", "total match runs", "total", "totals", "match total", "total runs over/under"}
 F5_TOTAL_NAMES = {"1st 5 innings total runs", "first 5 innings total runs", "1st half total runs",
@@ -484,9 +485,10 @@ def canon(mname, sels, home, away):
                 emit("f5_total", ou, line, s["price"], f"F5 {ou.title()} {line:g}")
         return out
 
-    # Team totals — "{Team} Total Runs".
+    # Team totals — "{Team} Total Runs" (Sportsbet/PB) or "{Team} Runs U/O x.x" (Dabble).
+    # Require "run" so team prop markets (Total Bases, Hits, Home Runs) don't match.
     team_in_market = _team_side(clean, home, away)
-    if team_in_market and "total" in low and "run" in low:
+    if team_in_market and "run" in low and ("total" in low or "u/o" in low or "o/u" in low):
         for s in sels:
             ou, line = over_under(s), _signed(s.get("hcap"), s["name"])
             if ou and line is not None and 3.5 <= line <= 6.5:  # typical team-total band
