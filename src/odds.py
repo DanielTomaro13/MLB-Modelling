@@ -164,16 +164,6 @@ def lad_markets(ev):
     for ent in d.get("entrants", {}).values():
         by_market.setdefault(ent.get("market_id"), []).append(ent)
 
-    # Find the favourite (shortest Head-to-Head price) so the Line handicap gets the right sign.
-    fav_name = None
-    best = 1e9
-    for mid, ents in by_market.items():
-        if (d.get("markets", {}).get(mid) or {}).get("name", "") == "Head To Head":
-            for e in ents:
-                p = price(e["id"])
-                if p and p < best:
-                    best, fav_name = p, e.get("name", "")
-
     out = []
     for mid, ents in by_market.items():
         m = d.get("markets", {}).get(mid) or {}
@@ -184,8 +174,9 @@ def lad_markets(ev):
             nm = e.get("name", "")
             hc = None
             if mname == "Line" and mh is not None:
-                # favourite gets -|h|, underdog +|h|
-                hc = -abs(mh) if nm == fav_name else abs(mh)
+                # Entain convention: home entrant's signed handicap is -market.handicap,
+                # away entrant's is +market.handicap (the two Line markets cover ±1.5).
+                hc = -mh if e.get("home_away") == "HOME" else mh
             elif mname == "Total" and mh is not None:
                 hc = abs(mh)
             sels.append({"name": nm, "price": price(e["id"]), "hcap": hc, "disp": nm})
@@ -498,7 +489,7 @@ def canon(mname, sels, home, away):
     if team_in_market and "total" in low and "run" in low:
         for s in sels:
             ou, line = over_under(s), _signed(s.get("hcap"), s["name"])
-            if ou and line is not None and 2.5 <= line <= 7.5:
+            if ou and line is not None and 3.5 <= line <= 6.5:  # typical team-total band
                 emit("team_total", f"{team_in_market}_{ou}", line, s["price"],
                      f"{home if team_in_market == 'home' else away} {ou.title()} {line:g}")
         return out
@@ -613,9 +604,11 @@ def run(cfg):
                 continue
             best_book = max(books, key=books.get)
             best = books[best_book]
-            # A liquid MLB market never offers ~40%+ EV; that gap signals a stale /
-            # placeholder / in-play line, not real value, so drop it.
-            if mp * best - 1 > 0.40:
+            # A liquid MLB market never shows a ~40%+ edge either way; that gap signals a
+            # stale / placeholder / deep-alt line or a model-calibration edge case, not
+            # real value, so drop it (keeps the board credible in both directions).
+            ev_chk = mp * best - 1
+            if ev_chk > 0.40 or ev_chk < -0.45:
                 continue
             markets.setdefault(mkt, {"key": mkt, "label": MARKET_LABEL.get(mkt, mkt), "selections": []})
             markets[mkt]["selections"].append({
