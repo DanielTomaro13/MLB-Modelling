@@ -48,15 +48,28 @@ def _cffi():
         return None
 
 
-def _cget(url, headers, impersonate="chrome", timeout=25):
-    creq = _cffi()
-    if creq is None:
-        return None
+def _urllib_json(url, headers, timeout=25):
+    """Plain-stdlib GET with custom headers — the fallback when curl_cffi is absent.
+    Works for the books that don't need browser impersonation (PointsBet, Ladbrokes)."""
+    import urllib.request
     try:
-        r = creq.get(url, headers=headers, impersonate=impersonate, timeout=timeout)
-        return r.json() if r.status_code == 200 else None
+        with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=timeout) as r:
+            return json.loads(r.read().decode("utf-8", "replace"))
     except Exception:  # noqa: BLE001
         return None
+
+
+def _cget(url, headers, impersonate="chrome", timeout=25):
+    """Prefer curl_cffi (handles Cloudflare/JA3 for TAB/Dabble); fall back to urllib."""
+    creq = _cffi()
+    if creq is not None:
+        try:
+            r = creq.get(url, headers=headers, impersonate=impersonate, timeout=timeout)
+            if r.status_code == 200:
+                return r.json()
+        except Exception:  # noqa: BLE001
+            pass
+    return _urllib_json(url, headers, timeout)
 
 
 def norm(s: str) -> str:
@@ -595,10 +608,17 @@ def run(cfg):
 
     out_games.sort(key=lambda g: g["date"])
     odds_path = util.abspath(os.path.join(dd, "odds.json"))
-    # Don't clobber good odds (from the local AU cron) with an empty board when the
-    # books geo-block this host (e.g. a GitHub Actions runner).
-    if not out_games and os.path.exists(odds_path):
-        util.log("odds: no books reachable here — keeping the existing odds.json")
+    # Don't downgrade a richer board: if this host reaches fewer books than the
+    # existing file already has (e.g. a CI runner that can't see TAB/Dabble, or a
+    # geo-block that returns nothing), keep what's there.
+    existing_books = 0
+    if os.path.exists(odds_path):
+        try:
+            existing_books = len(util.read_json(odds_path).get("books", []))
+        except Exception:  # noqa: BLE001
+            existing_books = 0
+    if existing_books and len(books_present) < existing_books:
+        util.log(f"odds: only {sorted(books_present)} reachable here ({existing_books} already on file) — keeping the existing odds.json")
     else:
         util.write_json(odds_path, {"generated": _now(), "books": sorted(books_present),
                                     "count": len(out_games), "games": out_games})
