@@ -359,6 +359,10 @@ def batter_props(batter: dict) -> list[dict]:
         _prop("Strikeouts", batter.get("k_pa", 0.0) * pa, [0.5, 1.5, 2.5]),
         _prop("Stolen base", batter.get("sb_pg", 0.0), [0.5, 1.5]),
         _prop("Doubles", batter.get("doubles_pg", 0.0), [0.5, 1.5]),
+        # Combo market (Dabble's "Hits, Runs & RBIs") — mean is the sum of the three.
+        _prop("Hits+Runs+RBIs",
+              batter.get("hits_pa", 0.0) * pa + batter.get("runs_pg", 0.0) + batter.get("rbi_pg", 0.0),
+              [1.5, 2.5, 3.5]),
     ]
     return out
 

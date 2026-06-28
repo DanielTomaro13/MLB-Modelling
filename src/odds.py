@@ -559,6 +559,8 @@ PROP_STAT = {
     "strikeouts": "Strikeouts", "batter strikeouts": "Strikeouts", "batter strike outs": "Strikeouts",
     "stolen bases": "Stolen base", "stolen base": "Stolen base", "batter stolen bases": "Stolen base",
     "doubles": "Doubles", "batter doubles": "Doubles",
+    "hits, runs & rbis": "Hits+Runs+RBIs", "hits runs & rbis": "Hits+Runs+RBIs",
+    "hits, runs and rbis": "Hits+Runs+RBIs", "hits + runs + rbis": "Hits+Runs+RBIs",
     # Pitcher props (model: Strikeouts, Walks, Outs, Earned runs, Hits allowed).
     "pitcher strikeouts": "Strikeouts", "pitcher walks": "Walks", "pitcher outs": "Outs",
     "pitcher earned runs": "Earned runs", "pitcher hits allowed": "Hits allowed",
@@ -695,14 +697,16 @@ def run(cfg):
                 "best": {"price": best, "book": best_book},
                 "ev": round(mp * best - 1, 4), "edge": round(mp - 1 / best, 4),
             })
-        # Player props (model prob already computed via Poisson over).
+        # Player props (model prob already computed). Keep BOTH sides a book offers (no
+        # negative EV floor) so Pick'em can always show a real, offered side; only drop
+        # the rare implausible positive edge.
         for sid, c in prop_sel.items():
             if not c["books"] or c["model"] <= 0:
                 continue
             best_book = max(c["books"], key=c["books"].get)
             best = c["books"][best_book]
             ev_chk = c["model"] * best - 1
-            if ev_chk > 0.40 or ev_chk < -0.45:
+            if ev_chk > 0.45:
                 continue
             markets.setdefault("prop", {"key": "prop", "label": MARKET_LABEL["prop"], "selections": []})
             markets["prop"]["selections"].append({
