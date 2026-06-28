@@ -368,9 +368,13 @@ def batter_props(batter: dict) -> list[dict]:
 
 
 def pitcher_props(pitcher: dict) -> list[dict]:
-    # IP/GS counts relief innings too, so clamp to a realistic start length (~5–6 IP).
-    ip_start = (pitcher["ip"] / pitcher["gs"]) if pitcher.get("gs") else 5.3
-    ip_start = min(max(ip_start, 4.0), 6.5)
+    # Established starters throw ~5–6 IP; a non-starter listed as "probable" is an opener /
+    # bullpen game and goes ~2 IP — don't project him as a full starter.
+    gs = int(pitcher.get("gs", 0) or 0)
+    if gs >= 5:
+        ip_start = min(max(pitcher["ip"] / gs, 4.0), 6.5)
+    else:
+        ip_start = 2.0
     bf = ip_start * 4.3
     league_ra9 = 4.45
     out = [

@@ -367,23 +367,46 @@ def dab_markets(ev):
     return out
 
 
+# Dabble's Pick'em product is branded "Swish": the Pick'em player lines are the fixture
+# markets whose resultingType is one of these (NOT swish_team_*/match_*/to_score_*/first_*).
+SWISH_STAT = {
+    "swish_hits": "Hits", "swish_runs": "Runs", "swish_rbis": "RBIs",
+    "swish_total_bases": "Total bases", "swish_home_runs": "Home run", "swish_doubles": "Doubles",
+    "swish_batter_walks": "Walks", "swish_stolen_bases": "Stolen base",
+    "swish_hits_runs_rbis": "Hits+Runs+RBIs", "swish_strikeouts": "Strikeouts",
+    "swish_hits_allowed": "Hits allowed", "swish_earned_runs": "Earned runs",
+    "swish_outs": "Outs", "swish_walks": "Walks",
+}
+
+
 def dab_pickem():
+    """Scrape Dabble's actual Pick'em ('Swish') player lines from each MLB fixture."""
     for comp in _dab_comps():
-        if "pick" not in (comp.get("name") or "").lower():
+        nm = (comp.get("name") or "").lower()
+        if "mlb" not in nm and "major league" not in nm:
             continue
         for f in _dab_fixtures(comp["id"]):
-            name = f.get("name", "")
-            if not any(s in name for s in (" v", " @")):
-                continue
+            event = f.get("name", "")
             detail = _dab_get(f"/frontend-api/sport-fixtures/details/{f['id']}")
             sfd = (detail or {}).get("sportFixtureDetail") or (detail or {}).get("data", {}).get("sportFixtureDetail") or {}
-            for pp in sfd.get("playerProps", []):
-                if pp.get("value") is None or not pp.get("playerName"):
+            sel_name = {s["id"]: s.get("name", "") for s in sfd.get("selections", [])}
+            prices = {}
+            for p in sfd.get("prices", []):
+                prices.setdefault(p.get("marketId"), {})[sel_name.get(p.get("selectionId"))] = p.get("price")
+            for m in sfd.get("markets", []):
+                stat = SWISH_STAT.get(m.get("resultingType", ""))
+                mn = m.get("name", "")
+                if not stat or " - " not in mn:
                     continue
-                stat = next((DAB_PICKEM_STAT[s] for s in (pp.get("stats") or []) if s in DAB_PICKEM_STAT), None)
-                if not stat:
+                player = mn.split(" - ")[0].strip()
+                line = _signed(mn.rsplit("(", 1)[-1] if "(" in mn else None, mn)
+                if line is None:
                     continue
-                row = {"event": name, "player": pp["playerName"], "stat": stat, "line": float(pp["value"])}
+                pr = prices.get(m.get("id"), {})
+                over = next((v for k, v in pr.items() if "over" in (k or "").lower()), None)
+                under = next((v for k, v in pr.items() if "under" in (k or "").lower()), None)
+                row = {"event": event, "player": player, "stat": stat, "line": line,
+                       "over": over, "under": under}
                 if row not in _PICKEM:
                     _PICKEM.append(row)
 
