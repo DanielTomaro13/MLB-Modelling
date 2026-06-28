@@ -547,14 +547,21 @@ MARKET_LABEL = {"ml": "Moneyline", "rl": "Run line", "total": "Total runs", "f5_
                 "prop": "Player props"}
 MARKET_ORDER = ["ml", "rl", "total", "f5_total", "f5_ml", "fi", "team_total", "prop"]
 
-# Bookmaker player-prop stat phrase -> model prop stat label.
+# Bookmaker player-prop stat phrase -> model prop stat label. Books prefix with
+# "batter"/"pitcher", so cover both forms.
 PROP_STAT = {
-    "total bases": "Total bases", "batter hits": "Hits", "hits": "Hits",
-    "home runs": "Home run", "home run": "Home run", "rbis": "RBIs", "rbi": "RBIs",
-    "runs scored": "Runs", "runs": "Runs", "batter walks": "Walks", "walks": "Walks",
-    "batter strikeouts": "Strikeouts", "batter strike outs": "Strikeouts", "strikeouts": "Strikeouts",
-    "pitcher strikeouts": "Strikeouts", "stolen bases": "Stolen base", "stolen base": "Stolen base",
-    "batter doubles": "Doubles", "doubles": "Doubles",
+    "total bases": "Total bases", "batter total bases": "Total bases",
+    "hits": "Hits", "batter hits": "Hits",
+    "home runs": "Home run", "home run": "Home run", "batter home runs": "Home run",
+    "rbis": "RBIs", "rbi": "RBIs", "batter rbis": "RBIs",
+    "runs": "Runs", "runs scored": "Runs", "batter runs": "Runs", "batter runs scored": "Runs",
+    "walks": "Walks", "batter walks": "Walks",
+    "strikeouts": "Strikeouts", "batter strikeouts": "Strikeouts", "batter strike outs": "Strikeouts",
+    "stolen bases": "Stolen base", "stolen base": "Stolen base", "batter stolen bases": "Stolen base",
+    "doubles": "Doubles", "batter doubles": "Doubles",
+    # Pitcher props (model: Strikeouts, Walks, Outs, Earned runs, Hits allowed).
+    "pitcher strikeouts": "Strikeouts", "pitcher walks": "Walks", "pitcher outs": "Outs",
+    "pitcher earned runs": "Earned runs", "pitcher hits allowed": "Hits allowed",
 }
 
 
