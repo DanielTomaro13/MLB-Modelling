@@ -368,13 +368,12 @@ def batter_props(batter: dict) -> list[dict]:
 
 
 def pitcher_props(pitcher: dict) -> list[dict]:
-    # Established starters throw ~5–6 IP; a non-starter listed as "probable" is an opener /
-    # bullpen game and goes ~2 IP — don't project him as a full starter.
+    # Innings this start. A real start is ≤7 IP, so IP/GS in [3, 7.5] means a genuine
+    # starter (rookie or veteran); IP/GS outside that — or no starts at all — means a
+    # reliever/opener listed as "probable", who goes ~2 IP, not a full start.
     gs = int(pitcher.get("gs", 0) or 0)
-    if gs >= 5:
-        ip_start = min(max(pitcher["ip"] / gs, 4.0), 6.5)
-    else:
-        ip_start = 2.0
+    ipg = (pitcher["ip"] / gs) if gs else 0.0
+    ip_start = min(max(ipg, 3.5), 6.5) if (gs >= 1 and 3.0 <= ipg <= 7.5) else 2.0
     bf = ip_start * 4.3
     league_ra9 = 4.45
     out = [

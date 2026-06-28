@@ -367,20 +367,30 @@ def dab_markets(ev):
     return out
 
 
-# Dabble's Pick'em product is branded "Swish": the Pick'em player lines are the fixture
-# markets whose resultingType is one of these (NOT swish_team_*/match_*/to_score_*/first_*).
-SWISH_STAT = {
-    "swish_hits": "Hits", "swish_runs": "Runs", "swish_rbis": "RBIs",
-    "swish_total_bases": "Total bases", "swish_home_runs": "Home run", "swish_doubles": "Doubles",
-    "swish_batter_walks": "Walks", "swish_stolen_bases": "Stolen base",
-    "swish_hits_runs_rbis": "Hits+Runs+RBIs", "swish_strikeouts": "Strikeouts",
-    "swish_hits_allowed": "Hits allowed", "swish_earned_runs": "Earned runs",
-    "swish_outs": "Outs", "swish_walks": "Walks",
+# Dabble's Pick'em product is the multiplier game (no per-line prices) — it surfaces as
+# the fixture's playerProps[]. Map each prop's stat slug to a model stat.
+PP_STAT = {
+    "hits": "Hits", "runs": "Runs", "rbis": "RBIs", "total-bases": "Total bases",
+    "home-runs": "Home run", "doubles": "Doubles", "batter-walks": "Walks",
+    "stolen-bases": "Stolen base", "batter-strikeouts": "Strikeouts",
+    "strikeouts": "Strikeouts", "hits-allowed": "Hits allowed", "walks": "Walks",
+    "earned-runs": "Earned runs", "outs": "Outs",
 }
 
 
+def _pp_stat(slugs):
+    s = set(slugs or [])
+    if s == {"hits", "runs", "rbis"}:
+        return "Hits+Runs+RBIs"
+    return PP_STAT.get(slugs[0]) if len(slugs or []) == 1 else None
+
+
 def dab_pickem():
-    """Scrape Dabble's actual Pick'em ('Swish') player lines from each MLB fixture."""
+    """Scrape Dabble's real Pick'em board from each MLB fixture's playerProps[].
+
+    Pick'em is a multiplier game — the lines carry no per-line price, so we publish
+    only the player/stat/line; the model supplies the projection, side and fair price.
+    """
     for comp in _dab_comps():
         nm = (comp.get("name") or "").lower()
         if "mlb" not in nm and "major league" not in nm:
@@ -389,26 +399,17 @@ def dab_pickem():
             event = f.get("name", "")
             detail = _dab_get(f"/frontend-api/sport-fixtures/details/{f['id']}")
             sfd = (detail or {}).get("sportFixtureDetail") or (detail or {}).get("data", {}).get("sportFixtureDetail") or {}
-            sel_name = {s["id"]: s.get("name", "") for s in sfd.get("selections", [])}
-            prices = {}
-            for p in sfd.get("prices", []):
-                prices.setdefault(p.get("marketId"), {})[sel_name.get(p.get("selectionId"))] = p.get("price")
-            for m in sfd.get("markets", []):
-                stat = SWISH_STAT.get(m.get("resultingType", ""))
-                mn = m.get("name", "")
-                if not stat or " - " not in mn:
+            seen = set()
+            for pp in sfd.get("playerProps", []):
+                stat = _pp_stat(pp.get("stats"))
+                player, val = pp.get("playerName"), pp.get("value")
+                if not stat or not player or val is None:
                     continue
-                player = mn.split(" - ")[0].strip()
-                line = _signed(mn.rsplit("(", 1)[-1] if "(" in mn else None, mn)
-                if line is None:
+                key = (player, stat, float(val))
+                if key in seen:
                     continue
-                pr = prices.get(m.get("id"), {})
-                over = next((v for k, v in pr.items() if "over" in (k or "").lower()), None)
-                under = next((v for k, v in pr.items() if "under" in (k or "").lower()), None)
-                row = {"event": event, "player": player, "stat": stat, "line": line,
-                       "over": over, "under": under}
-                if row not in _PICKEM:
-                    _PICKEM.append(row)
+                seen.add(key)
+                _PICKEM.append({"event": event, "player": player, "stat": stat, "line": float(val)})
 
 
 BOOKS = {
