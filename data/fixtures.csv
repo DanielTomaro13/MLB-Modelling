@@ -10,7 +10,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823768,2026-06-30,158,113,Milwaukee Brewers,Cincinnati Reds,687075,695076,Brandon Sproat,Rhett Lowder,32,Scheduled
 824661,2026-06-30,112,135,Chicago Cubs,San Diego Padres,571510,676664,Matthew Boyd,JP Sears,17,Scheduled
 824175,2026-06-30,117,142,Houston Astros,Minnesota Twins,681347,657746,Mike Burrows,Joe Ryan,2392,Scheduled
-824338,2026-06-30,115,146,Colorado Rockies,Miami Marlins,,691587,,Eury Pérez,19,Scheduled
+824338,2026-06-30,115,146,Colorado Rockies,Miami Marlins,685299,691587,Tanner Gordon,Eury Pérez,19,Scheduled
 824984,2026-06-30,133,119,Athletics,Los Angeles Dodgers,605488,680736,Jeffrey Springs,Justin Wrobleski,2529,Scheduled
 823122,2026-06-30,136,108,Seattle Mariners,Los Angeles Angels,693433,667755,Bryan Woo,José Soriano,680,Scheduled
 825066,2026-06-30,109,137,Arizona Diamondbacks,San Francisco Giants,,694738,,Landen Roupp,15,Scheduled
