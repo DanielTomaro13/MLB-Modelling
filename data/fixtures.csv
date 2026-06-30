@@ -1,12 +1,12 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824819,2026-06-30,110,145,Baltimore Orioles,Chicago White Sox,694346,607200,Trey Gibson,Erick Fedde,2,Scheduled
-824418,2026-06-30,114,140,Cleveland Guardians,Texas Rangers,676440,594798,Tanner Bibee,Jacob deGrom,5,Scheduled
-823445,2026-06-30,143,134,Philadelphia Phillies,Pittsburgh Pirates,650911,696149,Cristopher Sánchez,Bubba Chandler,2681,Scheduled
-823528,2026-06-30,147,116,New York Yankees,Detroit Tigers,693645,669373,Cam Schlittler,Tarik Skubal,3313,Scheduled
-822793,2026-06-30,141,121,Toronto Blue Jays,New York Mets,592332,690997,Kevin Gausman,Nolan McLean,14,Scheduled
-824742,2026-06-30,111,120,Boston Red Sox,Washington Nationals,813349,676917,Connelly Early,Cade Cavalli,3,Scheduled
-824907,2026-06-30,144,138,Atlanta Braves,St. Louis Cardinals,527048,669461,Martín Pérez,Matthew Liberatore,4705,Scheduled
-824096,2026-06-30,118,139,Kansas City Royals,Tampa Bay Rays,702070,643377,Noah Cameron,Griffin Jax,7,Scheduled
+824819,2026-06-30,110,145,Baltimore Orioles,Chicago White Sox,694346,607200,Trey Gibson,Erick Fedde,2,Pre-Game
+824418,2026-06-30,114,140,Cleveland Guardians,Texas Rangers,676440,594798,Tanner Bibee,Jacob deGrom,5,Pre-Game
+823445,2026-06-30,143,134,Philadelphia Phillies,Pittsburgh Pirates,650911,696149,Cristopher Sánchez,Bubba Chandler,2681,Pre-Game
+823528,2026-06-30,147,116,New York Yankees,Detroit Tigers,693645,669373,Cam Schlittler,Tarik Skubal,3313,Pre-Game
+822793,2026-06-30,141,121,Toronto Blue Jays,New York Mets,592332,690997,Kevin Gausman,Nolan McLean,14,Pre-Game
+824742,2026-06-30,111,120,Boston Red Sox,Washington Nationals,813349,676917,Connelly Early,Cade Cavalli,3,Pre-Game
+824907,2026-06-30,144,138,Atlanta Braves,St. Louis Cardinals,527048,669461,Martín Pérez,Matthew Liberatore,4705,Pre-Game
+824096,2026-06-30,118,139,Kansas City Royals,Tampa Bay Rays,702070,643377,Noah Cameron,Griffin Jax,7,Pre-Game
 823768,2026-06-30,158,113,Milwaukee Brewers,Cincinnati Reds,687075,695076,Brandon Sproat,Rhett Lowder,32,Scheduled
 824661,2026-06-30,112,135,Chicago Cubs,San Diego Padres,571510,676664,Matthew Boyd,JP Sears,17,Scheduled
 824175,2026-06-30,117,142,Houston Astros,Minnesota Twins,681347,657746,Mike Burrows,Joe Ryan,2392,Scheduled
@@ -31,17 +31,17 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823442,2026-07-02,143,134,Philadelphia Phillies,Pittsburgh Pirates,660604,683003,Alan Rangel,Jared Jones,2681,Scheduled
 823765,2026-07-02,158,113,Milwaukee Brewers,Cincinnati Reds,694819,695505,Jacob Misiorowski,Chase Burns,32,Scheduled
 824335,2026-07-02,115,146,Colorado Rockies,Miami Marlins,547179,,Michael Lorenzen,,19,Scheduled
-824416,2026-07-02,114,145,Cleveland Guardians,Chicago White Sox,677944,,Slade Cecconi,,5,Scheduled
+824416,2026-07-02,114,145,Cleveland Guardians,Chicago White Sox,677944,663436,Slade Cecconi,Davis Martin,5,Scheduled
 824906,2026-07-02,144,138,Atlanta Braves,St. Louis Cardinals,,669160,,Dustin May,4705,Scheduled
 824093,2026-07-02,118,139,Kansas City Royals,Tampa Bay Rays,,,,,7,Scheduled
 822884,2026-07-02,140,116,Texas Rangers,Detroit Tigers,,664285,,Framber Valdez,5325,Scheduled
 823119,2026-07-02,136,108,Seattle Mariners,Los Angeles Angels,682243,700712,Bryce Miller,Walbert Ureña,680,Scheduled
 823935,2026-07-02,119,135,Los Angeles Dodgers,San Diego Padres,,,,,22,Scheduled
-824659,2026-07-03,112,138,Chicago Cubs,St. Louis Cardinals,,,,,17,Scheduled
+824659,2026-07-03,112,138,Chicago Cubs,St. Louis Cardinals,,669467,,Andre Pallante,17,Scheduled
 822714,2026-07-03,120,134,Washington Nationals,Pittsburgh Pirates,,,,,3309,Scheduled
 823527,2026-07-03,147,142,New York Yankees,Minnesota Twins,,,,,3313,Scheduled
 824498,2026-07-03,113,110,Cincinnati Reds,Baltimore Orioles,663903,,Brady Singer,,2602,Scheduled
-824417,2026-07-03,114,145,Cleveland Guardians,Chicago White Sox,,,,,5,Scheduled
+824417,2026-07-03,114,145,Cleveland Guardians,Chicago White Sox,668909,641743,Gavin Williams,Anthony Kay,5,Scheduled
 824904,2026-07-03,144,121,Atlanta Braves,New York Mets,,,,,4705,Scheduled
 824336,2026-07-03,115,137,Colorado Rockies,San Francisco Giants,,,,,19,Scheduled
 824173,2026-07-03,117,139,Houston Astros,Tampa Bay Rays,,,,,2392,Scheduled
