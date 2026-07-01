@@ -4,7 +4,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824740,2026-07-01,111,120,Boston Red Sox,Washington Nationals,801139,674841,Payton Tolle,Andrew Alvarez,3,Scheduled
 823530,2026-07-01,147,116,New York Yankees,Detroit Tigers,701542,675512,Will Warren,Troy Melton,3313,Scheduled
 824660,2026-07-01,112,135,Chicago Cubs,San Diego Padres,607067,621111,Colin Rea,Walker Buehler,17,Scheduled
-822791,2026-07-01,141,121,Toronto Blue Jays,New York Mets,,642547,,Freddy Peralta,14,Scheduled
+822791,2026-07-01,141,121,Toronto Blue Jays,New York Mets,680755,642547,Braydon Fisher,Freddy Peralta,14,Scheduled
 823446,2026-07-01,143,134,Philadelphia Phillies,Pittsburgh Pirates,554430,694973,Zack Wheeler,Paul Skenes,2681,Scheduled
 824905,2026-07-01,144,138,Atlanta Braves,St. Louis Cardinals,625643,700241,Reynaldo López,Michael McGreevy,4705,Scheduled
 824094,2026-07-01,118,139,Kansas City Royals,Tampa Bay Rays,607625,663556,Seth Lugo,Shane McClanahan,7,Scheduled
