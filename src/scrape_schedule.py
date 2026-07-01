@@ -19,7 +19,10 @@ COLS = ["gamePk", "date", "homeTeamId", "awayTeamId", "home", "away",
 
 
 def scrape(cfg: dict) -> list[dict]:
-    start = datetime.date.today()
+    # statsapi dates are US officialDate. A run from AU (UTC+10) is already on
+    # "tomorrow", so starting at local today() drops the US slate the books are
+    # actually offering tonight — start a day back; Final/Live games are skipped.
+    start = datetime.date.today() - datetime.timedelta(days=1)
     end = start + datetime.timedelta(days=cfg["fixtures"]["days_ahead"])
     url = (
         f"{cfg['data']['api_base']}/schedule?sportId={cfg['sport_id']}"
@@ -31,7 +34,9 @@ def scrape(cfg: dict) -> list[dict]:
     for day in (data or {}).get("dates", []):
         for g in day.get("games", []):
             state = g.get("status", {}).get("abstractGameState")
-            if state == "Final":
+            # Pre-game model: no finished games, and no in-play games (pricing a
+            # live game against in-play book odds manufactures phantom EV).
+            if state in ("Final", "Live"):
                 continue
             home, away = g["teams"]["home"], g["teams"]["away"]
             hp, ap = home.get("probablePitcher", {}), away.get("probablePitcher", {})
