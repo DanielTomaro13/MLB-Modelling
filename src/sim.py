@@ -57,11 +57,22 @@ def poisson_over(mu: float, line: float) -> float:
     return sum(pmf[k:])
 
 
-PROP_PHI = 1.5  # player counting stats are lumpy (more 0-games than Poisson) — overdisperse.
+PROP_PHI = 1.5  # default var/mean for player counting stats
+
+# Per-PA stats (hits, TB, batter K/BB) are near-binomial — roughly Poisson, NOT
+# over-dispersed: a 1.5 phi inflates P(0 hits) for a regular to ~45% when the
+# empirical hitless-game rate is ~33%. Scoring-linked stats (runs, RBIs) cluster
+# with team innings and stay over-dispersed.
+STAT_PHI = {
+    "Hits": 1.0, "Total bases": 1.15, "Home run": 1.0, "Walks": 1.0,
+    "Strikeouts": 1.05, "Stolen base": 1.0, "Doubles": 1.0,
+    "Runs": 1.4, "RBIs": 1.5, "Hits+Runs+RBIs": 1.3,
+    "Outs": 1.5, "Earned runs": 1.4, "Hits allowed": 1.15,
+}
 
 
 def over_prob(mu: float, line: float, phi: float = PROP_PHI) -> float:
-    """P(count > line) for an over-dispersed (negative-binomial) player-prop count."""
+    """P(count > line) for a (possibly over-dispersed) player-prop count."""
     k = int(math.floor(line)) + 1
     pmf = nb_pmf(mu, phi, max(k + 40, 22))
     return sum(pmf[k:])
@@ -341,11 +352,12 @@ def _logit_blend(p_sim: float, p_elo: float, w_elo: float) -> float:
 # Player props
 # --------------------------------------------------------------------------- #
 def _prop(stat: str, mu: float, lines: list[float]) -> dict:
+    phi = STAT_PHI.get(stat, PROP_PHI)
     return {"stat": stat, "mu": round(mu, 3),
-            "lines": [{"line": ln, "over": round(over_prob(mu, ln), 4),
-                       "under": round(1 - over_prob(mu, ln), 4),
-                       "over_fair": fair(over_prob(mu, ln)),
-                       "under_fair": fair(1 - over_prob(mu, ln))} for ln in lines]}
+            "lines": [{"line": ln, "over": round(over_prob(mu, ln, phi), 4),
+                       "under": round(1 - over_prob(mu, ln, phi), 4),
+                       "over_fair": fair(over_prob(mu, ln, phi)),
+                       "under_fair": fair(1 - over_prob(mu, ln, phi))} for ln in lines]}
 
 
 def _lines_around(mu: float, base: list[float]) -> list[float]:

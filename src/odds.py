@@ -399,17 +399,21 @@ def dab_pickem():
             event = f.get("name", "")
             detail = _dab_get(f"/frontend-api/sport-fixtures/details/{f['id']}")
             sfd = (detail or {}).get("sportFixtureDetail") or (detail or {}).get("data", {}).get("sportFixtureDetail") or {}
-            seen = set()
+            # One selection per lineType — aggregate so each published line carries
+            # which sides Dabble actually offers (many lines are over-only).
+            seen: dict[tuple, set] = {}
             for pp in sfd.get("playerProps", []):
                 stat = _pp_stat(pp.get("stats"))
                 player, val = pp.get("playerName"), pp.get("value")
                 if not stat or not player or val is None:
                     continue
-                key = (player, stat, float(val))
-                if key in seen:
-                    continue
-                seen.add(key)
-                _PICKEM.append({"event": event, "player": player, "stat": stat, "line": float(val)})
+                lt = (pp.get("lineType") or "").lower()
+                sides = seen.setdefault((player, stat, float(val)), set())
+                if lt in ("over", "under"):
+                    sides.add(lt)
+            for (player, stat, val), sides in seen.items():
+                _PICKEM.append({"event": event, "player": player, "stat": stat, "line": val,
+                                "sides": sorted(sides) or ["over", "under"]})
 
 
 BOOKS = {
@@ -705,7 +709,7 @@ def run(cfg):
                     mu = prop_mu.get(norm(player), {}).get(stat)
                     if mu is None:
                         continue
-                    ov = sim.over_prob(mu, line)
+                    ov = sim.over_prob(mu, line, sim.STAT_PHI.get(stat, sim.PROP_PHI))
                     model = ov if ou == "over" else 1 - ov
                     sid = f"prop|{norm(player)}|{stat}|{ou}|{line}"
                     cell = prop_sel.setdefault(sid, {"model": round(model, 4),
