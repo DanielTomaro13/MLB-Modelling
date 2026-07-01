@@ -1,16 +1,15 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824818,2026-07-01,110,145,Baltimore Orioles,Chicago White Sox,665152,702273,Dean Kremer,Noah Schultz,2,In Progress
 824419,2026-07-01,114,140,Cleveland Guardians,Texas Rangers,676282,669022,Joey Cantillo,MacKenzie Gore,5,In Progress
-824740,2026-07-01,111,120,Boston Red Sox,Washington Nationals,801139,695418,Payton Tolle,Brad Lord,3,Pre-Game
-823530,2026-07-01,147,116,New York Yankees,Detroit Tigers,701542,675512,Will Warren,Troy Melton,3313,Pre-Game
-824660,2026-07-01,112,135,Chicago Cubs,San Diego Padres,607067,621111,Colin Rea,Walker Buehler,17,Pre-Game
-822791,2026-07-01,141,121,Toronto Blue Jays,New York Mets,680755,642547,Braydon Fisher,Freddy Peralta,14,Pre-Game
-823446,2026-07-01,143,134,Philadelphia Phillies,Pittsburgh Pirates,554430,694973,Zack Wheeler,Paul Skenes,2681,Scheduled
-824905,2026-07-01,144,138,Atlanta Braves,St. Louis Cardinals,625643,700241,Reynaldo López,Michael McGreevy,4705,Scheduled
-824094,2026-07-01,118,139,Kansas City Royals,Tampa Bay Rays,607625,663556,Seth Lugo,Shane McClanahan,7,Scheduled
-824174,2026-07-01,117,142,Houston Astros,Minnesota Twins,837227,671737,Tatsuya Imai,Taj Bradley,2392,Scheduled
+824740,2026-07-01,111,120,Boston Red Sox,Washington Nationals,801139,695418,Payton Tolle,Brad Lord,3,In Progress
+823530,2026-07-01,147,116,New York Yankees,Detroit Tigers,701542,675512,Will Warren,Troy Melton,3313,In Progress
+824660,2026-07-01,112,135,Chicago Cubs,San Diego Padres,607067,621111,Colin Rea,Walker Buehler,17,In Progress
+822791,2026-07-01,141,121,Toronto Blue Jays,New York Mets,680755,642547,Braydon Fisher,Freddy Peralta,14,In Progress
+823446,2026-07-01,143,134,Philadelphia Phillies,Pittsburgh Pirates,554430,694973,Zack Wheeler,Paul Skenes,2681,Pre-Game
+824905,2026-07-01,144,138,Atlanta Braves,St. Louis Cardinals,625643,700241,Reynaldo López,Michael McGreevy,4705,Pre-Game
+824094,2026-07-01,118,139,Kansas City Royals,Tampa Bay Rays,607625,663556,Seth Lugo,Shane McClanahan,7,Pre-Game
+824174,2026-07-01,117,142,Houston Astros,Minnesota Twins,837227,671737,Tatsuya Imai,Taj Bradley,2392,Pre-Game
 823767,2026-07-01,158,113,Milwaukee Brewers,Cincinnati Reds,675660,671096,Shane Drohan,Andrew Abbott,32,Scheduled
-824337,2026-07-01,115,146,Colorado Rockies,Miami Marlins,607536,676974,Kyle Freeland,Max Meyer,19,Scheduled
+824337,2026-07-01,115,146,Colorado Rockies,Miami Marlins,607536,676974,Kyle Freeland,Max Meyer,19,Pre-Game
 824985,2026-07-01,133,119,Athletics,Los Angeles Dodgers,669372,,J.T. Ginn,,2529,Scheduled
 825064,2026-07-01,109,137,Arizona Diamondbacks,San Francisco Giants,668678,686790,Zac Gallen,Trevor McDonald,15,Scheduled
 823442,2026-07-02,143,134,Philadelphia Phillies,Pittsburgh Pirates,660604,683003,Alan Rangel,Jared Jones,2681,Scheduled
@@ -30,7 +29,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824904,2026-07-03,144,121,Atlanta Braves,New York Mets,,681035,,Christian Scott,4705,Scheduled
 824336,2026-07-03,115,137,Colorado Rockies,San Francisco Giants,,,,,19,Scheduled
 824173,2026-07-03,117,139,Houston Astros,Tampa Bay Rays,,,,,2392,Scheduled
-824013,2026-07-03,108,111,Los Angeles Angels,Boston Red Sox,,,,,1,Scheduled
+824013,2026-07-03,108,111,Los Angeles Angels,Boston Red Sox,,687562,,Jake Bennett,1,Scheduled
 824982,2026-07-03,133,146,Athletics,Miami Marlins,,,,,2529,Scheduled
 825062,2026-07-03,109,158,Arizona Diamondbacks,Milwaukee Brewers,,,,,15,Scheduled
 823933,2026-07-03,119,135,Los Angeles Dodgers,San Diego Padres,660271,,Shohei Ohtani,,22,Scheduled
@@ -46,7 +45,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824903,2026-07-04,144,121,Atlanta Braves,New York Mets,,640455,,Sean Manaea,4705,Scheduled
 824334,2026-07-04,115,137,Colorado Rockies,San Francisco Giants,,,,,19,Scheduled
 824092,2026-07-04,118,143,Kansas City Royals,Philadelphia Phillies,,,,,7,Scheduled
-824012,2026-07-04,108,111,Los Angeles Angels,Boston Red Sox,,,,,1,Scheduled
+824012,2026-07-04,108,111,Los Angeles Angels,Boston Red Sox,,543243,,Sonny Gray,1,Scheduled
 824983,2026-07-04,133,146,Athletics,Miami Marlins,,,,,2529,Scheduled
 825063,2026-07-04,109,158,Arizona Diamondbacks,Milwaukee Brewers,,,,,15,Scheduled
 823932,2026-07-04,119,135,Los Angeles Dodgers,San Diego Padres,,,,,22,Scheduled
