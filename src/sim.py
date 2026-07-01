@@ -95,8 +95,9 @@ def team_means(home, away, home_sp, away_sp, park, cfg) -> dict:
     mu_home = lg * home.get("off", 1.0) * home_allow_opp * park + hfa
     mu_away = lg * away.get("off", 1.0) * away_allow_opp * park
 
-    # First-5: starter-dominated, so use the starter alone, scaled to ~5 innings.
-    f5_scale = 5.0 / 9.0
+    # First-5: starter-dominated, so use the starter alone. Innings 1-5 carry a
+    # touch more than 5/9 of game scoring (~56.0-56.3% each of 2024-26).
+    f5_scale = 0.56
     sp_home_allow = (1.0 / away_sp["prevent"]) if (away_sp and away_sp.get("prevent")) else 1.0
     sp_away_allow = (1.0 / home_sp["prevent"]) if (home_sp and home_sp.get("prevent")) else 1.0
     mu_home_f5 = lg * home.get("off", 1.0) * sp_home_allow * park * f5_scale + hfa * f5_scale
@@ -229,7 +230,10 @@ def project_game(home, away, home_sp, away_sp, park, cfg, elo_home_wp: float | N
 
     # First-inning runs (NRFI / YRFI) — the lead-off third of the order scores a bit
     # above the per-inning average, so scale the team rate up slightly.
-    mu_fi = (mu["home"] + mu["away"]) / 9.0 * 0.85  # first inning ≈ league per-inning rate (NRFI ~43%)
+    # Inning-level runs are far lumpier than Poisson (crooked innings), so a raw
+    # per-inning Poisson badly understates P(0). The 0.71 factor calibrates the
+    # Poisson zero-mass to the observed NRFI rate (48.7% in 2026, 49.8% in 2025).
+    mu_fi = (mu["home"] + mu["away"]) / 9.0 * 0.71
     p_nrfi = math.exp(-mu_fi)
     markets.append({"key": "fi", "label": "First inning", "selections": [
         _selection("No run (NRFI)", p_nrfi), _selection("Run (YRFI)", 1 - p_nrfi)]})
@@ -301,7 +305,10 @@ def distributions(home, away, home_sp, away_sp, park, cfg, elo_home_wp: float | 
             if i > j: f5h += p
             elif j > i: f5a += p
             else: f5t += p
-    mu_fi = (mu["home"] + mu["away"]) / 9.0 * 0.85  # first inning ≈ league per-inning rate (NRFI ~43%)
+    # Inning-level runs are far lumpier than Poisson (crooked innings), so a raw
+    # per-inning Poisson badly understates P(0). The 0.71 factor calibrates the
+    # Poisson zero-mass to the observed NRFI rate (48.7% in 2026, 49.8% in 2025).
+    mu_fi = (mu["home"] + mu["away"]) / 9.0 * 0.71
     nrfi = math.exp(-mu_fi)
 
     return {
@@ -380,7 +387,8 @@ def pitcher_props(pitcher: dict) -> list[dict]:
         _prop("Strikeouts", pitcher.get("k_rate", 0.22) * bf, [4.5, 5.5, 6.5, 7.5, 8.5]),
         _prop("Walks", pitcher.get("bb_rate", 0.08) * bf, [1.5, 2.5, 3.5]),
         _prop("Outs", ip_start * 3, [14.5, 15.5, 16.5, 17.5, 18.5]),
-        _prop("Earned runs", pitcher.get("ra9", league_ra9) * ip_start / 9.0, [1.5, 2.5, 3.5]),
+        # ER settles on *earned* runs — use er9, not ra9 (~8% of runs are unearned).
+        _prop("Earned runs", pitcher.get("er9", pitcher.get("ra9", league_ra9) * 0.92) * ip_start / 9.0, [1.5, 2.5, 3.5]),
         # Hits allowed ≈ balls in play that fall + ... approximated from non-K, non-BB PAs.
         _prop("Hits allowed", max(bf * (1 - pitcher.get("k_rate", 0.22) - pitcher.get("bb_rate", 0.08)) * 0.30, 0.1), [3.5, 4.5, 5.5, 6.5]),
     ]

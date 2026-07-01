@@ -30,7 +30,7 @@ def _top_batters(profiles: dict, team_id: int) -> list[dict]:
 def project_fixture(cfg: dict, fx: dict, profiles: dict, elo: dict | None) -> dict:
     elo_wp = None
     if elo:
-        elo_wp = ratings.elo_win_prob(elo, fx["homeId"], fx["awayId"], elo.get("_meta", {}).get("home_field", 24.0))
+        elo_wp = ratings.elo_win_prob(elo, fx["homeId"], fx["awayId"], elo.get("_meta", {}).get("home_field", cfg["elo"]["home_field"]))
 
     proj = sim.project_game(fx["home_team"], fx["away_team"], fx["home_sp"], fx["away_sp"],
                             fx["park"], cfg, elo_home_wp=elo_wp)

@@ -24,7 +24,7 @@ import csv
 import os
 import sys
 
-from . import util
+from . import ingest, util
 
 
 def _raw(cfg: dict, name: str) -> str:
@@ -52,6 +52,36 @@ def load_park_factors(cfg: dict) -> dict[str, float]:
     return out
 
 
+def derive_park_factors(cfg: dict, meta: dict) -> dict[str, float]:
+    """Park factor per team from its own results: total runs/game at the current
+    home venue vs on the road (team quality cancels — the same roster plays both
+    halves), shrunk toward 1.0 and normalised to a league mean of 1.0.
+
+    Home games are filtered to the team's *current* venue so relocations (the
+    Athletics' 2025 move to Sacramento) don't drag stale-park seasons in.
+    """
+    home: dict[str, list[int]] = {}
+    road: dict[str, list[int]] = {}
+    for yr in cfg["data"]["history_seasons"]:
+        for g in ingest.load_results(cfg, yr):
+            tot = g["homeRuns"] + g["awayRuns"]
+            h, a = str(g["homeId"]), str(g["awayId"])
+            if str(g["venueId"]) == str(meta.get(h, {}).get("venueId", "")):
+                home.setdefault(h, []).append(tot)
+            road.setdefault(a, []).append(tot)
+    prior_n = 60.0  # ~a third of a season of home games of "league average" prior
+    pf = {}
+    for tid in meta:
+        ht, rt = home.get(tid, []), road.get(tid, [])
+        if ht and rt:
+            raw = (sum(ht) / len(ht)) / (sum(rt) / len(rt))
+            pf[tid] = 1.0 + (raw - 1.0) * len(ht) / (len(ht) + prior_n)
+    if not pf:
+        return {}
+    m = sum(pf.values()) / len(pf)
+    return {tid: round(v / m, 4) for tid, v in pf.items()}
+
+
 # --------------------------------------------------------------------------- #
 # Teams
 # --------------------------------------------------------------------------- #
@@ -72,7 +102,10 @@ def _team_meta(cfg: dict) -> dict[str, dict]:
 def build_team_profiles(cfg: dict) -> tuple[dict, float]:
     season = cfg["data"]["season"]
     meta = _team_meta(cfg)
-    park = load_park_factors(cfg)
+    # Results-derived park factors; the static CSV is the fallback for teams
+    # without enough games at their current venue.
+    park_csv = load_park_factors(cfg)
+    park = {**park_csv, **derive_park_factors(cfg, meta)}
     standings = util.read_json(_raw(cfg, f"standings-{season}.json")).get("records", [])
 
     raw = {}
@@ -95,8 +128,12 @@ def build_team_profiles(cfg: dict) -> tuple[dict, float]:
         gp = r["gp"]
         rs_pg = r["rs"] / gp if gp else league_rpg
         ra_pg = r["ra"] / gp if gp else league_rpg
-        off = _shrink(rs_pg / league_rpg, 1.0, gp, prior_g)
-        dfn = _shrink(ra_pg / league_rpg, 1.0, gp, prior_g)
+        # Half a team's games are at its home park, so raw run rates carry half
+        # the park effect — divide it out so ``off``/``def`` are park-neutral
+        # (the game park is re-applied at pricing time; see sim.team_means).
+        exposure = (1.0 + park.get(tid, 1.0)) / 2.0
+        off = _shrink(rs_pg / league_rpg / exposure, 1.0, gp, prior_g)
+        dfn = _shrink(ra_pg / league_rpg / exposure, 1.0, gp, prior_g)
         teams[tid] = {
             **m,
             "park": park.get(tid, 1.0),
@@ -112,12 +149,13 @@ def build_team_profiles(cfg: dict) -> tuple[dict, float]:
 # --------------------------------------------------------------------------- #
 # Pitchers
 # --------------------------------------------------------------------------- #
-def build_pitcher_profiles(cfg: dict) -> dict:
+def build_pitcher_profiles(cfg: dict, parks: dict[str, float] | None = None) -> dict:
     season = cfg["data"]["season"]
     splits = util.read_json(_raw(cfg, f"pitching-{season}.json"))
+    parks = parks or {}
 
     # League RA9 / rates across pitchers with meaningful samples.
-    tot_r = tot_ip = tot_bf = tot_k = tot_bb = tot_hr = 0.0
+    tot_r = tot_er = tot_ip = tot_bf = tot_k = tot_bb = tot_hr = 0.0
     for sp in splits:
         s = sp["stat"]
         ip = util.innings_to_float(s.get("inningsPitched"))
@@ -125,17 +163,18 @@ def build_pitcher_profiles(cfg: dict) -> dict:
             continue
         tot_ip += ip
         tot_r += util.num(s.get("runs"))
+        tot_er += util.num(s.get("earnedRuns"))
         tot_bf += util.num(s.get("battersFaced"))
         tot_k += util.num(s.get("strikeOuts"))
         tot_bb += util.num(s.get("baseOnBalls"))
         tot_hr += util.num(s.get("homeRuns"))
     league_ra9 = (tot_r / tot_ip * 9) if tot_ip else 4.45
+    league_er9 = (tot_er / tot_ip * 9) if tot_ip else 4.1
     lg_k = tot_k / tot_bf if tot_bf else 0.22
     lg_bb = tot_bb / tot_bf if tot_bf else 0.08
     lg_hr9 = tot_hr / tot_ip * 9 if tot_ip else 1.1
 
     prior_bf = cfg["features"]["pitcher_prior_bf"]
-    min_bf = cfg["features"]["min_pitcher_bf"]
     out = {}
     for sp in splits:
         s = sp["stat"]
@@ -146,7 +185,12 @@ def build_pitcher_profiles(cfg: dict) -> dict:
         if bf < 1:
             continue
         ra9 = (util.num(s.get("runs")) / ip * 9) if ip > 0 else league_ra9
+        er9 = (util.num(s.get("earnedRuns")) / ip * 9) if ip > 0 else league_er9
         ra9_sh = _shrink(ra9, league_ra9, bf, prior_bf)
+        # Half a pitcher's innings come at his home park — neutralise it before
+        # comparing to league (the game park is re-applied at pricing time).
+        exposure = (1.0 + parks.get(str((sp.get("team") or {}).get("id")), 1.0)) / 2.0
+        ra9_neutral = _shrink(ra9 / exposure, league_ra9, bf, prior_bf)
         out[pid] = {
             "name": sp["player"]["fullName"],
             "teamId": (sp.get("team") or {}).get("id"),
@@ -158,10 +202,13 @@ def build_pitcher_profiles(cfg: dict) -> dict:
             "bb_rate": round(_shrink(util.num(s.get("baseOnBalls")) / bf, lg_bb, bf, prior_bf), 4),
             "hr9": round(_shrink(util.num(s.get("homeRuns")) / ip * 9 if ip else lg_hr9, lg_hr9, bf, prior_bf), 3),
             "ra9": round(ra9_sh, 3),
+            # Earned runs only (the ER prop settles on earned, not total, runs).
+            "er9": round(_shrink(er9, league_er9, bf, prior_bf), 3),
             # >1 suppresses runs better than league average (used as a defensive multiplier).
-            "prevent": round(league_ra9 / ra9_sh if ra9_sh > 0 else 1.0, 4),
+            "prevent": round(league_ra9 / ra9_neutral if ra9_neutral > 0 else 1.0, 4),
         }
-    out["_league"] = {"ra9": round(league_ra9, 3), "k_rate": round(lg_k, 4), "bb_rate": round(lg_bb, 4), "hr9": round(lg_hr9, 3)}
+    out["_league"] = {"ra9": round(league_ra9, 3), "er9": round(league_er9, 3),
+                      "k_rate": round(lg_k, 4), "bb_rate": round(lg_bb, 4), "hr9": round(lg_hr9, 3)}
     return out
 
 
@@ -228,7 +275,8 @@ def build_batter_profiles(cfg: dict) -> dict:
 # --------------------------------------------------------------------------- #
 def build(cfg: dict) -> dict:
     teams, league_rpg = build_team_profiles(cfg)
-    pitchers = build_pitcher_profiles(cfg)
+    parks = {tid: t["park"] for tid, t in teams.items()}
+    pitchers = build_pitcher_profiles(cfg, parks)
     batters = build_batter_profiles(cfg)
     return {
         "season": cfg["data"]["season"],

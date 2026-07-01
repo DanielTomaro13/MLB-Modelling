@@ -27,10 +27,11 @@ data:
 features:
   # Shrinkage: blend a team/player rate toward the league mean with this many
   # "prior" plate appearances / batters faced.
-  team_prior_games: 20
+  # team prior tuned on 2025-26 walk-forward: heavy shrinkage calibrates the
+  # totals amplitude (actual~predicted slope ~0.95 at 80 vs 0.56 at 20).
+  team_prior_games: 80
   pitcher_prior_bf: 200           # batters faced of league-average prior
   batter_prior_pa: 150
-  min_pitcher_bf: 80              # below this a starter is treated as league-avg
   min_batter_pa: 40
   recency_half_life_days: 240     # exponential decay on game recency (unused v1)
 

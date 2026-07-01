@@ -544,21 +544,36 @@ def canon(mname, sels, home, away):
     return out
 
 
+def _no_push(win: float, push: float) -> float:
+    """Win prob conditional on no push — the fair-price basis for stake-refund lines."""
+    return win / (1.0 - push) if 1e-9 < push < 1.0 else win
+
+
 def model_prob(dist, mkt, side, line):
+    # Integer lines can push (stake refunded); price the conditional no-push prob,
+    # otherwise the under/dog side silently absorbs the push mass as a win.
     if mkt == "ml":
         return dist["win_home"] if side == "home" else dist["win_away"]
     if mkt == "rl":
-        return dist["handicap_cover"](side, line)
-    if mkt == "total":
-        ov = dist["total_over"](line)
-        return ov if side == "over" else 1 - ov
-    if mkt == "f5_total":
-        ov = dist["total_over"](line, f5=True)
-        return ov if side == "over" else 1 - ov
+        win = dist["handicap_cover"](side, line)
+        if line is not None and float(line).is_integer():
+            push = dist["handicap_cover"](side, line + 0.5) - dist["handicap_cover"](side, line - 0.5)
+            win = _no_push(win, push)
+        return win
+    if mkt in ("total", "f5_total"):
+        f5 = mkt == "f5_total"
+        ov = dist["total_over"](line, f5=f5)
+        push = 0.0
+        if float(line).is_integer():
+            push = dist["total_over"](line - 0.5, f5=f5) - dist["total_over"](line + 0.5, f5=f5)
+        return _no_push(ov, push) if side == "over" else _no_push(1 - ov - push, push)
     if mkt == "team_total":
         tside, ou = side.split("_")
         ov = dist["team_total_over"](tside, line)
-        return ov if ou == "over" else 1 - ov
+        push = 0.0
+        if float(line).is_integer():
+            push = dist["team_total_over"](tside, line - 0.5) - dist["team_total_over"](tside, line + 0.5)
+        return _no_push(ov, push) if ou == "over" else _no_push(1 - ov - push, push)
     if mkt == "f5_ml":
         return {"home": dist["f5_win_home"], "away": dist["f5_win_away"], "tie": dist["f5_tie"]}.get(side)
     if mkt == "fi":
