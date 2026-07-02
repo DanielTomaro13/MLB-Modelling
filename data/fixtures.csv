@@ -1,45 +1,38 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824905,2026-07-01,144,138,Atlanta Braves,St. Louis Cardinals,625643,700241,Reynaldo López,Michael McGreevy,4705,Pre-Game
-824094,2026-07-01,118,139,Kansas City Royals,Tampa Bay Rays,607625,663556,Seth Lugo,Shane McClanahan,7,Pre-Game
-824174,2026-07-01,117,142,Houston Astros,Minnesota Twins,837227,671737,Tatsuya Imai,Taj Bradley,2392,Pre-Game
-823767,2026-07-01,158,113,Milwaukee Brewers,Cincinnati Reds,675660,671096,Shane Drohan,Andrew Abbott,32,Pre-Game
-824337,2026-07-01,115,146,Colorado Rockies,Miami Marlins,607536,676974,Kyle Freeland,Max Meyer,19,Pre-Game
-824985,2026-07-01,133,119,Athletics,Los Angeles Dodgers,669372,,J.T. Ginn,,2529,Pre-Game
-825064,2026-07-01,109,137,Arizona Diamondbacks,San Francisco Giants,668678,686790,Zac Gallen,Trevor McDonald,15,Pre-Game
 823442,2026-07-02,143,134,Philadelphia Phillies,Pittsburgh Pirates,660604,683003,Alan Rangel,Jared Jones,2681,Scheduled
 823765,2026-07-02,158,113,Milwaukee Brewers,Cincinnati Reds,694819,695505,Jacob Misiorowski,Chase Burns,32,Scheduled
 824335,2026-07-02,115,146,Colorado Rockies,Miami Marlins,547179,,Michael Lorenzen,,19,Scheduled
 824416,2026-07-02,114,145,Cleveland Guardians,Chicago White Sox,677944,663436,Slade Cecconi,Davis Martin,5,Scheduled
-824906,2026-07-02,144,138,Atlanta Braves,St. Louis Cardinals,,669160,,Dustin May,4705,Scheduled
-824093,2026-07-02,118,139,Kansas City Royals,Tampa Bay Rays,,,,,7,Scheduled
+824906,2026-07-02,144,138,Atlanta Braves,St. Louis Cardinals,694462,669160,Hurston Waldrep,Dustin May,4705,Scheduled
+824093,2026-07-02,118,139,Kansas City Royals,Tampa Bay Rays,663568,693855,Stephen Kolek,Ian Seymour,7,Scheduled
 822884,2026-07-02,140,116,Texas Rangers,Detroit Tigers,543135,664285,Nathan Eovaldi,Framber Valdez,5325,Scheduled
 823119,2026-07-02,136,108,Seattle Mariners,Los Angeles Angels,682243,700712,Bryce Miller,Walbert Ureña,680,Scheduled
-823935,2026-07-02,119,135,Los Angeles Dodgers,San Diego Padres,808963,,Roki Sasaki,,22,Scheduled
-824659,2026-07-03,112,138,Chicago Cubs,St. Louis Cardinals,,669467,,Andre Pallante,17,Scheduled
+823935,2026-07-02,119,135,Los Angeles Dodgers,San Diego Padres,808963,681190,Roki Sasaki,Randy Vásquez,22,Scheduled
+824659,2026-07-03,112,138,Chicago Cubs,St. Louis Cardinals,656849,669467,David Peterson,Andre Pallante,17,Scheduled
 822714,2026-07-03,120,134,Washington Nationals,Pittsburgh Pirates,656492,,Foster Griffin,,3309,Scheduled
 823527,2026-07-03,147,142,New York Yankees,Minnesota Twins,543037,702474,Gerrit Cole,Mike Paredes,3313,Scheduled
 824498,2026-07-03,113,110,Cincinnati Reds,Baltimore Orioles,663903,669432,Brady Singer,Trevor Rogers,2602,Scheduled
 824417,2026-07-03,114,145,Cleveland Guardians,Chicago White Sox,668909,641743,Gavin Williams,Anthony Kay,5,Scheduled
-824904,2026-07-03,144,121,Atlanta Braves,New York Mets,,681035,,Christian Scott,4705,Scheduled
+824904,2026-07-03,144,121,Atlanta Braves,New York Mets,656550,681035,Grant Holmes,Christian Scott,4705,Scheduled
 824336,2026-07-03,115,137,Colorado Rockies,San Francisco Giants,,,,,19,Scheduled
 824173,2026-07-03,117,139,Houston Astros,Tampa Bay Rays,681293,,Spencer Arrighetti,,2392,Scheduled
 824013,2026-07-03,108,111,Los Angeles Angels,Boston Red Sox,,687562,,Jake Bennett,1,Scheduled
-824982,2026-07-03,133,146,Athletics,Miami Marlins,,,,,2529,Scheduled
+824982,2026-07-03,133,146,Athletics,Miami Marlins,678022,,Jack Perkins,,2529,Scheduled
 825062,2026-07-03,109,158,Arizona Diamondbacks,Milwaukee Brewers,703615,,Jose Cabrera,,15,Scheduled
-823933,2026-07-03,119,135,Los Angeles Dodgers,San Diego Padres,660271,,Shohei Ohtani,,22,Scheduled
-823120,2026-07-03,136,141,Seattle Mariners,Toronto Blue Jays,,,,,680,Scheduled
+823933,2026-07-03,119,135,Los Angeles Dodgers,San Diego Padres,660271,650633,Shohei Ohtani,Michael King,22,Scheduled
+823120,2026-07-03,136,141,Seattle Mariners,Toronto Blue Jays,,656302,,Dylan Cease,680,Scheduled
 822716,2026-07-04,120,134,Washington Nationals,Pittsburgh Pirates,641793,,Zack Littell,,3309,Scheduled
 823526,2026-07-04,147,142,New York Yankees,Minnesota Twins,607074,805673,Carlos Rodón,Zebby Matthews,3313,Scheduled
 822882,2026-07-04,140,116,Texas Rangers,Detroit Tigers,677958,656427,Kumar Rocker,Jack Flaherty,5325,Scheduled
-823118,2026-07-04,136,141,Seattle Mariners,Toronto Blue Jays,,,,,680,Scheduled
+823118,2026-07-04,136,141,Seattle Mariners,Toronto Blue Jays,,669456,,Shane Bieber,680,Scheduled
 824499,2026-07-04,113,110,Cincinnati Reds,Baltimore Orioles,668881,687064,Hunter Greene,Brandon Young,2602,Scheduled
 824171,2026-07-04,117,139,Houston Astros,Tampa Bay Rays,686613,,Hunter Brown,,2392,Scheduled
 824415,2026-07-04,114,145,Cleveland Guardians,Chicago White Sox,800048,680732,Parker Messick,Sean Burke,5,Scheduled
-824658,2026-07-04,112,138,Chicago Cubs,St. Louis Cardinals,,681517,,Kyle Leahy,17,Scheduled
-824903,2026-07-04,144,121,Atlanta Braves,New York Mets,,640455,,Sean Manaea,4705,Scheduled
+824658,2026-07-04,112,138,Chicago Cubs,St. Louis Cardinals,684007,681517,Shota Imanaga,Kyle Leahy,17,Scheduled
+824903,2026-07-04,144,121,Atlanta Braves,New York Mets,519242,640455,Chris Sale,Sean Manaea,4705,Scheduled
 824334,2026-07-04,115,137,Colorado Rockies,San Francisco Giants,,,,,19,Scheduled
 824092,2026-07-04,118,143,Kansas City Royals,Philadelphia Phillies,,,,,7,Scheduled
 824012,2026-07-04,108,111,Los Angeles Angels,Boston Red Sox,,543243,,Sonny Gray,1,Scheduled
-824983,2026-07-04,133,146,Athletics,Miami Marlins,,,,,2529,Scheduled
+824983,2026-07-04,133,146,Athletics,Miami Marlins,650644,,Aaron Civale,,2529,Scheduled
 825063,2026-07-04,109,158,Arizona Diamondbacks,Milwaukee Brewers,518876,,Merrill Kelly,,15,Scheduled
-823932,2026-07-04,119,135,Los Angeles Dodgers,San Diego Padres,,,,,22,Scheduled
+823932,2026-07-04,119,135,Los Angeles Dodgers,San Diego Padres,808967,656288,Yoshinobu Yamamoto,Griffin Canning,22,Scheduled
