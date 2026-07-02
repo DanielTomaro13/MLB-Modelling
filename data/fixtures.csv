@@ -1,7 +1,7 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 823442,2026-07-02,143,134,Philadelphia Phillies,Pittsburgh Pirates,660604,683003,Alan Rangel,Jared Jones,2681,Scheduled
 823765,2026-07-02,158,113,Milwaukee Brewers,Cincinnati Reds,694819,695505,Jacob Misiorowski,Chase Burns,32,Scheduled
-824335,2026-07-02,115,146,Colorado Rockies,Miami Marlins,547179,,Michael Lorenzen,,19,Scheduled
+824335,2026-07-02,115,146,Colorado Rockies,Miami Marlins,547179,687473,Michael Lorenzen,Ryan Gusto,19,Scheduled
 824416,2026-07-02,114,145,Cleveland Guardians,Chicago White Sox,677944,663436,Slade Cecconi,Davis Martin,5,Scheduled
 824906,2026-07-02,144,138,Atlanta Braves,St. Louis Cardinals,694462,669160,Hurston Waldrep,Dustin May,4705,Scheduled
 824093,2026-07-02,118,139,Kansas City Royals,Tampa Bay Rays,663568,693855,Stephen Kolek,Ian Seymour,7,Scheduled
