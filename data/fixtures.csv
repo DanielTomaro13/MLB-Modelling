@@ -1,19 +1,18 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824659,2026-07-03,112,138,Chicago Cubs,St. Louis Cardinals,656849,669467,David Peterson,Andre Pallante,17,Pre-Game
-822714,2026-07-03,120,134,Washington Nationals,Pittsburgh Pirates,656492,656605,Foster Griffin,Mitch Keller,3309,Scheduled
+822714,2026-07-03,120,134,Washington Nationals,Pittsburgh Pirates,656492,656605,Foster Griffin,Mitch Keller,3309,Pre-Game
 823527,2026-07-03,147,142,New York Yankees,Minnesota Twins,543037,702474,Gerrit Cole,Mike Paredes,3313,Pre-Game
 824498,2026-07-03,113,110,Cincinnati Reds,Baltimore Orioles,663903,669432,Brady Singer,Trevor Rogers,2602,Pre-Game
-824417,2026-07-03,114,145,Cleveland Guardians,Chicago White Sox,668909,641743,Gavin Williams,Anthony Kay,5,Scheduled
+824417,2026-07-03,114,145,Cleveland Guardians,Chicago White Sox,668909,641743,Gavin Williams,Anthony Kay,5,Pre-Game
 824904,2026-07-03,144,121,Atlanta Braves,New York Mets,656550,681035,Grant Holmes,Christian Scott,4705,Pre-Game
-824336,2026-07-03,115,137,Colorado Rockies,San Francisco Giants,663372,,Ryan Feltner,,19,Pre-Game
-824173,2026-07-03,117,139,Houston Astros,Tampa Bay Rays,681293,607259,Spencer Arrighetti,Nick Martinez,2392,Scheduled
+824336,2026-07-03,115,137,Colorado Rockies,San Francisco Giants,663372,657277,Ryan Feltner,Logan Webb,19,Pre-Game
+824173,2026-07-03,117,139,Houston Astros,Tampa Bay Rays,681293,607259,Spencer Arrighetti,Nick Martinez,2392,Pre-Game
 824013,2026-07-03,108,111,Los Angeles Angels,Boston Red Sox,672282,687562,Reid Detmers,Jake Bennett,1,Scheduled
-824982,2026-07-03,133,146,Athletics,Miami Marlins,678022,663969,Jack Perkins,Tyler Phillips,2529,Scheduled
-825062,2026-07-03,109,158,Arizona Diamondbacks,Milwaukee Brewers,703615,690986,Jose Cabrera,Kyle Harrison,15,Scheduled
-823933,2026-07-03,119,135,Los Angeles Dodgers,San Diego Padres,660271,650633,Shohei Ohtani,Michael King,22,Scheduled
+824982,2026-07-03,133,146,Athletics,Miami Marlins,678022,663969,Jack Perkins,Tyler Phillips,2529,Pre-Game
+825062,2026-07-03,109,158,Arizona Diamondbacks,Milwaukee Brewers,703615,690986,Jose Cabrera,Kyle Harrison,15,Pre-Game
+823933,2026-07-03,119,135,Los Angeles Dodgers,San Diego Padres,660271,650633,Shohei Ohtani,Michael King,22,Pre-Game
 823120,2026-07-03,136,141,Seattle Mariners,Toronto Blue Jays,622491,656302,Luis Castillo,Dylan Cease,680,Scheduled
 822716,2026-07-04,120,134,Washington Nationals,Pittsburgh Pirates,641793,677952,Zack Littell,Braxton Ashcraft,3309,Scheduled
-823526,2026-07-04,147,142,New York Yankees,Minnesota Twins,607074,805673,Carlos Rodón,Zebby Matthews,3313,Scheduled
+823526,2026-07-04,147,142,New York Yankees,Minnesota Twins,,805673,,Zebby Matthews,3313,Scheduled
 822882,2026-07-04,140,116,Texas Rangers,Detroit Tigers,677958,656427,Kumar Rocker,Jack Flaherty,5325,Scheduled
 823118,2026-07-04,136,141,Seattle Mariners,Toronto Blue Jays,669302,669456,Logan Gilbert,Shane Bieber,680,Scheduled
 824499,2026-07-04,113,110,Cincinnati Reds,Baltimore Orioles,668881,687064,Hunter Greene,Brandon Young,2602,Scheduled
