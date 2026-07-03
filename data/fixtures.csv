@@ -1,11 +1,11 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824659,2026-07-03,112,138,Chicago Cubs,St. Louis Cardinals,656849,669467,David Peterson,Andre Pallante,17,Scheduled
+824659,2026-07-03,112,138,Chicago Cubs,St. Louis Cardinals,656849,669467,David Peterson,Andre Pallante,17,Pre-Game
 822714,2026-07-03,120,134,Washington Nationals,Pittsburgh Pirates,656492,656605,Foster Griffin,Mitch Keller,3309,Scheduled
-823527,2026-07-03,147,142,New York Yankees,Minnesota Twins,543037,702474,Gerrit Cole,Mike Paredes,3313,Scheduled
-824498,2026-07-03,113,110,Cincinnati Reds,Baltimore Orioles,663903,669432,Brady Singer,Trevor Rogers,2602,Scheduled
+823527,2026-07-03,147,142,New York Yankees,Minnesota Twins,543037,702474,Gerrit Cole,Mike Paredes,3313,Pre-Game
+824498,2026-07-03,113,110,Cincinnati Reds,Baltimore Orioles,663903,669432,Brady Singer,Trevor Rogers,2602,Pre-Game
 824417,2026-07-03,114,145,Cleveland Guardians,Chicago White Sox,668909,641743,Gavin Williams,Anthony Kay,5,Scheduled
-824904,2026-07-03,144,121,Atlanta Braves,New York Mets,656550,681035,Grant Holmes,Christian Scott,4705,Scheduled
-824336,2026-07-03,115,137,Colorado Rockies,San Francisco Giants,663372,,Ryan Feltner,,19,Scheduled
+824904,2026-07-03,144,121,Atlanta Braves,New York Mets,656550,681035,Grant Holmes,Christian Scott,4705,Pre-Game
+824336,2026-07-03,115,137,Colorado Rockies,San Francisco Giants,663372,,Ryan Feltner,,19,Pre-Game
 824173,2026-07-03,117,139,Houston Astros,Tampa Bay Rays,681293,607259,Spencer Arrighetti,Nick Martinez,2392,Scheduled
 824013,2026-07-03,108,111,Los Angeles Angels,Boston Red Sox,672282,687562,Reid Detmers,Jake Bennett,1,Scheduled
 824982,2026-07-03,133,146,Athletics,Miami Marlins,678022,663969,Jack Perkins,Tyler Phillips,2529,Scheduled
