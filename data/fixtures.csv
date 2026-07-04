@@ -1,6 +1,6 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 822716,2026-07-04,120,134,Washington Nationals,Pittsburgh Pirates,641793,677952,Zack Littell,Braxton Ashcraft,3309,Scheduled
-823526,2026-07-04,147,142,New York Yankees,Minnesota Twins,,805673,,Zebby Matthews,3313,Scheduled
+823526,2026-07-04,147,142,New York Yankees,Minnesota Twins,694341,805673,Brendan Beck,Zebby Matthews,3313,Scheduled
 822882,2026-07-04,140,116,Texas Rangers,Detroit Tigers,677958,656427,Kumar Rocker,Jack Flaherty,5325,Scheduled
 823118,2026-07-04,136,141,Seattle Mariners,Toronto Blue Jays,669302,669456,Logan Gilbert,Shane Bieber,680,Scheduled
 824499,2026-07-04,113,110,Cincinnati Reds,Baltimore Orioles,668881,687064,Hunter Greene,Brandon Young,2602,Scheduled
