@@ -1,6 +1,5 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-822716,2026-07-04,120,134,Washington Nationals,Pittsburgh Pirates,687223,677952,Carson Palmquist,Braxton Ashcraft,3309,Pre-Game
-823526,2026-07-04,147,142,New York Yankees,Minnesota Twins,694341,805673,Brendan Beck,Zebby Matthews,3313,Scheduled
+823526,2026-07-04,147,142,New York Yankees,Minnesota Twins,694341,805673,Brendan Beck,Zebby Matthews,3313,Pre-Game
 822882,2026-07-04,140,116,Texas Rangers,Detroit Tigers,677958,656427,Kumar Rocker,Jack Flaherty,5325,Scheduled
 823118,2026-07-04,136,141,Seattle Mariners,Toronto Blue Jays,669302,669456,Logan Gilbert,Shane Bieber,680,Scheduled
 824499,2026-07-04,113,110,Cincinnati Reds,Baltimore Orioles,668881,687064,Hunter Greene,Brandon Young,2602,Scheduled
@@ -8,12 +7,12 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824415,2026-07-04,114,145,Cleveland Guardians,Chicago White Sox,800048,680732,Parker Messick,Sean Burke,5,Scheduled
 824658,2026-07-04,112,138,Chicago Cubs,St. Louis Cardinals,684007,681517,Shota Imanaga,Kyle Leahy,17,Scheduled
 824903,2026-07-04,144,121,Atlanta Braves,New York Mets,519242,640455,Chris Sale,Sean Manaea,4705,Scheduled
-824334,2026-07-04,115,137,Colorado Rockies,San Francisco Giants,608372,592662,Tomoyuki Sugano,Robbie Ray,19,Scheduled
+824334,2026-07-04,115,137,Colorado Rockies,San Francisco Giants,807743,592662,Sean Sullivan,Robbie Ray,19,Scheduled
 824092,2026-07-04,118,143,Kansas City Royals,Philadelphia Phillies,608379,666200,Michael Wacha,Jesús Luzardo,7,Scheduled
 824012,2026-07-04,108,111,Los Angeles Angels,Boston Red Sox,691951,543243,Sam Aldegheri,Sonny Gray,1,Scheduled
 824983,2026-07-04,133,146,Athletics,Miami Marlins,650644,645261,Aaron Civale,Sandy Alcantara,2529,Scheduled
 825063,2026-07-04,109,158,Arizona Diamondbacks,Milwaukee Brewers,518876,605540,Merrill Kelly,Brandon Woodruff,15,Scheduled
-823932,2026-07-04,119,135,Los Angeles Dodgers,San Diego Padres,808967,656288,Yoshinobu Yamamoto,Griffin Canning,22,Scheduled
+823932,2026-07-04,119,135,Los Angeles Dodgers,San Diego Padres,808967,593974,Yoshinobu Yamamoto,Wandy Peralta,22,Scheduled
 824902,2026-07-05,144,121,Atlanta Braves,New York Mets,527048,690997,Martín Pérez,Nolan McLean,4705,Scheduled
 822715,2026-07-05,120,134,Washington Nationals,Pittsburgh Pirates,571945,696149,Miles Mikolas,Bubba Chandler,3309,Scheduled
 824497,2026-07-05,113,110,Cincinnati Reds,Baltimore Orioles,666157,680694,Nick Lodolo,Kyle Bradish,2602,Scheduled
