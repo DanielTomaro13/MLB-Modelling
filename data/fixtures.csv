@@ -1,23 +1,17 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824413,2026-07-05,114,145,Cleveland Guardians,Chicago White Sox,676440,669684,Tanner Bibee,Chris Murphy,5,Delayed Start
-822879,2026-07-05,140,116,Texas Rangers,Detroit Tigers,677958,663554,Kumar Rocker,Casey Mize,5325,Pre-Game
-824333,2026-07-05,115,137,Colorado Rockies,San Francisco Giants,685299,641816,Tanner Gordon,Tyler Mahle,19,Pre-Game
-825061,2026-07-05,109,158,Arizona Diamondbacks,Milwaukee Brewers,593958,687075,Eduardo Rodriguez,Brandon Sproat,15,Pre-Game
-824980,2026-07-05,133,146,Athletics,Miami Marlins,695611,691587,Gage Jump,Eury Pérez,2529,Pre-Game
-823117,2026-07-05,136,141,Seattle Mariners,Toronto Blue Jays,676106,702056,Emerson Hancock,Trey Yesavage,680,Pre-Game
 823931,2026-07-05,119,135,Los Angeles Dodgers,San Diego Padres,686218,676664,Emmet Sheehan,JP Sears,22,Pre-Game
-824010,2026-07-05,108,111,Los Angeles Angels,Boston Red Sox,696270,624133,Ryan Johnson,Ranger Suarez,1,Scheduled
+824010,2026-07-05,108,111,Los Angeles Angels,Boston Red Sox,696270,624133,Ryan Johnson,Ranger Suarez,1,Pre-Game
 824089,2026-07-06,118,143,Kansas City Royals,Philadelphia Phillies,702070,650911,Noah Cameron,Cristopher Sánchez,7,Scheduled
 822958,2026-07-06,139,147,Tampa Bay Rays,New York Yankees,643377,693645,Griffin Jax,Cam Schlittler,12,Scheduled
 822712,2026-07-06,120,117,Washington Nationals,Houston Astros,571945,681347,Miles Mikolas,Mike Burrows,3309,Scheduled
 824900,2026-07-06,144,121,Atlanta Braves,New York Mets,625643,642547,Reynaldo López,Freddy Peralta,4705,Scheduled
 823036,2026-07-06,138,158,St. Louis Cardinals,Milwaukee Brewers,669160,675660,Dustin May,Shane Drohan,2889,Scheduled
-823282,2026-07-06,135,109,San Diego Padres,Arizona Diamondbacks,,694297,,Brandon Pfaadt,2680,Scheduled
-823205,2026-07-06,137,141,San Francisco Giants,Toronto Blue Jays,,,,,2395,Scheduled
-823930,2026-07-06,119,115,Los Angeles Dodgers,Colorado Rockies,,,,,22,Scheduled
+823282,2026-07-06,135,109,San Diego Padres,Arizona Diamondbacks,621111,694297,Walker Buehler,Brandon Pfaadt,2680,Scheduled
+823205,2026-07-06,137,141,San Francisco Giants,Toronto Blue Jays,694738,592332,Landen Roupp,Kevin Gausman,2395,Scheduled
+823930,2026-07-06,119,115,Los Angeles Dodgers,Colorado Rockies,641778,607536,Eric Lauer,Kyle Freeland,22,Scheduled
 823062,2026-07-07,138,158,St. Louis Cardinals,Milwaukee Brewers,,694819,,Jacob Misiorowski,2889,Scheduled
 823035,2026-07-07,138,158,St. Louis Cardinals,Milwaukee Brewers,,,,,2889,Scheduled
-824820,2026-07-07,110,112,Baltimore Orioles,Chicago Cubs,669358,,Shane Baz,,2,Scheduled
+824820,2026-07-07,110,112,Baltimore Orioles,Chicago Cubs,669358,571510,Shane Baz,Matthew Boyd,2,Scheduled
 824254,2026-07-07,116,133,Detroit Tigers,Athletics,669373,,Tarik Skubal,,2394,Scheduled
 823361,2026-07-07,134,144,Pittsburgh Pirates,Atlanta Braves,694973,,Paul Skenes,,31,Scheduled
 823847,2026-07-07,146,136,Miami Marlins,Seattle Mariners,,,,,4169,Scheduled
@@ -26,8 +20,8 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823607,2026-07-07,121,118,New York Mets,Kansas City Royals,,,,,3289,Scheduled
 824495,2026-07-07,113,143,Cincinnati Reds,Philadelphia Phillies,671096,,Andrew Abbott,,2602,Scheduled
 823687,2026-07-07,142,114,Minnesota Twins,Cleveland Guardians,671737,676282,Taj Bradley,Joey Cantillo,3312,Scheduled
-824579,2026-07-07,145,111,Chicago White Sox,Boston Red Sox,702273,,Noah Schultz,,4,Scheduled
+824579,2026-07-07,145,111,Chicago White Sox,Boston Red Sox,702273,801139,Noah Schultz,Payton Tolle,4,Scheduled
 822881,2026-07-07,140,108,Texas Rangers,Los Angeles Angels,594798,,Jacob deGrom,,5325,Scheduled
 823280,2026-07-07,135,109,San Diego Padres,Arizona Diamondbacks,,668678,,Zac Gallen,2680,Scheduled
-823203,2026-07-07,137,141,San Francisco Giants,Toronto Blue Jays,,,,,2395,Scheduled
-823929,2026-07-07,119,115,Los Angeles Dodgers,Colorado Rockies,,,,,22,Scheduled
+823203,2026-07-07,137,141,San Francisco Giants,Toronto Blue Jays,686790,,Trevor McDonald,,2395,Scheduled
+823929,2026-07-07,119,115,Los Angeles Dodgers,Colorado Rockies,680736,547179,Justin Wrobleski,Michael Lorenzen,22,Scheduled
