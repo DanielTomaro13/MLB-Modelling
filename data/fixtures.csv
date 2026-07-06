@@ -1,8 +1,7 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824089,2026-07-06,118,143,Kansas City Royals,Philadelphia Phillies,702070,650911,Noah Cameron,Cristopher Sánchez,7,Pre-Game
-822958,2026-07-06,139,147,Tampa Bay Rays,New York Yankees,643377,693645,Griffin Jax,Cam Schlittler,12,Scheduled
-822712,2026-07-06,120,117,Washington Nationals,Houston Astros,571945,681347,Miles Mikolas,Mike Burrows,3309,Scheduled
-824900,2026-07-06,144,121,Atlanta Braves,New York Mets,625643,642547,Reynaldo López,Freddy Peralta,4705,Scheduled
+822958,2026-07-06,139,147,Tampa Bay Rays,New York Yankees,643377,693645,Griffin Jax,Cam Schlittler,12,Pre-Game
+822712,2026-07-06,120,117,Washington Nationals,Houston Astros,571945,681347,Miles Mikolas,Mike Burrows,3309,Pre-Game
+824900,2026-07-06,144,121,Atlanta Braves,New York Mets,625643,642547,Reynaldo López,Freddy Peralta,4705,Pre-Game
 823036,2026-07-06,138,158,St. Louis Cardinals,Milwaukee Brewers,669160,675660,Dustin May,Shane Drohan,2889,Scheduled
 823282,2026-07-06,135,109,San Diego Padres,Arizona Diamondbacks,621111,694297,Walker Buehler,Brandon Pfaadt,2680,Scheduled
 823205,2026-07-06,137,141,San Francisco Giants,Toronto Blue Jays,694738,592332,Landen Roupp,Kevin Gausman,2395,Scheduled
