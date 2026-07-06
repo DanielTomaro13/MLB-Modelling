@@ -1,5 +1,5 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824089,2026-07-06,118,143,Kansas City Royals,Philadelphia Phillies,702070,650911,Noah Cameron,Cristopher Sánchez,7,Scheduled
+824089,2026-07-06,118,143,Kansas City Royals,Philadelphia Phillies,702070,650911,Noah Cameron,Cristopher Sánchez,7,Pre-Game
 822958,2026-07-06,139,147,Tampa Bay Rays,New York Yankees,643377,693645,Griffin Jax,Cam Schlittler,12,Scheduled
 822712,2026-07-06,120,117,Washington Nationals,Houston Astros,571945,681347,Miles Mikolas,Mike Burrows,3309,Scheduled
 824900,2026-07-06,144,121,Atlanta Braves,New York Mets,625643,642547,Reynaldo López,Freddy Peralta,4705,Scheduled
@@ -15,7 +15,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823847,2026-07-07,146,136,Miami Marlins,Seattle Mariners,676974,,Max Meyer,,4169,Scheduled
 822956,2026-07-07,139,147,Tampa Bay Rays,New York Yankees,,701542,,Will Warren,12,Scheduled
 822713,2026-07-07,120,117,Washington Nationals,Houston Astros,674841,837227,Andrew Alvarez,Tatsuya Imai,3309,Scheduled
-823607,2026-07-07,121,118,New York Mets,Kansas City Royals,,,,,3289,Scheduled
+823607,2026-07-07,121,118,New York Mets,Kansas City Royals,,607625,,Seth Lugo,3289,Scheduled
 824495,2026-07-07,113,143,Cincinnati Reds,Philadelphia Phillies,671096,,Andrew Abbott,,2602,Scheduled
 823687,2026-07-07,142,114,Minnesota Twins,Cleveland Guardians,671737,676282,Taj Bradley,Joey Cantillo,3312,Scheduled
 824579,2026-07-07,145,111,Chicago White Sox,Boston Red Sox,702273,801139,Noah Schultz,Payton Tolle,4,Scheduled
