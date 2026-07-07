@@ -12,7 +12,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823687,2026-07-07,142,114,Minnesota Twins,Cleveland Guardians,671737,676282,Taj Bradley,Joey Cantillo,3312,Scheduled
 824579,2026-07-07,145,111,Chicago White Sox,Boston Red Sox,702273,801139,Noah Schultz,Payton Tolle,4,Scheduled
 822881,2026-07-07,140,108,Texas Rangers,Los Angeles Angels,594798,667755,Jacob deGrom,José Soriano,5325,Scheduled
-823280,2026-07-07,135,109,San Diego Padres,Arizona Diamondbacks,,668678,,Zac Gallen,2680,Scheduled
+823280,2026-07-07,135,109,San Diego Padres,Arizona Diamondbacks,608566,668678,Germán Márquez,Zac Gallen,2680,Scheduled
 823203,2026-07-07,137,141,San Francisco Giants,Toronto Blue Jays,686790,,Trevor McDonald,,2395,Scheduled
 823929,2026-07-07,119,115,Los Angeles Dodgers,Colorado Rockies,680736,547179,Justin Wrobleski,Michael Lorenzen,22,Scheduled
 823202,2026-07-08,137,141,San Francisco Giants,Toronto Blue Jays,657277,656302,Logan Webb,Dylan Cease,2395,Scheduled
