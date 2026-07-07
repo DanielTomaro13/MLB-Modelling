@@ -1,19 +1,19 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823035,2026-07-07,138,158,St. Louis Cardinals,Milwaukee Brewers,690928,688107,Hunter Dobbins,Robert Gasser,2889,Scheduled
-824820,2026-07-07,110,112,Baltimore Orioles,Chicago Cubs,669358,571510,Shane Baz,Matthew Boyd,2,Pre-Game
+823035,2026-07-07,138,158,St. Louis Cardinals,Milwaukee Brewers,690928,688107,Hunter Dobbins,Robert Gasser,2889,Pre-Game
+824820,2026-07-07,110,112,Baltimore Orioles,Chicago Cubs,669358,571510,Shane Baz,Matthew Boyd,2,Delayed Start
 824254,2026-07-07,116,133,Detroit Tigers,Athletics,669373,669372,Tarik Skubal,J.T. Ginn,2394,Pre-Game
 823361,2026-07-07,134,144,Pittsburgh Pirates,Atlanta Braves,694973,694462,Paul Skenes,Hurston Waldrep,31,Pre-Game
 823847,2026-07-07,146,136,Miami Marlins,Seattle Mariners,676974,693433,Max Meyer,Bryan Woo,4169,Pre-Game
 822956,2026-07-07,139,147,Tampa Bay Rays,New York Yankees,693855,701542,Ian Seymour,Will Warren,12,Pre-Game
 822713,2026-07-07,120,117,Washington Nationals,Houston Astros,674841,837227,Andrew Alvarez,Tatsuya Imai,3309,Pre-Game
-823607,2026-07-07,121,118,New York Mets,Kansas City Royals,,607625,,Seth Lugo,3289,Pre-Game
+823607,2026-07-07,121,118,New York Mets,Kansas City Royals,672335,607625,Cionel Pérez,Seth Lugo,3289,Pre-Game
 824495,2026-07-07,113,143,Cincinnati Reds,Philadelphia Phillies,671096,554430,Andrew Abbott,Zack Wheeler,2602,Pre-Game
-823687,2026-07-07,142,114,Minnesota Twins,Cleveland Guardians,671737,676282,Taj Bradley,Joey Cantillo,3312,Scheduled
+823687,2026-07-07,142,114,Minnesota Twins,Cleveland Guardians,671737,676282,Taj Bradley,Joey Cantillo,3312,Pre-Game
 824579,2026-07-07,145,111,Chicago White Sox,Boston Red Sox,702273,801139,Noah Schultz,Payton Tolle,4,Pre-Game
-822881,2026-07-07,140,108,Texas Rangers,Los Angeles Angels,594798,667755,Jacob deGrom,José Soriano,5325,Scheduled
-823280,2026-07-07,135,109,San Diego Padres,Arizona Diamondbacks,608566,668678,Germán Márquez,Zac Gallen,2680,Scheduled
-823203,2026-07-07,137,141,San Francisco Giants,Toronto Blue Jays,686790,693686,Trevor McDonald,Spencer Miles,2395,Scheduled
-823929,2026-07-07,119,115,Los Angeles Dodgers,Colorado Rockies,680736,547179,Justin Wrobleski,Michael Lorenzen,22,Scheduled
+822881,2026-07-07,140,108,Texas Rangers,Los Angeles Angels,594798,667755,Jacob deGrom,José Soriano,5325,Pre-Game
+823280,2026-07-07,135,109,San Diego Padres,Arizona Diamondbacks,608566,668678,Germán Márquez,Zac Gallen,2680,Pre-Game
+823203,2026-07-07,137,141,San Francisco Giants,Toronto Blue Jays,686790,693686,Trevor McDonald,Spencer Miles,2395,Pre-Game
+823929,2026-07-07,119,115,Los Angeles Dodgers,Colorado Rockies,680736,547179,Justin Wrobleski,Michael Lorenzen,22,Pre-Game
 823202,2026-07-08,137,141,San Francisco Giants,Toronto Blue Jays,657277,656302,Logan Webb,Dylan Cease,2395,Scheduled
 824815,2026-07-08,110,112,Baltimore Orioles,Chicago Cubs,665152,607067,Dean Kremer,Colin Rea,2,Scheduled
 824253,2026-07-08,116,133,Detroit Tigers,Athletics,675512,605488,Troy Melton,Jeffrey Springs,2394,Scheduled
