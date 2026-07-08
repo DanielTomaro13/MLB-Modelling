@@ -6,13 +6,13 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823848,2026-07-08,146,136,Miami Marlins,Seattle Mariners,663969,669923,Tyler Phillips,George Kirby,4169,Scheduled
 822957,2026-07-08,139,147,Tampa Bay Rays,New York Yankees,663556,543037,Shane McClanahan,Gerrit Cole,12,Scheduled
 822710,2026-07-08,120,117,Washington Nationals,Houston Astros,656492,681293,Foster Griffin,Spencer Arrighetti,3309,Scheduled
-823605,2026-07-08,121,118,New York Mets,Kansas City Royals,681035,,Christian Scott,,3289,Scheduled
+823605,2026-07-08,121,118,New York Mets,Kansas City Royals,681035,674444,Christian Scott,Steven Cruz,3289,Scheduled
 824496,2026-07-08,113,143,Cincinnati Reds,Philadelphia Phillies,695505,,Chase Burns,,2602,Scheduled
 823684,2026-07-08,142,114,Minnesota Twins,Cleveland Guardians,687570,677944,Connor Prielipp,Slade Cecconi,3312,Scheduled
 824578,2026-07-08,145,111,Chicago White Sox,Boston Red Sox,663436,687562,Davis Martin,Jake Bennett,4,Scheduled
 823032,2026-07-08,138,158,St. Louis Cardinals,Milwaukee Brewers,700241,690986,Michael McGreevy,Kyle Harrison,2889,Scheduled
 822880,2026-07-08,140,108,Texas Rangers,Los Angeles Angels,669022,700712,MacKenzie Gore,Walbert Ureña,5325,Scheduled
-823928,2026-07-08,119,115,Los Angeles Dodgers,Colorado Rockies,808963,663372,Roki Sasaki,Ryan Feltner,22,Scheduled
+823928,2026-07-08,119,115,Los Angeles Dodgers,Colorado Rockies,808963,687312,Roki Sasaki,Gabriel Hughes,22,Scheduled
 823279,2026-07-08,135,109,San Diego Padres,Arizona Diamondbacks,650633,703615,Michael King,Jose Cabrera,2680,Scheduled
 823359,2026-07-09,134,144,Pittsburgh Pirates,Atlanta Braves,656605,693821,Mitch Keller,Bryce Elder,31,Scheduled
 823606,2026-07-09,121,118,New York Mets,Kansas City Royals,640455,608379,Sean Manaea,Michael Wacha,3289,Scheduled
@@ -26,7 +26,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823034,2026-07-09,138,158,St. Louis Cardinals,Milwaukee Brewers,669467,,Andre Pallante,,2889,Scheduled
 822877,2026-07-09,140,108,Texas Rangers,Los Angeles Angels,543135,672282,Nathan Eovaldi,Reid Detmers,5325,Scheduled
 823277,2026-07-09,135,109,San Diego Padres,Arizona Diamondbacks,656288,518876,Griffin Canning,Merrill Kelly,2680,Scheduled
-823201,2026-07-09,137,115,San Francisco Giants,Colorado Rockies,,,,,2395,Scheduled
+823201,2026-07-09,137,115,San Francisco Giants,Colorado Rockies,,663372,,Ryan Feltner,2395,Scheduled
 824252,2026-07-10,116,143,Detroit Tigers,Philadelphia Phillies,,,,,2394,Scheduled
 823357,2026-07-10,134,158,Pittsburgh Pirates,Milwaukee Brewers,,,,,31,Scheduled
 822709,2026-07-10,120,147,Washington Nationals,New York Yankees,,,,,3309,Scheduled
