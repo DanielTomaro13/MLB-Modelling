@@ -10,7 +10,6 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-08,Boston Red Sox,Chicago White Sox,Jake Bennett,Davis Martin,0.5371,1.862,2.16,7.741
 2026-07-08,New York Yankees,Tampa Bay Rays,Gerrit Cole,Shane McClanahan,0.5166,1.936,2.069,8.566
 2026-07-08,Cleveland Guardians,Minnesota Twins,Slade Cecconi,Connor Prielipp,0.5088,1.965,2.036,9.757
-2026-07-08,Toronto Blue Jays,San Francisco Giants,Dylan Cease,Logan Webb,0.5014,1.994,2.006,7.567
 2026-07-08,Chicago Cubs,Baltimore Orioles,Colin Rea,Dean Kremer,0.4971,2.012,1.989,9.871
 2026-07-08,Atlanta Braves,Pittsburgh Pirates,Grant Holmes,Jared Jones,0.4916,2.034,1.967,10.172
 2026-07-08,Milwaukee Brewers,St. Louis Cardinals,Kyle Harrison,Michael McGreevy,0.46,2.174,1.852,7.693
@@ -28,9 +27,9 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-09,Philadelphia Phillies,Cincinnati Reds,Jesús Luzardo,Brady Singer,0.4654,2.149,1.871,9.294
 2026-07-09,Milwaukee Brewers,St. Louis Cardinals,Logan Henderson,Andre Pallante,0.4605,2.171,1.854,8.233
 2026-07-10,Arizona Diamondbacks,Los Angeles Dodgers,TBD,TBD,0.6081,1.644,2.552,9.008
+2026-07-10,Colorado Rockies,San Francisco Giants,TBD,Robbie Ray,0.5622,1.779,2.284,8.547
 2026-07-10,Athletics,Chicago White Sox,TBD,TBD,0.5595,1.787,2.27,8.895
 2026-07-10,Los Angeles Angels,Minnesota Twins,TBD,TBD,0.5594,1.788,2.27,9.717
-2026-07-10,Colorado Rockies,San Francisco Giants,TBD,TBD,0.5537,1.806,2.241,8.695
 2026-07-10,Cleveland Guardians,Miami Marlins,TBD,TBD,0.545,1.835,2.198,8.61
 2026-07-10,Kansas City Royals,Baltimore Orioles,TBD,TBD,0.5398,1.853,2.173,9.219
 2026-07-10,Houston Astros,Texas Rangers,TBD,TBD,0.5357,1.867,2.154,8.023
@@ -41,4 +40,4 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-10,New York Yankees,Washington Nationals,TBD,TBD,0.4972,2.011,1.989,9.943
 2026-07-10,Milwaukee Brewers,Pittsburgh Pirates,TBD,TBD,0.4793,2.086,1.921,10.146
 2026-07-10,Boston Red Sox,New York Mets,Sonny Gray,Nolan McLean,0.4654,2.149,1.87,7.981
-2026-07-10,Chicago Cubs,Cincinnati Reds,TBD,Hunter Greene,0.4155,2.407,1.711,10.755
+2026-07-10,Chicago Cubs,Cincinnati Reds,Shota Imanaga,Hunter Greene,0.4177,2.394,1.717,10.793
