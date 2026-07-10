@@ -8,8 +8,8 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823845,2026-07-10,146,114,Miami Marlins,Cleveland Guardians,645261,800048,Sandy Alcantara,Parker Messick,4169,Scheduled
 823604,2026-07-10,121,111,New York Mets,Boston Red Sox,690997,543243,Nolan McLean,Sonny Gray,3289,Scheduled
 824575,2026-07-10,145,133,Chicago White Sox,Athletics,680732,682052,Sean Burke,Jacob Lopez,4,Scheduled
-822878,2026-07-10,140,117,Texas Rangers,Houston Astros,,686613,,Hunter Brown,5325,Scheduled
-823685,2026-07-10,142,108,Minnesota Twins,Los Angeles Angels,805673,,Zebby Matthews,,3312,Scheduled
+822878,2026-07-10,140,117,Texas Rangers,Houston Astros,615698,686613,Cal Quantrill,Hunter Brown,5325,Scheduled
+823685,2026-07-10,142,108,Minnesota Twins,Los Angeles Angels,805673,680570,Zebby Matthews,Grayson Rodriguez,3312,Scheduled
 823033,2026-07-10,138,144,St. Louis Cardinals,Atlanta Braves,681517,519242,Kyle Leahy,Chris Sale,2889,Scheduled
 823278,2026-07-10,135,141,San Diego Padres,Toronto Blue Jays,676664,669456,JP Sears,Shane Bieber,2680,Scheduled
 823927,2026-07-10,119,109,Los Angeles Dodgers,Arizona Diamondbacks,660271,593958,Shohei Ohtani,Eduardo Rodriguez,22,Scheduled
@@ -24,7 +24,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823844,2026-07-11,146,114,Miami Marlins,Cleveland Guardians,691587,676440,Eury Pérez,Tanner Bibee,4169,Scheduled
 824249,2026-07-11,116,143,Detroit Tigers,Philadelphia Phillies,663554,650911,Casey Mize,Cristopher Sánchez,2394,Scheduled
 824813,2026-07-11,110,118,Baltimore Orioles,Kansas City Royals,680694,702070,Kyle Bradish,Noah Cameron,2,Scheduled
-822875,2026-07-11,140,117,Texas Rangers,Houston Astros,,663567,,Peter Lambert,5325,Scheduled
+822875,2026-07-11,140,117,Texas Rangers,Houston Astros,677958,663567,Kumar Rocker,Peter Lambert,5325,Scheduled
 824492,2026-07-11,113,112,Cincinnati Reds,Chicago Cubs,666157,665871,Nick Lodolo,Javier Assad,2602,Scheduled
 823030,2026-07-11,138,144,St. Louis Cardinals,Atlanta Braves,669461,625643,Matthew Liberatore,Reynaldo López,2889,Scheduled
 823276,2026-07-11,135,141,San Diego Padres,Toronto Blue Jays,621111,702056,Walker Buehler,Trey Yesavage,2680,Scheduled
