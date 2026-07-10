@@ -1,13 +1,13 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824252,2026-07-10,116,143,Detroit Tigers,Philadelphia Phillies,656427,605400,Jack Flaherty,Aaron Nola,2394,Scheduled
-823357,2026-07-10,134,158,Pittsburgh Pirates,Milwaukee Brewers,677952,687075,Braxton Ashcraft,Brandon Sproat,31,Scheduled
-822709,2026-07-10,120,147,Washington Nationals,New York Yankees,687223,677960,Carson Palmquist,Ryan Weathers,3309,Scheduled
-824817,2026-07-10,110,118,Baltimore Orioles,Kansas City Royals,687064,679883,Brandon Young,Luinder Avila,2,Scheduled
-824493,2026-07-10,113,112,Cincinnati Reds,Chicago Cubs,668881,684007,Hunter Greene,Shota Imanaga,2602,Scheduled
-822955,2026-07-10,139,136,Tampa Bay Rays,Seattle Mariners,607259,622491,Nick Martinez,Luis Castillo,12,Scheduled
+824252,2026-07-10,116,143,Detroit Tigers,Philadelphia Phillies,656427,605400,Jack Flaherty,Aaron Nola,2394,Pre-Game
+823357,2026-07-10,134,158,Pittsburgh Pirates,Milwaukee Brewers,677952,687075,Braxton Ashcraft,Brandon Sproat,31,Pre-Game
+822709,2026-07-10,120,147,Washington Nationals,New York Yankees,687223,677960,Carson Palmquist,Ryan Weathers,3309,Pre-Game
+824817,2026-07-10,110,118,Baltimore Orioles,Kansas City Royals,687064,679883,Brandon Young,Luinder Avila,2,Pre-Game
+824493,2026-07-10,113,112,Cincinnati Reds,Chicago Cubs,668881,684007,Hunter Greene,Shota Imanaga,2602,Pre-Game
+822955,2026-07-10,139,136,Tampa Bay Rays,Seattle Mariners,607259,622491,Nick Martinez,Luis Castillo,12,Pre-Game
 823845,2026-07-10,146,114,Miami Marlins,Cleveland Guardians,645261,800048,Sandy Alcantara,Parker Messick,4169,Scheduled
 823604,2026-07-10,121,111,New York Mets,Boston Red Sox,690997,543243,Nolan McLean,Sonny Gray,3289,Scheduled
-824575,2026-07-10,145,133,Chicago White Sox,Athletics,680732,682052,Sean Burke,Jacob Lopez,4,Scheduled
+824575,2026-07-10,145,133,Chicago White Sox,Athletics,680732,682052,Sean Burke,Jacob Lopez,4,Pre-Game
 822878,2026-07-10,140,117,Texas Rangers,Houston Astros,615698,686613,Cal Quantrill,Hunter Brown,5325,Scheduled
 823685,2026-07-10,142,108,Minnesota Twins,Los Angeles Angels,805673,680570,Zebby Matthews,Grayson Rodriguez,3312,Scheduled
 823033,2026-07-10,138,144,St. Louis Cardinals,Atlanta Braves,681517,519242,Kyle Leahy,Chris Sale,2889,Scheduled
