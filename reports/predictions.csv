@@ -2,9 +2,9 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-10,Athletics,Chicago White Sox,Jacob Lopez,Sean Burke,0.6149,1.626,2.597,9.252
 2026-07-10,Seattle Mariners,Tampa Bay Rays,Luis Castillo,Nick Martinez,0.614,1.629,2.591,8.763
 2026-07-10,Los Angeles Angels,Minnesota Twins,Grayson Rodriguez,Zebby Matthews,0.6081,1.645,2.552,10.809
-2026-07-10,Arizona Diamondbacks,Los Angeles Dodgers,Eduardo Rodriguez,Shohei Ohtani,0.6075,1.646,2.548,7.234
 2026-07-10,Colorado Rockies,San Francisco Giants,Tanner Gordon,Robbie Ray,0.5928,1.687,2.456,9.067
 2026-07-10,Kansas City Royals,Baltimore Orioles,Luinder Avila,Brandon Young,0.5565,1.797,2.255,9.332
+2026-07-10,Arizona Diamondbacks,Los Angeles Dodgers,Eduardo Rodriguez,Kyle Hurt,0.5558,1.799,2.251,8.069
 2026-07-10,Toronto Blue Jays,San Diego Padres,Shane Bieber,JP Sears,0.5555,1.8,2.25,8.703
 2026-07-10,Philadelphia Phillies,Detroit Tigers,Aaron Nola,Jack Flaherty,0.5326,1.878,2.14,9.651
 2026-07-10,Houston Astros,Texas Rangers,Hunter Brown,Cal Quantrill,0.5284,1.893,2.12,7.983
@@ -38,9 +38,9 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-12,Toronto Blue Jays,San Diego Padres,Kevin Gausman,Germán Márquez,0.5212,1.919,2.089,8.295
 2026-07-12,New York Yankees,Washington Nationals,Will Warren,TBD,0.5179,1.931,2.074,10.349
 2026-07-12,Seattle Mariners,Tampa Bay Rays,Emerson Hancock,Ian Seymour,0.5118,1.954,2.048,8.405
-2026-07-12,Boston Red Sox,New York Mets,TBD,TBD,0.5043,1.983,2.017,8.668
 2026-07-12,Athletics,Chicago White Sox,J.T. Ginn,Noah Schultz,0.5011,1.996,2.004,8.806
 2026-07-12,Atlanta Braves,St. Louis Cardinals,JR Ritchie,Dustin May,0.4974,2.011,1.99,9.149
 2026-07-12,Philadelphia Phillies,Detroit Tigers,Zack Wheeler,Tarik Skubal,0.4952,2.019,1.981,7.512
+2026-07-12,Boston Red Sox,New York Mets,Payton Tolle,TBD,0.4854,2.06,1.943,8.35
 2026-07-12,Chicago Cubs,Cincinnati Reds,Matthew Boyd,Andrew Abbott,0.4813,2.078,1.928,9.627
 2026-07-12,Milwaukee Brewers,Pittsburgh Pirates,Jacob Misiorowski,Paul Skenes,0.4264,2.345,1.743,8.922
