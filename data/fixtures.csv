@@ -1,17 +1,10 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823356,2026-07-11,134,158,Pittsburgh Pirates,Milwaukee Brewers,696149,675660,Bubba Chandler,Shane Drohan,31,Scheduled
-823198,2026-07-11,137,115,San Francisco Giants,Colorado Rockies,641816,607536,Tyler Mahle,Kyle Freeland,2395,Pre-Game
-822711,2026-07-11,120,147,Washington Nationals,New York Yankees,676571,693645,PJ Poulin,Cam Schlittler,3309,Pre-Game
-823603,2026-07-11,121,111,New York Mets,Boston Red Sox,642547,700842,Freddy Peralta,Eduardo Rivera,3289,Pre-Game
-822953,2026-07-11,139,136,Tampa Bay Rays,Seattle Mariners,643377,669302,Griffin Jax,Logan Gilbert,12,Pre-Game
-823844,2026-07-11,146,114,Miami Marlins,Cleveland Guardians,691587,676440,Eury Pérez,Tanner Bibee,4169,Pre-Game
-824249,2026-07-11,116,143,Detroit Tigers,Philadelphia Phillies,663554,650911,Casey Mize,Cristopher Sánchez,2394,Scheduled
-824813,2026-07-11,110,118,Baltimore Orioles,Kansas City Royals,680694,702070,Kyle Bradish,Noah Cameron,2,Scheduled
+824813,2026-07-11,110,118,Baltimore Orioles,Kansas City Royals,680694,702070,Kyle Bradish,Noah Cameron,2,Pre-Game
 822875,2026-07-11,140,117,Texas Rangers,Houston Astros,677958,663567,Kumar Rocker,Peter Lambert,5325,Pre-Game
 824492,2026-07-11,113,112,Cincinnati Reds,Chicago Cubs,666157,665871,Nick Lodolo,Javier Assad,2602,Pre-Game
-823030,2026-07-11,138,144,St. Louis Cardinals,Atlanta Braves,669461,625643,Matthew Liberatore,Reynaldo López,2889,Scheduled
-823276,2026-07-11,135,141,San Diego Padres,Toronto Blue Jays,621111,702056,Walker Buehler,Trey Yesavage,2680,Scheduled
-823926,2026-07-11,119,109,Los Angeles Dodgers,Arizona Diamondbacks,808967,694297,Yoshinobu Yamamoto,Brandon Pfaadt,22,Scheduled
+823030,2026-07-11,138,144,St. Louis Cardinals,Atlanta Braves,669461,625643,Matthew Liberatore,Reynaldo López,2889,Pre-Game
+823276,2026-07-11,135,141,San Diego Padres,Toronto Blue Jays,621111,702056,Walker Buehler,Trey Yesavage,2680,Pre-Game
+823926,2026-07-11,119,109,Los Angeles Dodgers,Arizona Diamondbacks,808967,694297,Yoshinobu Yamamoto,Brandon Pfaadt,22,Pre-Game
 823358,2026-07-12,134,158,Pittsburgh Pirates,Milwaukee Brewers,694973,694819,Paul Skenes,Jacob Misiorowski,31,Scheduled
 824814,2026-07-12,110,118,Baltimore Orioles,Kansas City Royals,669358,607625,Shane Baz,Seth Lugo,2,Scheduled
 822708,2026-07-12,120,147,Washington Nationals,New York Yankees,,701542,,Will Warren,3309,Scheduled
