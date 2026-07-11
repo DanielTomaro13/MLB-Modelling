@@ -1,16 +1,14 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 823356,2026-07-11,134,158,Pittsburgh Pirates,Milwaukee Brewers,696149,675660,Bubba Chandler,Shane Drohan,31,Scheduled
-823682,2026-07-11,142,108,Minnesota Twins,Los Angeles Angels,657746,696270,Joe Ryan,Ryan Johnson,3312,Pre-Game
-824576,2026-07-11,145,133,Chicago White Sox,Athletics,663542,695611,Bryan Hudson,Gage Jump,4,Pre-Game
-823198,2026-07-11,137,115,San Francisco Giants,Colorado Rockies,641816,607536,Tyler Mahle,Kyle Freeland,2395,Scheduled
-822711,2026-07-11,120,147,Washington Nationals,New York Yankees,676571,693645,PJ Poulin,Cam Schlittler,3309,Scheduled
-823603,2026-07-11,121,111,New York Mets,Boston Red Sox,642547,700842,Freddy Peralta,Eduardo Rivera,3289,Scheduled
-822953,2026-07-11,139,136,Tampa Bay Rays,Seattle Mariners,643377,669302,Griffin Jax,Logan Gilbert,12,Scheduled
-823844,2026-07-11,146,114,Miami Marlins,Cleveland Guardians,691587,676440,Eury Pérez,Tanner Bibee,4169,Scheduled
+823198,2026-07-11,137,115,San Francisco Giants,Colorado Rockies,641816,607536,Tyler Mahle,Kyle Freeland,2395,Pre-Game
+822711,2026-07-11,120,147,Washington Nationals,New York Yankees,676571,693645,PJ Poulin,Cam Schlittler,3309,Pre-Game
+823603,2026-07-11,121,111,New York Mets,Boston Red Sox,642547,700842,Freddy Peralta,Eduardo Rivera,3289,Pre-Game
+822953,2026-07-11,139,136,Tampa Bay Rays,Seattle Mariners,643377,669302,Griffin Jax,Logan Gilbert,12,Pre-Game
+823844,2026-07-11,146,114,Miami Marlins,Cleveland Guardians,691587,676440,Eury Pérez,Tanner Bibee,4169,Pre-Game
 824249,2026-07-11,116,143,Detroit Tigers,Philadelphia Phillies,663554,650911,Casey Mize,Cristopher Sánchez,2394,Scheduled
 824813,2026-07-11,110,118,Baltimore Orioles,Kansas City Royals,680694,702070,Kyle Bradish,Noah Cameron,2,Scheduled
-822875,2026-07-11,140,117,Texas Rangers,Houston Astros,677958,663567,Kumar Rocker,Peter Lambert,5325,Scheduled
-824492,2026-07-11,113,112,Cincinnati Reds,Chicago Cubs,666157,665871,Nick Lodolo,Javier Assad,2602,Scheduled
+822875,2026-07-11,140,117,Texas Rangers,Houston Astros,677958,663567,Kumar Rocker,Peter Lambert,5325,Pre-Game
+824492,2026-07-11,113,112,Cincinnati Reds,Chicago Cubs,666157,665871,Nick Lodolo,Javier Assad,2602,Pre-Game
 823030,2026-07-11,138,144,St. Louis Cardinals,Atlanta Braves,669461,625643,Matthew Liberatore,Reynaldo López,2889,Scheduled
 823276,2026-07-11,135,141,San Diego Padres,Toronto Blue Jays,621111,702056,Walker Buehler,Trey Yesavage,2680,Scheduled
 823926,2026-07-11,119,109,Los Angeles Dodgers,Arizona Diamondbacks,808967,694297,Yoshinobu Yamamoto,Brandon Pfaadt,22,Scheduled
