@@ -1,5 +1,5 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823357,2026-07-11,134,158,Pittsburgh Pirates,Milwaukee Brewers,,,,,31,Scheduled
+823357,2026-07-11,134,158,Pittsburgh Pirates,Milwaukee Brewers,677952,687075,Braxton Ashcraft,Brandon Sproat,31,Scheduled
 823356,2026-07-11,134,158,Pittsburgh Pirates,Milwaukee Brewers,696149,675660,Bubba Chandler,Shane Drohan,31,Scheduled
 823682,2026-07-11,142,108,Minnesota Twins,Los Angeles Angels,657746,696270,Joe Ryan,Ryan Johnson,3312,Scheduled
 824576,2026-07-11,145,133,Chicago White Sox,Athletics,663542,695611,Bryan Hudson,Gage Jump,4,Scheduled
