@@ -1,16 +1,5 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824814,2026-07-12,110,118,Baltimore Orioles,Kansas City Royals,669358,607625,Shane Baz,Seth Lugo,2,Pre-Game
-822708,2026-07-12,120,147,Washington Nationals,New York Yankees,676917,701542,Cade Cavalli,Will Warren,3309,Pre-Game
-824491,2026-07-12,113,112,Cincinnati Reds,Chicago Cubs,671096,571510,Andrew Abbott,Matthew Boyd,2602,Pre-Game
-823602,2026-07-12,121,111,New York Mets,Boston Red Sox,804267,801139,Zach Thornton,Payton Tolle,3289,Pre-Game
-822951,2026-07-12,139,136,Tampa Bay Rays,Seattle Mariners,693855,676106,Ian Seymour,Emerson Hancock,12,Pre-Game
-824250,2026-07-12,116,143,Detroit Tigers,Philadelphia Phillies,669373,554430,Tarik Skubal,Zack Wheeler,2394,Pre-Game
-823842,2026-07-12,146,114,Miami Marlins,Cleveland Guardians,663969,676282,Tyler Phillips,Joey Cantillo,4169,Pre-Game
-823681,2026-07-12,142,108,Minnesota Twins,Los Angeles Angels,671737,667755,Taj Bradley,José Soriano,3312,Pre-Game
-824574,2026-07-12,145,133,Chicago White Sox,Athletics,702273,669372,Noah Schultz,J.T. Ginn,4,Pre-Game
-823029,2026-07-12,138,144,St. Louis Cardinals,Atlanta Braves,669160,664849,Dustin May,Danny Young,2889,Pre-Game
-822876,2026-07-12,140,117,Texas Rangers,Houston Astros,669022,664299,MacKenzie Gore,Cristian Javier,5325,Pre-Game
-823199,2026-07-12,137,115,San Francisco Giants,Colorado Rockies,686790,547179,Trevor McDonald,Michael Lorenzen,2395,Scheduled
-823925,2026-07-12,119,109,Los Angeles Dodgers,Arizona Diamondbacks,686218,683352,Emmet Sheehan,Mitch Bratt,22,Scheduled
-823274,2026-07-12,135,141,San Diego Padres,Toronto Blue Jays,608566,592332,Germán Márquez,Kevin Gausman,2680,Scheduled
+823199,2026-07-12,137,115,San Francisco Giants,Colorado Rockies,686790,547179,Trevor McDonald,Michael Lorenzen,2395,Pre-Game
+823925,2026-07-12,119,109,Los Angeles Dodgers,Arizona Diamondbacks,686218,683352,Emmet Sheehan,Mitch Bratt,22,Pre-Game
+823274,2026-07-12,135,141,San Diego Padres,Toronto Blue Jays,608566,592332,Germán Márquez,Kevin Gausman,2680,Pre-Game
 823443,2026-07-14,160,159,National League All-Stars,American League All-Stars,,,,,2681,Scheduled
