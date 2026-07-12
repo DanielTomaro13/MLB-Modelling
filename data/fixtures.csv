@@ -1,5 +1,2 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823199,2026-07-12,137,115,San Francisco Giants,Colorado Rockies,686790,547179,Trevor McDonald,Michael Lorenzen,2395,Pre-Game
-823925,2026-07-12,119,109,Los Angeles Dodgers,Arizona Diamondbacks,686218,683352,Emmet Sheehan,Mitch Bratt,22,Pre-Game
-823274,2026-07-12,135,141,San Diego Padres,Toronto Blue Jays,608566,592332,Germán Márquez,Kevin Gausman,2680,Pre-Game
-823443,2026-07-14,160,159,National League All-Stars,American League All-Stars,,,,,2681,Scheduled
+823443,2026-07-14,160,159,National League All-Stars,American League All-Stars,650911,656302,Cristopher Sánchez,Dylan Cease,2681,Scheduled
