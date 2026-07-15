@@ -5,7 +5,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823524,2026-07-17,147,119,New York Yankees,Los Angeles Dodgers,,,,,3313,Scheduled
 824414,2026-07-17,114,134,Cleveland Guardians,Pittsburgh Pirates,,,,,5,Scheduled
 824901,2026-07-17,144,140,Atlanta Braves,Texas Rangers,,,,,4705,Scheduled
-822789,2026-07-17,141,145,Toronto Blue Jays,Chicago White Sox,693686,,Spencer Miles,,14,Scheduled
+822789,2026-07-17,141,145,Toronto Blue Jays,Chicago White Sox,693686,641743,Spencer Miles,Anthony Kay,14,Scheduled
 823766,2026-07-17,158,146,Milwaukee Brewers,Miami Marlins,,,,,32,Scheduled
 824655,2026-07-17,112,142,Chicago Cubs,Minnesota Twins,,,,,17,Scheduled
 824170,2026-07-17,117,110,Houston Astros,Baltimore Orioles,,,,,2392,Scheduled
