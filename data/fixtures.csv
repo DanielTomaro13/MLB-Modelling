@@ -1,15 +1,15 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823440,2026-07-16,143,121,Philadelphia Phillies,New York Mets,,681035,,Christian Scott,2681,Scheduled
+823440,2026-07-16,143,121,Philadelphia Phillies,New York Mets,605400,681035,Aaron Nola,Christian Scott,2681,Scheduled
 824766,2026-07-17,111,139,Boston Red Sox,Tampa Bay Rays,,643377,,Griffin Jax,3,Scheduled
 824737,2026-07-17,111,139,Boston Red Sox,Tampa Bay Rays,,,,,3,Scheduled
 823524,2026-07-17,147,119,New York Yankees,Los Angeles Dodgers,,,,,3313,Scheduled
 824414,2026-07-17,114,134,Cleveland Guardians,Pittsburgh Pirates,,,,,5,Scheduled
-824901,2026-07-17,144,140,Atlanta Braves,Texas Rangers,,,,,4705,Scheduled
+824901,2026-07-17,144,140,Atlanta Braves,Texas Rangers,519242,,Chris Sale,,4705,Scheduled
 822789,2026-07-17,141,145,Toronto Blue Jays,Chicago White Sox,693686,641743,Spencer Miles,Anthony Kay,14,Scheduled
 823766,2026-07-17,158,146,Milwaukee Brewers,Miami Marlins,,,,,32,Scheduled
 824655,2026-07-17,112,142,Chicago Cubs,Minnesota Twins,,,,,17,Scheduled
 824170,2026-07-17,117,110,Houston Astros,Baltimore Orioles,,,,,2392,Scheduled
-824090,2026-07-17,118,135,Kansas City Royals,San Diego Padres,,,,,7,Scheduled
+824090,2026-07-17,118,135,Kansas City Royals,San Diego Padres,607625,650633,Seth Lugo,Michael King,7,Scheduled
 824332,2026-07-17,115,113,Colorado Rockies,Cincinnati Reds,,663903,,Brady Singer,19,Scheduled
 824009,2026-07-17,108,116,Los Angeles Angels,Detroit Tigers,,675512,,Troy Melton,1,Scheduled
 824981,2026-07-17,133,120,Athletics,Washington Nationals,,,,,2529,Scheduled
