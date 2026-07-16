@@ -1,10 +1,10 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-16,New York Mets,Philadelphia Phillies,Christian Scott,Aaron Nola,0.5112,1.956,2.046,9.523
-2026-07-17,Texas Rangers,Atlanta Braves,TBD,Chris Sale,0.606,1.65,2.538,8.153
-2026-07-17,Miami Marlins,Milwaukee Brewers,TBD,TBD,0.5839,1.713,2.403,8.829
+2026-07-17,Texas Rangers,Atlanta Braves,Cal Quantrill,Chris Sale,0.6004,1.666,2.503,8.049
+2026-07-17,Miami Marlins,Milwaukee Brewers,Sandy Alcantara,Logan Henderson,0.596,1.678,2.475,8.537
 2026-07-17,San Francisco Giants,Seattle Mariners,Landen Roupp,TBD,0.5633,1.775,2.29,7.671
+2026-07-17,Minnesota Twins,Chicago Cubs,Bailey Ober,Colin Rea,0.5575,1.794,2.26,9.222
 2026-07-17,Tampa Bay Rays,Boston Red Sox,Griffin Jax,Jake Bennett,0.5568,1.796,2.256,8.158
-2026-07-17,Minnesota Twins,Chicago Cubs,TBD,Colin Rea,0.5552,1.801,2.248,9.179
 2026-07-17,Chicago White Sox,Toronto Blue Jays,Anthony Kay,Spencer Miles,0.5432,1.841,2.189,8.912
 2026-07-17,Cincinnati Reds,Colorado Rockies,Brady Singer,Gabriel Hughes,0.5256,1.902,2.108,10.767
 2026-07-17,Baltimore Orioles,Houston Astros,TBD,TBD,0.5253,1.904,2.107,9.299
@@ -16,11 +16,11 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-17,San Diego Padres,Kansas City Royals,Michael King,Seth Lugo,0.4744,2.108,1.903,8.806
 2026-07-17,Detroit Tigers,Los Angeles Angels,Troy Melton,TBD,0.4546,2.2,1.834,8.038
 2026-07-18,New York Mets,Philadelphia Phillies,Sean Manaea,Jesús Luzardo,0.5947,1.682,2.467,9.476
-2026-07-18,Miami Marlins,Milwaukee Brewers,TBD,TBD,0.5839,1.713,2.403,8.829
-2026-07-18,Texas Rangers,Atlanta Braves,TBD,Owen Murphy,0.5647,1.771,2.297,8.838
-2026-07-18,Minnesota Twins,Chicago Cubs,TBD,Matthew Boyd,0.5611,1.782,2.279,9.072
+2026-07-18,Texas Rangers,Atlanta Braves,MacKenzie Gore,Owen Murphy,0.575,1.739,2.353,9.029
+2026-07-18,Miami Marlins,Milwaukee Brewers,Max Meyer,Shane Drohan,0.5637,1.774,2.292,8.022
 2026-07-18,San Francisco Giants,Seattle Mariners,Logan Webb,TBD,0.5524,1.81,2.234,7.491
 2026-07-18,San Diego Padres,Kansas City Royals,Griffin Canning,TBD,0.5487,1.822,2.216,9.612
+2026-07-18,Minnesota Twins,Chicago Cubs,Taj Bradley,Matthew Boyd,0.5398,1.853,2.173,8.691
 2026-07-18,Tampa Bay Rays,Boston Red Sox,TBD,Patrick Sandoval,0.5296,1.888,2.126,8.498
 2026-07-18,Baltimore Orioles,Houston Astros,TBD,TBD,0.5253,1.904,2.107,9.299
 2026-07-18,St. Louis Cardinals,Arizona Diamondbacks,TBD,TBD,0.5211,1.919,2.088,9.334
