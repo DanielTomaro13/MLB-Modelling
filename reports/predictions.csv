@@ -11,8 +11,8 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-17,Tampa Bay Rays,Boston Red Sox,TBD,TBD,0.5223,1.915,2.093,8.623
 2026-07-17,Pittsburgh Pirates,Cleveland Guardians,Jared Jones,Gavin Williams,0.5177,1.932,2.073,9.063
 2026-07-17,Washington Nationals,Athletics,Cade Cavalli,Gage Jump,0.5044,1.982,2.018,10.594
-2026-07-17,St. Louis Cardinals,Arizona Diamondbacks,TBD,Merrill Kelly,0.5019,1.993,2.007,9.694
 2026-07-17,San Diego Padres,Kansas City Royals,Michael King,Seth Lugo,0.4744,2.108,1.903,8.807
+2026-07-17,St. Louis Cardinals,Arizona Diamondbacks,Michael McGreevy,Merrill Kelly,0.4708,2.124,1.889,9.157
 2026-07-17,Detroit Tigers,Los Angeles Angels,Troy Melton,Reid Detmers,0.4499,2.223,1.818,8.122
 2026-07-18,New York Mets,Philadelphia Phillies,Sean Manaea,Jesús Luzardo,0.5912,1.691,2.446,9.428
 2026-07-18,Texas Rangers,Atlanta Braves,MacKenzie Gore,Owen Murphy,0.575,1.739,2.353,9.029
@@ -23,14 +23,14 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-18,Minnesota Twins,Chicago Cubs,Taj Bradley,Matthew Boyd,0.5398,1.853,2.173,8.691
 2026-07-18,Baltimore Orioles,Houston Astros,Trevor Rogers,Spencer Arrighetti,0.5242,1.908,2.102,9.49
 2026-07-18,Washington Nationals,Athletics,Zack Littell,J.T. Ginn,0.5241,1.908,2.101,11.016
+2026-07-18,St. Louis Cardinals,Arizona Diamondbacks,Dustin May,Brandon Pfaadt,0.5218,1.916,2.091,9.793
 2026-07-18,Cincinnati Reds,Colorado Rockies,Rhett Lowder,TBD,0.5114,1.955,2.047,10.841
 2026-07-18,Los Angeles Dodgers,New York Yankees,Emmet Sheehan,Ryan Weathers,0.5101,1.96,2.041,9.622
-2026-07-18,St. Louis Cardinals,Arizona Diamondbacks,TBD,Brandon Pfaadt,0.509,1.965,2.037,9.559
 2026-07-18,Pittsburgh Pirates,Cleveland Guardians,Braxton Ashcraft,Joey Cantillo,0.498,2.008,1.992,8.777
 2026-07-18,Chicago White Sox,Toronto Blue Jays,Davis Martin,Shane Bieber,0.4553,2.196,1.836,9.509
 2026-07-18,Detroit Tigers,Los Angeles Angels,Tarik Skubal,Grayson Rodriguez,0.4274,2.34,1.746,9.293
 2026-07-19,Texas Rangers,Atlanta Braves,TBD,Grant Holmes,0.5779,1.73,2.369,8.612
-2026-07-19,St. Louis Cardinals,Arizona Diamondbacks,TBD,Eduardo Rodriguez,0.574,1.742,2.347,8.415
+2026-07-19,St. Louis Cardinals,Arizona Diamondbacks,Andre Pallante,Eduardo Rodriguez,0.5707,1.752,2.329,8.354
 2026-07-19,Minnesota Twins,Chicago Cubs,Zebby Matthews,Shota Imanaga,0.5695,1.756,2.323,8.951
 2026-07-19,San Francisco Giants,Seattle Mariners,Robbie Ray,Logan Gilbert,0.5666,1.765,2.307,7.093
 2026-07-19,Miami Marlins,Milwaukee Brewers,Eury Pérez,Robert Gasser,0.5606,1.784,2.276,9.062
