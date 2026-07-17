@@ -1,12 +1,11 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824766,2026-07-17,111,139,Boston Red Sox,Tampa Bay Rays,687562,643377,Jake Bennett,Griffin Jax,3,Pre-Game
 824737,2026-07-17,111,139,Boston Red Sox,Tampa Bay Rays,,,,,3,Scheduled
-823524,2026-07-17,147,119,New York Yankees,Los Angeles Dodgers,543037,808963,Gerrit Cole,Roki Sasaki,3313,Scheduled
-824414,2026-07-17,114,134,Cleveland Guardians,Pittsburgh Pirates,668909,683003,Gavin Williams,Jared Jones,5,Scheduled
-824901,2026-07-17,144,140,Atlanta Braves,Texas Rangers,519242,615698,Chris Sale,Cal Quantrill,4705,Scheduled
+823524,2026-07-17,147,119,New York Yankees,Los Angeles Dodgers,543037,808963,Gerrit Cole,Roki Sasaki,3313,Pre-Game
+824414,2026-07-17,114,134,Cleveland Guardians,Pittsburgh Pirates,668909,683003,Gavin Williams,Jared Jones,5,Pre-Game
+824901,2026-07-17,144,140,Atlanta Braves,Texas Rangers,519242,615698,Chris Sale,Cal Quantrill,4705,Pre-Game
 822789,2026-07-17,141,145,Toronto Blue Jays,Chicago White Sox,693686,641743,Spencer Miles,Anthony Kay,14,Scheduled
 823766,2026-07-17,158,146,Milwaukee Brewers,Miami Marlins,701656,645261,Logan Henderson,Sandy Alcantara,32,Scheduled
-824655,2026-07-17,112,142,Chicago Cubs,Minnesota Twins,607067,641927,Colin Rea,Bailey Ober,17,Scheduled
+824655,2026-07-17,112,142,Chicago Cubs,Minnesota Twins,607067,641927,Colin Rea,Bailey Ober,17,Pre-Game
 824170,2026-07-17,117,110,Houston Astros,Baltimore Orioles,663567,665152,Peter Lambert,Dean Kremer,2392,Scheduled
 824090,2026-07-17,118,135,Kansas City Royals,San Diego Padres,607625,650633,Seth Lugo,Michael King,7,Scheduled
 824332,2026-07-17,115,113,Colorado Rockies,Cincinnati Reds,687312,663903,Gabriel Hughes,Brady Singer,19,Scheduled
