@@ -1,24 +1,24 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824737,2026-07-17,111,139,Boston Red Sox,Tampa Bay Rays,,,,,3,Scheduled
+824737,2026-07-17,111,139,Boston Red Sox,Tampa Bay Rays,700842,669438,Eduardo Rivera,Mason Englert,3,Pre-Game
 823524,2026-07-17,147,119,New York Yankees,Los Angeles Dodgers,543037,808963,Gerrit Cole,Roki Sasaki,3313,Pre-Game
-824414,2026-07-17,114,134,Cleveland Guardians,Pittsburgh Pirates,668909,683003,Gavin Williams,Jared Jones,5,Pre-Game
 824901,2026-07-17,144,140,Atlanta Braves,Texas Rangers,519242,615698,Chris Sale,Cal Quantrill,4705,Pre-Game
-822789,2026-07-17,141,145,Toronto Blue Jays,Chicago White Sox,693686,641743,Spencer Miles,Anthony Kay,14,Scheduled
-823766,2026-07-17,158,146,Milwaukee Brewers,Miami Marlins,701656,645261,Logan Henderson,Sandy Alcantara,32,Scheduled
+822789,2026-07-17,141,145,Toronto Blue Jays,Chicago White Sox,693686,641743,Spencer Miles,Anthony Kay,14,Pre-Game
+823766,2026-07-17,158,146,Milwaukee Brewers,Miami Marlins,701656,645261,Logan Henderson,Sandy Alcantara,32,Pre-Game
 824655,2026-07-17,112,142,Chicago Cubs,Minnesota Twins,607067,641927,Colin Rea,Bailey Ober,17,Pre-Game
-824170,2026-07-17,117,110,Houston Astros,Baltimore Orioles,663567,665152,Peter Lambert,Dean Kremer,2392,Scheduled
-824090,2026-07-17,118,135,Kansas City Royals,San Diego Padres,607625,650633,Seth Lugo,Michael King,7,Scheduled
-824332,2026-07-17,115,113,Colorado Rockies,Cincinnati Reds,687312,663903,Gabriel Hughes,Brady Singer,19,Scheduled
-824009,2026-07-17,108,116,Los Angeles Angels,Detroit Tigers,672282,675512,Reid Detmers,Troy Melton,1,Scheduled
-824981,2026-07-17,133,120,Athletics,Washington Nationals,695611,676917,Gage Jump,Cade Cavalli,2529,Scheduled
+824170,2026-07-17,117,110,Houston Astros,Baltimore Orioles,663567,665152,Peter Lambert,Dean Kremer,2392,Pre-Game
+824090,2026-07-17,118,135,Kansas City Royals,San Diego Padres,607625,650633,Seth Lugo,Michael King,7,Pre-Game
+824332,2026-07-17,115,113,Colorado Rockies,Cincinnati Reds,687312,663903,Gabriel Hughes,Brady Singer,19,Pre-Game
+824009,2026-07-17,108,116,Los Angeles Angels,Detroit Tigers,672282,675512,Reid Detmers,Troy Melton,1,Pre-Game
+824981,2026-07-17,133,120,Athletics,Washington Nationals,695611,676917,Gage Jump,Cade Cavalli,2529,Pre-Game
 825060,2026-07-17,109,138,Arizona Diamondbacks,St. Louis Cardinals,518876,700241,Merrill Kelly,Michael McGreevy,15,Scheduled
-823115,2026-07-17,136,137,Seattle Mariners,San Francisco Giants,682243,694738,Bryce Miller,Landen Roupp,680,Scheduled
+823115,2026-07-17,136,137,Seattle Mariners,San Francisco Giants,682243,694738,Bryce Miller,Landen Roupp,680,Pre-Game
+824414,2026-07-18,114,134,Cleveland Guardians,Pittsburgh Pirates,668909,,Gavin Williams,,5,Scheduled
+824412,2026-07-18,114,134,Cleveland Guardians,Pittsburgh Pirates,676282,677952,Joey Cantillo,Braxton Ashcraft,5,Scheduled
 824657,2026-07-18,112,142,Chicago Cubs,Minnesota Twins,571510,671737,Matthew Boyd,Taj Bradley,17,Scheduled
 822790,2026-07-18,141,145,Toronto Blue Jays,Chicago White Sox,669456,663436,Shane Bieber,Davis Martin,14,Scheduled
 824331,2026-07-18,115,113,Colorado Rockies,Cincinnati Reds,,695076,,Rhett Lowder,19,Scheduled
 823441,2026-07-18,143,121,Philadelphia Phillies,New York Mets,666200,640455,Jesús Luzardo,Sean Manaea,2681,Scheduled
 824169,2026-07-18,117,110,Houston Astros,Baltimore Orioles,681293,669432,Spencer Arrighetti,Trevor Rogers,2392,Scheduled
-824412,2026-07-18,114,134,Cleveland Guardians,Pittsburgh Pirates,676282,677952,Joey Cantillo,Braxton Ashcraft,5,Scheduled
 824088,2026-07-18,118,135,Kansas City Royals,San Diego Padres,,656288,,Griffin Canning,7,Scheduled
 825059,2026-07-18,109,138,Arizona Diamondbacks,St. Louis Cardinals,694297,669160,Brandon Pfaadt,Dustin May,15,Scheduled
 824738,2026-07-18,111,139,Boston Red Sox,Tampa Bay Rays,663776,693855,Patrick Sandoval,Ian Seymour,3,Scheduled
