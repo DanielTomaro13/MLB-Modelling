@@ -1,16 +1,12 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824412,2026-07-18,114,134,Cleveland Guardians,Pittsburgh Pirates,671106,682254,Logan Allen,Mason Montgomery,5,Pre-Game
-823116,2026-07-18,136,137,Seattle Mariners,San Francisco Giants,693433,657277,Bryan Woo,Logan Webb,680,Pre-Game
-824979,2026-07-18,133,120,Athletics,Washington Nationals,669372,641793,J.T. Ginn,Zack Littell,2529,Scheduled
-824008,2026-07-18,108,116,Los Angeles Angels,Detroit Tigers,680570,669373,Grayson Rodriguez,Tarik Skubal,1,Scheduled
 822786,2026-07-19,141,145,Toronto Blue Jays,Chicago White Sox,702056,680732,Trey Yesavage,Sean Burke,14,Scheduled
-823523,2026-07-19,147,119,New York Yankees,Los Angeles Dodgers,,,,,3313,Scheduled
-823521,2026-07-19,147,119,New York Yankees,Los Angeles Dodgers,693645,808967,Cam Schlittler,Yoshinobu Yamamoto,3313,Scheduled
+823523,2026-07-19,147,119,New York Yankees,Los Angeles Dodgers,693645,808967,Cam Schlittler,Yoshinobu Yamamoto,3313,Scheduled
+823521,2026-07-19,147,119,New York Yankees,Los Angeles Dodgers,,,,,3313,Scheduled
 824739,2026-07-19,111,139,Boston Red Sox,Tampa Bay Rays,543243,663556,Sonny Gray,Shane McClanahan,3,Scheduled
 823439,2026-07-19,143,121,Philadelphia Phillies,New York Mets,660604,690997,Alan Rangel,Nolan McLean,2681,Scheduled
-824897,2026-07-19,144,140,Atlanta Braves,Texas Rangers,656550,,Grant Holmes,,4705,Scheduled
+824897,2026-07-19,144,140,Atlanta Braves,Texas Rangers,656550,543135,Grant Holmes,Nathan Eovaldi,4705,Scheduled
 824411,2026-07-19,114,134,Cleveland Guardians,Pittsburgh Pirates,676282,694973,Joey Cantillo,Paul Skenes,5,Scheduled
-824168,2026-07-19,117,110,Houston Astros,Baltimore Orioles,686613,680694,Hunter Brown,Kyle Bradish,2392,Scheduled
+824168,2026-07-19,117,110,Houston Astros,Baltimore Orioles,686613,687064,Hunter Brown,Brandon Young,2392,Scheduled
 824086,2026-07-19,118,135,Kansas City Royals,San Diego Padres,702070,608566,Noah Cameron,Germán Márquez,7,Scheduled
 823764,2026-07-19,158,146,Milwaukee Brewers,Miami Marlins,688107,691587,Robert Gasser,Eury Pérez,32,Scheduled
 824653,2026-07-19,112,142,Chicago Cubs,Minnesota Twins,684007,805673,Shota Imanaga,Zebby Matthews,17,Scheduled
@@ -32,5 +28,20 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824167,2026-07-20,117,146,Houston Astros,Miami Marlins,,,,,2392,Scheduled
 824328,2026-07-20,115,120,Colorado Rockies,Washington Nationals,,,,,19,Scheduled
 825058,2026-07-20,109,133,Arizona Diamondbacks,Athletics,,605488,,Jeffrey Springs,15,Scheduled
-823112,2026-07-20,136,113,Seattle Mariners,Cincinnati Reds,,671096,,Andrew Abbott,680,Scheduled
+823112,2026-07-20,136,113,Seattle Mariners,Cincinnati Reds,669923,671096,George Kirby,Andrew Abbott,680,Scheduled
 824006,2026-07-20,108,138,Los Angeles Angels,St. Louis Cardinals,667755,681517,José Soriano,Kyle Leahy,1,Scheduled
+824409,2026-07-21,114,142,Cleveland Guardians,Minnesota Twins,677944,,Slade Cecconi,,5,Scheduled
+823437,2026-07-21,143,119,Philadelphia Phillies,Los Angeles Dodgers,,,,,2681,Scheduled
+823519,2026-07-21,147,134,New York Yankees,Pittsburgh Pirates,,,,,3313,Scheduled
+822787,2026-07-21,141,139,Toronto Blue Jays,Tampa Bay Rays,592332,,Kevin Gausman,,14,Scheduled
+824735,2026-07-21,111,110,Boston Red Sox,Baltimore Orioles,,,,,3,Scheduled
+824895,2026-07-21,144,135,Atlanta Braves,San Diego Padres,,,,,4705,Scheduled
+824085,2026-07-21,118,137,Kansas City Royals,San Francisco Giants,,,,,7,Scheduled
+823760,2026-07-21,158,121,Milwaukee Brewers,New York Mets,694819,804267,Jacob Misiorowski,Zach Thornton,32,Scheduled
+824652,2026-07-21,112,116,Chicago Cubs,Detroit Tigers,,,,,17,Scheduled
+822871,2026-07-21,140,145,Texas Rangers,Chicago White Sox,,702273,,Noah Schultz,5325,Scheduled
+824165,2026-07-21,117,146,Houston Astros,Miami Marlins,,,,,2392,Scheduled
+824329,2026-07-21,115,120,Colorado Rockies,Washington Nationals,,,,,19,Scheduled
+824005,2026-07-21,108,138,Los Angeles Angels,St. Louis Cardinals,700712,669461,Walbert Ureña,Matthew Liberatore,1,Scheduled
+825056,2026-07-21,109,133,Arizona Diamondbacks,Athletics,,678022,,Jack Perkins,15,Scheduled
+823114,2026-07-21,136,113,Seattle Mariners,Cincinnati Reds,622491,695505,Luis Castillo,Chase Burns,680,Scheduled
