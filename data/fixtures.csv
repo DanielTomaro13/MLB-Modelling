@@ -6,13 +6,13 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823436,2026-07-20,143,119,Philadelphia Phillies,Los Angeles Dodgers,650911,686218,Cristopher Sánchez,Emmet Sheehan,2681,Pre-Game
 824898,2026-07-20,144,135,Atlanta Braves,San Diego Padres,693821,676664,Bryce Elder,JP Sears,4705,Pre-Game
 824087,2026-07-20,118,137,Kansas City Royals,San Francisco Giants,608379,686790,Michael Wacha,Trevor McDonald,7,Pre-Game
-823762,2026-07-20,158,121,Milwaukee Brewers,New York Mets,694819,642547,Jacob Misiorowski,Freddy Peralta,32,Scheduled
-824654,2026-07-20,112,116,Chicago Cubs,Detroit Tigers,592791,656427,Jameson Taillon,Jack Flaherty,17,Scheduled
-822874,2026-07-20,140,145,Texas Rangers,Chicago White Sox,594798,607200,Jacob deGrom,Erick Fedde,5325,Scheduled
-824167,2026-07-20,117,146,Houston Astros,Miami Marlins,669854,676083,Ronel Blanco,Janson Junk,2392,Scheduled
-824328,2026-07-20,115,120,Colorado Rockies,Washington Nationals,607536,674841,Kyle Freeland,Andrew Alvarez,19,Scheduled
+823762,2026-07-20,158,121,Milwaukee Brewers,New York Mets,694819,642547,Jacob Misiorowski,Freddy Peralta,32,Pre-Game
+824654,2026-07-20,112,116,Chicago Cubs,Detroit Tigers,592791,656427,Jameson Taillon,Jack Flaherty,17,Pre-Game
+822874,2026-07-20,140,145,Texas Rangers,Chicago White Sox,594798,607200,Jacob deGrom,Erick Fedde,5325,Pre-Game
+824167,2026-07-20,117,146,Houston Astros,Miami Marlins,669854,676083,Ronel Blanco,Janson Junk,2392,Pre-Game
+824328,2026-07-20,115,120,Colorado Rockies,Washington Nationals,607536,674841,Kyle Freeland,Andrew Alvarez,19,Pre-Game
 825058,2026-07-20,109,133,Arizona Diamondbacks,Athletics,683352,605488,Mitch Bratt,Jeffrey Springs,15,Scheduled
-823112,2026-07-20,136,113,Seattle Mariners,Cincinnati Reds,669923,671096,George Kirby,Andrew Abbott,680,Scheduled
+823112,2026-07-20,136,113,Seattle Mariners,Cincinnati Reds,669923,671096,George Kirby,Andrew Abbott,680,Pre-Game
 824006,2026-07-20,108,138,Los Angeles Angels,St. Louis Cardinals,667755,681517,José Soriano,Kyle Leahy,1,Scheduled
 824409,2026-07-21,114,142,Cleveland Guardians,Minnesota Twins,800048,,Parker Messick,,5,Scheduled
 823437,2026-07-21,143,119,Philadelphia Phillies,Los Angeles Dodgers,554430,680736,Zack Wheeler,Justin Wrobleski,2681,Scheduled
