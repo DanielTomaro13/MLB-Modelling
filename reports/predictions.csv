@@ -18,13 +18,13 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-21,San Diego Padres,Atlanta Braves,Walker Buehler,Reynaldo López,0.6034,1.657,2.522,9.202
 2026-07-21,New York Mets,Milwaukee Brewers,Zac Thornton,Brandon Sproat,0.5792,1.726,2.376,8.679
 2026-07-21,Minnesota Twins,Cleveland Guardians,TBD,Parker Messick,0.5665,1.765,2.307,8.327
-2026-07-21,Detroit Tigers,Chicago Cubs,Framber Valdez,Ethan Roberts,0.558,1.792,2.263,8.556
 2026-07-21,Pittsburgh Pirates,New York Yankees,Bubba Chandler,Will Warren,0.5433,1.841,2.19,10.04
 2026-07-21,Baltimore Orioles,Boston Red Sox,Kyle Bradish,TBD,0.5381,1.859,2.165,8.655
 2026-07-21,Chicago White Sox,Texas Rangers,Noah Schultz,TBD,0.5381,1.858,2.165,8.578
 2026-07-21,St. Louis Cardinals,Los Angeles Angels,Matthew Liberatore,Walbert Ureña,0.5361,1.865,2.155,9.283
-2026-07-21,Los Angeles Dodgers,Philadelphia Phillies,Eric Lauer,Zack Wheeler,0.5351,1.869,2.151,8.759
 2026-07-21,San Francisco Giants,Kansas City Royals,Tyler Mahle,Luinder Avila,0.5311,1.883,2.133,9.758
+2026-07-21,Detroit Tigers,Chicago Cubs,Framber Valdez,David Peterson,0.5095,1.963,2.039,9.428
+2026-07-21,Los Angeles Dodgers,Philadelphia Phillies,Justin Wrobleski,Zack Wheeler,0.4836,2.068,1.936,7.88
 2026-07-21,Tampa Bay Rays,Toronto Blue Jays,Drew Rasmussen,Kevin Gausman,0.4765,2.099,1.91,8.633
 2026-07-21,Cincinnati Reds,Seattle Mariners,Chase Burns,Luis Castillo,0.4746,2.107,1.903,7.43
 2026-07-21,Miami Marlins,Houston Astros,Tyler Phillips,Tatsuya Imai,0.4706,2.125,1.889,9.318
@@ -41,6 +41,6 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-22,Tampa Bay Rays,Toronto Blue Jays,Griffin Jax,TBD,0.5186,1.928,2.077,9.193
 2026-07-22,Chicago White Sox,Texas Rangers,TBD,TBD,0.5139,1.946,2.057,8.168
 2026-07-22,San Francisco Giants,Kansas City Royals,Landen Roupp,Seth Lugo,0.5062,1.975,2.025,9.37
-2026-07-22,Washington Nationals,Colorado Rockies,Cade Cavalli,TBD,0.4672,2.141,1.877,11.747
+2026-07-22,Washington Nationals,Colorado Rockies,Cade Cavalli,Gabriel Hughes,0.4805,2.081,1.925,11.465
 2026-07-22,St. Louis Cardinals,Los Angeles Angels,Michael McGreevy,Reid Detmers,0.4611,2.169,1.856,8.549
-2026-07-22,Los Angeles Dodgers,Philadelphia Phillies,Justin Wrobleski,Aaron Nola,0.3946,2.534,1.652,9.553
+2026-07-22,Los Angeles Dodgers,Philadelphia Phillies,Eric Lauer,Aaron Nola,0.4457,2.243,1.804,10.432
