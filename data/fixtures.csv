@@ -1,9 +1,8 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824409,2026-07-21,114,142,Cleveland Guardians,Minnesota Twins,800048,696070,Parker Messick,Kendry Rojas,5,Scheduled
-823437,2026-07-21,143,119,Philadelphia Phillies,Los Angeles Dodgers,554430,680736,Zack Wheeler,Justin Wrobleski,2681,Scheduled
-823519,2026-07-21,147,134,New York Yankees,Pittsburgh Pirates,701542,696149,Will Warren,Bubba Chandler,3313,Scheduled
-822787,2026-07-21,141,139,Toronto Blue Jays,Tampa Bay Rays,592332,656876,Kevin Gausman,Drew Rasmussen,14,Scheduled
-824735,2026-07-21,111,110,Boston Red Sox,Baltimore Orioles,624133,680694,Ranger Suarez,Kyle Bradish,3,Scheduled
+824409,2026-07-21,114,142,Cleveland Guardians,Minnesota Twins,800048,696070,Parker Messick,Kendry Rojas,5,Pre-Game
+823437,2026-07-21,143,119,Philadelphia Phillies,Los Angeles Dodgers,554430,680736,Zack Wheeler,Justin Wrobleski,2681,Pre-Game
+822787,2026-07-21,141,139,Toronto Blue Jays,Tampa Bay Rays,592332,656876,Kevin Gausman,Drew Rasmussen,14,Pre-Game
+824735,2026-07-21,111,110,Boston Red Sox,Baltimore Orioles,700842,680694,Eduardo Rivera,Kyle Bradish,3,Scheduled
 824895,2026-07-21,144,135,Atlanta Braves,San Diego Padres,625643,621111,Reynaldo López,Walker Buehler,4705,Scheduled
 824085,2026-07-21,118,137,Kansas City Royals,San Francisco Giants,679883,641816,Luinder Avila,Tyler Mahle,7,Scheduled
 823760,2026-07-21,158,121,Milwaukee Brewers,New York Mets,687075,804267,Brandon Sproat,Zac Thornton,32,Scheduled
@@ -15,6 +14,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 825056,2026-07-21,109,133,Arizona Diamondbacks,Athletics,684442,678022,Kohl Drake,Jack Perkins,15,Scheduled
 823114,2026-07-21,136,113,Seattle Mariners,Cincinnati Reds,622491,695505,Luis Castillo,Chase Burns,680,Scheduled
 823518,2026-07-22,147,134,New York Yankees,Pittsburgh Pirates,543037,656605,Gerrit Cole,Mitch Keller,3313,Scheduled
+823519,2026-07-22,147,134,New York Yankees,Pittsburgh Pirates,,,,,3313,Scheduled
 824083,2026-07-22,118,137,Kansas City Royals,San Francisco Giants,607625,694738,Seth Lugo,Landen Roupp,7,Scheduled
 823761,2026-07-22,158,121,Milwaukee Brewers,New York Mets,701656,681035,Logan Henderson,Christian Scott,32,Scheduled
 824327,2026-07-22,115,120,Colorado Rockies,Washington Nationals,687312,676917,Gabriel Hughes,Cade Cavalli,19,Scheduled
