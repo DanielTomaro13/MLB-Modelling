@@ -1,7 +1,7 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 823518,2026-07-22,147,134,New York Yankees,Pittsburgh Pirates,543037,656605,Gerrit Cole,Mitch Keller,3313,Scheduled
 823519,2026-07-22,147,134,New York Yankees,Pittsburgh Pirates,608331,696149,Max Fried,Bubba Chandler,3313,Scheduled
-824735,2026-07-22,111,110,Boston Red Sox,Baltimore Orioles,687562,665152,Jake Bennett,Dean Kremer,3,Scheduled
+824735,2026-07-22,111,110,Boston Red Sox,Baltimore Orioles,687562,665152,Jake Bennett,Dean Kremer,3,Pre-Game
 824732,2026-07-22,111,110,Boston Red Sox,Baltimore Orioles,,680694,,Kyle Bradish,3,Scheduled
 824083,2026-07-22,118,137,Kansas City Royals,San Francisco Giants,607625,694738,Seth Lugo,Landen Roupp,7,Scheduled
 823761,2026-07-22,158,121,Milwaukee Brewers,New York Mets,701656,681035,Logan Henderson,Christian Scott,32,Scheduled
