@@ -1,1 +1,1 @@
-{"holdout_start_season": 2026, "n": 1519, "log_loss": 0.6883, "brier": 0.2476, "accuracy": 0.5444, "home_win_rate": 0.524, "baseline_log_loss": 0.6921, "beats_baseline": true}
+{"holdout_start_season": 2026, "n": 1523, "log_loss": 0.6881, "brier": 0.2475, "accuracy": 0.545, "home_win_rate": 0.5246, "baseline_log_loss": 0.692, "beats_baseline": true}
