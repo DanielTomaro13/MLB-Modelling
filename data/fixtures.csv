@@ -11,9 +11,9 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824004,2026-07-22,108,138,Los Angeles Angels,St. Louis Cardinals,672282,690928,Reid Detmers,Hunter Dobbins,1,Scheduled
 824408,2026-07-22,114,142,Cleveland Guardians,Minnesota Twins,677944,641927,Slade Cecconi,Bailey Ober,5,Scheduled
 823438,2026-07-22,143,119,Philadelphia Phillies,Los Angeles Dodgers,605400,641778,Aaron Nola,Eric Lauer,2681,Scheduled
-822784,2026-07-22,141,139,Toronto Blue Jays,Tampa Bay Rays,,643377,,Griffin Jax,14,Scheduled
-824896,2026-07-22,144,135,Atlanta Braves,San Diego Padres,,650633,,Michael King,4705,Scheduled
-822873,2026-07-22,140,145,Texas Rangers,Chicago White Sox,615698,641743,Cal Quantrill,Anthony Kay,5325,Scheduled
+822784,2026-07-22,141,139,Toronto Blue Jays,Tampa Bay Rays,680755,643377,Braydon Fisher,Griffin Jax,14,Scheduled
+824896,2026-07-22,144,135,Atlanta Braves,San Diego Padres,527048,650633,Martín Pérez,Michael King,4705,Scheduled
+822873,2026-07-22,140,145,Texas Rangers,Chicago White Sox,641302,641743,Tyler Alexander,Anthony Kay,5325,Scheduled
 824650,2026-07-22,112,116,Chicago Cubs,Detroit Tigers,607067,672456,Colin Rea,Keider Montero,17,Scheduled
 824166,2026-07-22,117,146,Houston Astros,Miami Marlins,663567,645261,Peter Lambert,Sandy Alcantara,2392,Scheduled
 824893,2026-07-23,144,135,Atlanta Braves,San Diego Padres,519242,656288,Chris Sale,Griffin Canning,4705,Scheduled
