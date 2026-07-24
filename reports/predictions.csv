@@ -1,5 +1,4 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
-2026-07-24,Colorado Rockies,Milwaukee Brewers,Tomoyuki Sugano,Shane Drohan,0.6551,1.527,2.899,8.696
 2026-07-24,Los Angeles Angels,San Francisco Giants,Grayson Rodriguez,Logan Webb,0.6019,1.661,2.512,9.532
 2026-07-24,Kansas City Royals,Detroit Tigers,Beck Way,Tarik Skubal,0.5909,1.692,2.444,8.343
 2026-07-24,Athletics,Minnesota Twins,Jacob Lopez,Zebby Matthews,0.5783,1.729,2.371,10.619
@@ -18,7 +17,7 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-07-25,Los Angeles Angels,San Francisco Giants,Ryan Johnson,Robbie Ray,0.5864,1.705,2.418,9.101
 2026-07-25,Kansas City Royals,Detroit Tigers,Michael Wacha,Casey Mize,0.581,1.721,2.386,7.971
 2026-07-25,Cleveland Guardians,Tampa Bay Rays,Tanner Bibee,Nick Martinez,0.5808,1.722,2.385,7.578
-2026-07-25,Toronto Blue Jays,Boston Red Sox,Dylan Cease,Sonny Gray,0.5795,1.726,2.378,7.106
+2026-07-25,Toronto Blue Jays,Boston Red Sox,Dylan Cease,Sonny Gray,0.5795,1.725,2.378,7.106
 2026-07-25,Arizona Diamondbacks,Washington Nationals,Mitch Bratt,Foster Griffin,0.5753,1.738,2.355,9.317
 2026-07-25,Houston Astros,Chicago White Sox,Hunter Brown,Sean Burke,0.5738,1.743,2.347,8.554
 2026-07-25,Athletics,Minnesota Twins,TBD,TBD,0.5652,1.769,2.3,9.53
