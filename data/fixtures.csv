@@ -1,27 +1,21 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-822704,2026-07-25,120,109,Washington Nationals,Arizona Diamondbacks,656492,683352,Foster Griffin,Mitch Bratt,3309,Pre-Game
-823197,2026-07-25,137,108,San Francisco Giants,Los Angeles Angels,592662,696270,Robbie Ray,Ryan Johnson,2395,Pre-Game
-824734,2026-07-25,111,141,Boston Red Sox,Toronto Blue Jays,543243,656302,Sonny Gray,Dylan Cease,3,Pre-Game
-823841,2026-07-25,146,135,Miami Marlins,San Diego Padres,691587,681190,Eury Pérez,Randy Vásquez,4169,Pre-Game
-823435,2026-07-25,143,147,Philadelphia Phillies,New York Yankees,641835,677960,Tim Mayza,Ryan Weathers,2681,Pre-Game
-822948,2026-07-25,139,114,Tampa Bay Rays,Cleveland Guardians,607259,676440,Nick Martinez,Tanner Bibee,12,Pre-Game
-823355,2026-07-25,134,112,Pittsburgh Pirates,Chicago Cubs,694973,684007,Paul Skenes,Shota Imanaga,31,Scheduled
-824811,2026-07-25,110,144,Baltimore Orioles,Atlanta Braves,687064,693821,Brandon Young,Bryce Elder,2,Scheduled
-823679,2026-07-25,142,133,Minnesota Twins,Athletics,,669620,,Brady Basso,3312,Scheduled
+823355,2026-07-25,134,112,Pittsburgh Pirates,Chicago Cubs,694973,684007,Paul Skenes,Shota Imanaga,31,Pre-Game
+824811,2026-07-25,110,144,Baltimore Orioles,Atlanta Braves,687064,693821,Brandon Young,Bryce Elder,2,Pre-Game
+823679,2026-07-25,142,133,Minnesota Twins,Athletics,702474,669620,Mike Paredes,Brady Basso,3312,Pre-Game
 824571,2026-07-25,145,117,Chicago White Sox,Houston Astros,680732,686613,Sean Burke,Hunter Brown,4,Pre-Game
-823758,2026-07-25,158,115,Milwaukee Brewers,Colorado Rockies,688107,663372,Robert Gasser,Ryan Feltner,32,Scheduled
-823600,2026-07-25,121,119,New York Mets,Los Angeles Dodgers,690997,808967,Nolan McLean,Yoshinobu Yamamoto,3289,Scheduled
-823027,2026-07-25,138,113,St. Louis Cardinals,Cincinnati Reds,669467,668881,Andre Pallante,Hunter Greene,2889,Scheduled
-822869,2026-07-25,140,136,Texas Rangers,Seattle Mariners,543135,693433,Nathan Eovaldi,Bryan Woo,5325,Scheduled
+823758,2026-07-25,158,115,Milwaukee Brewers,Colorado Rockies,688107,663372,Robert Gasser,Ryan Feltner,32,Pre-Game
+823600,2026-07-25,121,119,New York Mets,Los Angeles Dodgers,690997,808967,Nolan McLean,Yoshinobu Yamamoto,3289,Pre-Game
+823027,2026-07-25,138,113,St. Louis Cardinals,Cincinnati Reds,669467,668881,Andre Pallante,Hunter Greene,2889,Pre-Game
+822869,2026-07-25,140,136,Texas Rangers,Seattle Mariners,543135,693433,Nathan Eovaldi,Bryan Woo,5325,Pre-Game
 822950,2026-07-26,139,114,Tampa Bay Rays,Cleveland Guardians,656876,800048,Drew Rasmussen,Parker Messick,12,Scheduled
 822706,2026-07-26,120,109,Washington Nationals,Arizona Diamondbacks,571945,684442,Miles Mikolas,Kohl Drake,3309,Scheduled
 823354,2026-07-26,134,112,Pittsburgh Pirates,Chicago Cubs,677952,592791,Braxton Ashcraft,Jameson Taillon,31,Scheduled
 824730,2026-07-26,111,141,Boston Red Sox,Toronto Blue Jays,624133,592332,Ranger Suarez,Kevin Gausman,3,Scheduled
 824810,2026-07-26,110,144,Baltimore Orioles,Atlanta Braves,669358,625643,Shane Baz,Reynaldo López,2,Scheduled
-824246,2026-07-26,116,118,Detroit Tigers,Kansas City Royals,664285,,Framber Valdez,,2394,Scheduled
+824246,2026-07-26,116,118,Detroit Tigers,Kansas City Royals,664285,679883,Framber Valdez,Luinder Avila,2394,Scheduled
 823599,2026-07-26,121,119,New York Mets,Los Angeles Dodgers,642547,686218,Freddy Peralta,Emmet Sheehan,3289,Scheduled
 823840,2026-07-26,146,135,Miami Marlins,San Diego Padres,676083,621111,Janson Junk,Walker Buehler,4169,Scheduled
-823678,2026-07-26,142,133,Minnesota Twins,Athletics,657746,605488,Joe Ryan,Jeffrey Springs,3312,Scheduled
+823678,2026-07-26,142,133,Minnesota Twins,Athletics,687570,605488,Connor Prielipp,Jeffrey Springs,3312,Scheduled
 824572,2026-07-26,145,117,Chicago White Sox,Houston Astros,607200,669854,Erick Fedde,Ronel Blanco,4,Scheduled
 823755,2026-07-26,158,115,Milwaukee Brewers,Colorado Rockies,694819,607536,Jacob Misiorowski,Kyle Freeland,32,Scheduled
 823028,2026-07-26,138,113,St. Louis Cardinals,Cincinnati Reds,681517,671096,Kyle Leahy,Andrew Abbott,2889,Scheduled
