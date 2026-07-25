@@ -1,18 +1,4 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824248,2026-07-24,116,118,Detroit Tigers,Kansas City Royals,669373,694360,Tarik Skubal,Beck Way,2394,Pre-Game
-823352,2026-07-24,134,112,Pittsburgh Pirates,Chicago Cubs,683003,571510,Jared Jones,Matthew Boyd,31,Pre-Game
-822707,2026-07-24,120,109,Washington Nationals,Arizona Diamondbacks,687223,593958,Carson Palmquist,Eduardo Rodriguez,3309,Pre-Game
-823434,2026-07-24,143,147,Philadelphia Phillies,New York Yankees,666200,693645,Jesús Luzardo,Cam Schlittler,2681,Pre-Game
-824812,2026-07-24,110,144,Baltimore Orioles,Atlanta Braves,669432,656550,Trevor Rogers,Grant Holmes,2,Pre-Game
-823601,2026-07-24,121,119,New York Mets,Los Angeles Dodgers,640455,808963,Sean Manaea,Roki Sasaki,3289,Pre-Game
-822952,2026-07-24,139,114,Tampa Bay Rays,Cleveland Guardians,663556,676282,Shane McClanahan,Joey Cantillo,12,Pre-Game
-823843,2026-07-24,146,135,Miami Marlins,San Diego Padres,687473,608566,Ryan Gusto,Germán Márquez,4169,Pre-Game
-824733,2026-07-24,111,141,Boston Red Sox,Toronto Blue Jays,663776,702056,Patrick Sandoval,Trey Yesavage,3,Pre-Game
-824573,2026-07-24,145,117,Chicago White Sox,Houston Astros,663436,681293,Davis Martin,Spencer Arrighetti,4,Pre-Game
-822872,2026-07-24,140,136,Texas Rangers,Seattle Mariners,669022,682243,MacKenzie Gore,Bryce Miller,5325,Pre-Game
-823680,2026-07-24,142,133,Minnesota Twins,Athletics,805673,682052,Zebby Matthews,Jacob Lopez,3312,Pre-Game
-823031,2026-07-24,138,113,St. Louis Cardinals,Cincinnati Reds,669160,695076,Dustin May,Rhett Lowder,2889,Pre-Game
-823196,2026-07-24,137,108,San Francisco Giants,Los Angeles Angels,657277,680570,Logan Webb,Grayson Rodriguez,2395,Pre-Game
 824244,2026-07-25,116,118,Detroit Tigers,Kansas City Royals,663554,608379,Casey Mize,Michael Wacha,2394,Scheduled
 822704,2026-07-25,120,109,Washington Nationals,Arizona Diamondbacks,656492,683352,Foster Griffin,Mitch Bratt,3309,Scheduled
 823197,2026-07-25,137,108,San Francisco Giants,Los Angeles Angels,592662,696270,Robbie Ray,Ryan Johnson,2395,Scheduled
@@ -43,3 +29,15 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 822870,2026-07-26,140,136,Texas Rangers,Seattle Mariners,594798,669302,Jacob deGrom,Logan Gilbert,5325,Scheduled
 823194,2026-07-26,137,108,San Francisco Giants,Los Angeles Angels,,667755,,José Soriano,2395,Scheduled
 823433,2026-07-26,143,147,Philadelphia Phillies,New York Yankees,650911,701542,Cristopher Sánchez,Will Warren,2681,Scheduled
+822868,2026-07-27,140,136,Texas Rangers,Seattle Mariners,677958,669923,Kumar Rocker,George Kirby,5325,Scheduled
+824245,2026-07-27,116,110,Detroit Tigers,Baltimore Orioles,,,,,2394,Scheduled
+823353,2026-07-27,134,109,Pittsburgh Pirates,Arizona Diamondbacks,,,,,31,Scheduled
+823839,2026-07-27,146,143,Miami Marlins,Philadelphia Phillies,,,,,4169,Scheduled
+822705,2026-07-27,120,141,Washington Nationals,Toronto Blue Jays,,,,,3309,Scheduled
+824490,2026-07-27,113,114,Cincinnati Reds,Cleveland Guardians,695505,677944,Chase Burns,Slade Cecconi,2602,Scheduled
+823597,2026-07-27,121,144,New York Mets,Atlanta Braves,804267,,Zac Thornton,,3289,Scheduled
+824570,2026-07-27,145,147,Chicago White Sox,New York Yankees,,,,,4,Scheduled
+823025,2026-07-27,138,112,St. Louis Cardinals,Chicago Cubs,,,,,2889,Scheduled
+824001,2026-07-27,108,117,Los Angeles Angels,Houston Astros,,,,,1,Scheduled
+824977,2026-07-27,133,111,Athletics,Boston Red Sox,,,,,2529,Scheduled
+823195,2026-07-27,137,158,San Francisco Giants,Milwaukee Brewers,,687075,,Brandon Sproat,2395,Scheduled
