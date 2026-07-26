@@ -1,6 +1,6 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-822950,2026-07-26,139,114,Tampa Bay Rays,Cleveland Guardians,656876,800048,Drew Rasmussen,Parker Messick,12,Scheduled
-822706,2026-07-26,120,109,Washington Nationals,Arizona Diamondbacks,571945,684442,Miles Mikolas,Kohl Drake,3309,Scheduled
+822950,2026-07-26,139,114,Tampa Bay Rays,Cleveland Guardians,656876,800048,Drew Rasmussen,Parker Messick,12,Pre-Game
+822706,2026-07-26,120,109,Washington Nationals,Arizona Diamondbacks,571945,684442,Miles Mikolas,Kohl Drake,3309,Pre-Game
 823354,2026-07-26,134,112,Pittsburgh Pirates,Chicago Cubs,677952,592791,Braxton Ashcraft,Jameson Taillon,31,Scheduled
 824730,2026-07-26,111,141,Boston Red Sox,Toronto Blue Jays,624133,592332,Ranger Suarez,Kevin Gausman,3,Scheduled
 824810,2026-07-26,110,144,Baltimore Orioles,Atlanta Braves,669358,625643,Shane Baz,Reynaldo López,2,Scheduled
@@ -16,7 +16,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823433,2026-07-26,143,147,Philadelphia Phillies,New York Yankees,650911,701542,Cristopher Sánchez,Will Warren,2681,Scheduled
 822868,2026-07-27,140,136,Texas Rangers,Seattle Mariners,677958,669923,Kumar Rocker,George Kirby,5325,Scheduled
 824245,2026-07-27,116,110,Detroit Tigers,Baltimore Orioles,,,,,2394,Scheduled
-823353,2026-07-27,134,109,Pittsburgh Pirates,Arizona Diamondbacks,,,,,31,Scheduled
+823353,2026-07-27,134,109,Pittsburgh Pirates,Arizona Diamondbacks,656605,,Mitch Keller,,31,Scheduled
 823839,2026-07-27,146,143,Miami Marlins,Philadelphia Phillies,,,,,4169,Scheduled
 822705,2026-07-27,120,141,Washington Nationals,Toronto Blue Jays,,,,,3309,Scheduled
 824490,2026-07-27,113,114,Cincinnati Reds,Cleveland Guardians,695505,677944,Chase Burns,Slade Cecconi,2602,Scheduled
@@ -27,7 +27,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824977,2026-07-27,133,111,Athletics,Boston Red Sox,,801139,,Payton Tolle,2529,Scheduled
 823195,2026-07-27,137,158,San Francisco Giants,Milwaukee Brewers,,687075,,Brandon Sproat,2395,Scheduled
 824243,2026-07-28,116,110,Detroit Tigers,Baltimore Orioles,,,,,2394,Scheduled
-823350,2026-07-28,134,109,Pittsburgh Pirates,Arizona Diamondbacks,,,,,31,Scheduled
+823350,2026-07-28,134,109,Pittsburgh Pirates,Arizona Diamondbacks,696149,,Bubba Chandler,,31,Scheduled
 822949,2026-07-28,139,140,Tampa Bay Rays,Texas Rangers,,,,,12,Scheduled
 823838,2026-07-28,146,143,Miami Marlins,Philadelphia Phillies,,,,,4169,Scheduled
 822703,2026-07-28,120,141,Washington Nationals,Toronto Blue Jays,,,,,3309,Scheduled
