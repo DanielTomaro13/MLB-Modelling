@@ -1,11 +1,10 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-822868,2026-07-27,140,136,Texas Rangers,Seattle Mariners,677958,669923,Kumar Rocker,George Kirby,5325,Pre-Game
-824245,2026-07-27,116,110,Detroit Tigers,Baltimore Orioles,672456,680694,Keider Montero,Kyle Bradish,2394,Scheduled
-823353,2026-07-27,134,109,Pittsburgh Pirates,Arizona Diamondbacks,656605,518876,Mitch Keller,Merrill Kelly,31,Scheduled
-823839,2026-07-27,146,143,Miami Marlins,Philadelphia Phillies,663969,554430,Tyler Phillips,Zack Wheeler,4169,Scheduled
-822705,2026-07-27,120,141,Washington Nationals,Toronto Blue Jays,678868,453286,Eddy Yean,Max Scherzer,3309,Scheduled
-824490,2026-07-27,113,114,Cincinnati Reds,Cleveland Guardians,695505,677944,Chase Burns,Slade Cecconi,2602,Scheduled
-823597,2026-07-27,121,144,New York Mets,Atlanta Braves,804267,527048,Zac Thornton,Martín Pérez,3289,Scheduled
+824245,2026-07-27,116,110,Detroit Tigers,Baltimore Orioles,672456,680694,Keider Montero,Kyle Bradish,2394,Pre-Game
+823353,2026-07-27,134,109,Pittsburgh Pirates,Arizona Diamondbacks,656605,518876,Mitch Keller,Merrill Kelly,31,Pre-Game
+823839,2026-07-27,146,143,Miami Marlins,Philadelphia Phillies,663969,554430,Tyler Phillips,Zack Wheeler,4169,Pre-Game
+822705,2026-07-27,120,141,Washington Nationals,Toronto Blue Jays,678868,453286,Eddy Yean,Max Scherzer,3309,Pre-Game
+824490,2026-07-27,113,114,Cincinnati Reds,Cleveland Guardians,695505,677944,Chase Burns,Slade Cecconi,2602,Pre-Game
+823597,2026-07-27,121,144,New York Mets,Atlanta Braves,804267,527048,Zac Thornton,Martín Pérez,3289,Pre-Game
 824570,2026-07-27,145,147,Chicago White Sox,New York Yankees,702273,608331,Noah Schultz,Max Fried,4,Scheduled
 823025,2026-07-27,138,112,St. Louis Cardinals,Chicago Cubs,,656849,,David Peterson,2889,Scheduled
 824001,2026-07-27,108,117,Los Angeles Angels,Houston Astros,700712,837227,Walbert Ureña,Tatsuya Imai,1,Scheduled
@@ -25,7 +24,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824976,2026-07-28,133,111,Athletics,Boston Red Sox,695611,687562,Gage Jump,Jake Bennett,2529,Scheduled
 823275,2026-07-28,135,115,San Diego Padres,Colorado Rockies,650633,547179,Michael King,Michael Lorenzen,2680,Scheduled
 823193,2026-07-28,137,158,San Francisco Giants,Milwaukee Brewers,694738,701656,Landen Roupp,Logan Henderson,2395,Scheduled
-823923,2026-07-28,119,136,Los Angeles Dodgers,Seattle Mariners,,,,,22,Scheduled
+823923,2026-07-28,119,136,Los Angeles Dodgers,Seattle Mariners,,622491,,Luis Castillo,22,Scheduled
 823837,2026-07-29,146,143,Miami Marlins,Philadelphia Phillies,,666200,,Jesús Luzardo,4169,Scheduled
 823351,2026-07-29,134,109,Pittsburgh Pirates,Arizona Diamondbacks,683003,593958,Jared Jones,Eduardo Rodriguez,31,Scheduled
 822702,2026-07-29,120,141,Washington Nationals,Toronto Blue Jays,641793,702056,Zack Littell,Trey Yesavage,3309,Scheduled
@@ -40,4 +39,4 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823022,2026-07-29,138,112,St. Louis Cardinals,Chicago Cubs,,571510,,Matthew Boyd,2889,Scheduled
 824002,2026-07-29,108,117,Los Angeles Angels,Houston Astros,680570,,Grayson Rodriguez,,1,Scheduled
 824973,2026-07-29,133,111,Athletics,Boston Red Sox,682052,663776,Jacob Lopez,Patrick Sandoval,2529,Scheduled
-823924,2026-07-29,119,136,Los Angeles Dodgers,Seattle Mariners,,,,,22,Scheduled
+823924,2026-07-29,119,136,Los Angeles Dodgers,Seattle Mariners,,676106,,Emerson Hancock,22,Scheduled
