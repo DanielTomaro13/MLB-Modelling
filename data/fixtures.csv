@@ -1,29 +1,27 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823598,2026-07-29,121,144,New York Mets,Atlanta Braves,681035,519242,Christian Scott,Chris Sale,3289,Scheduled
-823192,2026-07-29,137,158,San Francisco Giants,Milwaukee Brewers,657277,623381,Logan Webb,Thomas Pannone,2395,Pre-Game
-823273,2026-07-29,135,115,San Diego Padres,Colorado Rockies,606996,687312,Kyle Hart,Gabriel Hughes,2680,Pre-Game
+823598,2026-07-29,121,144,New York Mets,Atlanta Braves,681035,519242,Christian Scott,Chris Sale,3289,Pre-Game
 822947,2026-07-29,139,140,Tampa Bay Rays,Texas Rangers,668984,669022,Casey Legumina,MacKenzie Gore,12,Pre-Game
 824487,2026-07-29,113,114,Cincinnati Reds,Cleveland Guardians,663903,676282,Brady Singer,Joey Cantillo,2602,Pre-Game
-823677,2026-07-29,142,118,Minnesota Twins,Kansas City Royals,657746,677976,Joe Ryan,Randy Dobnak,3312,Scheduled
-824567,2026-07-29,145,147,Chicago White Sox,New York Yankees,663436,693645,Davis Martin,Cam Schlittler,4,Scheduled
-823022,2026-07-29,138,112,St. Louis Cardinals,Chicago Cubs,669160,571510,Dustin May,Matthew Boyd,2889,Scheduled
-824002,2026-07-29,108,117,Los Angeles Angels,Houston Astros,680570,669713,Grayson Rodriguez,Hayden Wesneski,1,Scheduled
-824973,2026-07-29,133,111,Athletics,Boston Red Sox,682052,663776,Jacob Lopez,Patrick Sandoval,2529,Scheduled
+823677,2026-07-29,142,118,Minnesota Twins,Kansas City Royals,657746,677976,Joe Ryan,Randy Dobnak,3312,Pre-Game
+824567,2026-07-29,145,147,Chicago White Sox,New York Yankees,663436,693645,Davis Martin,Cam Schlittler,4,Pre-Game
+823022,2026-07-29,138,112,St. Louis Cardinals,Chicago Cubs,669160,571510,Dustin May,Matthew Boyd,2889,Pre-Game
+824002,2026-07-29,108,117,Los Angeles Angels,Houston Astros,680570,669713,Grayson Rodriguez,Hayden Wesneski,1,Pre-Game
+824973,2026-07-29,133,111,Athletics,Boston Red Sox,682052,663776,Jacob Lopez,Patrick Sandoval,2529,Pre-Game
 823924,2026-07-29,119,136,Los Angeles Dodgers,Seattle Mariners,641778,676106,Eric Lauer,Emerson Hancock,22,Scheduled
-822946,2026-07-30,139,140,Tampa Bay Rays,Texas Rangers,663556,543135,Shane McClanahan,Nathan Eovaldi,12,Scheduled
+822946,2026-07-30,139,140,Tampa Bay Rays,Texas Rangers,663556,,Shane McClanahan,,12,Scheduled
 823674,2026-07-30,142,118,Minnesota Twins,Kansas City Royals,641927,,Bailey Ober,,3312,Scheduled
 824568,2026-07-30,145,147,Chicago White Sox,New York Yankees,680732,677960,Sean Burke,Ryan Weathers,4,Scheduled
-823023,2026-07-30,138,112,St. Louis Cardinals,Chicago Cubs,669467,684007,Andre Pallante,Shota Imanaga,2889,Scheduled
-824488,2026-07-30,113,134,Cincinnati Reds,Pittsburgh Pirates,695076,,Rhett Lowder,,2602,Scheduled
+823023,2026-07-30,138,112,St. Louis Cardinals,Chicago Cubs,669467,665871,Andre Pallante,Javier Assad,2889,Scheduled
+824488,2026-07-30,113,134,Cincinnati Reds,Pittsburgh Pirates,695076,670990,Rhett Lowder,Yohan Ramírez,2602,Scheduled
 823595,2026-07-30,121,146,New York Mets,Miami Marlins,690997,691587,Nolan McLean,Eury Pérez,3289,Scheduled
-824894,2026-07-30,144,120,Atlanta Braves,Washington Nationals,656550,,Grant Holmes,,4705,Scheduled
+824894,2026-07-30,144,120,Atlanta Braves,Washington Nationals,656550,663623,Grant Holmes,Jake Irvin,4705,Scheduled
 824974,2026-07-30,133,111,Athletics,Boston Red Sox,,543243,,Sonny Gray,2529,Scheduled
 823271,2026-07-30,135,137,San Diego Padres,San Francisco Giants,,,,,2680,Scheduled
 823921,2026-07-30,119,136,Los Angeles Dodgers,Seattle Mariners,808963,682243,Roki Sasaki,Bryce Miller,22,Scheduled
 824651,2026-07-31,112,147,Chicago Cubs,New York Yankees,,,,,17,Scheduled
 824486,2026-07-31,113,134,Cincinnati Reds,Pittsburgh Pirates,668881,694973,Hunter Greene,Paul Skenes,2602,Scheduled
 824809,2026-07-31,110,143,Baltimore Orioles,Philadelphia Phillies,687064,,Brandon Young,,2,Scheduled
-822782,2026-07-31,141,138,Toronto Blue Jays,St. Louis Cardinals,,681517,,Kyle Leahy,14,Scheduled
+822782,2026-07-31,141,138,Toronto Blue Jays,St. Louis Cardinals,656302,681517,Dylan Cease,Kyle Leahy,14,Scheduled
 824407,2026-07-31,114,109,Cleveland Guardians,Arizona Diamondbacks,676440,683352,Tanner Bibee,Mitch Bratt,5,Scheduled
 822945,2026-07-31,139,145,Tampa Bay Rays,Chicago White Sox,,,,,12,Scheduled
 823593,2026-07-31,121,146,New York Mets,Miami Marlins,642547,676083,Freddy Peralta,Janson Junk,3289,Scheduled
