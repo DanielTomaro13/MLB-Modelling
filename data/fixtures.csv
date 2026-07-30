@@ -1,12 +1,12 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 822946,2026-07-30,139,140,Tampa Bay Rays,Texas Rangers,663556,668390,Shane McClanahan,Cole Winn,12,Scheduled
-823674,2026-07-30,142,118,Minnesota Twins,Kansas City Royals,641927,,Bailey Ober,,3312,Scheduled
+823674,2026-07-30,142,118,Minnesota Twins,Kansas City Royals,641927,702070,Bailey Ober,Noah Cameron,3312,Scheduled
 824568,2026-07-30,145,147,Chicago White Sox,New York Yankees,680732,677960,Sean Burke,Ryan Weathers,4,Scheduled
 823023,2026-07-30,138,112,St. Louis Cardinals,Chicago Cubs,669467,665871,Andre Pallante,Javier Assad,2889,Scheduled
 824488,2026-07-30,113,134,Cincinnati Reds,Pittsburgh Pirates,695076,670990,Rhett Lowder,Yohan Ramírez,2602,Scheduled
 823595,2026-07-30,121,146,New York Mets,Miami Marlins,690997,691587,Nolan McLean,Eury Pérez,3289,Scheduled
 824894,2026-07-30,144,120,Atlanta Braves,Washington Nationals,656550,663623,Grant Holmes,Jake Irvin,4705,Scheduled
-824974,2026-07-30,133,111,Athletics,Boston Red Sox,,543243,,Sonny Gray,2529,Scheduled
+824974,2026-07-30,133,111,Athletics,Boston Red Sox,686930,543243,Mason Barnett,Sonny Gray,2529,Scheduled
 823271,2026-07-30,135,137,San Diego Padres,San Francisco Giants,676664,,JP Sears,,2680,Scheduled
 823921,2026-07-30,119,136,Los Angeles Dodgers,Seattle Mariners,808963,693433,Roki Sasaki,Bryan Woo,22,Scheduled
 824651,2026-07-31,112,147,Chicago Cubs,New York Yankees,684007,,Shota Imanaga,,17,Scheduled
