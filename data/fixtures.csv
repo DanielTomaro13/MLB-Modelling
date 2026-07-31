@@ -1,5 +1,5 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824651,2026-07-31,112,147,Chicago Cubs,New York Yankees,684007,701542,Shota Imanaga,Will Warren,17,Scheduled
+824651,2026-07-31,112,147,Chicago Cubs,New York Yankees,684007,701542,Shota Imanaga,Will Warren,17,Pre-Game
 824486,2026-07-31,113,134,Cincinnati Reds,Pittsburgh Pirates,668881,694973,Hunter Greene,Paul Skenes,2602,Scheduled
 824809,2026-07-31,110,143,Baltimore Orioles,Philadelphia Phillies,687064,,Brandon Young,,2,Scheduled
 822782,2026-07-31,141,138,Toronto Blue Jays,St. Louis Cardinals,656302,681517,Dylan Cease,Kyle Leahy,14,Scheduled
@@ -10,7 +10,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824164,2026-07-31,117,140,Houston Astros,Texas Rangers,686613,543135,Hunter Brown,Nathan Eovaldi,2392,Scheduled
 824325,2026-07-31,115,118,Colorado Rockies,Kansas City Royals,608372,608379,Tomoyuki Sugano,Michael Wacha,19,Scheduled
 823999,2026-07-31,108,158,Los Angeles Angels,Milwaukee Brewers,696270,675660,Ryan Johnson,Shane Drohan,1,Scheduled
-824975,2026-07-31,133,116,Athletics,Detroit Tigers,605488,663554,Jeffrey Springs,Casey Mize,2529,Scheduled
+824975,2026-07-31,133,116,Athletics,Detroit Tigers,605488,,Jeffrey Springs,,2529,Scheduled
 823272,2026-07-31,135,137,San Diego Padres,San Francisco Giants,699134,687931,Bradgley Rodriguez,Carson Whisenhunt,2680,Scheduled
 823922,2026-07-31,119,111,Los Angeles Dodgers,Boston Red Sox,683618,624133,Edgardo Henriquez,Ranger Suarez,22,Scheduled
 823111,2026-07-31,136,142,Seattle Mariners,Minnesota Twins,682243,805673,Bryce Miller,Zebby Matthews,680,Scheduled
