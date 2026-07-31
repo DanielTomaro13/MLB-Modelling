@@ -1,12 +1,11 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824651,2026-07-31,112,147,Chicago Cubs,New York Yankees,684007,701542,Shota Imanaga,Will Warren,17,Pre-Game
-824486,2026-07-31,113,134,Cincinnati Reds,Pittsburgh Pirates,668881,694973,Hunter Greene,Paul Skenes,2602,Scheduled
+824486,2026-07-31,113,134,Cincinnati Reds,Pittsburgh Pirates,668881,694973,Hunter Greene,Paul Skenes,2602,Pre-Game
 824809,2026-07-31,110,143,Baltimore Orioles,Philadelphia Phillies,687064,,Brandon Young,,2,Scheduled
-822782,2026-07-31,141,138,Toronto Blue Jays,St. Louis Cardinals,656302,681517,Dylan Cease,Kyle Leahy,14,Scheduled
-824407,2026-07-31,114,109,Cleveland Guardians,Arizona Diamondbacks,676440,683352,Tanner Bibee,Mitch Bratt,5,Scheduled
-822945,2026-07-31,139,145,Tampa Bay Rays,Chicago White Sox,607259,607200,Nick Martinez,Erick Fedde,12,Scheduled
-823593,2026-07-31,121,146,New York Mets,Miami Marlins,642547,676083,Freddy Peralta,Janson Junk,3289,Scheduled
-824892,2026-07-31,144,120,Atlanta Braves,Washington Nationals,693821,656492,Bryce Elder,Foster Griffin,4705,Scheduled
+822782,2026-07-31,141,138,Toronto Blue Jays,St. Louis Cardinals,656302,681517,Dylan Cease,Kyle Leahy,14,Pre-Game
+824407,2026-07-31,114,109,Cleveland Guardians,Arizona Diamondbacks,676440,683352,Tanner Bibee,Mitch Bratt,5,Pre-Game
+822945,2026-07-31,139,145,Tampa Bay Rays,Chicago White Sox,607259,607200,Nick Martinez,Erick Fedde,12,Pre-Game
+823593,2026-07-31,121,146,New York Mets,Miami Marlins,,676083,,Janson Junk,3289,Scheduled
+824892,2026-07-31,144,120,Atlanta Braves,Washington Nationals,693821,656492,Bryce Elder,Foster Griffin,4705,Pre-Game
 824164,2026-07-31,117,140,Houston Astros,Texas Rangers,686613,543135,Hunter Brown,Nathan Eovaldi,2392,Scheduled
 824325,2026-07-31,115,118,Colorado Rockies,Kansas City Royals,608372,608379,Tomoyuki Sugano,Michael Wacha,19,Scheduled
 823999,2026-07-31,108,158,Los Angeles Angels,Milwaukee Brewers,696270,675660,Ryan Johnson,Shane Drohan,1,Scheduled
