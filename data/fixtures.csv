@@ -1,7 +1,7 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 822781,2026-08-01,141,138,Toronto Blue Jays,St. Louis Cardinals,592332,687273,Kevin Gausman,Quinn Mathews,14,Scheduled
 823109,2026-08-01,136,142,Seattle Mariners,Minnesota Twins,669302,687570,Logan Gilbert,Connor Prielipp,680,Scheduled
-822944,2026-08-01,139,145,Tampa Bay Rays,Chicago White Sox,656876,702273,Drew Rasmussen,Noah Schultz,12,Scheduled
+822944,2026-08-01,139,145,Tampa Bay Rays,Chicago White Sox,656876,663855,Drew Rasmussen,Jordan Hicks,12,Scheduled
 823594,2026-08-01,121,146,New York Mets,Miami Marlins,804267,663969,Zac Thornton,Tyler Phillips,3289,Scheduled
 824485,2026-08-01,113,134,Cincinnati Reds,Pittsburgh Pirates,671096,677952,Andrew Abbott,Braxton Ashcraft,2602,Scheduled
 824808,2026-08-01,110,143,Baltimore Orioles,Philadelphia Phillies,669358,650911,Shane Baz,Cristopher Sánchez,2,Scheduled
