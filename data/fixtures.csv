@@ -1,17 +1,4 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824809,2026-07-31,110,143,Baltimore Orioles,Philadelphia Phillies,687064,691725,Brandon Young,Andrew Painter,2,Pre-Game
-822782,2026-07-31,141,138,Toronto Blue Jays,St. Louis Cardinals,656302,681517,Dylan Cease,Kyle Leahy,14,Pre-Game
-824407,2026-07-31,114,109,Cleveland Guardians,Arizona Diamondbacks,676440,683352,Tanner Bibee,Mitch Bratt,5,Pre-Game
-822945,2026-07-31,139,145,Tampa Bay Rays,Chicago White Sox,607259,607200,Nick Martinez,Erick Fedde,12,Pre-Game
-823593,2026-07-31,121,146,New York Mets,Miami Marlins,673540,676083,Kodai Senga,Janson Junk,3289,Pre-Game
-824892,2026-07-31,144,120,Atlanta Braves,Washington Nationals,693821,656492,Bryce Elder,Foster Griffin,4705,Pre-Game
-824164,2026-07-31,117,140,Houston Astros,Texas Rangers,686613,543135,Hunter Brown,Nathan Eovaldi,2392,Pre-Game
-824325,2026-07-31,115,118,Colorado Rockies,Kansas City Royals,608372,608379,Tomoyuki Sugano,Michael Wacha,19,Pre-Game
-823999,2026-07-31,108,158,Los Angeles Angels,Milwaukee Brewers,696270,675660,Ryan Johnson,Shane Drohan,1,Pre-Game
-824975,2026-07-31,133,116,Athletics,Detroit Tigers,605488,,Jeffrey Springs,,2529,Scheduled
-823272,2026-07-31,135,137,San Diego Padres,San Francisco Giants,699134,687931,Bradgley Rodriguez,Carson Whisenhunt,2680,Pre-Game
-823922,2026-07-31,119,111,Los Angeles Dodgers,Boston Red Sox,683618,624133,Edgardo Henriquez,Ranger Suarez,22,Pre-Game
-823111,2026-07-31,136,142,Seattle Mariners,Minnesota Twins,682243,805673,Bryce Miller,Zebby Matthews,680,Scheduled
 822781,2026-08-01,141,138,Toronto Blue Jays,St. Louis Cardinals,592332,687273,Kevin Gausman,Quinn Mathews,14,Scheduled
 823109,2026-08-01,136,142,Seattle Mariners,Minnesota Twins,669302,687570,Logan Gilbert,Connor Prielipp,680,Scheduled
 822944,2026-08-01,139,145,Tampa Bay Rays,Chicago White Sox,656876,702273,Drew Rasmussen,Noah Schultz,12,Scheduled
@@ -23,7 +10,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824890,2026-08-01,144,120,Atlanta Braves,Washington Nationals,625643,571945,Reynaldo López,Miles Mikolas,4705,Scheduled
 824649,2026-08-01,112,147,Chicago Cubs,New York Yankees,656849,608331,David Peterson,Max Fried,17,Scheduled
 824326,2026-08-01,115,118,Colorado Rockies,Kansas City Royals,663372,679883,Ryan Feltner,Luinder Avila,19,Scheduled
-823269,2026-08-01,135,137,San Diego Padres,San Francisco Giants,621111,,Walker Buehler,,2680,Scheduled
+823269,2026-08-01,135,137,San Diego Padres,San Francisco Giants,621111,641816,Walker Buehler,Tyler Mahle,2680,Scheduled
 823920,2026-08-01,119,111,Los Angeles Dodgers,Boston Red Sox,808967,801139,Yoshinobu Yamamoto,Payton Tolle,22,Scheduled
 824000,2026-08-01,108,158,Los Angeles Angels,Milwaukee Brewers,667755,688107,José Soriano,Robert Gasser,1,Scheduled
 824972,2026-08-01,133,116,Athletics,Detroit Tigers,678022,664285,Jack Perkins,Framber Valdez,2529,Scheduled
@@ -39,6 +26,14 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824323,2026-08-02,115,118,Colorado Rockies,Kansas City Royals,607536,607625,Kyle Freeland,Seth Lugo,19,Scheduled
 823996,2026-08-02,108,158,Los Angeles Angels,Milwaukee Brewers,700712,694819,Walbert Ureña,Jacob Misiorowski,1,Scheduled
 824971,2026-08-02,133,116,Athletics,Detroit Tigers,695611,672456,Gage Jump,Keider Montero,2529,Scheduled
-823270,2026-08-02,135,137,San Diego Padres,San Francisco Giants,650633,,Michael King,,2680,Scheduled
+823270,2026-08-02,135,137,San Diego Padres,San Francisco Giants,650633,694738,Michael King,Landen Roupp,2680,Scheduled
 823107,2026-08-02,136,142,Seattle Mariners,Minnesota Twins,669923,671737,George Kirby,Taj Bradley,680,Scheduled
 823919,2026-08-02,119,111,Los Angeles Dodgers,Boston Red Sox,686218,687562,Emmet Sheehan,Jake Bennett,22,Scheduled
+823431,2026-08-03,143,120,Philadelphia Phillies,Washington Nationals,,,,,2681,Scheduled
+823520,2026-08-03,147,138,New York Yankees,St. Louis Cardinals,,,,,3313,Scheduled
+823757,2026-08-03,158,134,Milwaukee Brewers,Pittsburgh Pirates,,,,,32,Scheduled
+824647,2026-08-03,112,119,Chicago Cubs,Los Angeles Dodgers,,,,,17,Scheduled
+822867,2026-08-03,140,137,Texas Rangers,San Francisco Giants,,,,,5325,Scheduled
+824160,2026-08-03,117,141,Houston Astros,Toronto Blue Jays,,,,,2392,Scheduled
+824324,2026-08-03,115,139,Colorado Rockies,Tampa Bay Rays,,,,,19,Scheduled
+825095,2026-08-03,109,135,Arizona Diamondbacks,San Diego Padres,,,,,15,Scheduled
