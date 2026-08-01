@@ -1,12 +1,11 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-822781,2026-08-01,141,138,Toronto Blue Jays,St. Louis Cardinals,592332,687273,Kevin Gausman,Quinn Mathews,14,Pre-Game
-823109,2026-08-01,136,142,Seattle Mariners,Minnesota Twins,669302,687570,Logan Gilbert,Connor Prielipp,680,Scheduled
-822944,2026-08-01,139,145,Tampa Bay Rays,Chicago White Sox,656876,663855,Drew Rasmussen,Jordan Hicks,12,Scheduled
-823594,2026-08-01,121,146,New York Mets,Miami Marlins,804267,663969,Zac Thornton,Tyler Phillips,3289,Scheduled
+823109,2026-08-01,136,142,Seattle Mariners,Minnesota Twins,669302,687570,Logan Gilbert,Connor Prielipp,680,Pre-Game
+822944,2026-08-01,139,145,Tampa Bay Rays,Chicago White Sox,656876,663855,Drew Rasmussen,Jordan Hicks,12,Pre-Game
+823594,2026-08-01,121,146,New York Mets,Miami Marlins,804267,663969,Zac Thornton,Tyler Phillips,3289,Pre-Game
 824485,2026-08-01,113,134,Cincinnati Reds,Pittsburgh Pirates,671096,677952,Andrew Abbott,Braxton Ashcraft,2602,Scheduled
-824808,2026-08-01,110,143,Baltimore Orioles,Philadelphia Phillies,669358,650911,Shane Baz,Cristopher Sánchez,2,Scheduled
+824808,2026-08-01,110,143,Baltimore Orioles,Philadelphia Phillies,669358,650911,Shane Baz,Cristopher Sánchez,2,Pre-Game
 824162,2026-08-01,117,140,Houston Astros,Texas Rangers,669854,594798,Ronel Blanco,Jacob deGrom,2392,Scheduled
-824405,2026-08-01,114,109,Cleveland Guardians,Arizona Diamondbacks,800048,684442,Parker Messick,Kohl Drake,5,Scheduled
+824405,2026-08-01,114,109,Cleveland Guardians,Arizona Diamondbacks,800048,684442,Parker Messick,Kohl Drake,5,Pre-Game
 824890,2026-08-01,144,120,Atlanta Braves,Washington Nationals,625643,571945,Reynaldo López,Miles Mikolas,4705,Scheduled
 824649,2026-08-01,112,147,Chicago Cubs,New York Yankees,656849,608331,David Peterson,Max Fried,17,Scheduled
 824326,2026-08-01,115,118,Colorado Rockies,Kansas City Royals,663372,679883,Ryan Feltner,Luinder Avila,19,Scheduled
