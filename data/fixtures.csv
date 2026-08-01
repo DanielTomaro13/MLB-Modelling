@@ -1,18 +1,15 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823109,2026-08-01,136,142,Seattle Mariners,Minnesota Twins,669302,687570,Logan Gilbert,Connor Prielipp,680,Pre-Game
-822944,2026-08-01,139,145,Tampa Bay Rays,Chicago White Sox,656876,663855,Drew Rasmussen,Jordan Hicks,12,Pre-Game
-823594,2026-08-01,121,146,New York Mets,Miami Marlins,804267,663969,Zac Thornton,Tyler Phillips,3289,Pre-Game
-824485,2026-08-01,113,134,Cincinnati Reds,Pittsburgh Pirates,671096,677952,Andrew Abbott,Braxton Ashcraft,2602,Scheduled
+824485,2026-08-01,113,134,Cincinnati Reds,Pittsburgh Pirates,671096,677952,Andrew Abbott,Braxton Ashcraft,2602,Pre-Game
 824808,2026-08-01,110,143,Baltimore Orioles,Philadelphia Phillies,669358,650911,Shane Baz,Cristopher Sánchez,2,Pre-Game
-824162,2026-08-01,117,140,Houston Astros,Texas Rangers,669854,594798,Ronel Blanco,Jacob deGrom,2392,Scheduled
+824162,2026-08-01,117,140,Houston Astros,Texas Rangers,669854,594798,Ronel Blanco,Jacob deGrom,2392,Pre-Game
 824405,2026-08-01,114,109,Cleveland Guardians,Arizona Diamondbacks,800048,684442,Parker Messick,Kohl Drake,5,Pre-Game
-824890,2026-08-01,144,120,Atlanta Braves,Washington Nationals,625643,571945,Reynaldo López,Miles Mikolas,4705,Scheduled
-824649,2026-08-01,112,147,Chicago Cubs,New York Yankees,656849,608331,David Peterson,Max Fried,17,Scheduled
-824326,2026-08-01,115,118,Colorado Rockies,Kansas City Royals,663372,679883,Ryan Feltner,Luinder Avila,19,Scheduled
-823269,2026-08-01,135,137,San Diego Padres,San Francisco Giants,621111,641816,Walker Buehler,Tyler Mahle,2680,Scheduled
-823920,2026-08-01,119,111,Los Angeles Dodgers,Boston Red Sox,808967,801139,Yoshinobu Yamamoto,Payton Tolle,22,Scheduled
-824000,2026-08-01,108,158,Los Angeles Angels,Milwaukee Brewers,667755,688107,José Soriano,Robert Gasser,1,Scheduled
-824972,2026-08-01,133,116,Athletics,Detroit Tigers,678022,664285,Jack Perkins,Framber Valdez,2529,Scheduled
+824890,2026-08-01,144,120,Atlanta Braves,Washington Nationals,625643,571945,Reynaldo López,Miles Mikolas,4705,Pre-Game
+824649,2026-08-01,112,147,Chicago Cubs,New York Yankees,656849,608331,David Peterson,Max Fried,17,Pre-Game
+824326,2026-08-01,115,118,Colorado Rockies,Kansas City Royals,663372,679883,Ryan Feltner,Luinder Avila,19,Pre-Game
+823269,2026-08-01,135,137,San Diego Padres,San Francisco Giants,621111,641816,Walker Buehler,Tyler Mahle,2680,Pre-Game
+823920,2026-08-01,119,111,Los Angeles Dodgers,Boston Red Sox,808967,801139,Yoshinobu Yamamoto,Payton Tolle,22,Pre-Game
+824000,2026-08-01,108,158,Los Angeles Angels,Milwaukee Brewers,608718,688107,Brent Suter,Robert Gasser,1,Scheduled
+824972,2026-08-01,133,116,Athletics,Detroit Tigers,678022,664285,Jack Perkins,Framber Valdez,2529,Pre-Game
 824807,2026-08-02,110,143,Baltimore Orioles,Philadelphia Phillies,680694,554430,Kyle Bradish,Zack Wheeler,2,Scheduled
 824891,2026-08-02,144,120,Atlanta Braves,Washington Nationals,527048,676917,Martín Pérez,Cade Cavalli,4705,Scheduled
 822783,2026-08-02,141,138,Toronto Blue Jays,St. Louis Cardinals,453286,700241,Max Scherzer,Michael McGreevy,14,Scheduled
@@ -20,7 +17,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824483,2026-08-02,113,134,Cincinnati Reds,Pittsburgh Pirates,695505,656605,Chase Burns,Mitch Keller,2602,Scheduled
 822943,2026-08-02,139,145,Tampa Bay Rays,Chicago White Sox,643377,641743,Griffin Jax,Anthony Kay,12,Scheduled
 823592,2026-08-02,121,146,New York Mets,Miami Marlins,,645261,,Sandy Alcantara,3289,Scheduled
-824163,2026-08-02,117,140,Houston Astros,Texas Rangers,,677958,,Kumar Rocker,2392,Scheduled
+824163,2026-08-02,117,140,Houston Astros,Texas Rangers,663567,677958,Peter Lambert,Kumar Rocker,2392,Scheduled
 824648,2026-08-02,112,147,Chicago Cubs,New York Yankees,607067,543037,Colin Rea,Gerrit Cole,17,Scheduled
 824323,2026-08-02,115,118,Colorado Rockies,Kansas City Royals,607536,607625,Kyle Freeland,Seth Lugo,19,Scheduled
 823996,2026-08-02,108,158,Los Angeles Angels,Milwaukee Brewers,700712,694819,Walbert Ureña,Jacob Misiorowski,1,Scheduled
