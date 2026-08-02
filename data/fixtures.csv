@@ -1,14 +1,14 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824807,2026-08-02,110,143,Baltimore Orioles,Philadelphia Phillies,680694,554430,Kyle Bradish,Zack Wheeler,2,Scheduled
-824891,2026-08-02,144,120,Atlanta Braves,Washington Nationals,702275,676917,JR Ritchie,Cade Cavalli,4705,Scheduled
-822783,2026-08-02,141,138,Toronto Blue Jays,St. Louis Cardinals,453286,669461,Max Scherzer,Matthew Liberatore,14,Scheduled
-824404,2026-08-02,114,109,Cleveland Guardians,Arizona Diamondbacks,668909,518876,Gavin Williams,Merrill Kelly,5,Scheduled
-824483,2026-08-02,113,134,Cincinnati Reds,Pittsburgh Pirates,695505,656605,Chase Burns,Mitch Keller,2602,Scheduled
-822943,2026-08-02,139,145,Tampa Bay Rays,Chicago White Sox,643377,641743,Griffin Jax,Anthony Kay,12,Scheduled
-823592,2026-08-02,121,146,New York Mets,Miami Marlins,476594,645261,Robert Stock,Sandy Alcantara,3289,Scheduled
-824163,2026-08-02,117,140,Houston Astros,Texas Rangers,663567,677958,Peter Lambert,Kumar Rocker,2392,Scheduled
-824648,2026-08-02,112,147,Chicago Cubs,New York Yankees,607067,543037,Colin Rea,Gerrit Cole,17,Scheduled
-824323,2026-08-02,115,118,Colorado Rockies,Kansas City Royals,607536,607625,Kyle Freeland,Seth Lugo,19,Scheduled
+824807,2026-08-02,110,143,Baltimore Orioles,Philadelphia Phillies,680694,554430,Kyle Bradish,Zack Wheeler,2,Pre-Game
+824891,2026-08-02,144,120,Atlanta Braves,Washington Nationals,702275,676917,JR Ritchie,Cade Cavalli,4705,Pre-Game
+822783,2026-08-02,141,138,Toronto Blue Jays,St. Louis Cardinals,453286,669461,Max Scherzer,Matthew Liberatore,14,Pre-Game
+824404,2026-08-02,114,109,Cleveland Guardians,Arizona Diamondbacks,668909,518876,Gavin Williams,Merrill Kelly,5,Pre-Game
+824483,2026-08-02,113,134,Cincinnati Reds,Pittsburgh Pirates,695505,656605,Chase Burns,Mitch Keller,2602,Pre-Game
+822943,2026-08-02,139,145,Tampa Bay Rays,Chicago White Sox,643377,641743,Griffin Jax,Anthony Kay,12,Pre-Game
+823592,2026-08-02,121,146,New York Mets,Miami Marlins,476594,645261,Robert Stock,Sandy Alcantara,3289,Pre-Game
+824163,2026-08-02,117,140,Houston Astros,Texas Rangers,663567,677958,Peter Lambert,Kumar Rocker,2392,Pre-Game
+824648,2026-08-02,112,147,Chicago Cubs,New York Yankees,607067,543037,Colin Rea,Gerrit Cole,17,Pre-Game
+824323,2026-08-02,115,118,Colorado Rockies,Kansas City Royals,607536,607625,Kyle Freeland,Seth Lugo,19,Pre-Game
 823996,2026-08-02,108,158,Los Angeles Angels,Milwaukee Brewers,700712,694819,Walbert Ureña,Jacob Misiorowski,1,Scheduled
 824971,2026-08-02,133,116,Athletics,Detroit Tigers,695611,672456,Gage Jump,Keider Montero,2529,Scheduled
 823270,2026-08-02,135,137,San Diego Padres,San Francisco Giants,650633,694738,Michael King,Landen Roupp,2680,Scheduled
