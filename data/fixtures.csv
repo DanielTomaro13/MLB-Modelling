@@ -1,6 +1,6 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 824807,2026-08-02,110,143,Baltimore Orioles,Philadelphia Phillies,680694,554430,Kyle Bradish,Zack Wheeler,2,Scheduled
-824891,2026-08-02,144,120,Atlanta Braves,Washington Nationals,,676917,,Cade Cavalli,4705,Scheduled
+824891,2026-08-02,144,120,Atlanta Braves,Washington Nationals,702275,676917,JR Ritchie,Cade Cavalli,4705,Scheduled
 822783,2026-08-02,141,138,Toronto Blue Jays,St. Louis Cardinals,453286,669461,Max Scherzer,Matthew Liberatore,14,Scheduled
 824404,2026-08-02,114,109,Cleveland Guardians,Arizona Diamondbacks,668909,518876,Gavin Williams,Merrill Kelly,5,Scheduled
 824483,2026-08-02,113,134,Cincinnati Reds,Pittsburgh Pirates,695505,656605,Chase Burns,Mitch Keller,2602,Scheduled
