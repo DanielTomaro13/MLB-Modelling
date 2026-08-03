@@ -1,5 +1,5 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823431,2026-08-03,143,120,Philadelphia Phillies,Washington Nationals,605400,,Aaron Nola,,2681,Scheduled
+823431,2026-08-03,143,120,Philadelphia Phillies,Washington Nationals,605400,674841,Aaron Nola,Andrew Alvarez,2681,Scheduled
 823520,2026-08-03,147,138,New York Yankees,St. Louis Cardinals,693645,700241,Cam Schlittler,Michael McGreevy,3313,Scheduled
 823757,2026-08-03,158,134,Milwaukee Brewers,Pittsburgh Pirates,687075,696149,Brandon Sproat,Bubba Chandler,32,Scheduled
 824647,2026-08-03,112,119,Chicago Cubs,Los Angeles Dodgers,571510,,Matthew Boyd,,17,Scheduled
