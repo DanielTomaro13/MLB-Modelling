@@ -8,12 +8,12 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-04,St. Louis Cardinals,New York Yankees,Hunter Dobbins,Ryan Weathers,0.5577,1.793,2.261,8.948
 2026-08-04,Minnesota Twins,Kansas City Royals,Joe Ryan,Randy Dobnak,0.5378,1.859,2.164,8.514
 2026-08-04,Toronto Blue Jays,Houston Astros,Trey Yesavage,Hayden Wesneski,0.5352,1.868,2.152,8.47
-2026-08-04,Detroit Tigers,Seattle Mariners,TBD,Emerson Hancock,0.5352,1.868,2.152,7.167
 2026-08-04,Chicago White Sox,Boston Red Sox,Davis Martin,Patrick Sandoval,0.5271,1.897,2.115,8.463
 2026-08-04,Athletics,Cincinnati Reds,J.T. Ginn,Brady Singer,0.5253,1.904,2.106,8.891
 2026-08-04,San Francisco Giants,Texas Rangers,Blade Tidwell,MacKenzie Gore,0.5123,1.952,2.05,8.037
 2026-08-04,Tampa Bay Rays,Colorado Rockies,Freddy Peralta,Gabriel Hughes,0.5082,1.968,2.033,11.118
 2026-08-04,Los Angeles Dodgers,Chicago Cubs,Tarik Skubal,Javier Assad,0.4949,2.021,1.98,8.224
+2026-08-04,Detroit Tigers,Seattle Mariners,Troy Melton,Emerson Hancock,0.4852,2.061,1.943,6.427
 2026-08-05,Pittsburgh Pirates,Milwaukee Brewers,Paul Skenes,TBD,0.572,1.748,2.336,9.039
 2026-08-05,Miami Marlins,Atlanta Braves,Eury Pérez,Bryce Elder,0.5584,1.791,2.265,8.598
 2026-08-05,Los Angeles Angels,Baltimore Orioles,Reid Detmers,Trevor Rogers,0.5516,1.813,2.23,9.121
@@ -37,6 +37,6 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-06,Los Angeles Angels,Baltimore Orioles,TBD,Brandon Young,0.5701,1.754,2.326,8.907
 2026-08-06,New York Mets,Cleveland Guardians,TBD,Tanner Bibee,0.5558,1.799,2.251,8.385
 2026-08-06,San Diego Padres,Arizona Diamondbacks,Walker Buehler,Kohl Drake,0.5548,1.803,2.246,9.643
-2026-08-06,Detroit Tigers,Seattle Mariners,TBD,Bryce Miller,0.5343,1.872,2.147,7.183
+2026-08-06,Detroit Tigers,Seattle Mariners,Framber Valdez,Bryce Miller,0.5431,1.841,2.189,7.325
 2026-08-06,Athletics,Cincinnati Reds,TBD,Hunter Greene,0.5287,1.891,2.122,9.617
 2026-08-06,Minnesota Twins,Kansas City Royals,Bailey Ober,Michael Wacha,0.5231,1.912,2.097,9.093

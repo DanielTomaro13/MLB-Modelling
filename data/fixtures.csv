@@ -13,7 +13,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824161,2026-08-04,117,141,Houston Astros,Toronto Blue Jays,669713,702056,Hayden Wesneski,Trey Yesavage,2392,Scheduled
 824321,2026-08-04,115,139,Colorado Rockies,Tampa Bay Rays,687312,642547,Gabriel Hughes,Freddy Peralta,19,Scheduled
 825054,2026-08-04,109,135,Arizona Diamondbacks,San Diego Padres,593958,681190,Eduardo Rodriguez,Randy Vásquez,15,Scheduled
-823108,2026-08-04,136,116,Seattle Mariners,Detroit Tigers,676106,,Emerson Hancock,,680,Scheduled
+823108,2026-08-04,136,116,Seattle Mariners,Detroit Tigers,676106,675512,Emerson Hancock,Troy Melton,680,Scheduled
 824158,2026-08-05,117,141,Houston Astros,Toronto Blue Jays,686613,656302,Hunter Brown,Dylan Cease,2392,Scheduled
 824646,2026-08-05,112,119,Chicago Cubs,Los Angeles Dodgers,684007,641778,Shota Imanaga,Eric Lauer,17,Scheduled
 822866,2026-08-05,140,137,Texas Rangers,San Francisco Giants,,,,,5325,Scheduled
@@ -34,7 +34,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824401,2026-08-06,114,121,Cleveland Guardians,New York Mets,676440,,Tanner Bibee,,5,Scheduled
 823754,2026-08-06,158,134,Milwaukee Brewers,Pittsburgh Pirates,675660,677952,Shane Drohan,Braxton Ashcraft,32,Scheduled
 824664,2026-08-06,112,141,Chicago Cubs,Toronto Blue Jays,,,,,17,Scheduled
-823105,2026-08-06,136,116,Seattle Mariners,Detroit Tigers,682243,,Bryce Miller,,680,Scheduled
+823105,2026-08-06,136,116,Seattle Mariners,Detroit Tigers,682243,664285,Bryce Miller,Framber Valdez,680,Scheduled
 823430,2026-08-06,143,120,Philadelphia Phillies,Washington Nationals,650911,,Cristopher Sánchez,,2681,Scheduled
 824729,2026-08-06,111,145,Boston Red Sox,Chicago White Sox,624133,622491,Ranger Suarez,Luis Castillo,3,Scheduled
 824885,2026-08-06,144,146,Atlanta Braves,Miami Marlins,527048,,Martín Pérez,,4705,Scheduled
