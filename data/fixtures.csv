@@ -1,7 +1,7 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 824158,2026-08-05,117,141,Houston Astros,Toronto Blue Jays,686613,592791,Hunter Brown,Jameson Taillon,2392,Scheduled
 824646,2026-08-05,112,119,Chicago Cubs,Los Angeles Dodgers,684007,641778,Shota Imanaga,Eric Lauer,17,Scheduled
-822866,2026-08-05,140,137,Texas Rangers,San Francisco Giants,,687931,,Carson Whisenhunt,5325,Scheduled
+822866,2026-08-05,140,137,Texas Rangers,San Francisco Giants,674003,687931,Cody Bradford,Carson Whisenhunt,5325,Scheduled
 824322,2026-08-05,115,139,Colorado Rockies,Tampa Bay Rays,608372,607259,Tomoyuki Sugano,Nick Martinez,19,Scheduled
 824806,2026-08-05,110,108,Baltimore Orioles,Los Angeles Angels,669432,672282,Trevor Rogers,Reid Detmers,2,Scheduled
 824402,2026-08-05,114,121,Cleveland Guardians,New York Mets,676440,681035,Tanner Bibee,Christian Scott,5,Scheduled
