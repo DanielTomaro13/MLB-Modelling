@@ -1,7 +1,7 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824158,2026-08-05,117,141,Houston Astros,Toronto Blue Jays,686613,592791,Hunter Brown,Jameson Taillon,2392,Scheduled
-824646,2026-08-05,112,119,Chicago Cubs,Los Angeles Dodgers,684007,641778,Shota Imanaga,Eric Lauer,17,Scheduled
-822866,2026-08-05,140,137,Texas Rangers,San Francisco Giants,674003,687931,Cody Bradford,Carson Whisenhunt,5325,Scheduled
+824158,2026-08-05,117,141,Houston Astros,Toronto Blue Jays,686613,592791,Hunter Brown,Jameson Taillon,2392,Pre-Game
+824646,2026-08-05,112,119,Chicago Cubs,Los Angeles Dodgers,684007,641778,Shota Imanaga,Eric Lauer,17,Pre-Game
+822866,2026-08-05,140,137,Texas Rangers,San Francisco Giants,674003,687931,Cody Bradford,Carson Whisenhunt,5325,Pre-Game
 824322,2026-08-05,115,139,Colorado Rockies,Tampa Bay Rays,608372,607259,Tomoyuki Sugano,Nick Martinez,19,Scheduled
 824806,2026-08-05,110,108,Baltimore Orioles,Los Angeles Angels,669432,672282,Trevor Rogers,Reid Detmers,2,Scheduled
 824402,2026-08-05,114,121,Cleveland Guardians,New York Mets,676440,681035,Tanner Bibee,Christian Scott,5,Scheduled
@@ -18,7 +18,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824481,2026-08-06,113,133,Cincinnati Reds,Athletics,668881,686930,Hunter Greene,Mason Barnett,2602,Scheduled
 824401,2026-08-06,114,121,Cleveland Guardians,New York Mets,656492,690997,Foster Griffin,Nolan McLean,5,Scheduled
 823754,2026-08-06,158,134,Milwaukee Brewers,Pittsburgh Pirates,669160,677952,Dustin May,Braxton Ashcraft,32,Scheduled
-824664,2026-08-06,112,141,Chicago Cubs,Toronto Blue Jays,,656302,,Dylan Cease,17,Scheduled
+824664,2026-08-06,112,141,Chicago Cubs,Toronto Blue Jays,656849,656302,David Peterson,Dylan Cease,17,Scheduled
 823105,2026-08-06,136,116,Seattle Mariners,Detroit Tigers,682243,664285,Bryce Miller,Framber Valdez,680,Scheduled
 823430,2026-08-06,143,120,Philadelphia Phillies,Washington Nationals,650911,,Cristopher Sánchez,,2681,Scheduled
 824729,2026-08-06,111,145,Boston Red Sox,Chicago White Sox,624133,622491,Ranger Suarez,Luis Castillo,3,Scheduled
@@ -37,6 +37,6 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823024,2026-08-07,138,115,St. Louis Cardinals,Colorado Rockies,,,,,2889,Scheduled
 822863,2026-08-07,140,110,Texas Rangers,Baltimore Orioles,,,,,5325,Scheduled
 825051,2026-08-07,109,119,Arizona Diamondbacks,Los Angeles Dodgers,,,,,15,Scheduled
-823266,2026-08-07,135,117,San Diego Padres,Houston Astros,592662,,Robbie Ray,,2680,Scheduled
+823266,2026-08-07,135,117,San Diego Padres,Houston Astros,592662,669854,Robbie Ray,Ronel Blanco,2680,Scheduled
 823103,2026-08-07,136,139,Seattle Mariners,Tampa Bay Rays,,,,,680,Scheduled
 823191,2026-08-07,137,116,San Francisco Giants,Detroit Tigers,,,,,2395,Scheduled
