@@ -1,7 +1,7 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 823349,2026-08-07,134,121,Pittsburgh Pirates,New York Mets,669387,804267,Carmen Mlodzinski,Zac Thornton,31,Scheduled
 823428,2026-08-07,143,141,Philadelphia Phillies,Toronto Blue Jays,554430,667755,Zack Wheeler,José Soriano,2681,Scheduled
-822699,2026-08-07,120,113,Washington Nationals,Cincinnati Reds,676917,,Cade Cavalli,,3309,Scheduled
+822699,2026-08-07,120,113,Washington Nationals,Cincinnati Reds,676917,695534,Cade Cavalli,Chase Petty,3309,Scheduled
 823515,2026-08-07,147,144,New York Yankees,Atlanta Braves,608331,641816,Max Fried,Tyler Mahle,3313,Scheduled
 824727,2026-08-07,111,133,Boston Red Sox,Athletics,801139,678022,Payton Tolle,Jack Perkins,3,Scheduled
 823836,2026-08-07,146,108,Miami Marlins,Los Angeles Angels,663969,691946,Tyler Phillips,George Klassen,4169,Scheduled
