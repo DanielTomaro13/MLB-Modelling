@@ -13,7 +13,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 825051,2026-08-07,109,119,Arizona Diamondbacks,Los Angeles Dodgers,518876,808963,Merrill Kelly,Roki Sasaki,15,Scheduled
 823266,2026-08-07,135,117,San Diego Padres,Houston Astros,592662,669854,Robbie Ray,Ronel Blanco,2680,Scheduled
 823103,2026-08-07,136,139,Seattle Mariners,Tampa Bay Rays,669302,656876,Logan Gilbert,Drew Rasmussen,680,Scheduled
-823191,2026-08-07,137,116,San Francisco Giants,Detroit Tigers,,672456,,Keider Montero,2395,Scheduled
+823191,2026-08-07,137,116,San Francisco Giants,Detroit Tigers,664141,672456,JT Brubaker,Keider Montero,2395,Scheduled
 823514,2026-08-08,147,144,New York Yankees,Atlanta Braves,543037,519242,Gerrit Cole,Chris Sale,3313,Scheduled
 824726,2026-08-08,111,133,Boston Red Sox,Athletics,687562,695611,Jake Bennett,Gage Jump,3,Scheduled
 823834,2026-08-08,146,108,Miami Marlins,Los Angeles Angels,645261,700712,Sandy Alcantara,Walbert Ureña,4169,Scheduled
