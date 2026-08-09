@@ -1,8 +1,8 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-09,Minnesota Twins,Milwaukee Brewers,Connor Prielipp,Jacob Misiorowski,0.6741,1.483,3.069,8.492
 2026-08-09,Colorado Rockies,St. Louis Cardinals,Michael Lorenzen,Michael McGreevy,0.6438,1.553,2.808,9.318
+2026-08-09,Athletics,Boston Red Sox,J.T. Ginn,Erik Miller,0.6213,1.609,2.641,7.985
 2026-08-09,Los Angeles Angels,Miami Marlins,Grayson Rodriguez,Ryan Gusto,0.6097,1.64,2.562,9.935
-2026-08-09,Athletics,Boston Red Sox,J.T. Ginn,TBD,0.5938,1.684,2.462,8.451
 2026-08-09,Toronto Blue Jays,Philadelphia Phillies,Shane Bieber,Jesús Luzardo,0.5872,1.703,2.423,8.881
 2026-08-09,Cincinnati Reds,Washington Nationals,Brady Singer,Brad Lord,0.5837,1.713,2.402,9.708
 2026-08-09,New York Mets,Pittsburgh Pirates,Sean Manaea,Jared Jones,0.5783,1.729,2.371,9.771
@@ -10,7 +10,7 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-09,Houston Astros,San Diego Padres,Cristian Javier,TBD,0.5548,1.802,2.246,9.03
 2026-08-09,Atlanta Braves,New York Yankees,Grant Holmes,Cam Schlittler,0.5531,1.808,2.238,7.974
 2026-08-09,Baltimore Orioles,Texas Rangers,Cade Povich,Kumar Rocker,0.5282,1.893,2.12,7.88
-2026-08-09,Tampa Bay Rays,Seattle Mariners,TBD,Emerson Hancock,0.5227,1.913,2.095,7.19
+2026-08-09,Tampa Bay Rays,Seattle Mariners,Ian Seymour,Emerson Hancock,0.5268,1.898,2.113,7.255
 2026-08-09,Los Angeles Dodgers,Arizona Diamondbacks,Justin Wrobleski,Eduardo Rodriguez,0.4917,2.034,1.967,8.21
 2026-08-09,Chicago Cubs,Kansas City Royals,Matthew Boyd,Randy Dobnak,0.4818,2.076,1.93,8.597
 2026-08-09,Detroit Tigers,San Francisco Giants,Troy Melton,Logan Webb,0.4364,2.292,1.774,7.374
@@ -22,8 +22,8 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-10,Houston Astros,San Francisco Giants,TBD,TBD,0.5048,1.981,2.02,8.736
 2026-08-10,Texas Rangers,Los Angeles Angels,TBD,TBD,0.4927,2.03,1.971,8.672
 2026-08-10,Milwaukee Brewers,San Diego Padres,TBD,TBD,0.4708,2.124,1.89,8.585
-2026-08-10,Tampa Bay Rays,Athletics,TBD,TBD,0.4534,2.206,1.829,10.193
 2026-08-10,Boston Red Sox,Toronto Blue Jays,Sonny Gray,TBD,0.4359,2.294,1.773,8.041
+2026-08-10,Tampa Bay Rays,Athletics,TBD,Jacob Lopez,0.4311,2.32,1.758,10.647
 2026-08-11,New York Mets,Atlanta Braves,TBD,TBD,0.5889,1.698,2.433,8.817
 2026-08-11,Kansas City Royals,Los Angeles Dodgers,TBD,Blake Snell,0.5879,1.701,2.427,9.527
 2026-08-11,Colorado Rockies,Arizona Diamondbacks,TBD,TBD,0.5869,1.704,2.421,9.38
