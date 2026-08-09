@@ -1,6 +1,5 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823102,2026-08-08,136,139,Seattle Mariners,Tampa Bay Rays,669923,668984,George Kirby,Casey Legumina,680,Pre-Game
-822700,2026-08-09,120,113,Washington Nationals,Cincinnati Reds,,663903,,Brady Singer,3309,Scheduled
+822700,2026-08-09,120,113,Washington Nationals,Cincinnati Reds,695418,663903,Brad Lord,Brady Singer,3309,Scheduled
 824724,2026-08-09,111,133,Boston Red Sox,Athletics,,669372,,J.T. Ginn,3,Scheduled
 823345,2026-08-09,134,121,Pittsburgh Pirates,New York Mets,683003,640455,Jared Jones,Sean Manaea,31,Scheduled
 823425,2026-08-09,143,141,Philadelphia Phillies,Toronto Blue Jays,666200,669456,Jesús Luzardo,Shane Bieber,2681,Scheduled
