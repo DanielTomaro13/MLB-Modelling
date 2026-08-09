@@ -1,30 +1,27 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823190,2026-08-09,137,116,San Francisco Giants,Detroit Tigers,657277,675512,Logan Webb,Troy Melton,2395,Pre-Game
-825050,2026-08-09,109,119,Arizona Diamondbacks,Los Angeles Dodgers,593958,680736,Eduardo Rodriguez,Justin Wrobleski,15,Pre-Game
-823104,2026-08-09,136,139,Seattle Mariners,Tampa Bay Rays,676106,693855,Emerson Hancock,Ian Seymour,680,Pre-Game
-823268,2026-08-09,135,117,San Diego Padres,Houston Astros,,664299,,Cristian Javier,2680,Scheduled
+823268,2026-08-09,135,117,San Diego Padres,Houston Astros,681190,664299,Randy Vásquez,Cristian Javier,2680,Pre-Game
 822780,2026-08-10,141,111,Toronto Blue Jays,Boston Red Sox,592791,543243,Jameson Taillon,Sonny Gray,14,Scheduled
 824887,2026-08-10,144,121,Atlanta Braves,New York Mets,693821,681035,Bryce Elder,Christian Scott,4705,Scheduled
 823675,2026-08-10,142,110,Minnesota Twins,Baltimore Orioles,665152,669432,Dean Kremer,Trevor Rogers,3312,Scheduled
 823018,2026-08-10,138,143,St. Louis Cardinals,Philadelphia Phillies,690928,691725,Hunter Dobbins,Andrew Painter,2889,Scheduled
 823998,2026-08-10,108,140,Los Angeles Angels,Texas Rangers,672282,669022,Reid Detmers,MacKenzie Gore,1,Scheduled
 825048,2026-08-10,109,115,Arizona Diamondbacks,Colorado Rockies,,687312,,Gabriel Hughes,15,Scheduled
-824969,2026-08-10,133,139,Athletics,Tampa Bay Rays,682052,,Jacob Lopez,,2529,Scheduled
+824969,2026-08-10,133,139,Athletics,Tampa Bay Rays,682052,642547,Jacob Lopez,Freddy Peralta,2529,Scheduled
 823265,2026-08-10,135,158,San Diego Padres,Milwaukee Brewers,,701656,,Logan Henderson,2680,Scheduled
-823189,2026-08-10,137,117,San Francisco Giants,Houston Astros,,,,,2395,Scheduled
+823189,2026-08-10,137,117,San Francisco Giants,Houston Astros,694918,669713,Blade Tidwell,Hayden Wesneski,2395,Scheduled
 823918,2026-08-10,119,118,Los Angeles Dodgers,Kansas City Royals,669373,702070,Tarik Skubal,Noah Cameron,22,Scheduled
-824240,2026-08-11,116,114,Detroit Tigers,Cleveland Guardians,,676440,,Tanner Bibee,2394,Scheduled
-823832,2026-08-11,146,134,Miami Marlins,Pittsburgh Pirates,,694973,,Paul Skenes,4169,Scheduled
+824240,2026-08-11,116,114,Detroit Tigers,Cleveland Guardians,623454,676440,Drew Anderson,Tanner Bibee,2394,Scheduled
+823832,2026-08-11,146,134,Miami Marlins,Pittsburgh Pirates,691587,694973,Eury Pérez,Paul Skenes,4169,Scheduled
 822697,2026-08-11,120,112,Washington Nationals,Chicago Cubs,,684007,,Shota Imanaga,3309,Scheduled
-823512,2026-08-11,147,136,New York Yankees,Seattle Mariners,677960,,Ryan Weathers,,3313,Scheduled
+823512,2026-08-11,147,136,New York Yankees,Seattle Mariners,677960,693433,Ryan Weathers,Bryan Woo,3313,Scheduled
 822778,2026-08-11,141,111,Toronto Blue Jays,Boston Red Sox,656302,663776,Dylan Cease,Patrick Sandoval,14,Scheduled
 824886,2026-08-11,144,121,Atlanta Braves,New York Mets,527048,690997,Martín Pérez,Nolan McLean,4705,Scheduled
 823673,2026-08-11,142,110,Minnesota Twins,Baltimore Orioles,641927,687064,Bailey Ober,Brandon Young,3312,Scheduled
 824563,2026-08-11,145,113,Chicago White Sox,Cincinnati Reds,680732,666157,Sean Burke,Nick Lodolo,4,Scheduled
 823019,2026-08-11,138,143,St. Louis Cardinals,Philadelphia Phillies,669467,650911,Andre Pallante,Cristopher Sánchez,2889,Scheduled
 823997,2026-08-11,108,140,Los Angeles Angels,Texas Rangers,696270,,Ryan Johnson,,1,Scheduled
-825046,2026-08-11,109,115,Arizona Diamondbacks,Colorado Rockies,,608372,,Tomoyuki Sugano,15,Scheduled
-824970,2026-08-11,133,139,Athletics,Tampa Bay Rays,,,,,2529,Scheduled
+825046,2026-08-11,109,115,Arizona Diamondbacks,Colorado Rockies,683352,608372,Mitch Bratt,Tomoyuki Sugano,15,Scheduled
+824970,2026-08-11,133,139,Athletics,Tampa Bay Rays,,607259,,Nick Martinez,2529,Scheduled
 823264,2026-08-11,135,158,San Diego Padres,Milwaukee Brewers,,690986,,Kyle Harrison,2680,Scheduled
-823186,2026-08-11,137,117,San Francisco Giants,Houston Astros,,,,,2395,Scheduled
+823186,2026-08-11,137,117,San Francisco Giants,Houston Astros,,686613,,Hunter Brown,2395,Scheduled
 823917,2026-08-11,119,118,Los Angeles Dodgers,Kansas City Royals,605483,608379,Blake Snell,Michael Wacha,22,Scheduled
