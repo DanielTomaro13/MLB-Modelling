@@ -1,17 +1,17 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 824240,2026-08-11,116,114,Detroit Tigers,Cleveland Guardians,623454,676440,Drew Anderson,Tanner Bibee,2394,Pre-Game
-823832,2026-08-11,146,134,Miami Marlins,Pittsburgh Pirates,691587,694973,Eury Pérez,Paul Skenes,4169,Scheduled
+823832,2026-08-11,146,134,Miami Marlins,Pittsburgh Pirates,691587,694973,Eury Pérez,Paul Skenes,4169,Pre-Game
 822697,2026-08-11,120,112,Washington Nationals,Chicago Cubs,663623,684007,Jake Irvin,Shota Imanaga,3309,Pre-Game
-823512,2026-08-11,147,136,New York Yankees,Seattle Mariners,677960,693433,Ryan Weathers,Bryan Woo,3313,Scheduled
-822778,2026-08-11,141,111,Toronto Blue Jays,Boston Red Sox,656302,663776,Dylan Cease,Patrick Sandoval,14,Scheduled
-824886,2026-08-11,144,121,Atlanta Braves,New York Mets,527048,690997,Martín Pérez,Nolan McLean,4705,Scheduled
-823673,2026-08-11,142,110,Minnesota Twins,Baltimore Orioles,641927,687064,Bailey Ober,Brandon Young,3312,Scheduled
-824563,2026-08-11,145,113,Chicago White Sox,Cincinnati Reds,680732,666157,Sean Burke,Nick Lodolo,4,Scheduled
-823019,2026-08-11,138,143,St. Louis Cardinals,Philadelphia Phillies,669467,650911,Andre Pallante,Cristopher Sánchez,2889,Scheduled
-823997,2026-08-11,108,140,Los Angeles Angels,Texas Rangers,696270,674003,Ryan Johnson,Cody Bradford,1,Scheduled
-825046,2026-08-11,109,115,Arizona Diamondbacks,Colorado Rockies,683352,608372,Mitch Bratt,Tomoyuki Sugano,15,Scheduled
+823512,2026-08-11,147,136,New York Yankees,Seattle Mariners,677960,693433,Ryan Weathers,Bryan Woo,3313,Pre-Game
+822778,2026-08-11,141,111,Toronto Blue Jays,Boston Red Sox,656302,663776,Dylan Cease,Patrick Sandoval,14,Pre-Game
+824886,2026-08-11,144,121,Atlanta Braves,New York Mets,527048,690997,Martín Pérez,Nolan McLean,4705,Pre-Game
+823673,2026-08-11,142,110,Minnesota Twins,Baltimore Orioles,641927,687064,Bailey Ober,Brandon Young,3312,Pre-Game
+824563,2026-08-11,145,113,Chicago White Sox,Cincinnati Reds,680732,666157,Sean Burke,Nick Lodolo,4,Pre-Game
+823019,2026-08-11,138,143,St. Louis Cardinals,Philadelphia Phillies,669467,650911,Andre Pallante,Cristopher Sánchez,2889,Pre-Game
+823997,2026-08-11,108,140,Los Angeles Angels,Texas Rangers,696270,674003,Ryan Johnson,Cody Bradford,1,Pre-Game
+825046,2026-08-11,109,115,Arizona Diamondbacks,Colorado Rockies,683352,608372,Mitch Bratt,Tomoyuki Sugano,15,Pre-Game
 824970,2026-08-11,133,139,Athletics,Tampa Bay Rays,686930,607259,Mason Barnett,Nick Martinez,2529,Scheduled
-823264,2026-08-11,135,158,San Diego Padres,Milwaukee Brewers,621111,690986,Walker Buehler,Kyle Harrison,2680,Scheduled
+823264,2026-08-11,135,158,San Diego Padres,Milwaukee Brewers,621111,690986,Walker Buehler,Kyle Harrison,2680,Pre-Game
 823186,2026-08-11,137,117,San Francisco Giants,Houston Astros,687931,686613,Carson Whisenhunt,Hunter Brown,2395,Scheduled
 823917,2026-08-11,119,118,Los Angeles Dodgers,Kansas City Royals,605483,608379,Blake Snell,Michael Wacha,22,Scheduled
 823672,2026-08-12,142,110,Minnesota Twins,Baltimore Orioles,805673,669358,Zebby Matthews,Shane Baz,3312,Scheduled
@@ -34,7 +34,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823508,2026-08-13,147,136,New York Yankees,Seattle Mariners,608331,669302,Max Fried,Logan Gilbert,3313,Scheduled
 824561,2026-08-13,145,113,Chicago White Sox,Cincinnati Reds,,671096,,Andrew Abbott,4,Scheduled
 822776,2026-08-13,141,111,Toronto Blue Jays,Boston Red Sox,453286,801139,Max Scherzer,Payton Tolle,14,Scheduled
-822696,2026-08-13,120,112,Washington Nationals,Chicago Cubs,,592332,,Kevin Gausman,3309,Scheduled
+822696,2026-08-13,120,112,Washington Nationals,Chicago Cubs,676917,592332,Cade Cavalli,Kevin Gausman,3309,Scheduled
 823669,2026-08-13,142,143,Minnesota Twins,Philadelphia Phillies,,605400,,Aaron Nola,5445,Scheduled
 823995,2026-08-13,108,140,Los Angeles Angels,Texas Rangers,700712,,Walbert Ureña,,1,Scheduled
 823915,2026-08-13,119,158,Los Angeles Dodgers,Milwaukee Brewers,,,,,22,Scheduled
