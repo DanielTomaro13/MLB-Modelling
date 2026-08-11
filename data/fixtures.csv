@@ -1,6 +1,4 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823189,2026-08-10,137,117,San Francisco Giants,Houston Astros,694918,669713,Blade Tidwell,Hayden Wesneski,2395,Pre-Game
-823918,2026-08-10,119,118,Los Angeles Dodgers,Kansas City Royals,669373,702070,Tarik Skubal,Noah Cameron,22,Pre-Game
 824240,2026-08-11,116,114,Detroit Tigers,Cleveland Guardians,623454,676440,Drew Anderson,Tanner Bibee,2394,Scheduled
 823832,2026-08-11,146,134,Miami Marlins,Pittsburgh Pirates,691587,694973,Eury Pérez,Paul Skenes,4169,Scheduled
 822697,2026-08-11,120,112,Washington Nationals,Chicago Cubs,,684007,,Shota Imanaga,3309,Scheduled
