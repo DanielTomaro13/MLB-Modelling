@@ -1,14 +1,13 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823917,2026-08-11,119,118,Los Angeles Dodgers,Kansas City Royals,605483,608379,Blake Snell,Michael Wacha,22,Pre-Game
 823672,2026-08-12,142,110,Minnesota Twins,Baltimore Orioles,805673,669358,Zebby Matthews,Shane Baz,3312,Scheduled
 823017,2026-08-12,138,143,St. Louis Cardinals,Philadelphia Phillies,681517,554430,Kyle Leahy,Zack Wheeler,2889,Scheduled
-824967,2026-08-12,133,139,Athletics,Tampa Bay Rays,,656876,,Drew Rasmussen,2529,Scheduled
+824967,2026-08-12,133,139,Athletics,Tampa Bay Rays,678022,656876,Jack Perkins,Drew Rasmussen,2529,Scheduled
 825047,2026-08-12,109,115,Arizona Diamondbacks,Colorado Rockies,518876,663372,Merrill Kelly,Ryan Feltner,15,Scheduled
 823187,2026-08-12,137,117,San Francisco Giants,Houston Astros,,,,,2395,Scheduled
 823263,2026-08-12,135,158,San Diego Padres,Milwaukee Brewers,592662,669160,Robbie Ray,Dustin May,2680,Scheduled
 824241,2026-08-12,116,114,Detroit Tigers,Cleveland Guardians,664285,656492,Framber Valdez,Foster Griffin,2394,Scheduled
-823833,2026-08-12,146,134,Miami Marlins,Pittsburgh Pirates,676083,,Janson Junk,,4169,Scheduled
-822698,2026-08-12,120,112,Washington Nationals,Chicago Cubs,,656849,,David Peterson,3309,Scheduled
+823833,2026-08-12,146,134,Miami Marlins,Pittsburgh Pirates,676083,669387,Janson Junk,Carmen Mlodzinski,4169,Scheduled
+822698,2026-08-12,120,112,Washington Nationals,Chicago Cubs,800600,656849,Jackson Kent,David Peterson,3309,Scheduled
 823511,2026-08-12,147,136,New York Yankees,Seattle Mariners,701542,682243,Will Warren,Bryce Miller,3313,Scheduled
 822779,2026-08-12,141,111,Toronto Blue Jays,Boston Red Sox,667755,624133,José Soriano,Ranger Suarez,14,Scheduled
 824883,2026-08-12,144,121,Atlanta Braves,New York Mets,641816,804267,Tyler Mahle,Zac Thornton,4705,Scheduled
