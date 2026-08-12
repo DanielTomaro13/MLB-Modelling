@@ -1,36 +1,33 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
-2026-08-12,Colorado Rockies,Arizona Diamondbacks,Ryan Feltner,Merrill Kelly,0.6005,1.665,2.503,9.993
-2026-08-12,Kansas City Royals,Los Angeles Dodgers,Daniel Lynch IV,Eric Lauer,0.5871,1.703,2.422,8.813
-2026-08-12,New York Mets,Atlanta Braves,Zac Thornton,Tyler Mahle,0.5476,1.826,2.21,8.575
-2026-08-12,Cleveland Guardians,Detroit Tigers,Foster Griffin,Framber Valdez,0.5449,1.835,2.197,8.231
-2026-08-12,Cincinnati Reds,Chicago White Sox,Rhett Lowder,Luis Castillo,0.5412,1.848,2.18,9.658
-2026-08-12,Seattle Mariners,New York Yankees,Bryce Miller,Will Warren,0.5389,1.856,2.169,8.642
-2026-08-12,Chicago Cubs,Washington Nationals,David Peterson,Jackson Kent,0.5218,1.916,2.091,11.231
-2026-08-12,Pittsburgh Pirates,Miami Marlins,Carmen Mlodzinski,Janson Junk,0.4993,2.003,1.997,9.191
-2026-08-12,Milwaukee Brewers,San Diego Padres,Dustin May,Robbie Ray,0.499,2.004,1.996,8.452
-2026-08-12,Houston Astros,San Francisco Giants,Bryan King,Adrian Houser,0.4864,2.056,1.947,8.866
-2026-08-12,Boston Red Sox,Toronto Blue Jays,Ranger Suarez,José Soriano,0.4834,2.069,1.936,7.876
-2026-08-12,Texas Rangers,Los Angeles Angels,Cal Quantrill,George Klassen,0.4684,2.135,1.881,9.141
-2026-08-13,Seattle Mariners,New York Yankees,Logan Gilbert,Max Fried,0.5856,1.708,2.413,7.748
-2026-08-13,Cincinnati Reds,Chicago White Sox,Andrew Abbott,Davis Martin,0.5559,1.799,2.252,8.465
-2026-08-13,Philadelphia Phillies,Minnesota Twins,Aaron Nola,Taj Bradley,0.5553,1.801,2.249,9.303
-2026-08-13,Cleveland Guardians,Detroit Tigers,Parker Messick,Keider Montero,0.5455,1.833,2.2,7.504
-2026-08-13,Pittsburgh Pirates,Miami Marlins,Braxton Ashcraft,Tyler Phillips,0.5348,1.87,2.15,8.749
-2026-08-13,Milwaukee Brewers,Los Angeles Dodgers,Shane Drohan,TBD,0.5267,1.899,2.113,9.312
-2026-08-13,Texas Rangers,Los Angeles Angels,TBD,Walbert Ureña,0.5126,1.951,2.052,8.227
-2026-08-13,Chicago Cubs,Washington Nationals,Kevin Gausman,Cade Cavalli,0.4968,2.013,1.987,10.582
-2026-08-13,Boston Red Sox,Toronto Blue Jays,Payton Tolle,Max Scherzer,0.4192,2.385,1.722,8.997
-2026-08-14,St. Louis Cardinals,Chicago Cubs,Matthew Liberatore,TBD,0.6178,1.619,2.617,9.353
-2026-08-14,Colorado Rockies,San Francisco Giants,Kyle Freeland,Landen Roupp,0.599,1.669,2.494,9.401
-2026-08-14,Baltimore Orioles,Tampa Bay Rays,TBD,TBD,0.5611,1.782,2.278,8.82
-2026-08-14,Arizona Diamondbacks,Atlanta Braves,Brandon Pfaadt,TBD,0.5466,1.83,2.205,8.647
-2026-08-14,Chicago White Sox,Detroit Tigers,TBD,TBD,0.5462,1.831,2.204,9.246
-2026-08-14,Miami Marlins,Cincinnati Reds,TBD,Chase Burns,0.5451,1.835,2.198,8.28
-2026-08-14,Seattle Mariners,Houston Astros,TBD,TBD,0.5403,1.851,2.175,8.888
-2026-08-14,Milwaukee Brewers,Los Angeles Dodgers,Robert Gasser,TBD,0.534,1.873,2.146,9.446
-2026-08-14,Kansas City Royals,Los Angeles Angels,TBD,TBD,0.5194,1.925,2.081,8.516
-2026-08-14,Boston Red Sox,Pittsburgh Pirates,TBD,TBD,0.506,1.976,2.024,9.566
-2026-08-14,San Diego Padres,Cleveland Guardians,Michael King,Gavin Williams,0.5008,1.997,2.003,8.127
-2026-08-14,New York Yankees,Toronto Blue Jays,TBD,TBD,0.4772,2.096,1.913,8.679
-2026-08-14,Texas Rangers,Athletics,TBD,TBD,0.4767,2.098,1.911,10.308
-2026-08-14,Washington Nationals,New York Mets,TBD,Robert Stock,0.4709,2.124,1.89,10.116
+2026-08-12,Kansas City Royals,Los Angeles Dodgers,Daniel Lynch IV,Eric Lauer,0.5871,1.703,2.422,8.814
+2026-08-12,New York Mets,Atlanta Braves,Zac Thornton,Tyler Mahle,0.5476,1.826,2.21,8.577
+2026-08-12,Cleveland Guardians,Detroit Tigers,Foster Griffin,Framber Valdez,0.5449,1.835,2.197,8.233
+2026-08-12,Cincinnati Reds,Chicago White Sox,Rhett Lowder,Luis Castillo,0.5412,1.848,2.18,9.66
+2026-08-12,Seattle Mariners,New York Yankees,Bryce Miller,Will Warren,0.5389,1.856,2.169,8.644
+2026-08-12,Chicago Cubs,Washington Nationals,David Peterson,Jackson Kent,0.5218,1.916,2.091,11.232
+2026-08-12,Pittsburgh Pirates,Miami Marlins,Carmen Mlodzinski,Janson Junk,0.4993,2.003,1.997,9.193
+2026-08-12,Boston Red Sox,Toronto Blue Jays,Ranger Suarez,José Soriano,0.4834,2.069,1.936,7.878
+2026-08-12,Texas Rangers,Los Angeles Angels,Cal Quantrill,George Klassen,0.4683,2.135,1.881,9.142
+2026-08-13,Seattle Mariners,New York Yankees,Logan Gilbert,Max Fried,0.5856,1.708,2.413,7.75
+2026-08-13,Philadelphia Phillies,Minnesota Twins,Aaron Nola,Taj Bradley,0.5591,1.789,2.268,9.313
+2026-08-13,Cincinnati Reds,Chicago White Sox,Andrew Abbott,Davis Martin,0.5559,1.799,2.252,8.466
+2026-08-13,Cleveland Guardians,Detroit Tigers,Parker Messick,Keider Montero,0.5455,1.833,2.2,7.505
+2026-08-13,Pittsburgh Pirates,Miami Marlins,Braxton Ashcraft,Tyler Phillips,0.5349,1.87,2.15,8.75
+2026-08-13,Milwaukee Brewers,Los Angeles Dodgers,Shane Drohan,TBD,0.5267,1.899,2.113,9.314
+2026-08-13,Texas Rangers,Los Angeles Angels,TBD,Walbert Ureña,0.5126,1.951,2.052,8.228
+2026-08-13,Chicago Cubs,Washington Nationals,Kevin Gausman,Cade Cavalli,0.4968,2.013,1.987,10.584
+2026-08-13,Boston Red Sox,Toronto Blue Jays,Payton Tolle,Max Scherzer,0.4192,2.385,1.722,8.999
+2026-08-14,St. Louis Cardinals,Chicago Cubs,Matthew Liberatore,TBD,0.6156,1.624,2.601,9.36
+2026-08-14,Colorado Rockies,San Francisco Giants,Kyle Freeland,Landen Roupp,0.599,1.669,2.494,9.402
+2026-08-14,Baltimore Orioles,Tampa Bay Rays,TBD,TBD,0.5618,1.78,2.282,8.83
+2026-08-14,Arizona Diamondbacks,Atlanta Braves,Brandon Pfaadt,TBD,0.5466,1.829,2.206,8.648
+2026-08-14,Chicago White Sox,Detroit Tigers,TBD,TBD,0.5462,1.831,2.204,9.247
+2026-08-14,Miami Marlins,Cincinnati Reds,TBD,Chase Burns,0.5451,1.835,2.198,8.281
+2026-08-14,Seattle Mariners,Houston Astros,TBD,TBD,0.5403,1.851,2.175,8.889
+2026-08-14,Milwaukee Brewers,Los Angeles Dodgers,Robert Gasser,TBD,0.534,1.873,2.146,9.447
+2026-08-14,Kansas City Royals,Los Angeles Angels,TBD,TBD,0.5194,1.925,2.081,8.517
+2026-08-14,Boston Red Sox,Pittsburgh Pirates,TBD,TBD,0.506,1.976,2.024,9.568
+2026-08-14,San Diego Padres,Cleveland Guardians,Michael King,Gavin Williams,0.5008,1.997,2.003,8.128
+2026-08-14,New York Yankees,Toronto Blue Jays,TBD,TBD,0.4772,2.096,1.913,8.681
+2026-08-14,Texas Rangers,Athletics,TBD,TBD,0.4767,2.098,1.911,10.309
+2026-08-14,Washington Nationals,New York Mets,TBD,Robert Stock,0.4709,2.124,1.89,10.118

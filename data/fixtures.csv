@@ -1,14 +1,11 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-825047,2026-08-12,109,115,Arizona Diamondbacks,Colorado Rockies,518876,663372,Merrill Kelly,Ryan Feltner,15,Pre-Game
-823187,2026-08-12,137,117,San Francisco Giants,Houston Astros,605288,687911,Adrian Houser,Bryan King,2395,Pre-Game
-823263,2026-08-12,135,158,San Diego Padres,Milwaukee Brewers,592662,669160,Robbie Ray,Dustin May,2680,Pre-Game
-824241,2026-08-12,116,114,Detroit Tigers,Cleveland Guardians,664285,656492,Framber Valdez,Foster Griffin,2394,Scheduled
+824241,2026-08-12,116,114,Detroit Tigers,Cleveland Guardians,664285,656492,Framber Valdez,Foster Griffin,2394,Pre-Game
 823833,2026-08-12,146,134,Miami Marlins,Pittsburgh Pirates,676083,669387,Janson Junk,Carmen Mlodzinski,4169,Pre-Game
-822698,2026-08-12,120,112,Washington Nationals,Chicago Cubs,800600,656849,Jackson Kent,David Peterson,3309,Scheduled
-823511,2026-08-12,147,136,New York Yankees,Seattle Mariners,701542,682243,Will Warren,Bryce Miller,3313,Scheduled
-822779,2026-08-12,141,111,Toronto Blue Jays,Boston Red Sox,667755,624133,José Soriano,Ranger Suarez,14,Scheduled
-824883,2026-08-12,144,121,Atlanta Braves,New York Mets,641816,804267,Tyler Mahle,Zac Thornton,4705,Scheduled
-824562,2026-08-12,145,113,Chicago White Sox,Cincinnati Reds,622491,695076,Luis Castillo,Rhett Lowder,4,Scheduled
+822698,2026-08-12,120,112,Washington Nationals,Chicago Cubs,800600,656849,Jackson Kent,David Peterson,3309,Pre-Game
+823511,2026-08-12,147,136,New York Yankees,Seattle Mariners,701542,682243,Will Warren,Bryce Miller,3313,Pre-Game
+822779,2026-08-12,141,111,Toronto Blue Jays,Boston Red Sox,667755,624133,José Soriano,Ranger Suarez,14,Pre-Game
+824883,2026-08-12,144,121,Atlanta Braves,New York Mets,641816,804267,Tyler Mahle,Zac Thornton,4705,Pre-Game
+824562,2026-08-12,145,113,Chicago White Sox,Cincinnati Reds,622491,695076,Luis Castillo,Rhett Lowder,4,Pre-Game
 823916,2026-08-12,119,118,Los Angeles Dodgers,Kansas City Royals,641778,663738,Eric Lauer,Daniel Lynch IV,22,Scheduled
 823994,2026-08-12,108,140,Los Angeles Angels,Texas Rangers,691946,615698,George Klassen,Cal Quantrill,1,Scheduled
 824238,2026-08-13,116,114,Detroit Tigers,Cleveland Guardians,672456,800048,Keider Montero,Parker Messick,2394,Scheduled
