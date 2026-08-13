@@ -1,6 +1,4 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823916,2026-08-12,119,118,Los Angeles Dodgers,Kansas City Royals,641778,663738,Eric Lauer,Daniel Lynch IV,22,Pre-Game
-823994,2026-08-12,108,140,Los Angeles Angels,Texas Rangers,691946,615698,George Klassen,Cal Quantrill,1,Pre-Game
 824238,2026-08-13,116,114,Detroit Tigers,Cleveland Guardians,672456,800048,Keider Montero,Parker Messick,2394,Scheduled
 823829,2026-08-13,146,134,Miami Marlins,Pittsburgh Pirates,663969,677952,Tyler Phillips,Braxton Ashcraft,4169,Scheduled
 823508,2026-08-13,147,136,New York Yankees,Seattle Mariners,608331,669302,Max Fried,Logan Gilbert,3313,Scheduled
