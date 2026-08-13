@@ -13,12 +13,12 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-14,Milwaukee Brewers,Los Angeles Dodgers,Robert Gasser,Yoshinobu Yamamoto,0.5821,1.718,2.393,8.614
 2026-08-14,Seattle Mariners,Houston Astros,TBD,Peter Lambert,0.5719,1.749,2.336,8.394
 2026-08-14,Baltimore Orioles,Tampa Bay Rays,TBD,TBD,0.5638,1.774,2.292,8.838
+2026-08-14,Chicago White Sox,Detroit Tigers,TBD,Jackson Jobe,0.5551,1.801,2.248,9.035
 2026-08-14,Arizona Diamondbacks,Atlanta Braves,Brandon Pfaadt,TBD,0.5489,1.822,2.217,8.653
-2026-08-14,Chicago White Sox,Detroit Tigers,TBD,TBD,0.5433,1.841,2.189,9.248
 2026-08-14,Miami Marlins,Cincinnati Reds,TBD,Chase Burns,0.5404,1.85,2.176,8.278
 2026-08-14,Kansas City Royals,Los Angeles Angels,Seth Lugo,TBD,0.5327,1.877,2.14,8.682
-2026-08-14,Boston Red Sox,Pittsburgh Pirates,TBD,TBD,0.5048,1.981,2.019,9.557
 2026-08-14,San Diego Padres,Cleveland Guardians,Michael King,Gavin Williams,0.5016,1.994,2.006,8.126
+2026-08-14,Boston Red Sox,Pittsburgh Pirates,TBD,Bubba Chandler,0.4957,2.017,1.983,9.725
 2026-08-14,Texas Rangers,Athletics,TBD,TBD,0.4771,2.096,1.912,10.306
 2026-08-14,New York Yankees,Toronto Blue Jays,TBD,TBD,0.4762,2.1,1.909,8.717
 2026-08-14,Washington Nationals,New York Mets,TBD,Robert Stock,0.4713,2.122,1.891,10.125
@@ -28,10 +28,10 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-15,Seattle Mariners,Houston Astros,TBD,Hayden Wesneski,0.5468,1.829,2.207,8.817
 2026-08-15,Chicago White Sox,Detroit Tigers,Anthony Kay,TBD,0.5415,1.847,2.181,9.216
 2026-08-15,Arizona Diamondbacks,Atlanta Braves,Eduardo Rodriguez,TBD,0.5235,1.91,2.099,8.219
-2026-08-15,Boston Red Sox,Pittsburgh Pirates,TBD,TBD,0.5048,1.981,2.019,9.557
 2026-08-15,San Diego Padres,Cleveland Guardians,TBD,Joey Cantillo,0.5022,1.991,2.009,8.899
 2026-08-15,Washington Nationals,New York Mets,TBD,Sean Manaea,0.4974,2.011,1.989,9.614
 2026-08-15,Milwaukee Brewers,Los Angeles Dodgers,Jacob Misiorowski,Justin Wrobleski,0.4949,2.021,1.98,7.896
+2026-08-15,Boston Red Sox,Pittsburgh Pirates,TBD,Jared Jones,0.4935,2.026,1.974,9.768
 2026-08-15,Miami Marlins,Cincinnati Reds,TBD,Brady Singer,0.487,2.053,1.949,9.215
 2026-08-15,Kansas City Royals,Los Angeles Angels,Randy Dobnak,TBD,0.486,2.058,1.945,7.898
 2026-08-15,Texas Rangers,Athletics,TBD,TBD,0.4771,2.096,1.912,10.306
