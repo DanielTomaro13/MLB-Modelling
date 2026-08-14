@@ -1,6 +1,4 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823995,2026-08-13,108,140,Los Angeles Angels,Texas Rangers,700712,594798,Walbert Ureña,Jacob deGrom,1,Pre-Game
-823915,2026-08-13,119,158,Los Angeles Dodgers,Milwaukee Brewers,808963,675660,Roki Sasaki,Shane Drohan,22,Pre-Game
 824643,2026-08-14,112,138,Chicago Cubs,St. Louis Cardinals,605280,669461,Clay Holmes,Matthew Liberatore,17,Scheduled
 824479,2026-08-14,113,146,Cincinnati Reds,Miami Marlins,695505,645261,Chase Burns,Sandy Alcantara,2602,Scheduled
 823346,2026-08-14,134,111,Pittsburgh Pirates,Boston Red Sox,696149,687562,Bubba Chandler,Jake Bennett,31,Scheduled
