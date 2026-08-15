@@ -1,13 +1,9 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823993,2026-08-14,108,118,Los Angeles Angels,Kansas City Royals,680570,607625,Grayson Rodriguez,Seth Lugo,1,Pre-Game
-824968,2026-08-14,133,140,Athletics,Texas Rangers,695611,677958,Gage Jump,Kumar Rocker,2529,Pre-Game
-823913,2026-08-14,119,158,Los Angeles Dodgers,Milwaukee Brewers,808967,688107,Yoshinobu Yamamoto,Robert Gasser,22,Pre-Game
-823185,2026-08-14,137,115,San Francisco Giants,Colorado Rockies,694738,607536,Landen Roupp,Kyle Freeland,2395,Pre-Game
 824239,2026-08-15,116,145,Detroit Tigers,Chicago White Sox,675512,641743,Troy Melton,Anthony Kay,2394,Scheduled
 824644,2026-08-15,112,138,Chicago Cubs,St. Louis Cardinals,571510,700241,Matthew Boyd,Michael McGreevy,17,Scheduled
-822775,2026-08-15,141,147,Toronto Blue Jays,New York Yankees,,693645,,Cam Schlittler,14,Scheduled
+822775,2026-08-15,141,147,Toronto Blue Jays,New York Yankees,680755,693645,Braydon Fisher,Cam Schlittler,14,Scheduled
 823184,2026-08-15,137,115,San Francisco Giants,Colorado Rockies,657277,547179,Logan Webb,Michael Lorenzen,2395,Scheduled
-823588,2026-08-15,121,120,New York Mets,Washington Nationals,640455,,Sean Manaea,,3289,Scheduled
+823588,2026-08-15,121,120,New York Mets,Washington Nationals,640455,695418,Sean Manaea,Brad Lord,3289,Scheduled
 822941,2026-08-15,139,110,Tampa Bay Rays,Baltimore Orioles,693855,680694,Ian Seymour,Kyle Bradish,12,Scheduled
 824480,2026-08-15,113,146,Cincinnati Reds,Miami Marlins,663903,687473,Brady Singer,Ryan Gusto,2602,Scheduled
 824400,2026-08-15,114,135,Cleveland Guardians,San Diego Padres,676282,,Joey Cantillo,,5,Scheduled
