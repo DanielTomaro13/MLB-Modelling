@@ -1,15 +1,12 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-822775,2026-08-15,141,147,Toronto Blue Jays,New York Yankees,680755,693645,Braydon Fisher,Cam Schlittler,14,Pre-Game
-823184,2026-08-15,137,115,San Francisco Giants,Colorado Rockies,657277,547179,Logan Webb,Michael Lorenzen,2395,Pre-Game
-823588,2026-08-15,121,120,New York Mets,Washington Nationals,640455,695418,Sean Manaea,Brad Lord,3289,Pre-Game
 822941,2026-08-15,139,110,Tampa Bay Rays,Baltimore Orioles,693855,680694,Ian Seymour,Kyle Bradish,12,Pre-Game
 824480,2026-08-15,113,146,Cincinnati Reds,Miami Marlins,663903,687473,Brady Singer,Ryan Gusto,2602,Pre-Game
-824400,2026-08-15,114,135,Cleveland Guardians,San Diego Padres,676282,,Joey Cantillo,,5,Scheduled
-824157,2026-08-15,117,136,Houston Astros,Seattle Mariners,669713,676106,Hayden Wesneski,Emerson Hancock,2392,Scheduled
+824400,2026-08-15,114,135,Cleveland Guardians,San Diego Padres,676282,593974,Joey Cantillo,Wandy Peralta,5,Pre-Game
+824157,2026-08-15,117,136,Houston Astros,Seattle Mariners,669713,676106,Hayden Wesneski,Emerson Hancock,2392,Pre-Game
 823671,2026-08-15,142,143,Minnesota Twins,Philadelphia Phillies,687570,666200,Connor Prielipp,Jesús Luzardo,3312,Pre-Game
-823347,2026-08-15,134,111,Pittsburgh Pirates,Boston Red Sox,683003,543243,Jared Jones,Sonny Gray,31,Scheduled
-824884,2026-08-15,144,109,Atlanta Braves,Arizona Diamondbacks,656550,593958,Grant Holmes,Eduardo Rodriguez,4705,Scheduled
-823914,2026-08-15,119,158,Los Angeles Dodgers,Milwaukee Brewers,680736,694819,Justin Wrobleski,Jacob Misiorowski,22,Scheduled
+823347,2026-08-15,134,111,Pittsburgh Pirates,Boston Red Sox,683003,543243,Jared Jones,Sonny Gray,31,Pre-Game
+824884,2026-08-15,144,109,Atlanta Braves,Arizona Diamondbacks,656550,593958,Grant Holmes,Eduardo Rodriguez,4705,Pre-Game
+823914,2026-08-15,119,158,Los Angeles Dodgers,Milwaukee Brewers,680736,694819,Justin Wrobleski,Jacob Misiorowski,22,Pre-Game
 823990,2026-08-15,108,118,Los Angeles Angels,Kansas City Royals,672282,677976,Reid Detmers,Randy Dobnak,1,Scheduled
 824966,2026-08-15,133,140,Athletics,Texas Rangers,669372,669022,J.T. Ginn,MacKenzie Gore,2529,Scheduled
 822940,2026-08-16,139,110,Tampa Bay Rays,Baltimore Orioles,642547,669432,Freddy Peralta,Trevor Rogers,12,Scheduled
@@ -27,7 +24,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823991,2026-08-16,108,118,Los Angeles Angels,Kansas City Royals,696270,702070,Ryan Johnson,Noah Cameron,1,Scheduled
 823912,2026-08-16,119,158,Los Angeles Dodgers,Milwaukee Brewers,669373,701656,Tarik Skubal,Logan Henderson,22,Scheduled
 824156,2026-08-16,117,136,Houston Astros,Seattle Mariners,686613,693433,Hunter Brown,Bryan Woo,2392,Scheduled
-824514,2026-08-17,113,138,Cincinnati Reds,St. Louis Cardinals,,,,,2602,Scheduled
+824514,2026-08-17,113,138,Cincinnati Reds,St. Louis Cardinals,695076,,Rhett Lowder,,2602,Scheduled
 824478,2026-08-17,113,138,Cincinnati Reds,St. Louis Cardinals,,,,,2602,Scheduled
 822939,2026-08-17,139,110,Tampa Bay Rays,Baltimore Orioles,,687064,,Brandon Young,12,Scheduled
 823427,2026-08-17,143,146,Philadelphia Phillies,Miami Marlins,,,,,2681,Scheduled
