@@ -1,8 +1,6 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823990,2026-08-15,108,118,Los Angeles Angels,Kansas City Royals,672282,677976,Reid Detmers,Randy Dobnak,1,Pre-Game
-824966,2026-08-15,133,140,Athletics,Texas Rangers,669372,669022,J.T. Ginn,MacKenzie Gore,2529,Pre-Game
 822940,2026-08-16,139,110,Tampa Bay Rays,Baltimore Orioles,642547,669432,Freddy Peralta,Trevor Rogers,12,Scheduled
-823344,2026-08-16,134,111,Pittsburgh Pirates,Boston Red Sox,694973,663776,Paul Skenes,Patrick Sandoval,31,Scheduled
+823344,2026-08-16,134,111,Pittsburgh Pirates,Boston Red Sox,669199,663776,Lake Bachar,Patrick Sandoval,31,Scheduled
 824880,2026-08-16,144,109,Atlanta Braves,Arizona Diamondbacks,693821,647336,Bryce Elder,Michael Soroka,4705,Scheduled
 822774,2026-08-16,141,147,Toronto Blue Jays,New York Yankees,656302,677960,Dylan Cease,Ryan Weathers,14,Scheduled
 823590,2026-08-16,121,120,New York Mets,Washington Nationals,681035,663623,Christian Scott,Jake Irvin,3289,Scheduled
