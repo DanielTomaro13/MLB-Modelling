@@ -1,19 +1,19 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824478,2026-08-17,113,138,Cincinnati Reds,St. Louis Cardinals,695076,669467,Rhett Lowder,Andre Pallante,2602,Scheduled
-822939,2026-08-17,139,110,Tampa Bay Rays,Baltimore Orioles,663556,687064,Shane McClanahan,Brandon Young,12,Scheduled
-823427,2026-08-17,143,146,Philadelphia Phillies,Miami Marlins,650911,676083,Cristopher Sánchez,Janson Junk,2681,Scheduled
-823343,2026-08-17,134,116,Pittsburgh Pirates,Detroit Tigers,669387,664285,Carmen Mlodzinski,Framber Valdez,31,Scheduled
-824725,2026-08-17,111,109,Boston Red Sox,Arizona Diamondbacks,687941,683352,Alec Gamboa,Mitch Bratt,3,Scheduled
-823589,2026-08-17,121,135,New York Mets,San Diego Padres,690997,621111,Nolan McLean,Walker Buehler,3289,Scheduled
-824077,2026-08-17,118,133,Kansas City Royals,Athletics,608379,686930,Michael Wacha,Mason Barnett,7,Scheduled
-823668,2026-08-17,142,144,Minnesota Twins,Atlanta Braves,641927,527048,Bailey Ober,Martín Pérez,3312,Scheduled
-824641,2026-08-17,112,145,Chicago Cubs,Chicago White Sox,684007,622491,Shota Imanaga,Luis Castillo,17,Scheduled
-824320,2026-08-17,115,119,Colorado Rockies,Los Angeles Dodgers,608372,605483,Tomoyuki Sugano,Blake Snell,19,Scheduled
-824803,2026-08-18,110,147,Baltimore Orioles,New York Yankees,669358,701542,Shane Baz,Will Warren,2,Scheduled
+824478,2026-08-17,113,138,Cincinnati Reds,St. Louis Cardinals,695076,669467,Rhett Lowder,Andre Pallante,2602,Pre-Game
+822939,2026-08-17,139,110,Tampa Bay Rays,Baltimore Orioles,663556,687064,Shane McClanahan,Brandon Young,12,Pre-Game
+823427,2026-08-17,143,146,Philadelphia Phillies,Miami Marlins,650911,676083,Cristopher Sánchez,Janson Junk,2681,Pre-Game
+823343,2026-08-17,134,116,Pittsburgh Pirates,Detroit Tigers,669387,664285,Carmen Mlodzinski,Framber Valdez,31,Pre-Game
+824725,2026-08-17,111,109,Boston Red Sox,Arizona Diamondbacks,687941,683352,Alec Gamboa,Mitch Bratt,3,Pre-Game
+823589,2026-08-17,121,135,New York Mets,San Diego Padres,690997,621111,Nolan McLean,Walker Buehler,3289,Pre-Game
+824077,2026-08-17,118,133,Kansas City Royals,Athletics,608379,686930,Michael Wacha,Mason Barnett,7,Pre-Game
+823668,2026-08-17,142,144,Minnesota Twins,Atlanta Braves,641927,527048,Bailey Ober,Martín Pérez,3312,Pre-Game
+824641,2026-08-17,112,145,Chicago Cubs,Chicago White Sox,684007,622491,Shota Imanaga,Luis Castillo,17,Pre-Game
+824320,2026-08-17,115,119,Colorado Rockies,Los Angeles Dodgers,608372,605483,Tomoyuki Sugano,Blake Snell,19,Pre-Game
+824803,2026-08-18,110,147,Baltimore Orioles,New York Yankees,669358,607074,Shane Baz,Carlos Rodón,2,Scheduled
 823341,2026-08-18,134,116,Pittsburgh Pirates,Detroit Tigers,677952,672456,Braxton Ashcraft,Keider Montero,31,Scheduled
 824398,2026-08-18,114,137,Cleveland Guardians,San Francisco Giants,656492,687931,Foster Griffin,Carson Whisenhunt,5,Scheduled
 824475,2026-08-18,113,138,Cincinnati Reds,St. Louis Cardinals,671096,681517,Andrew Abbott,Kyle Leahy,2602,Scheduled
-822938,2026-08-18,139,141,Tampa Bay Rays,Toronto Blue Jays,,667755,,José Soriano,12,Scheduled
+822938,2026-08-18,139,141,Tampa Bay Rays,Toronto Blue Jays,607259,667755,Nick Martinez,José Soriano,12,Scheduled
 823423,2026-08-18,143,146,Philadelphia Phillies,Miami Marlins,554430,,Zack Wheeler,,2681,Scheduled
 824723,2026-08-18,111,109,Boston Red Sox,Arizona Diamondbacks,624133,518876,Ranger Suarez,Merrill Kelly,3,Scheduled
 823586,2026-08-18,121,135,New York Mets,San Diego Padres,,592662,,Robbie Ray,3289,Scheduled
@@ -33,7 +33,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824801,2026-08-19,110,147,Baltimore Orioles,New York Yankees,605135,608331,Chris Bassitt,Max Fried,2,Scheduled
 824394,2026-08-19,114,137,Cleveland Guardians,San Francisco Giants,800048,,Parker Messick,,5,Scheduled
 824476,2026-08-19,113,138,Cincinnati Reds,St. Louis Cardinals,695505,669461,Chase Burns,Matthew Liberatore,2602,Scheduled
-822937,2026-08-19,139,141,Tampa Bay Rays,Toronto Blue Jays,,453286,,Max Scherzer,12,Scheduled
+822937,2026-08-19,139,141,Tampa Bay Rays,Toronto Blue Jays,656876,453286,Drew Rasmussen,Max Scherzer,12,Scheduled
 824076,2026-08-19,118,133,Kansas City Royals,Athletics,,,,,7,Scheduled
 823748,2026-08-19,158,136,Milwaukee Brewers,Seattle Mariners,669160,669302,Dustin May,Logan Gilbert,32,Scheduled
 822860,2026-08-19,140,120,Texas Rangers,Washington Nationals,,676917,,Cade Cavalli,5325,Scheduled
