@@ -1,19 +1,19 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824803,2026-08-18,110,147,Baltimore Orioles,New York Yankees,669358,607074,Shane Baz,Carlos Rodón,2,Scheduled
-823341,2026-08-18,134,116,Pittsburgh Pirates,Detroit Tigers,677952,672456,Braxton Ashcraft,Keider Montero,31,Scheduled
+824803,2026-08-18,110,147,Baltimore Orioles,New York Yankees,669358,607074,Shane Baz,Carlos Rodón,2,Pre-Game
+823341,2026-08-18,134,116,Pittsburgh Pirates,Detroit Tigers,677952,672456,Braxton Ashcraft,Keider Montero,31,Pre-Game
 824398,2026-08-18,114,137,Cleveland Guardians,San Francisco Giants,656492,687931,Foster Griffin,Carson Whisenhunt,5,Pre-Game
-824475,2026-08-18,113,138,Cincinnati Reds,St. Louis Cardinals,671096,681517,Andrew Abbott,Kyle Leahy,2602,Scheduled
-822938,2026-08-18,139,141,Tampa Bay Rays,Toronto Blue Jays,607259,667755,Nick Martinez,José Soriano,12,Scheduled
-823423,2026-08-18,143,146,Philadelphia Phillies,Miami Marlins,554430,806188,Zack Wheeler,Cade Gibson,2681,Scheduled
-824723,2026-08-18,111,109,Boston Red Sox,Arizona Diamondbacks,624133,518876,Ranger Suarez,Merrill Kelly,3,Scheduled
-823586,2026-08-18,121,135,New York Mets,San Diego Padres,804267,592662,Zac Thornton,Robbie Ray,3289,Scheduled
-824075,2026-08-18,118,133,Kansas City Royals,Athletics,,678022,,Jack Perkins,7,Scheduled
-823667,2026-08-18,142,144,Minnesota Twins,Atlanta Braves,805673,641816,Zebby Matthews,Tyler Mahle,3312,Scheduled
-823749,2026-08-18,158,136,Milwaukee Brewers,Seattle Mariners,690986,682243,Kyle Harrison,Bryce Miller,32,Scheduled
-822859,2026-08-18,140,120,Texas Rangers,Washington Nationals,615698,800600,Cal Quantrill,Jackson Kent,5325,Scheduled
-824639,2026-08-18,112,145,Chicago Cubs,Chicago White Sox,592332,,Kevin Gausman,,17,Scheduled
-824154,2026-08-18,117,108,Houston Astros,Los Angeles Angels,664299,691946,Cristian Javier,George Klassen,2392,Scheduled
-824319,2026-08-18,115,119,Colorado Rockies,Los Angeles Dodgers,663372,641778,Ryan Feltner,Eric Lauer,19,Scheduled
+824475,2026-08-18,113,138,Cincinnati Reds,St. Louis Cardinals,671096,681517,Andrew Abbott,Kyle Leahy,2602,Pre-Game
+822938,2026-08-18,139,141,Tampa Bay Rays,Toronto Blue Jays,607259,667755,Nick Martinez,José Soriano,12,Pre-Game
+823423,2026-08-18,143,146,Philadelphia Phillies,Miami Marlins,554430,806188,Zack Wheeler,Cade Gibson,2681,Pre-Game
+824723,2026-08-18,111,109,Boston Red Sox,Arizona Diamondbacks,624133,518876,Ranger Suarez,Merrill Kelly,3,Pre-Game
+823586,2026-08-18,121,135,New York Mets,San Diego Padres,804267,592662,Zac Thornton,Robbie Ray,3289,Pre-Game
+824075,2026-08-18,118,133,Kansas City Royals,Athletics,663738,669620,Daniel Lynch IV,Brady Basso,7,Pre-Game
+823667,2026-08-18,142,144,Minnesota Twins,Atlanta Braves,805673,641816,Zebby Matthews,Tyler Mahle,3312,Pre-Game
+823749,2026-08-18,158,136,Milwaukee Brewers,Seattle Mariners,690986,682243,Kyle Harrison,Bryce Miller,32,Pre-Game
+822859,2026-08-18,140,120,Texas Rangers,Washington Nationals,615698,800600,Cal Quantrill,Jackson Kent,5325,Pre-Game
+824639,2026-08-18,112,145,Chicago Cubs,Chicago White Sox,592332,663542,Kevin Gausman,Bryan Hudson,17,Pre-Game
+824154,2026-08-18,117,108,Houston Astros,Los Angeles Angels,664299,691946,Cristian Javier,George Klassen,2392,Pre-Game
+824319,2026-08-18,115,119,Colorado Rockies,Los Angeles Dodgers,663372,641778,Ryan Feltner,Eric Lauer,19,Pre-Game
 823342,2026-08-19,134,116,Pittsburgh Pirates,Detroit Tigers,694973,695549,Paul Skenes,Jackson Jobe,31,Scheduled
 823587,2026-08-19,121,135,New York Mets,San Diego Padres,476594,650633,Robert Stock,Michael King,3289,Scheduled
 823664,2026-08-19,142,144,Minnesota Twins,Atlanta Braves,671737,700363,Taj Bradley,AJ Smith-Shawver,3312,Scheduled
