@@ -20,7 +20,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824640,2026-08-19,112,145,Chicago Cubs,Chicago White Sox,605280,,Clay Holmes,,17,Scheduled
 824722,2026-08-19,111,109,Boston Red Sox,Arizona Diamondbacks,801139,694297,Payton Tolle,Brandon Pfaadt,3,Scheduled
 823424,2026-08-19,143,146,Philadelphia Phillies,Miami Marlins,605400,645261,Aaron Nola,Sandy Alcantara,2681,Scheduled
-824801,2026-08-19,110,147,Baltimore Orioles,New York Yankees,605135,608331,Chris Bassitt,Max Fried,2,Scheduled
+824801,2026-08-19,110,147,Baltimore Orioles,New York Yankees,605135,,Chris Bassitt,,2,Scheduled
 824394,2026-08-19,114,137,Cleveland Guardians,San Francisco Giants,800048,,Parker Messick,,5,Scheduled
 824476,2026-08-19,113,138,Cincinnati Reds,St. Louis Cardinals,695505,669461,Chase Burns,Matthew Liberatore,2602,Scheduled
 822937,2026-08-19,139,141,Tampa Bay Rays,Toronto Blue Jays,656876,453286,Drew Rasmussen,Max Scherzer,12,Scheduled
