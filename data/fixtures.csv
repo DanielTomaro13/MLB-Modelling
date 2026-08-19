@@ -1,8 +1,8 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823342,2026-08-19,134,116,Pittsburgh Pirates,Detroit Tigers,694973,695549,Paul Skenes,Jackson Jobe,31,Scheduled
-823587,2026-08-19,121,135,New York Mets,San Diego Padres,476594,650633,Robert Stock,Michael King,3289,Scheduled
-823664,2026-08-19,142,144,Minnesota Twins,Atlanta Braves,671737,700363,Taj Bradley,AJ Smith-Shawver,3312,Scheduled
-824640,2026-08-19,112,145,Chicago Cubs,Chicago White Sox,605280,656794,Clay Holmes,Sean Newcomb,17,Scheduled
+823342,2026-08-19,134,116,Pittsburgh Pirates,Detroit Tigers,694973,695549,Paul Skenes,Jackson Jobe,31,Pre-Game
+823587,2026-08-19,121,135,New York Mets,San Diego Padres,476594,650633,Robert Stock,Michael King,3289,Pre-Game
+823664,2026-08-19,142,144,Minnesota Twins,Atlanta Braves,671737,700363,Taj Bradley,AJ Smith-Shawver,3312,Pre-Game
+824640,2026-08-19,112,145,Chicago Cubs,Chicago White Sox,605280,656794,Clay Holmes,Sean Newcomb,17,Pre-Game
 824722,2026-08-19,111,109,Boston Red Sox,Arizona Diamondbacks,801139,694297,Payton Tolle,Brandon Pfaadt,3,Scheduled
 823424,2026-08-19,143,146,Philadelphia Phillies,Miami Marlins,605400,645261,Aaron Nola,Sandy Alcantara,2681,Scheduled
 824801,2026-08-19,110,147,Baltimore Orioles,New York Yankees,605135,701542,Chris Bassitt,Will Warren,2,Scheduled
@@ -30,11 +30,11 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823830,2026-08-21,146,120,Miami Marlins,Washington Nationals,,,,,4169,Scheduled
 824800,2026-08-21,110,139,Baltimore Orioles,Tampa Bay Rays,,,,,2,Scheduled
 824559,2026-08-21,145,121,Chicago White Sox,New York Mets,,,,,4,Scheduled
-824072,2026-08-21,118,116,Kansas City Royals,Detroit Tigers,,,,,7,Scheduled
+824072,2026-08-21,118,116,Kansas City Royals,Detroit Tigers,,675512,,Troy Melton,7,Scheduled
 824152,2026-08-21,117,133,Houston Astros,Athletics,,,,,2392,Scheduled
 822857,2026-08-21,140,108,Texas Rangers,Los Angeles Angels,,,,,5325,Scheduled
 824317,2026-08-21,115,114,Colorado Rockies,Cleveland Guardians,,676282,,Joey Cantillo,19,Scheduled
 825045,2026-08-21,109,113,Arizona Diamondbacks,Cincinnati Reds,,666157,,Nick Lodolo,15,Scheduled
 823262,2026-08-21,135,142,San Diego Padres,Minnesota Twins,,,,,2680,Scheduled
-823911,2026-08-21,119,134,Los Angeles Dodgers,Pittsburgh Pirates,,,,,22,Scheduled
+823911,2026-08-21,119,134,Los Angeles Dodgers,Pittsburgh Pirates,,696149,,Bubba Chandler,22,Scheduled
 823101,2026-08-21,136,112,Seattle Mariners,Chicago Cubs,,,,,680,Scheduled

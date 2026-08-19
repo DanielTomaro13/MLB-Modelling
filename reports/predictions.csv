@@ -25,8 +25,8 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-20,St. Louis Cardinals,Cincinnati Reds,Michael McGreevy,Brady Singer,0.4674,2.14,1.878,9.01
 2026-08-21,San Francisco Giants,Boston Red Sox,TBD,Sonny Gray,0.6327,1.58,2.723,8.081
 2026-08-21,Athletics,Houston Astros,TBD,TBD,0.5854,1.708,2.412,9.071
+2026-08-21,Pittsburgh Pirates,Los Angeles Dodgers,Bubba Chandler,TBD,0.5821,1.718,2.393,9.477
 2026-08-21,Toronto Blue Jays,New York Yankees,TBD,TBD,0.5753,1.738,2.355,8.456
-2026-08-21,Pittsburgh Pirates,Los Angeles Dodgers,TBD,TBD,0.5743,1.741,2.349,9.328
 2026-08-21,Cincinnati Reds,Arizona Diamondbacks,Nick Lodolo,TBD,0.5661,1.767,2.304,8.968
 2026-08-21,Los Angeles Angels,Texas Rangers,TBD,TBD,0.5582,1.791,2.264,7.819
 2026-08-21,New York Mets,Chicago White Sox,TBD,TBD,0.5554,1.801,2.249,8.703
@@ -36,5 +36,5 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-21,Atlanta Braves,Milwaukee Brewers,Chris Sale,TBD,0.506,1.976,2.024,8.026
 2026-08-21,Tampa Bay Rays,Baltimore Orioles,TBD,TBD,0.503,1.988,2.012,9.035
 2026-08-21,Cleveland Guardians,Colorado Rockies,Joey Cantillo,TBD,0.4884,2.047,1.955,10.301
-2026-08-21,Detroit Tigers,Kansas City Royals,TBD,TBD,0.4738,2.111,1.9,8.995
 2026-08-21,Chicago Cubs,Seattle Mariners,TBD,TBD,0.4638,2.156,1.865,8.01
+2026-08-21,Detroit Tigers,Kansas City Royals,Troy Melton,TBD,0.4161,2.403,1.713,8.067
