@@ -2,7 +2,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823342,2026-08-19,134,116,Pittsburgh Pirates,Detroit Tigers,694973,695549,Paul Skenes,Jackson Jobe,31,Scheduled
 823587,2026-08-19,121,135,New York Mets,San Diego Padres,476594,650633,Robert Stock,Michael King,3289,Scheduled
 823664,2026-08-19,142,144,Minnesota Twins,Atlanta Braves,671737,700363,Taj Bradley,AJ Smith-Shawver,3312,Scheduled
-824640,2026-08-19,112,145,Chicago Cubs,Chicago White Sox,605280,,Clay Holmes,,17,Scheduled
+824640,2026-08-19,112,145,Chicago Cubs,Chicago White Sox,605280,656794,Clay Holmes,Sean Newcomb,17,Scheduled
 824722,2026-08-19,111,109,Boston Red Sox,Arizona Diamondbacks,801139,694297,Payton Tolle,Brandon Pfaadt,3,Scheduled
 823424,2026-08-19,143,146,Philadelphia Phillies,Miami Marlins,605400,645261,Aaron Nola,Sandy Alcantara,2681,Scheduled
 824801,2026-08-19,110,147,Baltimore Orioles,New York Yankees,605135,701542,Chris Bassitt,Will Warren,2,Scheduled
