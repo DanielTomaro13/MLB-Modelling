@@ -1,13 +1,13 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824802,2026-08-20,110,147,Baltimore Orioles,New York Yankees,680694,543037,Kyle Bradish,Gerrit Cole,2,Scheduled
-822861,2026-08-20,140,120,Texas Rangers,Washington Nationals,594798,674841,Jacob deGrom,Andrew Alvarez,5325,Scheduled
-824153,2026-08-20,117,108,Houston Astros,Los Angeles Angels,663567,680570,Peter Lambert,Grayson Rodriguez,2392,Scheduled
+824802,2026-08-20,110,147,Baltimore Orioles,New York Yankees,680694,543037,Kyle Bradish,Gerrit Cole,2,Pre-Game
+822861,2026-08-20,140,120,Texas Rangers,Washington Nationals,594798,674841,Jacob deGrom,Andrew Alvarez,5325,Pre-Game
+824153,2026-08-20,117,108,Houston Astros,Los Angeles Angels,663567,680570,Peter Lambert,Grayson Rodriguez,2392,Pre-Game
 823746,2026-08-21,158,144,Milwaukee Brewers,Atlanta Braves,694819,519242,Jacob Misiorowski,Chris Sale,32,Scheduled
 823420,2026-08-21,143,138,Philadelphia Phillies,St. Louis Cardinals,666200,,Jesús Luzardo,,2681,Scheduled
-823510,2026-08-21,147,141,New York Yankees,Toronto Blue Jays,,,,,3313,Scheduled
+823510,2026-08-21,147,141,New York Yankees,Toronto Blue Jays,693645,,Cam Schlittler,,3313,Scheduled
 824721,2026-08-21,111,137,Boston Red Sox,San Francisco Giants,543243,657277,Sonny Gray,Logan Webb,3,Scheduled
 823830,2026-08-21,146,120,Miami Marlins,Washington Nationals,687473,,Ryan Gusto,,4169,Scheduled
-824800,2026-08-21,110,139,Baltimore Orioles,Tampa Bay Rays,,642547,,Freddy Peralta,2,Scheduled
+824800,2026-08-21,110,139,Baltimore Orioles,Tampa Bay Rays,669432,642547,Trevor Rogers,Freddy Peralta,2,Scheduled
 824559,2026-08-21,145,121,Chicago White Sox,New York Mets,680732,640455,Sean Burke,Sean Manaea,4,Scheduled
 824072,2026-08-21,118,116,Kansas City Royals,Detroit Tigers,702070,675512,Noah Cameron,Troy Melton,7,Scheduled
 824152,2026-08-21,117,133,Houston Astros,Athletics,,669372,,J.T. Ginn,2392,Scheduled
@@ -17,11 +17,11 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823262,2026-08-21,135,142,San Diego Padres,Minnesota Twins,,687570,,Connor Prielipp,2680,Scheduled
 823911,2026-08-21,119,134,Los Angeles Dodgers,Pittsburgh Pirates,808967,696149,Yoshinobu Yamamoto,Bubba Chandler,22,Scheduled
 823101,2026-08-21,136,112,Seattle Mariners,Chicago Cubs,676106,571510,Emerson Hancock,Matthew Boyd,680,Scheduled
-823509,2026-08-22,147,141,New York Yankees,Toronto Blue Jays,,656302,,Dylan Cease,3313,Scheduled
+823509,2026-08-22,147,141,New York Yankees,Toronto Blue Jays,677960,656302,Ryan Weathers,Dylan Cease,3313,Scheduled
 823743,2026-08-22,158,144,Milwaukee Brewers,Atlanta Braves,701656,,Logan Henderson,,32,Scheduled
 823831,2026-08-22,146,120,Miami Marlins,Washington Nationals,691587,,Eury Pérez,,4169,Scheduled
 823422,2026-08-22,143,138,Philadelphia Phillies,St. Louis Cardinals,691725,,Andrew Painter,,2681,Scheduled
-824798,2026-08-22,110,139,Baltimore Orioles,Tampa Bay Rays,,663556,,Shane McClanahan,2,Scheduled
+824798,2026-08-22,110,139,Baltimore Orioles,Tampa Bay Rays,687064,663556,Brandon Young,Shane McClanahan,2,Scheduled
 822858,2026-08-22,140,108,Texas Rangers,Los Angeles Angels,,,,,5325,Scheduled
 824151,2026-08-22,117,133,Houston Astros,Athletics,,682052,,Jacob Lopez,2392,Scheduled
 824560,2026-08-22,145,121,Chicago White Sox,New York Mets,622491,,Luis Castillo,,4,Scheduled
