@@ -1,8 +1,4 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-825045,2026-08-21,109,113,Arizona Diamondbacks,Cincinnati Reds,593958,666157,Eduardo Rodriguez,Nick Lodolo,15,Pre-Game
-823262,2026-08-21,135,142,San Diego Padres,Minnesota Twins,681190,687570,Randy Vásquez,Connor Prielipp,2680,Pre-Game
-823911,2026-08-21,119,134,Los Angeles Dodgers,Pittsburgh Pirates,808967,696149,Yoshinobu Yamamoto,Bubba Chandler,22,Pre-Game
-823101,2026-08-21,136,112,Seattle Mariners,Chicago Cubs,676106,571510,Emerson Hancock,Matthew Boyd,680,Pre-Game
 823509,2026-08-22,147,141,New York Yankees,Toronto Blue Jays,677960,656302,Ryan Weathers,Dylan Cease,3313,Scheduled
 823743,2026-08-22,158,144,Milwaukee Brewers,Atlanta Braves,701656,527048,Logan Henderson,Martín Pérez,32,Scheduled
 823831,2026-08-22,146,120,Miami Marlins,Washington Nationals,691587,663623,Eury Pérez,Jake Irvin,4169,Scheduled
@@ -13,7 +9,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824560,2026-08-22,145,121,Chicago White Sox,New York Mets,622491,681035,Luis Castillo,Christian Scott,4,Scheduled
 824073,2026-08-22,118,116,Kansas City Royals,Detroit Tigers,608379,623454,Michael Wacha,Drew Anderson,7,Scheduled
 823910,2026-08-22,119,134,Los Angeles Dodgers,Pittsburgh Pirates,669373,683003,Tarik Skubal,Jared Jones,22,Scheduled
-823100,2026-08-22,136,112,Seattle Mariners,Chicago Cubs,693433,656849,Bryan Woo,David Peterson,680,Scheduled
+823100,2026-08-22,136,112,Seattle Mariners,Chicago Cubs,807739,656849,Kade Anderson,David Peterson,680,Scheduled
 824718,2026-08-22,111,137,Boston Red Sox,San Francisco Giants,663776,694918,Patrick Sandoval,Blade Tidwell,3,Scheduled
 825044,2026-08-22,109,113,Arizona Diamondbacks,Cincinnati Reds,647336,695076,Michael Soroka,Rhett Lowder,15,Scheduled
 824316,2026-08-22,115,114,Colorado Rockies,Cleveland Guardians,687312,676440,Gabriel Hughes,Tanner Bibee,19,Scheduled
