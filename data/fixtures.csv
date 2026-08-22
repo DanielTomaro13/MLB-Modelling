@@ -1,16 +1,15 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823831,2026-08-22,146,120,Miami Marlins,Washington Nationals,691587,663623,Eury Pérez,Jake Irvin,4169,Pre-Game
-823422,2026-08-22,143,138,Philadelphia Phillies,St. Louis Cardinals,691725,,Andrew Painter,,2681,Scheduled
-824798,2026-08-22,110,139,Baltimore Orioles,Tampa Bay Rays,687064,663556,Brandon Young,Shane McClanahan,2,Scheduled
-822858,2026-08-22,140,108,Texas Rangers,Los Angeles Angels,674003,696270,Cody Bradford,Ryan Johnson,5325,Scheduled
-824151,2026-08-22,117,133,Houston Astros,Athletics,686613,682052,Hunter Brown,Jacob Lopez,2392,Scheduled
-824560,2026-08-22,145,121,Chicago White Sox,New York Mets,622491,681035,Luis Castillo,Christian Scott,4,Scheduled
-824073,2026-08-22,118,116,Kansas City Royals,Detroit Tigers,608379,623454,Michael Wacha,Drew Anderson,7,Scheduled
-823910,2026-08-22,119,134,Los Angeles Dodgers,Pittsburgh Pirates,669373,683003,Tarik Skubal,Jared Jones,22,Scheduled
-823100,2026-08-22,136,112,Seattle Mariners,Chicago Cubs,807739,656849,Kade Anderson,David Peterson,680,Scheduled
-824718,2026-08-22,111,137,Boston Red Sox,San Francisco Giants,663776,694918,Patrick Sandoval,Blade Tidwell,3,Scheduled
-825044,2026-08-22,109,113,Arizona Diamondbacks,Cincinnati Reds,647336,695076,Michael Soroka,Rhett Lowder,15,Scheduled
-824316,2026-08-22,115,114,Colorado Rockies,Cleveland Guardians,687312,676440,Gabriel Hughes,Tanner Bibee,19,Scheduled
+823422,2026-08-22,143,138,Philadelphia Phillies,St. Louis Cardinals,691725,687273,Andrew Painter,Quinn Mathews,2681,Pre-Game
+824798,2026-08-22,110,139,Baltimore Orioles,Tampa Bay Rays,687064,663556,Brandon Young,Shane McClanahan,2,Pre-Game
+822858,2026-08-22,140,108,Texas Rangers,Los Angeles Angels,674003,696270,Cody Bradford,Ryan Johnson,5325,Pre-Game
+824151,2026-08-22,117,133,Houston Astros,Athletics,686613,682052,Hunter Brown,Jacob Lopez,2392,Pre-Game
+824560,2026-08-22,145,121,Chicago White Sox,New York Mets,622491,681035,Luis Castillo,Christian Scott,4,Pre-Game
+824073,2026-08-22,118,116,Kansas City Royals,Detroit Tigers,608379,623454,Michael Wacha,Drew Anderson,7,Pre-Game
+823910,2026-08-22,119,134,Los Angeles Dodgers,Pittsburgh Pirates,669373,683003,Tarik Skubal,Jared Jones,22,Pre-Game
+823100,2026-08-22,136,112,Seattle Mariners,Chicago Cubs,807739,656849,Kade Anderson,David Peterson,680,Pre-Game
+824718,2026-08-22,111,137,Boston Red Sox,San Francisco Giants,663776,694918,Patrick Sandoval,Blade Tidwell,3,Pre-Game
+825044,2026-08-22,109,113,Arizona Diamondbacks,Cincinnati Reds,647336,695076,Michael Soroka,Rhett Lowder,15,Pre-Game
+824316,2026-08-22,115,114,Colorado Rockies,Cleveland Guardians,687312,676440,Gabriel Hughes,Tanner Bibee,19,Pre-Game
 823261,2026-08-22,135,142,San Diego Padres,Minnesota Twins,663554,665152,Casey Mize,Dean Kremer,2680,Scheduled
 824799,2026-08-23,110,139,Baltimore Orioles,Tampa Bay Rays,669358,607259,Shane Baz,Nick Martinez,2,Scheduled
 823421,2026-08-23,143,138,Philadelphia Phillies,St. Louis Cardinals,650911,,Cristopher Sánchez,,2681,Scheduled
