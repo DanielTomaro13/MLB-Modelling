@@ -1,9 +1,9 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-23,San Francisco Giants,Boston Red Sox,Matt Wilkinson,Jake Bennett,0.608,1.645,2.551,8.331
-2026-08-23,Pittsburgh Pirates,Los Angeles Dodgers,TBD,Blake Snell,0.5785,1.729,2.372,9.269
 2026-08-23,Los Angeles Angels,Texas Rangers,Yusei Kikuchi,Cal Quantrill,0.5751,1.739,2.353,7.906
 2026-08-23,New York Mets,Chicago White Sox,Nolan McLean,Sean Newcomb,0.5697,1.755,2.324,8.095
 2026-08-23,Atlanta Braves,Milwaukee Brewers,Tyler Mahle,Shane Drohan,0.5676,1.762,2.312,8.876
+2026-08-23,Pittsburgh Pirates,Los Angeles Dodgers,Lake Bachar,Blake Snell,0.5675,1.762,2.312,9.065
 2026-08-23,St. Louis Cardinals,Philadelphia Phillies,Kyle Leahy,Cristopher Sánchez,0.5672,1.763,2.31,8.34
 2026-08-23,Cincinnati Reds,Arizona Diamondbacks,Andrew Abbott,Mitch Bratt,0.5668,1.764,2.308,8.899
 2026-08-23,Toronto Blue Jays,New York Yankees,José Soriano,Carlos Rodón,0.5654,1.769,2.301,7.804

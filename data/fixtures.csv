@@ -9,7 +9,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 822856,2026-08-23,140,108,Texas Rangers,Los Angeles Angels,615698,579328,Cal Quantrill,Yusei Kikuchi,5325,Scheduled
 824315,2026-08-23,115,114,Colorado Rockies,Cleveland Guardians,608372,656492,Tomoyuki Sugano,Foster Griffin,19,Scheduled
 824720,2026-08-23,111,137,Boston Red Sox,San Francisco Giants,687562,683363,Jake Bennett,Matt Wilkinson,3,Scheduled
-823909,2026-08-23,119,134,Los Angeles Dodgers,Pittsburgh Pirates,605483,,Blake Snell,,22,Scheduled
+823909,2026-08-23,119,134,Los Angeles Dodgers,Pittsburgh Pirates,605483,669199,Blake Snell,Lake Bachar,22,Scheduled
 823099,2026-08-23,136,112,Seattle Mariners,Chicago Cubs,682243,684007,Bryce Miller,Shota Imanaga,680,Scheduled
 823258,2026-08-23,135,142,San Diego Padres,Minnesota Twins,621111,641927,Walker Buehler,Bailey Ober,2680,Scheduled
 825043,2026-08-23,109,113,Arizona Diamondbacks,Cincinnati Reds,683352,671096,Mitch Bratt,Andrew Abbott,15,Scheduled
