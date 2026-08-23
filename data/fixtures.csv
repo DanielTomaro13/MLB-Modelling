@@ -1,14 +1,14 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824799,2026-08-23,110,139,Baltimore Orioles,Tampa Bay Rays,669358,607259,Shane Baz,Nick Martinez,2,Scheduled
-823421,2026-08-23,143,138,Philadelphia Phillies,St. Louis Cardinals,650911,681517,Cristopher Sánchez,Kyle Leahy,2681,Scheduled
-823507,2026-08-23,147,141,New York Yankees,Toronto Blue Jays,607074,667755,Carlos Rodón,José Soriano,3313,Scheduled
+824799,2026-08-23,110,139,Baltimore Orioles,Tampa Bay Rays,669358,607259,Shane Baz,Nick Martinez,2,Pre-Game
+823421,2026-08-23,143,138,Philadelphia Phillies,St. Louis Cardinals,650911,681517,Cristopher Sánchez,Kyle Leahy,2681,Pre-Game
+823507,2026-08-23,147,141,New York Yankees,Toronto Blue Jays,607074,667755,Carlos Rodón,José Soriano,3313,Pre-Game
 823827,2026-08-23,146,120,Miami Marlins,Washington Nationals,676083,800600,Janson Junk,Jackson Kent,4169,Scheduled
-824071,2026-08-23,118,116,Kansas City Royals,Detroit Tigers,663738,,Daniel Lynch IV,,7,Scheduled
-824150,2026-08-23,117,133,Houston Astros,Athletics,664299,669620,Cristian Javier,Brady Basso,2392,Scheduled
+824071,2026-08-23,118,116,Kansas City Royals,Detroit Tigers,663738,621097,Daniel Lynch IV,Jacob Waguespack,7,Pre-Game
+824150,2026-08-23,117,133,Houston Astros,Athletics,664299,669620,Cristian Javier,Brady Basso,2392,Pre-Game
 824558,2026-08-23,145,121,Chicago White Sox,New York Mets,656794,690997,Sean Newcomb,Nolan McLean,4,Scheduled
 822856,2026-08-23,140,108,Texas Rangers,Los Angeles Angels,615698,579328,Cal Quantrill,Yusei Kikuchi,5325,Scheduled
 824315,2026-08-23,115,114,Colorado Rockies,Cleveland Guardians,608372,656492,Tomoyuki Sugano,Foster Griffin,19,Scheduled
-824720,2026-08-23,111,137,Boston Red Sox,San Francisco Giants,687562,683363,Jake Bennett,Matt Wilkinson,3,Scheduled
+824720,2026-08-23,111,137,Boston Red Sox,San Francisco Giants,687562,683363,Jake Bennett,Matt Wilkinson,3,Pre-Game
 823909,2026-08-23,119,134,Los Angeles Dodgers,Pittsburgh Pirates,605483,669199,Blake Snell,Lake Bachar,22,Scheduled
 823099,2026-08-23,136,112,Seattle Mariners,Chicago Cubs,682243,684007,Bryce Miller,Shota Imanaga,680,Scheduled
 823258,2026-08-23,135,142,San Diego Padres,Minnesota Twins,621111,641927,Walker Buehler,Bailey Ober,2680,Scheduled
