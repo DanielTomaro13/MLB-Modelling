@@ -8,7 +8,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823260,2026-08-24,135,134,San Diego Padres,Pittsburgh Pirates,592662,677952,Robbie Ray,Braxton Ashcraft,2680,Scheduled
 824964,2026-08-24,133,142,Athletics,Minnesota Twins,605488,805673,Jeffrey Springs,Zebby Matthews,2529,Scheduled
 823097,2026-08-24,136,143,Seattle Mariners,Philadelphia Phillies,669302,554430,Logan Gilbert,Zack Wheeler,680,Scheduled
-823183,2026-08-24,137,113,San Francisco Giants,Cincinnati Reds,,695505,,Chase Burns,2395,Scheduled
+823183,2026-08-24,137,113,San Francisco Giants,Cincinnati Reds,687931,695505,Carson Whisenhunt,Chase Burns,2395,Scheduled
 824233,2026-08-25,116,139,Detroit Tigers,Tampa Bay Rays,695549,693855,Jackson Jobe,Ian Seymour,2394,Scheduled
 823826,2026-08-25,146,111,Miami Marlins,Boston Red Sox,,801139,,Payton Tolle,4169,Scheduled
 822693,2026-08-25,120,115,Washington Nationals,Colorado Rockies,674841,607536,Andrew Alvarez,Kyle Freeland,3309,Scheduled
@@ -23,10 +23,10 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823259,2026-08-25,135,134,San Diego Padres,Pittsburgh Pirates,650633,694973,Michael King,Paul Skenes,2680,Scheduled
 824962,2026-08-25,133,142,Athletics,Minnesota Twins,695611,671737,Gage Jump,Taj Bradley,2529,Scheduled
 823098,2026-08-25,136,143,Seattle Mariners,Philadelphia Phillies,669923,605400,George Kirby,Aaron Nola,680,Scheduled
-823181,2026-08-25,137,113,San Francisco Giants,Cincinnati Reds,,663903,,Brady Singer,2395,Scheduled
+823181,2026-08-25,137,113,San Francisco Giants,Cincinnati Reds,605288,663903,Adrian Houser,Brady Singer,2395,Scheduled
 824234,2026-08-26,116,139,Detroit Tigers,Tampa Bay Rays,675512,642547,Troy Melton,Freddy Peralta,2394,Scheduled
 825039,2026-08-26,109,112,Arizona Diamondbacks,Chicago Cubs,593958,571510,Eduardo Rodriguez,Matthew Boyd,15,Scheduled
-823180,2026-08-26,137,113,San Francisco Giants,Cincinnati Reds,,666157,,Nick Lodolo,2395,Scheduled
+823180,2026-08-26,137,113,San Francisco Giants,Cincinnati Reds,694738,666157,Landen Roupp,Nick Lodolo,2395,Scheduled
 823988,2026-08-26,108,114,Los Angeles Angels,Cleveland Guardians,680570,676282,Grayson Rodriguez,Joey Cantillo,1,Scheduled
 823255,2026-08-26,135,134,San Diego Padres,Pittsburgh Pirates,,696149,,Bubba Chandler,2680,Scheduled
 823096,2026-08-26,136,143,Seattle Mariners,Philadelphia Phillies,,666200,,Jesús Luzardo,680,Scheduled
