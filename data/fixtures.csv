@@ -1,6 +1,6 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 824233,2026-08-25,116,139,Detroit Tigers,Tampa Bay Rays,695549,693855,Jackson Jobe,Ian Seymour,2394,Scheduled
-823826,2026-08-25,146,111,Miami Marlins,Boston Red Sox,,801139,,Payton Tolle,4169,Scheduled
+823826,2026-08-25,146,111,Miami Marlins,Boston Red Sox,663969,801139,Tyler Phillips,Payton Tolle,4169,Scheduled
 822693,2026-08-25,120,115,Washington Nationals,Colorado Rockies,674841,,Andrew Alvarez,,3309,Scheduled
 823505,2026-08-25,147,117,New York Yankees,Houston Astros,701542,814490,Will Warren,Ethan Pecko,3313,Scheduled
 822773,2026-08-25,141,118,Toronto Blue Jays,Kansas City Royals,453286,607625,Max Scherzer,Seth Lugo,14,Scheduled
@@ -23,7 +23,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823825,2026-08-26,146,111,Miami Marlins,Boston Red Sox,687473,543243,Ryan Gusto,Sonny Gray,4169,Scheduled
 822692,2026-08-26,120,115,Washington Nationals,Colorado Rockies,,685299,,Tanner Gordon,3309,Scheduled
 823506,2026-08-26,147,117,New York Yankees,Houston Astros,,663567,,Peter Lambert,3313,Scheduled
-822772,2026-08-26,141,118,Toronto Blue Jays,Kansas City Royals,669456,677976,Shane Bieber,Randy Dobnak,14,Scheduled
+822772,2026-08-26,141,118,Toronto Blue Jays,Kansas City Royals,,677976,,Randy Dobnak,14,Scheduled
 823584,2026-08-26,121,158,New York Mets,Milwaukee Brewers,476594,669160,Robert Stock,Dustin May,3289,Scheduled
 824878,2026-08-26,144,119,Atlanta Braves,Los Angeles Dodgers,700363,808963,AJ Smith-Shawver,Roki Sasaki,4705,Scheduled
 824555,2026-08-26,145,140,Chicago White Sox,Texas Rangers,680732,669022,Sean Burke,MacKenzie Gore,4,Scheduled

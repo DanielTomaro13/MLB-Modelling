@@ -10,7 +10,7 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-25,Philadelphia Phillies,Seattle Mariners,Aaron Nola,George Kirby,0.5074,1.971,2.03,7.875
 2026-08-25,Kansas City Royals,Toronto Blue Jays,Seth Lugo,Max Scherzer,0.5068,1.973,2.028,9.812
 2026-08-25,Los Angeles Dodgers,Atlanta Braves,Tyler Glasnow,Bryce Elder,0.4812,2.078,1.927,8.589
-2026-08-25,Boston Red Sox,Miami Marlins,Payton Tolle,TBD,0.4664,2.144,1.874,8.181
+2026-08-25,Boston Red Sox,Miami Marlins,Payton Tolle,Tyler Phillips,0.4781,2.091,1.916,7.978
 2026-08-25,Minnesota Twins,Athletics,Taj Bradley,Gage Jump,0.4579,2.184,1.845,10.358
 2026-08-25,Chicago Cubs,Arizona Diamondbacks,Clay Holmes,Brandon Pfaadt,0.4546,2.2,1.833,8.873
 2026-08-25,Milwaukee Brewers,New York Mets,Kyle Harrison,Zac Thornton,0.4482,2.231,1.812,8.123
@@ -24,7 +24,7 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-26,Baltimore Orioles,St. Louis Cardinals,Kyle Bradish,TBD,0.5342,1.872,2.147,8.444
 2026-08-26,Chicago Cubs,Arizona Diamondbacks,Matthew Boyd,Eduardo Rodriguez,0.5272,1.897,2.115,9.095
 2026-08-26,Los Angeles Dodgers,Atlanta Braves,Roki Sasaki,AJ Smith-Shawver,0.4981,2.007,1.993,9.361
-2026-08-26,Kansas City Royals,Toronto Blue Jays,Randy Dobnak,Shane Bieber,0.4866,2.055,1.948,7.865
+2026-08-26,Kansas City Royals,Toronto Blue Jays,Randy Dobnak,TBD,0.4875,2.051,1.951,7.85
 2026-08-26,Philadelphia Phillies,Seattle Mariners,Jesús Luzardo,Bryan Woo,0.4729,2.115,1.897,7.272
 2026-08-26,Milwaukee Brewers,New York Mets,Dustin May,Robert Stock,0.4474,2.235,1.81,9.398
 2026-08-26,Cleveland Guardians,Los Angeles Angels,Joey Cantillo,Grayson Rodriguez,0.4448,2.248,1.801,8.951
