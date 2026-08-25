@@ -1,11 +1,11 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
-2026-08-25,Colorado Rockies,Washington Nationals,TBD,Andrew Alvarez,0.6138,1.629,2.589,9.649
+2026-08-25,Colorado Rockies,Washington Nationals,Mason Adams,Andrew Alvarez,0.6138,1.629,2.589,9.649
 2026-08-25,Pittsburgh Pirates,San Diego Padres,Paul Skenes,Michael King,0.5555,1.8,2.25,8.203
-2026-08-25,Baltimore Orioles,St. Louis Cardinals,Chris Bassitt,TBD,0.553,1.808,2.237,8.777
 2026-08-25,Houston Astros,New York Yankees,Ethan Pecko,Will Warren,0.5487,1.822,2.216,9.365
 2026-08-25,Cincinnati Reds,San Francisco Giants,Brady Singer,Adrian Houser,0.5432,1.841,2.189,8.537
 2026-08-25,Texas Rangers,Chicago White Sox,Jacob deGrom,Anthony Kay,0.5401,1.852,2.174,8.521
-2026-08-25,Tampa Bay Rays,Detroit Tigers,Ian Seymour,Jackson Jobe,0.5244,1.907,2.102,8.943
+2026-08-25,Baltimore Orioles,St. Louis Cardinals,Chris Bassitt,Matthew Liberatore,0.5259,1.902,2.109,9.257
+2026-08-25,Tampa Bay Rays,Detroit Tigers,Casey Legumina,Jackson Jobe,0.5157,1.939,2.065,8.79
 2026-08-25,Cleveland Guardians,Los Angeles Angels,Gavin Williams,Walbert Ureña,0.5079,1.969,2.032,7.471
 2026-08-25,Philadelphia Phillies,Seattle Mariners,Aaron Nola,George Kirby,0.5074,1.971,2.03,7.875
 2026-08-25,Kansas City Royals,Toronto Blue Jays,Seth Lugo,Max Scherzer,0.5068,1.973,2.028,9.812
@@ -32,7 +32,7 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-27,Houston Astros,New York Yankees,Hayden Wesneski,Gerrit Cole,0.5951,1.68,2.47,8.414
 2026-08-27,Colorado Rockies,Washington Nationals,Gabriel Hughes,Jake Irvin,0.5849,1.71,2.409,11.171
 2026-08-27,Baltimore Orioles,St. Louis Cardinals,Trevor Rogers,TBD,0.539,1.855,2.169,8.526
-2026-08-27,Kansas City Royals,Toronto Blue Jays,Noah Cameron,TBD,0.5328,1.877,2.14,8.587
+2026-08-27,Kansas City Royals,Toronto Blue Jays,Noah Cameron,Spencer Arrighetti,0.5229,1.912,2.096,8.762
 2026-08-27,Los Angeles Dodgers,Atlanta Braves,Yoshinobu Yamamoto,Chris Sale,0.509,1.965,2.036,7.387
 2026-08-27,Arizona Diamondbacks,San Francisco Giants,TBD,TBD,0.4951,2.02,1.98,8.459
 2026-08-27,Milwaukee Brewers,New York Mets,Jacob Misiorowski,Sean Manaea,0.3823,2.616,1.619,8.191
