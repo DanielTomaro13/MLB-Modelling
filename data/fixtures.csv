@@ -1,5 +1,4 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824963,2026-08-26,133,142,Athletics,Minnesota Twins,669372,687570,J.T. Ginn,Connor Prielipp,2529,Pre-Game
 822694,2026-08-27,120,115,Washington Nationals,Colorado Rockies,663623,687312,Jake Irvin,Gabriel Hughes,3309,Scheduled
 823014,2026-08-27,138,110,St. Louis Cardinals,Baltimore Orioles,,669432,,Trevor Rogers,2889,Scheduled
 823503,2026-08-27,147,117,New York Yankees,Houston Astros,543037,669713,Gerrit Cole,Hayden Wesneski,3313,Scheduled
@@ -9,7 +8,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823179,2026-08-27,137,109,San Francisco Giants,Arizona Diamondbacks,694738,703615,Landen Roupp,Jose Cabrera,2395,Scheduled
 824638,2026-08-28,112,113,Chicago Cubs,Cincinnati Reds,656849,695076,David Peterson,Rhett Lowder,17,Scheduled
 824231,2026-08-28,116,119,Detroit Tigers,Los Angeles Dodgers,623454,669373,Drew Anderson,Tarik Skubal,2394,Scheduled
-822691,2026-08-28,120,146,Washington Nationals,Miami Marlins,,,,,3309,Scheduled
+822691,2026-08-28,120,146,Washington Nationals,Miami Marlins,,691587,,Eury Pérez,3309,Scheduled
 824396,2026-08-28,114,118,Cleveland Guardians,Kansas City Royals,676440,,Tanner Bibee,,5,Scheduled
 823583,2026-08-28,121,117,New York Mets,Houston Astros,681035,,Christian Scott,,3289,Scheduled
 822935,2026-08-28,139,135,Tampa Bay Rays,San Diego Padres,663556,663554,Shane McClanahan,Casey Mize,12,Scheduled
@@ -31,7 +30,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 822770,2026-08-29,141,136,Toronto Blue Jays,Seattle Mariners,,,,,14,Scheduled
 823177,2026-08-29,137,109,San Francisco Giants,Arizona Diamondbacks,,518876,,Merrill Kelly,2395,Scheduled
 823176,2026-08-29,137,109,San Francisco Giants,Arizona Diamondbacks,,518876,,Merrill Kelly,2395,Scheduled
-822690,2026-08-29,120,146,Washington Nationals,Miami Marlins,,,,,3309,Scheduled
+822690,2026-08-29,120,146,Washington Nationals,Miami Marlins,,645261,,Sandy Alcantara,3309,Scheduled
 824392,2026-08-29,114,118,Cleveland Guardians,Kansas City Royals,656492,,Foster Griffin,,5,Scheduled
 823582,2026-08-29,121,117,New York Mets,Houston Astros,690997,,Nolan McLean,,3289,Scheduled
 822936,2026-08-29,139,135,Tampa Bay Rays,San Diego Padres,607259,621111,Nick Martinez,Walker Buehler,12,Scheduled
