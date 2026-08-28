@@ -1,47 +1,35 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
-2026-08-28,Colorado Rockies,Atlanta Braves,Tomoyuki Sugano,Grant Holmes,0.642,1.558,2.793,8.852
-2026-08-28,Texas Rangers,Milwaukee Brewers,Cody Bradford,Logan Henderson,0.6316,1.583,2.714,7.982
-2026-08-28,Cincinnati Reds,Chicago Cubs,Rhett Lowder,David Peterson,0.6005,1.665,2.503,9.489
-2026-08-28,Boston Red Sox,New York Yankees,Patrick Sandoval,Cam Schlittler,0.594,1.684,2.463,8.01
-2026-08-28,Seattle Mariners,Toronto Blue Jays,TBD,Dylan Cease,0.5689,1.758,2.32,7.861
-2026-08-28,San Diego Padres,Tampa Bay Rays,Casey Mize,Shane McClanahan,0.5322,1.879,2.138,8.087
-2026-08-28,Kansas City Royals,Cleveland Guardians,Michael Wacha,Tanner Bibee,0.5313,1.882,2.134,8.297
-2026-08-28,Chicago White Sox,Minnesota Twins,Luis Castillo,Dean Kremer,0.5198,1.924,2.082,10.746
-2026-08-28,Arizona Diamondbacks,San Francisco Giants,Kohl Drake,Blade Tidwell,0.5175,1.932,2.073,8.424
+2026-08-28,Arizona Diamondbacks,San Francisco Giants,Kohl Drake,Blade Tidwell,0.5176,1.932,2.073,8.423
 2026-08-28,Philadelphia Phillies,Los Angeles Angels,Andrew Painter,Reid Detmers,0.5161,1.938,2.066,8.695
-2026-08-28,Houston Astros,New York Mets,Hunter Brown,Christian Scott,0.5147,1.943,2.06,8.38
-2026-08-28,Pittsburgh Pirates,St. Louis Cardinals,Jared Jones,Quinn Mathews,0.5101,1.961,2.041,9.071
-2026-08-28,Miami Marlins,Washington Nationals,Eury Pérez,Jackson Kent,0.4818,2.075,1.93,9.759
-2026-08-28,Baltimore Orioles,Athletics,Brandon Young,TBD,0.465,2.151,1.869,10.375
-2026-08-28,Los Angeles Dodgers,Detroit Tigers,Tarik Skubal,Drew Anderson,0.4576,2.185,1.844,8.519
+2026-08-28,Baltimore Orioles,Athletics,Brandon Young,Jacob Lopez,0.4564,2.191,1.84,10.547
 2026-08-29,Colorado Rockies,Atlanta Braves,Ryan Feltner,Martín Pérez,0.6743,1.483,3.07,9.235
-2026-08-29,Cincinnati Reds,Chicago Cubs,Andrew Abbott,Kevin Gausman,0.6012,1.663,2.508,8.719
+2026-08-29,Cincinnati Reds,Chicago Cubs,Andrew Abbott,Kevin Gausman,0.5987,1.67,2.492,8.808
 2026-08-29,Texas Rangers,Milwaukee Brewers,Cal Quantrill,Shane Drohan,0.5969,1.675,2.481,8.494
-2026-08-29,San Diego Padres,Tampa Bay Rays,Walker Buehler,Nick Martinez,0.5834,1.714,2.4,8.228
+2026-08-29,San Diego Padres,Tampa Bay Rays,Walker Buehler,Nick Martinez,0.5834,1.714,2.4,8.229
 2026-08-29,Pittsburgh Pirates,St. Louis Cardinals,TBD,Kyle Leahy,0.5519,1.812,2.232,8.146
 2026-08-29,Kansas City Royals,Cleveland Guardians,Daniel Lynch IV,Foster Griffin,0.55,1.818,2.222,8.092
-2026-08-29,Seattle Mariners,Toronto Blue Jays,TBD,José Soriano,0.5406,1.85,2.177,8.323
-2026-08-29,Houston Astros,New York Mets,TBD,Nolan McLean,0.5292,1.89,2.124,8.604
+2026-08-29,Seattle Mariners,Toronto Blue Jays,Kade Anderson,José Soriano,0.5429,1.842,2.187,8.363
+2026-08-29,Houston Astros,New York Mets,TBD,Nolan McLean,0.5292,1.89,2.124,8.605
 2026-08-29,Boston Red Sox,New York Yankees,TBD,TBD,0.5291,1.89,2.124,8.666
-2026-08-29,Miami Marlins,Washington Nationals,Sandy Alcantara,Cade Cavalli,0.5234,1.911,2.098,8.948
+2026-08-29,Miami Marlins,Washington Nationals,Sandy Alcantara,Cade Cavalli,0.5234,1.911,2.098,8.947
 2026-08-29,Boston Red Sox,New York Yankees,Jake Bennett,TBD,0.5092,1.964,2.037,8.326
-2026-08-29,Chicago White Sox,Minnesota Twins,Erick Fedde,Bailey Ober,0.5051,1.98,2.02,9.96
+2026-08-29,Chicago White Sox,Minnesota Twins,Erick Fedde,Bailey Ober,0.505,1.98,2.02,9.96
 2026-08-29,Arizona Diamondbacks,San Francisco Giants,TBD,TBD,0.499,2.004,1.996,8.466
 2026-08-29,Arizona Diamondbacks,San Francisco Giants,TBD,TBD,0.499,2.004,1.996,8.466
-2026-08-29,Los Angeles Dodgers,Detroit Tigers,Blake Snell,Keider Montero,0.496,2.016,1.984,8.365
+2026-08-29,Los Angeles Dodgers,Detroit Tigers,Blake Snell,Keider Montero,0.496,2.016,1.984,8.366
 2026-08-29,Baltimore Orioles,Athletics,Shane Baz,TBD,0.4775,2.094,1.914,10.612
-2026-08-29,Philadelphia Phillies,Los Angeles Angels,Cristopher Sánchez,Ryan Johnson,0.39,2.564,1.639,8.44
-2026-08-30,Texas Rangers,Milwaukee Brewers,Kumar Rocker,TBD,0.617,1.621,2.611,8.939
-2026-08-30,Colorado Rockies,Atlanta Braves,Mason Adams,Tyler Mahle,0.6124,1.633,2.58,8.902
-2026-08-30,Kansas City Royals,Cleveland Guardians,Seth Lugo,Parker Messick,0.6051,1.653,2.532,8.246
-2026-08-30,Cincinnati Reds,Chicago Cubs,Chase Burns,Shota Imanaga,0.587,1.704,2.421,7.759
+2026-08-29,Philadelphia Phillies,Los Angeles Angels,Cristopher Sánchez,Ryan Johnson,0.39,2.564,1.639,8.441
+2026-08-30,Colorado Rockies,Atlanta Braves,Mason Adams,Tyler Mahle,0.6124,1.633,2.58,8.903
+2026-08-30,Texas Rangers,Milwaukee Brewers,Kumar Rocker,Dustin May,0.6068,1.648,2.543,9.119
+2026-08-30,Kansas City Royals,Cleveland Guardians,Seth Lugo,Parker Messick,0.6051,1.653,2.533,8.247
+2026-08-30,Cincinnati Reds,Chicago Cubs,Chase Burns,Shota Imanaga,0.5843,1.711,2.406,7.84
+2026-08-30,Miami Marlins,Washington Nationals,Janson Junk,Andrew Alvarez,0.5534,1.807,2.239,9.473
 2026-08-30,San Diego Padres,Tampa Bay Rays,Robbie Ray,Drew Rasmussen,0.5528,1.809,2.236,7.854
-2026-08-30,Miami Marlins,Washington Nationals,TBD,Andrew Alvarez,0.5475,1.826,2.21,9.361
 2026-08-30,Houston Astros,New York Mets,TBD,Zac Thornton,0.5406,1.85,2.177,8.41
 2026-08-30,Boston Red Sox,New York Yankees,Ranger Suarez,Will Warren,0.4847,2.063,1.941,8.663
-2026-08-30,Chicago White Sox,Minnesota Twins,TBD,Zebby Matthews,0.4815,2.077,1.929,10.009
+2026-08-30,Chicago White Sox,Minnesota Twins,TBD,Zebby Matthews,0.4815,2.077,1.928,10.009
 2026-08-30,Baltimore Orioles,Athletics,Chris Bassitt,TBD,0.4812,2.078,1.928,10.684
-2026-08-30,Seattle Mariners,Toronto Blue Jays,TBD,Max Scherzer,0.4782,2.091,1.917,9.444
+2026-08-30,Los Angeles Dodgers,Detroit Tigers,TBD,Framber Valdez,0.4768,2.097,1.911,9.242
 2026-08-30,Pittsburgh Pirates,St. Louis Cardinals,Braxton Ashcraft,Matthew Liberatore,0.4693,2.131,1.884,9.047
-2026-08-30,Los Angeles Dodgers,Detroit Tigers,Tyler Glasnow,Framber Valdez,0.454,2.202,1.832,8.854
-2026-08-30,Philadelphia Phillies,Los Angeles Angels,Zack Wheeler,Yusei Kikuchi,0.4179,2.393,1.718,8.487
+2026-08-30,Seattle Mariners,Toronto Blue Jays,Logan Gilbert,Max Scherzer,0.4576,2.185,1.844,9.098
+2026-08-30,Philadelphia Phillies,Los Angeles Angels,Zack Wheeler,Yusei Kikuchi,0.4179,2.393,1.718,8.488
