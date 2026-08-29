@@ -6,8 +6,8 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823011,2026-08-29,138,134,St. Louis Cardinals,Pittsburgh Pirates,681517,669199,Kyle Leahy,Lake Bachar,2889,Scheduled
 824637,2026-08-29,112,113,Chicago Cubs,Cincinnati Reds,592332,671096,Kevin Gausman,Andrew Abbott,17,Scheduled
 822770,2026-08-29,141,136,Toronto Blue Jays,Seattle Mariners,667755,807739,José Soriano,Kade Anderson,14,Scheduled
-823177,2026-08-29,137,109,San Francisco Giants,Arizona Diamondbacks,,,,,2395,Scheduled
-823176,2026-08-29,137,109,San Francisco Giants,Arizona Diamondbacks,,,,,2395,Scheduled
+823177,2026-08-29,137,109,San Francisco Giants,Arizona Diamondbacks,,518876,,Merrill Kelly,2395,Scheduled
+823176,2026-08-29,137,109,San Francisco Giants,Arizona Diamondbacks,,683352,,Mitch Bratt,2395,Scheduled
 822690,2026-08-29,120,146,Washington Nationals,Miami Marlins,676917,645261,Cade Cavalli,Sandy Alcantara,3309,Scheduled
 824392,2026-08-29,114,118,Cleveland Guardians,Kansas City Royals,656492,663738,Foster Griffin,Daniel Lynch IV,5,Scheduled
 823582,2026-08-29,121,117,New York Mets,Houston Astros,690997,656986,Nolan McLean,Bennett Sousa,3289,Scheduled
