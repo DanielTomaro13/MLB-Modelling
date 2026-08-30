@@ -4,7 +4,6 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-30,Kansas City Royals,Cleveland Guardians,Seth Lugo,Parker Messick,0.5979,1.673,2.487,8.215
 2026-08-30,Cincinnati Reds,Chicago Cubs,Chase Burns,Shota Imanaga,0.5908,1.693,2.444,7.96
 2026-08-30,Houston Astros,New York Mets,Ethan Pecko,Zac Thornton,0.5598,1.786,2.272,8.677
-2026-08-30,Miami Marlins,Washington Nationals,Janson Junk,Andrew Alvarez,0.5596,1.787,2.27,9.492
 2026-08-30,San Diego Padres,Tampa Bay Rays,Robbie Ray,Drew Rasmussen,0.5581,1.792,2.263,7.949
 2026-08-30,Boston Red Sox,New York Yankees,Ranger Suarez,Will Warren,0.4862,2.057,1.946,8.586
 2026-08-30,Pittsburgh Pirates,St. Louis Cardinals,Braxton Ashcraft,Matthew Liberatore,0.4686,2.134,1.882,9.004
@@ -20,7 +19,7 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-08-31,Miami Marlins,Washington Nationals,Ryan Gusto,TBD,0.5363,1.865,2.156,9.676
 2026-08-31,Philadelphia Phillies,Arizona Diamondbacks,TBD,TBD,0.5176,1.932,2.073,9.026
 2026-08-31,Chicago White Sox,Houston Astros,TBD,TBD,0.5097,1.962,2.04,9.429
-2026-08-31,Detroit Tigers,Minnesota Twins,TBD,TBD,0.4982,2.007,1.993,9.114
+2026-08-31,Detroit Tigers,Minnesota Twins,Jackson Jobe,Taj Bradley,0.5061,1.976,2.025,8.79
 2026-08-31,Milwaukee Brewers,Chicago Cubs,Kyle Harrison,TBD,0.489,2.045,1.957,8.55
 2026-08-31,San Diego Padres,Cincinnati Reds,TBD,Brady Singer,0.4696,2.13,1.885,9.175
 2026-08-31,Baltimore Orioles,Colorado Rockies,TBD,TBD,0.4678,2.137,1.879,10.98
@@ -33,10 +32,10 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-09-01,Toronto Blue Jays,Cleveland Guardians,Spencer Arrighetti,Gavin Williams,0.5582,1.791,2.264,8.546
 2026-09-01,Milwaukee Brewers,Chicago Cubs,Robert Gasser,TBD,0.5258,1.902,2.109,9.194
 2026-09-01,Philadelphia Phillies,Arizona Diamondbacks,TBD,TBD,0.5176,1.932,2.073,9.026
-2026-09-01,Miami Marlins,Kansas City Royals,TBD,TBD,0.5139,1.946,2.057,9.058
 2026-09-01,Chicago White Sox,Houston Astros,TBD,TBD,0.5097,1.962,2.04,9.429
-2026-09-01,Detroit Tigers,Minnesota Twins,TBD,TBD,0.4982,2.007,1.993,9.114
+2026-09-01,Miami Marlins,Kansas City Royals,Tyler Phillips,TBD,0.5,2.0,2.0,8.817
 2026-09-01,Atlanta Braves,Washington Nationals,TBD,TBD,0.4967,2.013,1.987,9.787
 2026-09-01,Baltimore Orioles,Colorado Rockies,TBD,TBD,0.4678,2.137,1.879,10.98
 2026-09-01,San Diego Padres,Cincinnati Reds,TBD,Nick Lodolo,0.4676,2.139,1.878,9.212
 2026-09-01,New York Yankees,Los Angeles Angels,TBD,TBD,0.4527,2.209,1.827,8.353
+2026-09-01,Detroit Tigers,Minnesota Twins,Troy Melton,Connor Prielipp,0.4051,2.469,1.681,8.952
