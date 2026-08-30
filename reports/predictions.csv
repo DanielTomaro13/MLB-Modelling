@@ -1,41 +1,29 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
-2026-08-30,Colorado Rockies,Atlanta Braves,Mason Adams,Tyler Mahle,0.6146,1.627,2.595,8.857
-2026-08-30,Texas Rangers,Milwaukee Brewers,Kumar Rocker,Dustin May,0.6115,1.635,2.574,9.1
-2026-08-30,Kansas City Royals,Cleveland Guardians,Seth Lugo,Parker Messick,0.5979,1.673,2.487,8.215
-2026-08-30,Cincinnati Reds,Chicago Cubs,Chase Burns,Shota Imanaga,0.5908,1.693,2.444,7.96
-2026-08-30,Houston Astros,New York Mets,Ethan Pecko,Zac Thornton,0.5598,1.786,2.272,8.677
-2026-08-30,San Diego Padres,Tampa Bay Rays,Robbie Ray,Drew Rasmussen,0.5581,1.792,2.263,7.949
-2026-08-30,Boston Red Sox,New York Yankees,Ranger Suarez,Will Warren,0.4862,2.057,1.946,8.586
-2026-08-30,Pittsburgh Pirates,St. Louis Cardinals,Braxton Ashcraft,Matthew Liberatore,0.4686,2.134,1.882,9.004
-2026-08-30,Chicago White Sox,Minnesota Twins,Jordan Hicks,Zebby Matthews,0.4685,2.134,1.881,9.83
-2026-08-30,Seattle Mariners,Toronto Blue Jays,Logan Gilbert,Max Scherzer,0.464,2.155,1.866,9.085
-2026-08-30,Los Angeles Dodgers,Detroit Tigers,Tyler Glasnow,Framber Valdez,0.4544,2.201,1.833,8.745
-2026-08-30,Baltimore Orioles,Athletics,Chris Bassitt,Jeffrey Springs,0.4362,2.293,1.774,11.516
-2026-08-30,Philadelphia Phillies,Los Angeles Angels,Zack Wheeler,Yusei Kikuchi,0.4144,2.413,1.708,8.458
-2026-08-31,New York Mets,Tampa Bay Rays,Robert Stock,TBD,0.6042,1.655,2.527,9.423
-2026-08-31,San Francisco Giants,Atlanta Braves,TBD,TBD,0.5907,1.693,2.443,8.717
-2026-08-31,Seattle Mariners,Boston Red Sox,TBD,TBD,0.5776,1.731,2.367,8.835
-2026-08-31,Athletics,Texas Rangers,TBD,TBD,0.5709,1.752,2.33,7.779
-2026-08-31,Miami Marlins,Washington Nationals,Ryan Gusto,TBD,0.5363,1.865,2.156,9.676
-2026-08-31,Philadelphia Phillies,Arizona Diamondbacks,TBD,TBD,0.5176,1.932,2.073,9.026
-2026-08-31,Chicago White Sox,Houston Astros,TBD,TBD,0.5097,1.962,2.04,9.429
-2026-08-31,Detroit Tigers,Minnesota Twins,Jackson Jobe,Taj Bradley,0.5061,1.976,2.025,8.79
-2026-08-31,Milwaukee Brewers,Chicago Cubs,Kyle Harrison,TBD,0.489,2.045,1.957,8.55
-2026-08-31,San Diego Padres,Cincinnati Reds,TBD,Brady Singer,0.4696,2.13,1.885,9.175
-2026-08-31,Baltimore Orioles,Colorado Rockies,TBD,TBD,0.4678,2.137,1.879,10.98
-2026-08-31,New York Yankees,Los Angeles Angels,Elmer Rodríguez,TBD,0.4556,2.195,1.837,8.401
-2026-09-01,St. Louis Cardinals,Los Angeles Dodgers,TBD,TBD,0.5849,1.71,2.409,9.121
-2026-09-01,New York Mets,Tampa Bay Rays,Sean Manaea,TBD,0.5825,1.717,2.395,8.998
-2026-09-01,Seattle Mariners,Boston Red Sox,TBD,TBD,0.5776,1.731,2.367,8.835
-2026-09-01,Athletics,Texas Rangers,TBD,TBD,0.5709,1.752,2.33,7.779
-2026-09-01,San Francisco Giants,Pittsburgh Pirates,TBD,TBD,0.5613,1.781,2.28,9.599
-2026-09-01,Toronto Blue Jays,Cleveland Guardians,Spencer Arrighetti,Gavin Williams,0.5582,1.791,2.264,8.546
-2026-09-01,Milwaukee Brewers,Chicago Cubs,Robert Gasser,TBD,0.5258,1.902,2.109,9.194
-2026-09-01,Philadelphia Phillies,Arizona Diamondbacks,TBD,TBD,0.5176,1.932,2.073,9.026
-2026-09-01,Chicago White Sox,Houston Astros,TBD,TBD,0.5097,1.962,2.04,9.429
-2026-09-01,Miami Marlins,Kansas City Royals,Tyler Phillips,TBD,0.5,2.0,2.0,8.817
-2026-09-01,Atlanta Braves,Washington Nationals,TBD,TBD,0.4967,2.013,1.987,9.787
-2026-09-01,Baltimore Orioles,Colorado Rockies,TBD,TBD,0.4678,2.137,1.879,10.98
-2026-09-01,San Diego Padres,Cincinnati Reds,TBD,Nick Lodolo,0.4676,2.139,1.878,9.212
-2026-09-01,New York Yankees,Los Angeles Angels,TBD,TBD,0.4527,2.209,1.827,8.353
-2026-09-01,Detroit Tigers,Minnesota Twins,Troy Melton,Connor Prielipp,0.4051,2.469,1.681,8.952
+2026-08-30,Cincinnati Reds,Chicago Cubs,Chase Burns,Shota Imanaga,0.5908,1.693,2.444,7.959
+2026-08-31,Seattle Mariners,Boston Red Sox,George Kirby,Payton Tolle,0.6078,1.645,2.55,8.42
+2026-08-31,New York Mets,Tampa Bay Rays,Robert Stock,Ian Seymour,0.6015,1.662,2.51,9.468
+2026-08-31,San Francisco Giants,Atlanta Braves,TBD,Bryce Elder,0.593,1.686,2.457,8.66
+2026-08-31,Athletics,Texas Rangers,Gage Jump,Jacob deGrom,0.5719,1.749,2.336,7.834
+2026-08-31,Philadelphia Phillies,Arizona Diamondbacks,Aaron Nola,TBD,0.5308,1.884,2.131,9.263
+2026-08-31,Miami Marlins,Washington Nationals,Ryan Gusto,Will Dion,0.5298,1.887,2.127,9.713
+2026-08-31,Chicago White Sox,Houston Astros,Anthony Kay,Peter Lambert,0.5283,1.893,2.12,9.114
+2026-08-31,Detroit Tigers,Minnesota Twins,Jackson Jobe,Taj Bradley,0.5077,1.97,2.031,8.776
+2026-08-31,Milwaukee Brewers,Chicago Cubs,Kyle Harrison,TBD,0.4889,2.045,1.957,8.549
+2026-08-31,Baltimore Orioles,Colorado Rockies,TBD,Tanner Gordon,0.4517,2.214,1.824,11.287
+2026-08-31,New York Yankees,Los Angeles Angels,Elmer Rodríguez,TBD,0.4508,2.219,1.821,8.44
+2026-08-31,San Diego Padres,Cincinnati Reds,Michael King,Brady Singer,0.4438,2.253,1.798,8.74
+2026-09-01,Seattle Mariners,Boston Red Sox,Bryan Woo,TBD,0.5898,1.696,2.438,9.049
+2026-09-01,St. Louis Cardinals,Los Angeles Dodgers,TBD,Eric Lauer,0.5741,1.742,2.348,9.313
+2026-09-01,San Francisco Giants,Pittsburgh Pirates,TBD,Paul Skenes,0.5688,1.758,2.319,9.464
+2026-09-01,Toronto Blue Jays,Cleveland Guardians,Spencer Arrighetti,Gavin Williams,0.5558,1.799,2.251,8.551
+2026-09-01,New York Mets,Tampa Bay Rays,Sean Manaea,Freddy Peralta,0.5535,1.807,2.239,9.515
+2026-09-01,Athletics,Texas Rangers,J.T. Ginn,MacKenzie Gore,0.5505,1.816,2.225,7.632
+2026-09-01,Miami Marlins,Kansas City Royals,Tyler Phillips,Randy Dobnak,0.5464,1.83,2.205,7.995
+2026-09-01,Milwaukee Brewers,Chicago Cubs,Robert Gasser,TBD,0.5258,1.902,2.109,9.193
+2026-09-01,Philadelphia Phillies,Arizona Diamondbacks,Jesús Luzardo,TBD,0.4887,2.046,1.956,8.525
+2026-09-01,Chicago White Sox,Houston Astros,Sean Burke,TBD,0.4872,2.052,1.95,8.98
+2026-09-01,Atlanta Braves,Washington Nationals,AJ Smith-Shawver,Jake Irvin,0.4751,2.105,1.905,10.642
+2026-09-01,San Diego Padres,Cincinnati Reds,Randy Vásquez,Nick Lodolo,0.4682,2.136,1.88,9.22
+2026-09-01,Baltimore Orioles,Colorado Rockies,TBD,Gabriel Hughes,0.4385,2.281,1.781,11.571
+2026-09-01,New York Yankees,Los Angeles Angels,Gerrit Cole,TBD,0.4212,2.374,1.728,7.96
+2026-09-01,Detroit Tigers,Minnesota Twins,Troy Melton,Connor Prielipp,0.4066,2.46,1.685,8.938
