@@ -1,30 +1,42 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
-2026-08-29,Arizona Diamondbacks,San Francisco Giants,Mitch Bratt,TBD,0.4916,2.034,1.967,8.542
-2026-08-29,Baltimore Orioles,Athletics,Shane Baz,Jack Perkins,0.4263,2.346,1.743,11.644
-2026-08-29,Philadelphia Phillies,Los Angeles Angels,Cristopher Sánchez,Ryan Johnson,0.3881,2.576,1.634,8.438
-2026-08-30,Colorado Rockies,Atlanta Braves,Mason Adams,Tyler Mahle,0.6138,1.629,2.589,8.915
-2026-08-30,Texas Rangers,Milwaukee Brewers,Kumar Rocker,Dustin May,0.6101,1.639,2.565,9.108
-2026-08-30,Kansas City Royals,Cleveland Guardians,Seth Lugo,Parker Messick,0.5979,1.673,2.487,8.215
-2026-08-30,Cincinnati Reds,Chicago Cubs,Chase Burns,Shota Imanaga,0.5907,1.693,2.443,7.96
-2026-08-30,Miami Marlins,Washington Nationals,Janson Junk,Andrew Alvarez,0.5585,1.79,2.265,9.496
-2026-08-30,San Diego Padres,Tampa Bay Rays,Robbie Ray,Drew Rasmussen,0.5581,1.792,2.263,7.949
-2026-08-30,Houston Astros,New York Mets,TBD,Zac Thornton,0.5421,1.845,2.184,8.359
-2026-08-30,Boston Red Sox,New York Yankees,Ranger Suarez,Will Warren,0.4811,2.079,1.927,8.568
-2026-08-30,Baltimore Orioles,Athletics,Chris Bassitt,TBD,0.4803,2.082,1.924,10.654
-2026-08-30,Pittsburgh Pirates,St. Louis Cardinals,Braxton Ashcraft,Matthew Liberatore,0.4686,2.134,1.882,9.004
-2026-08-30,Chicago White Sox,Minnesota Twins,Jordan Hicks,Zebby Matthews,0.4685,2.135,1.881,9.831
-2026-08-30,Seattle Mariners,Toronto Blue Jays,Logan Gilbert,Max Scherzer,0.464,2.155,1.866,9.085
-2026-08-30,Los Angeles Dodgers,Detroit Tigers,Tyler Glasnow,Framber Valdez,0.4544,2.201,1.833,8.745
-2026-08-30,Philadelphia Phillies,Los Angeles Angels,Zack Wheeler,Yusei Kikuchi,0.4161,2.403,1.713,8.484
-2026-08-31,New York Mets,Tampa Bay Rays,Robert Stock,TBD,0.6042,1.655,2.527,9.424
-2026-08-31,San Francisco Giants,Atlanta Braves,TBD,TBD,0.5927,1.687,2.455,8.743
-2026-08-31,Seattle Mariners,Boston Red Sox,TBD,TBD,0.58,1.724,2.381,8.844
-2026-08-31,Athletics,Texas Rangers,TBD,TBD,0.5707,1.752,2.33,7.786
-2026-08-31,Miami Marlins,Washington Nationals,Ryan Gusto,TBD,0.5352,1.868,2.152,9.68
-2026-08-31,Philadelphia Phillies,Arizona Diamondbacks,TBD,TBD,0.5205,1.921,2.085,9.041
-2026-08-31,Chicago White Sox,Houston Astros,TBD,TBD,0.5097,1.962,2.04,9.429
-2026-08-31,Detroit Tigers,Minnesota Twins,TBD,TBD,0.4983,2.007,1.993,9.114
-2026-08-31,Milwaukee Brewers,Chicago Cubs,Kyle Harrison,TBD,0.4896,2.042,1.959,8.55
-2026-08-31,Baltimore Orioles,Colorado Rockies,TBD,TBD,0.47,2.128,1.887,10.989
-2026-08-31,San Diego Padres,Cincinnati Reds,TBD,Brady Singer,0.4696,2.13,1.885,9.175
-2026-08-31,New York Yankees,Los Angeles Angels,Elmer Rodríguez,TBD,0.4593,2.177,1.85,8.404
+2026-08-30,Colorado Rockies,Atlanta Braves,Mason Adams,Tyler Mahle,0.6146,1.627,2.595,8.856
+2026-08-30,Texas Rangers,Milwaukee Brewers,Kumar Rocker,Dustin May,0.6115,1.635,2.574,9.099
+2026-08-30,Kansas City Royals,Cleveland Guardians,Seth Lugo,Parker Messick,0.5978,1.673,2.487,8.214
+2026-08-30,Cincinnati Reds,Chicago Cubs,Chase Burns,Shota Imanaga,0.5907,1.693,2.443,7.959
+2026-08-30,Houston Astros,New York Mets,Ethan Pecko,Zac Thornton,0.5599,1.786,2.272,8.676
+2026-08-30,Miami Marlins,Washington Nationals,Janson Junk,Andrew Alvarez,0.5596,1.787,2.271,9.491
+2026-08-30,San Diego Padres,Tampa Bay Rays,Robbie Ray,Drew Rasmussen,0.558,1.792,2.263,7.948
+2026-08-30,Boston Red Sox,New York Yankees,Ranger Suarez,Will Warren,0.4862,2.057,1.946,8.585
+2026-08-30,Baltimore Orioles,Athletics,Chris Bassitt,TBD,0.4804,2.082,1.924,10.652
+2026-08-30,Pittsburgh Pirates,St. Louis Cardinals,Braxton Ashcraft,Matthew Liberatore,0.4686,2.134,1.882,9.003
+2026-08-30,Chicago White Sox,Minnesota Twins,Jordan Hicks,Zebby Matthews,0.4685,2.135,1.881,9.829
+2026-08-30,Seattle Mariners,Toronto Blue Jays,Logan Gilbert,Max Scherzer,0.464,2.155,1.866,9.084
+2026-08-30,Los Angeles Dodgers,Detroit Tigers,Tyler Glasnow,Framber Valdez,0.4544,2.201,1.833,8.744
+2026-08-30,Philadelphia Phillies,Los Angeles Angels,Zack Wheeler,Yusei Kikuchi,0.4161,2.403,1.713,8.483
+2026-08-31,New York Mets,Tampa Bay Rays,Robert Stock,TBD,0.6042,1.655,2.527,9.422
+2026-08-31,San Francisco Giants,Atlanta Braves,TBD,TBD,0.5928,1.687,2.456,8.708
+2026-08-31,Seattle Mariners,Boston Red Sox,TBD,TBD,0.5776,1.731,2.367,8.833
+2026-08-31,Athletics,Texas Rangers,TBD,TBD,0.5699,1.755,2.325,7.783
+2026-08-31,Miami Marlins,Washington Nationals,Ryan Gusto,TBD,0.5363,1.865,2.157,9.675
+2026-08-31,Philadelphia Phillies,Arizona Diamondbacks,TBD,TBD,0.5205,1.921,2.085,9.039
+2026-08-31,Chicago White Sox,Houston Astros,TBD,TBD,0.5097,1.962,2.04,9.427
+2026-08-31,Detroit Tigers,Minnesota Twins,TBD,TBD,0.4983,2.007,1.993,9.112
+2026-08-31,Milwaukee Brewers,Chicago Cubs,Kyle Harrison,TBD,0.489,2.045,1.957,8.548
+2026-08-31,San Diego Padres,Cincinnati Reds,TBD,Brady Singer,0.4695,2.13,1.885,9.173
+2026-08-31,Baltimore Orioles,Colorado Rockies,TBD,TBD,0.4689,2.133,1.883,10.98
+2026-08-31,New York Yankees,Los Angeles Angels,Elmer Rodríguez,TBD,0.4567,2.19,1.841,8.418
+2026-09-01,St. Louis Cardinals,Los Angeles Dodgers,TBD,TBD,0.5849,1.71,2.409,9.119
+2026-09-01,New York Mets,Tampa Bay Rays,Sean Manaea,TBD,0.5825,1.717,2.395,8.997
+2026-09-01,Seattle Mariners,Boston Red Sox,TBD,TBD,0.5776,1.731,2.367,8.833
+2026-09-01,Athletics,Texas Rangers,TBD,TBD,0.5699,1.755,2.325,7.783
+2026-09-01,San Francisco Giants,Pittsburgh Pirates,TBD,TBD,0.5635,1.775,2.291,9.589
+2026-09-01,Toronto Blue Jays,Cleveland Guardians,Spencer Arrighetti,Gavin Williams,0.5582,1.792,2.263,8.545
+2026-09-01,Milwaukee Brewers,Chicago Cubs,Robert Gasser,TBD,0.5258,1.902,2.109,9.193
+2026-09-01,Philadelphia Phillies,Arizona Diamondbacks,TBD,TBD,0.5205,1.921,2.085,9.039
+2026-09-01,Miami Marlins,Kansas City Royals,TBD,TBD,0.5139,1.946,2.057,9.057
+2026-09-01,Chicago White Sox,Houston Astros,TBD,TBD,0.5097,1.962,2.04,9.427
+2026-09-01,Detroit Tigers,Minnesota Twins,TBD,TBD,0.4983,2.007,1.993,9.112
+2026-09-01,Atlanta Braves,Washington Nationals,TBD,TBD,0.4967,2.013,1.987,9.785
+2026-09-01,Baltimore Orioles,Colorado Rockies,TBD,TBD,0.4689,2.133,1.883,10.98
+2026-09-01,San Diego Padres,Cincinnati Reds,TBD,Nick Lodolo,0.4676,2.139,1.878,9.21
+2026-09-01,New York Yankees,Los Angeles Angels,TBD,TBD,0.4538,2.204,1.831,8.37
