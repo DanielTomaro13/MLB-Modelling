@@ -10,7 +10,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823740,2026-08-30,158,140,Milwaukee Brewers,Texas Rangers,669160,677958,Dustin May,Kumar Rocker,32,Scheduled
 823010,2026-08-30,138,134,St. Louis Cardinals,Pittsburgh Pirates,669461,677952,Matthew Liberatore,Braxton Ashcraft,2889,Scheduled
 823580,2026-08-30,121,117,New York Mets,Houston Astros,804267,814490,Zac Thornton,Ethan Pecko,3289,Scheduled
-824959,2026-08-30,133,110,Athletics,Baltimore Orioles,,605135,,Chris Bassitt,2529,Scheduled
+824959,2026-08-30,133,110,Athletics,Baltimore Orioles,605488,605135,Jeffrey Springs,Chris Bassitt,2529,Scheduled
 823987,2026-08-30,108,143,Los Angeles Angels,Philadelphia Phillies,579328,554430,Yusei Kikuchi,Zack Wheeler,1,Scheduled
 824636,2026-08-30,112,113,Chicago Cubs,Cincinnati Reds,684007,695505,Shota Imanaga,Chase Burns,17,Scheduled
 824911,2026-08-31,144,137,Atlanta Braves,San Francisco Giants,,,,,4705,Scheduled
