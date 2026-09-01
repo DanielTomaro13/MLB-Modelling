@@ -2,8 +2,8 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824472,2026-09-01,113,135,Cincinnati Reds,San Diego Padres,666157,681190,Nick Lodolo,Randy Vásquez,2602,Scheduled
 823340,2026-09-01,134,137,Pittsburgh Pirates,San Francisco Giants,694973,657277,Paul Skenes,Logan Webb,31,Scheduled
 822929,2026-09-01,139,121,Tampa Bay Rays,New York Mets,642547,640455,Freddy Peralta,Sean Manaea,12,Scheduled
-824391,2026-09-01,114,141,Cleveland Guardians,Toronto Blue Jays,668909,681293,Gavin Williams,Spencer Arrighetti,5,Scheduled
-824716,2026-09-01,111,136,Boston Red Sox,Seattle Mariners,,693433,,Bryan Woo,3,Scheduled
+824391,2026-09-01,114,141,Cleveland Guardians,Toronto Blue Jays,668909,693686,Gavin Williams,Spencer Miles,5,Scheduled
+824716,2026-09-01,111,136,Boston Red Sox,Seattle Mariners,699151,693433,Jedixson Paez,Bryan Woo,3,Scheduled
 822687,2026-09-01,120,144,Washington Nationals,Atlanta Braves,663623,700363,Jake Irvin,AJ Smith-Shawver,3309,Scheduled
 823661,2026-09-01,142,116,Minnesota Twins,Detroit Tigers,702193,675512,Andrew Morris,Troy Melton,3312,Scheduled
 824070,2026-09-01,118,146,Kansas City Royals,Miami Marlins,677976,663969,Randy Dobnak,Tyler Phillips,7,Scheduled

@@ -1,13 +1,13 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
-2026-09-01,Seattle Mariners,Boston Red Sox,Bryan Woo,TBD,0.5906,1.693,2.442,9.138
 2026-09-01,Athletics,Texas Rangers,Brady Basso,MacKenzie Gore,0.5729,1.746,2.341,7.9
 2026-09-01,St. Louis Cardinals,Los Angeles Dodgers,Michael McGreevy,Eric Lauer,0.5721,1.748,2.337,9.237
-2026-09-01,Toronto Blue Jays,Cleveland Guardians,Spencer Arrighetti,Gavin Williams,0.5594,1.787,2.27,8.59
+2026-09-01,Seattle Mariners,Boston Red Sox,Bryan Woo,Jedixson Paez,0.557,1.795,2.258,9.749
 2026-09-01,San Francisco Giants,Pittsburgh Pirates,Logan Webb,Paul Skenes,0.555,1.802,2.247,9.243
 2026-09-01,New York Mets,Tampa Bay Rays,Sean Manaea,Freddy Peralta,0.5539,1.805,2.242,9.477
 2026-09-01,Miami Marlins,Kansas City Royals,Tyler Phillips,Randy Dobnak,0.5449,1.835,2.197,7.982
 2026-09-01,Philadelphia Phillies,Arizona Diamondbacks,Jesús Luzardo,Eduardo Rodriguez,0.5348,1.87,2.15,7.655
 2026-09-01,Milwaukee Brewers,Chicago Cubs,Robert Gasser,Matthew Boyd,0.5342,1.872,2.147,9.322
+2026-09-01,Toronto Blue Jays,Cleveland Guardians,Spencer Miles,Gavin Williams,0.5167,1.935,2.069,7.857
 2026-09-01,Atlanta Braves,Washington Nationals,AJ Smith-Shawver,Jake Irvin,0.4785,2.09,1.917,10.641
 2026-09-01,San Diego Padres,Cincinnati Reds,Randy Vásquez,Nick Lodolo,0.4663,2.145,1.874,9.191
 2026-09-01,Chicago White Sox,Houston Astros,Sean Burke,Ronel Blanco,0.4549,2.198,1.835,9.685
