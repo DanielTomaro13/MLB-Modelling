@@ -1,18 +1,15 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824314,2026-08-31,115,110,Colorado Rockies,Baltimore Orioles,685299,700249,Tanner Gordon,Cade Povich,19,Pre-Game
-823982,2026-08-31,108,147,Los Angeles Angels,New York Yankees,700712,695684,Walbert Ureña,Elmer Rodríguez,1,Pre-Game
-825040,2026-08-31,109,143,Arizona Diamondbacks,Philadelphia Phillies,694297,605400,Brandon Pfaadt,Aaron Nola,15,Pre-Game
 824472,2026-09-01,113,135,Cincinnati Reds,San Diego Padres,666157,681190,Nick Lodolo,Randy Vásquez,2602,Scheduled
 823340,2026-09-01,134,137,Pittsburgh Pirates,San Francisco Giants,694973,657277,Paul Skenes,Logan Webb,31,Scheduled
 822929,2026-09-01,139,121,Tampa Bay Rays,New York Mets,642547,640455,Freddy Peralta,Sean Manaea,12,Scheduled
 824391,2026-09-01,114,141,Cleveland Guardians,Toronto Blue Jays,668909,681293,Gavin Williams,Spencer Arrighetti,5,Scheduled
 824716,2026-09-01,111,136,Boston Red Sox,Seattle Mariners,,693433,,Bryan Woo,3,Scheduled
 822687,2026-09-01,120,144,Washington Nationals,Atlanta Braves,663623,700363,Jake Irvin,AJ Smith-Shawver,3309,Scheduled
-823661,2026-09-01,142,116,Minnesota Twins,Detroit Tigers,687570,675512,Connor Prielipp,Troy Melton,3312,Scheduled
+823661,2026-09-01,142,116,Minnesota Twins,Detroit Tigers,702193,675512,Andrew Morris,Troy Melton,3312,Scheduled
 824070,2026-09-01,118,146,Kansas City Royals,Miami Marlins,677976,663969,Randy Dobnak,Tyler Phillips,7,Scheduled
 824633,2026-09-01,112,158,Chicago Cubs,Milwaukee Brewers,571510,688107,Matthew Boyd,Robert Gasser,17,Scheduled
-822854,2026-09-01,140,133,Texas Rangers,Athletics,669022,,MacKenzie Gore,,5325,Scheduled
-824148,2026-09-01,117,145,Houston Astros,Chicago White Sox,,680732,,Sean Burke,2392,Scheduled
+822854,2026-09-01,140,133,Texas Rangers,Athletics,669022,669620,MacKenzie Gore,Brady Basso,5325,Scheduled
+824148,2026-09-01,117,145,Houston Astros,Chicago White Sox,669854,680732,Ronel Blanco,Sean Burke,2392,Scheduled
 824313,2026-09-01,115,110,Colorado Rockies,Baltimore Orioles,687312,680694,Gabriel Hughes,Kyle Bradish,19,Scheduled
 823984,2026-09-01,108,147,Los Angeles Angels,New York Yankees,680570,543037,Grayson Rodriguez,Gerrit Cole,1,Scheduled
 825038,2026-09-01,109,143,Arizona Diamondbacks,Philadelphia Phillies,593958,666200,Eduardo Rodriguez,Jesús Luzardo,15,Scheduled
