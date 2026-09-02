@@ -5,7 +5,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824312,2026-09-02,115,110,Colorado Rockies,Baltimore Orioles,608372,669432,Tomoyuki Sugano,Trevor Rogers,19,Scheduled
 825037,2026-09-02,109,143,Arizona Diamondbacks,Philadelphia Phillies,664199,691725,Taylor Clarke,Andrew Painter,15,Scheduled
 824717,2026-09-02,111,136,Boston Red Sox,Seattle Mariners,663776,682243,Patrick Sandoval,Bryce Miller,3,Scheduled
-823339,2026-09-02,134,137,Pittsburgh Pirates,San Francisco Giants,683003,694738,Jared Jones,Landen Roupp,31,Scheduled
+823339,2026-09-02,134,137,Pittsburgh Pirates,San Francisco Giants,696149,694738,Bubba Chandler,Landen Roupp,31,Scheduled
 822931,2026-09-02,139,121,Tampa Bay Rays,New York Mets,643377,663795,Griffin Jax,Justin Hagenman,12,Scheduled
 824390,2026-09-02,114,141,Cleveland Guardians,Toronto Blue Jays,676282,656302,Joey Cantillo,Dylan Cease,5,Scheduled
 823660,2026-09-02,142,116,Minnesota Twins,Detroit Tigers,665152,623454,Dean Kremer,Drew Anderson,3312,Scheduled
@@ -27,7 +27,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824387,2026-09-04,114,116,Cleveland Guardians,Detroit Tigers,,,,,5,Scheduled
 824471,2026-09-04,113,158,Cincinnati Reds,Milwaukee Brewers,671096,,Andrew Abbott,,2602,Scheduled
 823418,2026-09-04,143,144,Philadelphia Phillies,Atlanta Braves,,,,,2681,Scheduled
-823338,2026-09-04,134,108,Pittsburgh Pirates,Los Angeles Angels,,,,,31,Scheduled
+823338,2026-09-04,134,108,Pittsburgh Pirates,Los Angeles Angels,683003,,Jared Jones,,31,Scheduled
 824797,2026-09-04,110,111,Baltimore Orioles,Boston Red Sox,,,,,2,Scheduled
 823579,2026-09-04,121,137,New York Mets,San Francisco Giants,,,,,3289,Scheduled
 823824,2026-09-04,146,112,Miami Marlins,Chicago Cubs,,,,,4169,Scheduled
