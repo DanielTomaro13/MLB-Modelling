@@ -8,13 +8,13 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823579,2026-09-04,121,137,New York Mets,San Francisco Giants,690997,683363,Nolan McLean,Matt Wilkinson,3289,Scheduled
 823824,2026-09-04,146,112,Miami Marlins,Chicago Cubs,676083,684007,Janson Junk,Shota Imanaga,4169,Scheduled
 824554,2026-09-04,145,142,Chicago White Sox,Minnesota Twins,607200,805673,Erick Fedde,Zebby Matthews,4,Scheduled
-822852,2026-09-04,140,139,Texas Rangers,Tampa Bay Rays,677958,607259,Kumar Rocker,Nick Martinez,5325,Scheduled
+822852,2026-09-04,140,139,Texas Rangers,Tampa Bay Rays,592866,607259,Trevor Williams,Nick Martinez,5325,Scheduled
 824146,2026-09-04,117,109,Houston Astros,Arizona Diamondbacks,664299,518876,Cristian Javier,Merrill Kelly,2392,Scheduled
 824067,2026-09-04,118,141,Kansas City Royals,Toronto Blue Jays,663738,592791,Daniel Lynch IV,Jameson Taillon,7,Scheduled
 824311,2026-09-04,115,138,Colorado Rockies,St. Louis Cardinals,663372,669467,Ryan Feltner,Andre Pallante,19,Scheduled
 823256,2026-09-04,135,147,San Diego Padres,New York Yankees,621111,608331,Walker Buehler,Max Fried,2680,Scheduled
 823905,2026-09-04,119,120,Los Angeles Dodgers,Washington Nationals,605483,800600,Blake Snell,Jackson Kent,22,Scheduled
-823093,2026-09-04,136,133,Seattle Mariners,Athletics,669302,,Logan Gilbert,,680,Scheduled
+823093,2026-09-04,136,133,Seattle Mariners,Athletics,669302,695034,Logan Gilbert,Kade Morris,680,Scheduled
 823577,2026-09-05,121,137,New York Mets,San Francisco Giants,804267,683627,Zac Thornton,Anthony Molina,3289,Scheduled
 823823,2026-09-05,146,112,Miami Marlins,Chicago Cubs,687473,,Ryan Gusto,,4169,Scheduled
 823419,2026-09-05,143,144,Philadelphia Phillies,Atlanta Braves,554430,527048,Zack Wheeler,Martín Pérez,2681,Scheduled
