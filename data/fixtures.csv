@@ -1,7 +1,7 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824424,2026-09-04,114,116,Cleveland Guardians,Detroit Tigers,671106,672456,Logan Allen,Keider Montero,5,Scheduled
+824424,2026-09-04,114,116,Cleveland Guardians,Detroit Tigers,671106,672456,Logan Allen,Keider Montero,5,Delayed Start
 824387,2026-09-04,114,116,Cleveland Guardians,Detroit Tigers,656492,808825,Foster Griffin,Andrew Sears,5,Scheduled
-824471,2026-09-04,113,158,Cincinnati Reds,Milwaukee Brewers,695076,675660,Rhett Lowder,Shane Drohan,2602,Scheduled
+824471,2026-09-04,113,158,Cincinnati Reds,Milwaukee Brewers,695076,675660,Rhett Lowder,Shane Drohan,2602,Pre-Game
 823418,2026-09-04,143,144,Philadelphia Phillies,Atlanta Braves,650911,519242,Cristopher Sánchez,Chris Sale,2681,Scheduled
 823338,2026-09-04,134,108,Pittsburgh Pirates,Los Angeles Angels,683003,696270,Jared Jones,Ryan Johnson,31,Scheduled
 824797,2026-09-04,110,111,Baltimore Orioles,Boston Red Sox,669358,624133,Shane Baz,Ranger Suarez,2,Scheduled
