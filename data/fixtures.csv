@@ -1,6 +1,6 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823577,2026-09-05,121,137,New York Mets,San Francisco Giants,804267,683627,Zac Thornton,Anthony Molina,3289,Scheduled
-823823,2026-09-05,146,112,Miami Marlins,Chicago Cubs,687473,665871,Ryan Gusto,Javier Assad,4169,Scheduled
+823577,2026-09-05,121,137,New York Mets,San Francisco Giants,804267,683627,Zac Thornton,Anthony Molina,3289,Pre-Game
+823823,2026-09-05,146,112,Miami Marlins,Chicago Cubs,687473,665871,Ryan Gusto,Javier Assad,4169,Pre-Game
 823419,2026-09-05,143,144,Philadelphia Phillies,Atlanta Braves,554430,527048,Zack Wheeler,Martín Pérez,2681,Scheduled
 824389,2026-09-05,114,116,Cleveland Guardians,Detroit Tigers,800048,664285,Parker Messick,Framber Valdez,5,Scheduled
 823335,2026-09-05,134,108,Pittsburgh Pirates,Los Angeles Angels,677952,579328,Braxton Ashcraft,Yusei Kikuchi,31,Scheduled
