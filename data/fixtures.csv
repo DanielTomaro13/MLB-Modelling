@@ -26,7 +26,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 822848,2026-09-06,140,139,Texas Rangers,Tampa Bay Rays,669022,,MacKenzie Gore,,5325,Scheduled
 824309,2026-09-06,115,138,Colorado Rockies,St. Louis Cardinals,685299,681517,Tanner Gordon,Kyle Leahy,19,Scheduled
 823091,2026-09-06,136,133,Seattle Mariners,Athletics,693433,695611,Bryan Woo,Gage Jump,680,Scheduled
-823253,2026-09-06,135,147,San Diego Padres,New York Yankees,650633,,Michael King,,2680,Scheduled
+823253,2026-09-06,135,147,San Diego Padres,New York Yankees,650633,543037,Michael King,Gerrit Cole,2680,Scheduled
 824552,2026-09-06,145,142,Chicago White Sox,Minnesota Twins,680732,641927,Sean Burke,Bailey Ober,4,Scheduled
 823903,2026-09-06,119,120,Los Angeles Dodgers,Washington Nationals,,674841,,Andrew Alvarez,22,Scheduled
 823415,2026-09-07,143,144,Philadelphia Phillies,Atlanta Braves,666200,693821,Jesús Luzardo,Bryce Elder,2681,Scheduled
