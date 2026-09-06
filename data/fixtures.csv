@@ -1,6 +1,5 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824552,2026-09-06,145,142,Chicago White Sox,Minnesota Twins,663542,641927,Bryan Hudson,Bailey Ober,4,Pre-Game
-823903,2026-09-06,119,120,Los Angeles Dodgers,Washington Nationals,680736,674841,Justin Wrobleski,Andrew Alvarez,22,Scheduled
+823903,2026-09-06,119,120,Los Angeles Dodgers,Washington Nationals,680736,674841,Justin Wrobleski,Andrew Alvarez,22,Pre-Game
 823415,2026-09-07,143,144,Philadelphia Phillies,Atlanta Braves,666200,656550,Jesús Luzardo,Grant Holmes,2681,Scheduled
 823820,2026-09-07,146,121,Miami Marlins,New York Mets,691587,804636,Eury Pérez,Jonah Tong,4169,Scheduled
 824715,2026-09-07,111,108,Boston Red Sox,Los Angeles Angels,,680570,,Grayson Rodriguez,3,Scheduled
@@ -13,7 +12,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823902,2026-09-07,119,113,Los Angeles Dodgers,Cincinnati Reds,,695505,,Chase Burns,22,Scheduled
 824958,2026-09-07,133,141,Athletics,Toronto Blue Jays,682052,656302,Jacob Lopez,Dylan Cease,2529,Scheduled
 824792,2026-09-08,110,114,Baltimore Orioles,Cleveland Guardians,687064,676440,Brandon Young,Tanner Bibee,2,Scheduled
-824228,2026-09-08,116,142,Detroit Tigers,Minnesota Twins,623454,,Drew Anderson,,2394,Scheduled
+824228,2026-09-08,116,142,Detroit Tigers,Minnesota Twins,623454,665152,Drew Anderson,Dean Kremer,2394,Scheduled
 823414,2026-09-08,143,117,Philadelphia Phillies,Houston Astros,,669713,,Hayden Wesneski,2681,Scheduled
 823821,2026-09-08,146,121,Miami Marlins,New York Mets,645261,640455,Sandy Alcantara,Sean Manaea,4169,Scheduled
 824714,2026-09-08,111,108,Boston Red Sox,Los Angeles Angels,663776,672282,Patrick Sandoval,Reid Detmers,3,Scheduled
