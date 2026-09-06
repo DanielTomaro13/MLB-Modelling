@@ -7,13 +7,13 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823578,2026-09-06,121,137,New York Mets,San Francisco Giants,681035,702885,Christian Scott,Cesar Perdomo,3289,Scheduled
 823822,2026-09-06,146,112,Miami Marlins,Chicago Cubs,663969,605280,Tyler Phillips,Clay Holmes,4169,Scheduled
 824142,2026-09-06,117,109,Houston Astros,Arizona Diamondbacks,663567,593958,Peter Lambert,Eduardo Rodriguez,2392,Scheduled
-824065,2026-09-06,118,141,Kansas City Royals,Toronto Blue Jays,677976,,Randy Dobnak,,7,Scheduled
+824065,2026-09-06,118,141,Kansas City Royals,Toronto Blue Jays,677976,681293,Randy Dobnak,Spencer Arrighetti,7,Scheduled
 822848,2026-09-06,140,139,Texas Rangers,Tampa Bay Rays,669022,693855,MacKenzie Gore,Ian Seymour,5325,Scheduled
 824309,2026-09-06,115,138,Colorado Rockies,St. Louis Cardinals,685299,681517,Tanner Gordon,Kyle Leahy,19,Scheduled
 823091,2026-09-06,136,133,Seattle Mariners,Athletics,693433,695611,Bryan Woo,Gage Jump,680,Scheduled
 823253,2026-09-06,135,147,San Diego Padres,New York Yankees,650633,543037,Michael King,Gerrit Cole,2680,Scheduled
-824552,2026-09-06,145,142,Chicago White Sox,Minnesota Twins,,641927,,Bailey Ober,4,Scheduled
-823903,2026-09-06,119,120,Los Angeles Dodgers,Washington Nationals,,674841,,Andrew Alvarez,22,Scheduled
+824552,2026-09-06,145,142,Chicago White Sox,Minnesota Twins,663542,641927,Bryan Hudson,Bailey Ober,4,Scheduled
+823903,2026-09-06,119,120,Los Angeles Dodgers,Washington Nationals,680736,674841,Justin Wrobleski,Andrew Alvarez,22,Scheduled
 823415,2026-09-07,143,144,Philadelphia Phillies,Atlanta Braves,666200,693821,Jesús Luzardo,Bryce Elder,2681,Scheduled
 823820,2026-09-07,146,121,Miami Marlins,New York Mets,,804636,,Jonah Tong,4169,Scheduled
 824715,2026-09-07,111,108,Boston Red Sox,Los Angeles Angels,,,,,3,Scheduled
