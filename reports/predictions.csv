@@ -1,5 +1,5 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
-2026-09-07,Los Angeles Angels,Boston Red Sox,Grayson Rodriguez,TBD,0.6434,1.554,2.805,9.684
+2026-09-07,Los Angeles Angels,Boston Red Sox,Grayson Rodriguez,Brayan Bello,0.6219,1.608,2.645,10.086
 2026-09-07,Minnesota Twins,Detroit Tigers,TBD,Troy Melton,0.5902,1.694,2.44,8.283
 2026-09-07,Cincinnati Reds,Los Angeles Dodgers,Chase Burns,TBD,0.5747,1.74,2.351,8.378
 2026-09-07,Washington Nationals,San Diego Padres,Jake Irvin,Nick Pivetta,0.5659,1.767,2.304,9.333
@@ -7,8 +7,8 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-09-07,Cleveland Guardians,Baltimore Orioles,Joey Cantillo,Trevor Rogers,0.5344,1.871,2.148,8.603
 2026-09-07,Chicago Cubs,Milwaukee Brewers,Matthew Boyd,Robert Gasser,0.528,1.894,2.118,9.702
 2026-09-07,Atlanta Braves,Philadelphia Phillies,Grant Holmes,Jesús Luzardo,0.5271,1.897,2.115,8.605
-2026-09-07,Arizona Diamondbacks,Kansas City Royals,TBD,Noah Cameron,0.5067,1.974,2.027,9.05
 2026-09-07,St. Louis Cardinals,San Francisco Giants,Michael McGreevy,Logan Webb,0.4994,2.002,1.998,8.813
+2026-09-07,Arizona Diamondbacks,Kansas City Royals,Derek Law,Noah Cameron,0.4991,2.003,1.997,8.917
 2026-09-07,Toronto Blue Jays,Athletics,Dylan Cease,Jacob Lopez,0.4223,2.368,1.731,8.97
 2026-09-08,Colorado Rockies,New York Yankees,Gabriel Hughes,Cam Schlittler,0.6965,1.436,3.295,8.429
 2026-09-08,Cincinnati Reds,Los Angeles Dodgers,Nick Lodolo,Tarik Skubal,0.6543,1.528,2.893,8.739

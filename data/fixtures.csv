@@ -1,9 +1,9 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-823415,2026-09-07,143,144,Philadelphia Phillies,Atlanta Braves,666200,656550,Jesús Luzardo,Grant Holmes,2681,Scheduled
-823820,2026-09-07,146,121,Miami Marlins,New York Mets,691587,804636,Eury Pérez,Jonah Tong,4169,Scheduled
-824715,2026-09-07,111,108,Boston Red Sox,Los Angeles Angels,,680570,,Grayson Rodriguez,3,Scheduled
-824793,2026-09-07,110,114,Baltimore Orioles,Cleveland Guardians,669432,676282,Trevor Rogers,Joey Cantillo,2,Scheduled
-824062,2026-09-07,118,109,Kansas City Royals,Arizona Diamondbacks,702070,,Noah Cameron,,7,Scheduled
+823415,2026-09-07,143,144,Philadelphia Phillies,Atlanta Braves,666200,656550,Jesús Luzardo,Grant Holmes,2681,Pre-Game
+823820,2026-09-07,146,121,Miami Marlins,New York Mets,691587,804636,Eury Pérez,Jonah Tong,4169,Pre-Game
+824715,2026-09-07,111,108,Boston Red Sox,Los Angeles Angels,678394,680570,Brayan Bello,Grayson Rodriguez,3,Pre-Game
+824793,2026-09-07,110,114,Baltimore Orioles,Cleveland Guardians,669432,676282,Trevor Rogers,Joey Cantillo,2,Pre-Game
+824062,2026-09-07,118,109,Kansas City Royals,Arizona Diamondbacks,702070,571882,Noah Cameron,Derek Law,7,Pre-Game
 823742,2026-09-07,158,112,Milwaukee Brewers,Chicago Cubs,688107,571510,Robert Gasser,Matthew Boyd,32,Scheduled
 824229,2026-09-07,116,142,Detroit Tigers,Minnesota Twins,675512,,Troy Melton,,2394,Scheduled
 823254,2026-09-07,135,120,San Diego Padres,Washington Nationals,601713,663623,Nick Pivetta,Jake Irvin,2680,Scheduled
