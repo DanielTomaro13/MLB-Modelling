@@ -1,6 +1,6 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
 824226,2026-09-09,116,142,Detroit Tigers,Minnesota Twins,672456,805673,Keider Montero,Zebby Matthews,2394,Scheduled
-824956,2026-09-09,133,141,Athletics,Toronto Blue Jays,669620,,Brady Basso,,2529,Scheduled
+824956,2026-09-09,133,141,Athletics,Toronto Blue Jays,669620,680755,Brady Basso,Braydon Fisher,2529,Scheduled
 823172,2026-09-09,137,138,San Francisco Giants,St. Louis Cardinals,694918,669467,Blade Tidwell,Andre Pallante,2395,Scheduled
 823251,2026-09-09,135,120,San Diego Padres,Washington Nationals,621111,800600,Walker Buehler,Jackson Kent,2680,Scheduled
 823090,2026-09-09,136,140,Seattle Mariners,Texas Rangers,807739,674003,Kade Anderson,Cody Bradford,680,Scheduled
@@ -10,7 +10,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824713,2026-09-09,111,108,Boston Red Sox,Los Angeles Angels,687562,696270,Jake Bennett,Ryan Johnson,3,Scheduled
 823497,2026-09-09,147,115,New York Yankees,Colorado Rockies,701542,608372,Will Warren,Tomoyuki Sugano,3313,Scheduled
 824871,2026-09-09,144,139,Atlanta Braves,Tampa Bay Rays,,643377,,Griffin Jax,4705,Scheduled
-824064,2026-09-09,118,109,Kansas City Royals,Arizona Diamondbacks,663738,,Daniel Lynch IV,,7,Scheduled
+824064,2026-09-09,118,109,Kansas City Royals,Arizona Diamondbacks,663738,668678,Daniel Lynch IV,Zac Gallen,7,Scheduled
 824549,2026-09-09,145,134,Chicago White Sox,Pittsburgh Pirates,663436,669199,Davis Martin,Lake Bachar,4,Scheduled
 823739,2026-09-09,158,112,Milwaukee Brewers,Chicago Cubs,701656,592332,Logan Henderson,Kevin Gausman,32,Scheduled
 823900,2026-09-09,119,113,Los Angeles Dodgers,Cincinnati Reds,808967,695076,Yoshinobu Yamamoto,Rhett Lowder,22,Scheduled
