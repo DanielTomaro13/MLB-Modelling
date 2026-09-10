@@ -1,9 +1,4 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824871,2026-09-09,144,139,Atlanta Braves,Tampa Bay Rays,625643,643377,Reynaldo López,Griffin Jax,4705,Pre-Game
-824064,2026-09-09,118,109,Kansas City Royals,Arizona Diamondbacks,663738,668678,Daniel Lynch IV,Zac Gallen,7,Pre-Game
-824549,2026-09-09,145,134,Chicago White Sox,Pittsburgh Pirates,663436,669199,Davis Martin,Lake Bachar,4,Pre-Game
-823739,2026-09-09,158,112,Milwaukee Brewers,Chicago Cubs,701656,592332,Logan Henderson,Kevin Gausman,32,Pre-Game
-823900,2026-09-09,119,113,Los Angeles Dodgers,Cincinnati Reds,808967,695076,Yoshinobu Yamamoto,Rhett Lowder,22,Pre-Game
 824872,2026-09-10,144,139,Atlanta Braves,Tampa Bay Rays,527048,607259,Martín Pérez,Nick Martinez,4705,Scheduled
 823413,2026-09-10,143,117,Philadelphia Phillies,Houston Astros,554430,664299,Zack Wheeler,Cristian Javier,2681,Scheduled
 823088,2026-09-10,136,140,Seattle Mariners,Texas Rangers,669302,594798,Logan Gilbert,Jacob deGrom,680,Scheduled
@@ -14,13 +9,28 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 822684,2026-09-11,120,108,Washington Nationals,Los Angeles Angels,676917,579328,Cade Cavalli,Yusei Kikuchi,3309,Scheduled
 823498,2026-09-11,147,121,New York Yankees,New York Mets,,690997,,Nolan McLean,3313,Scheduled
 822767,2026-09-11,141,110,Toronto Blue Jays,Baltimore Orioles,,605135,,Chris Bassitt,14,Scheduled
-824711,2026-09-11,111,118,Boston Red Sox,Kansas City Royals,543243,,Sonny Gray,,3,Scheduled
+824711,2026-09-11,111,118,Boston Red Sox,Kansas City Royals,543243,607625,Sonny Gray,Seth Lugo,3,Scheduled
 822930,2026-09-11,139,117,Tampa Bay Rays,Houston Astros,,,,,12,Scheduled
-823817,2026-09-11,146,119,Miami Marlins,Los Angeles Dodgers,,,,,4169,Scheduled
+823817,2026-09-11,146,119,Miami Marlins,Los Angeles Dodgers,687473,,Ryan Gusto,,4169,Scheduled
 824873,2026-09-11,144,143,Atlanta Braves,Philadelphia Phillies,519242,,Chris Sale,,4705,Scheduled
-823736,2026-09-11,158,113,Milwaukee Brewers,Cincinnati Reds,,,,,32,Scheduled
+823736,2026-09-11,158,113,Milwaukee Brewers,Cincinnati Reds,,671096,,Andrew Abbott,32,Scheduled
 823659,2026-09-11,142,114,Minnesota Twins,Cleveland Guardians,671737,800048,Taj Bradley,Parker Messick,3312,Scheduled
 823012,2026-09-11,138,145,St. Louis Cardinals,Chicago White Sox,669461,,Matthew Liberatore,,2889,Scheduled
 824954,2026-09-11,133,136,Athletics,Seattle Mariners,605488,,Jeffrey Springs,,2529,Scheduled
 825036,2026-09-11,109,140,Arizona Diamondbacks,Texas Rangers,,,,,15,Scheduled
 823173,2026-09-11,137,135,San Francisco Giants,San Diego Padres,683627,592662,Anthony Molina,Robbie Ray,2395,Scheduled
+824224,2026-09-12,116,115,Detroit Tigers,Colorado Rockies,,,,,2394,Scheduled
+823496,2026-09-12,147,121,New York Yankees,New York Mets,,804267,,Zac Thornton,3313,Scheduled
+824630,2026-09-12,112,134,Chicago Cubs,Pittsburgh Pirates,605280,,Clay Holmes,,17,Scheduled
+822768,2026-09-12,141,110,Toronto Blue Jays,Baltimore Orioles,,680694,,Kyle Bradish,14,Scheduled
+822685,2026-09-12,120,108,Washington Nationals,Los Angeles Angels,674841,700712,Andrew Alvarez,Walbert Ureña,3309,Scheduled
+823170,2026-09-12,137,135,San Francisco Giants,San Diego Padres,702885,650633,Cesar Perdomo,Michael King,2395,Scheduled
+824712,2026-09-12,111,118,Boston Red Sox,Kansas City Royals,624133,677976,Ranger Suarez,Randy Dobnak,3,Scheduled
+823657,2026-09-12,142,114,Minnesota Twins,Cleveland Guardians,,,,,3312,Scheduled
+823819,2026-09-12,146,119,Miami Marlins,Los Angeles Dodgers,663969,,Tyler Phillips,,4169,Scheduled
+822927,2026-09-12,139,117,Tampa Bay Rays,Houston Astros,,,,,12,Scheduled
+823737,2026-09-12,158,113,Milwaukee Brewers,Cincinnati Reds,,663903,,Brady Singer,32,Scheduled
+824870,2026-09-12,144,143,Atlanta Braves,Philadelphia Phillies,,,,,4705,Scheduled
+823009,2026-09-12,138,145,St. Louis Cardinals,Chicago White Sox,681517,,Kyle Leahy,,2889,Scheduled
+825035,2026-09-12,109,140,Arizona Diamondbacks,Texas Rangers,,,,,15,Scheduled
+824955,2026-09-12,133,136,Athletics,Seattle Mariners,695611,,Gage Jump,,2529,Scheduled
