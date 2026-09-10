@@ -3,7 +3,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823413,2026-09-10,143,117,Philadelphia Phillies,Houston Astros,554430,664299,Zack Wheeler,Cristian Javier,2681,Scheduled
 823088,2026-09-10,136,140,Seattle Mariners,Texas Rangers,669302,594798,Logan Gilbert,Jacob deGrom,680,Scheduled
 823499,2026-09-10,147,115,New York Yankees,Colorado Rockies,608331,663372,Max Fried,Ryan Feltner,3313,Scheduled
-824550,2026-09-10,145,134,Chicago White Sox,Pittsburgh Pirates,,683003,,Jared Jones,4,Scheduled
+824550,2026-09-10,145,134,Chicago White Sox,Pittsburgh Pirates,696146,683003,Hagen Smith,Jared Jones,4,Scheduled
 824631,2026-09-11,112,134,Chicago Cubs,Pittsburgh Pirates,684007,,Shota Imanaga,,17,Scheduled
 824227,2026-09-11,116,115,Detroit Tigers,Colorado Rockies,664285,,Framber Valdez,,2394,Scheduled
 822684,2026-09-11,120,108,Washington Nationals,Los Angeles Angels,676917,579328,Cade Cavalli,Yusei Kikuchi,3309,Scheduled
@@ -13,7 +13,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 822930,2026-09-11,139,117,Tampa Bay Rays,Houston Astros,,,,,12,Scheduled
 823817,2026-09-11,146,119,Miami Marlins,Los Angeles Dodgers,687473,,Ryan Gusto,,4169,Scheduled
 824873,2026-09-11,144,143,Atlanta Braves,Philadelphia Phillies,519242,,Chris Sale,,4705,Scheduled
-823736,2026-09-11,158,113,Milwaukee Brewers,Cincinnati Reds,,671096,,Andrew Abbott,32,Scheduled
+823736,2026-09-11,158,113,Milwaukee Brewers,Cincinnati Reds,675660,671096,Shane Drohan,Andrew Abbott,32,Scheduled
 823659,2026-09-11,142,114,Minnesota Twins,Cleveland Guardians,671737,800048,Taj Bradley,Parker Messick,3312,Scheduled
 823012,2026-09-11,138,145,St. Louis Cardinals,Chicago White Sox,669461,,Matthew Liberatore,,2889,Scheduled
 824954,2026-09-11,133,136,Athletics,Seattle Mariners,605488,,Jeffrey Springs,,2529,Scheduled
