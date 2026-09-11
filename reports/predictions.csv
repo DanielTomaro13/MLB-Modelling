@@ -5,9 +5,8 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-09-11,Los Angeles Angels,Washington Nationals,Yusei Kikuchi,Cade Cavalli,0.5964,1.677,2.478,9.429
 2026-09-11,Houston Astros,Tampa Bay Rays,Miguel Ullola,Drew Rasmussen,0.5892,1.697,2.434,8.329
 2026-09-11,Colorado Rockies,Detroit Tigers,Mason Adams,Framber Valdez,0.5888,1.698,2.432,8.83
-2026-09-11,Pittsburgh Pirates,Chicago Cubs,Wilber Dotel,Shota Imanaga,0.5872,1.703,2.423,9.044
 2026-09-11,New York Mets,New York Yankees,Nolan McLean,Carlos Rodón,0.5775,1.732,2.367,8.262
-2026-09-11,Texas Rangers,Arizona Diamondbacks,TBD,TBD,0.5421,1.845,2.184,9.104
+2026-09-11,Texas Rangers,Arizona Diamondbacks,MacKenzie Gore,TBD,0.5506,1.816,2.225,9.26
 2026-09-11,Baltimore Orioles,Toronto Blue Jays,Chris Bassitt,Max Scherzer,0.5065,1.974,2.026,9.671
 2026-09-11,Chicago White Sox,St. Louis Cardinals,Anthony Kay,Matthew Liberatore,0.4917,2.034,1.967,9.635
 2026-09-11,Cleveland Guardians,Minnesota Twins,Parker Messick,Taj Bradley,0.4902,2.04,1.962,7.901
@@ -20,8 +19,8 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-09-12,Chicago White Sox,St. Louis Cardinals,Luis Castillo,Kyle Leahy,0.59,1.695,2.439,9.131
 2026-09-12,New York Mets,New York Yankees,Zac Thornton,Gerrit Cole,0.5886,1.699,2.43,8.192
 2026-09-12,Kansas City Royals,Boston Red Sox,Randy Dobnak,Ranger Suarez,0.5612,1.782,2.279,7.856
+2026-09-12,Texas Rangers,Arizona Diamondbacks,Kumar Rocker,TBD,0.5564,1.797,2.254,9.368
 2026-09-12,Los Angeles Angels,Washington Nationals,Walbert Ureña,Andrew Alvarez,0.5554,1.8,2.249,8.632
-2026-09-12,Texas Rangers,Arizona Diamondbacks,TBD,TBD,0.5421,1.845,2.184,9.104
 2026-09-12,Houston Astros,Tampa Bay Rays,Peter Lambert,Ian Seymour,0.5301,1.886,2.128,8.862
 2026-09-12,Baltimore Orioles,Toronto Blue Jays,Kyle Bradish,TBD,0.5271,1.897,2.115,8.972
 2026-09-12,Cleveland Guardians,Minnesota Twins,TBD,TBD,0.5256,1.903,2.108,8.99
