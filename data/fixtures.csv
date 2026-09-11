@@ -1,5 +1,5 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824631,2026-09-11,112,134,Chicago Cubs,Pittsburgh Pirates,684007,,Shota Imanaga,,17,Scheduled
+824631,2026-09-11,112,134,Chicago Cubs,Pittsburgh Pirates,684007,696062,Shota Imanaga,Wilber Dotel,17,Scheduled
 824227,2026-09-11,116,115,Detroit Tigers,Colorado Rockies,664285,690279,Framber Valdez,Mason Adams,2394,Scheduled
 822684,2026-09-11,120,108,Washington Nationals,Los Angeles Angels,676917,579328,Cade Cavalli,Yusei Kikuchi,3309,Scheduled
 823498,2026-09-11,147,121,New York Yankees,New York Mets,607074,690997,Carlos Rodón,Nolan McLean,3313,Scheduled
