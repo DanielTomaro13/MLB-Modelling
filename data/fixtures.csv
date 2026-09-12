@@ -1,17 +1,17 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824224,2026-09-12,116,115,Detroit Tigers,Colorado Rockies,,685299,,Tanner Gordon,2394,Scheduled
+824224,2026-09-12,116,115,Detroit Tigers,Colorado Rockies,808825,685299,Andrew Sears,Tanner Gordon,2394,Scheduled
 823496,2026-09-12,147,121,New York Yankees,New York Mets,543037,804267,Gerrit Cole,Zac Thornton,3313,Scheduled
 824630,2026-09-12,112,134,Chicago Cubs,Pittsburgh Pirates,605280,694973,Clay Holmes,Paul Skenes,17,Scheduled
-822768,2026-09-12,141,110,Toronto Blue Jays,Baltimore Orioles,,680694,,Kyle Bradish,14,Scheduled
+822768,2026-09-12,141,110,Toronto Blue Jays,Baltimore Orioles,693686,680694,Spencer Miles,Kyle Bradish,14,Scheduled
 822685,2026-09-12,120,108,Washington Nationals,Los Angeles Angels,674841,700712,Andrew Alvarez,Walbert Ureña,3309,Scheduled
 823170,2026-09-12,137,135,San Francisco Giants,San Diego Padres,702885,650633,Cesar Perdomo,Michael King,2395,Scheduled
 824712,2026-09-12,111,118,Boston Red Sox,Kansas City Royals,624133,677976,Ranger Suarez,Randy Dobnak,3,Scheduled
-823657,2026-09-12,142,114,Minnesota Twins,Cleveland Guardians,687570,,Connor Prielipp,,3312,Scheduled
+823657,2026-09-12,142,114,Minnesota Twins,Cleveland Guardians,687570,682982,Connor Prielipp,Daniel Espino,3312,Scheduled
 823819,2026-09-12,146,119,Miami Marlins,Los Angeles Dodgers,663969,607192,Tyler Phillips,Tyler Glasnow,4169,Scheduled
 822927,2026-09-12,139,117,Tampa Bay Rays,Houston Astros,693855,663567,Ian Seymour,Peter Lambert,12,Scheduled
 823737,2026-09-12,158,113,Milwaukee Brewers,Cincinnati Reds,,663903,,Brady Singer,32,Scheduled
-824870,2026-09-12,144,143,Atlanta Braves,Philadelphia Phillies,641816,666200,Tyler Mahle,Jesús Luzardo,4705,Scheduled
-823009,2026-09-12,138,145,St. Louis Cardinals,Chicago White Sox,681517,622491,Kyle Leahy,Luis Castillo,2889,Scheduled
+824870,2026-09-12,144,143,Atlanta Braves,Philadelphia Phillies,641816,,Tyler Mahle,,4705,Scheduled
+823009,2026-09-12,138,145,St. Louis Cardinals,Chicago White Sox,681517,656794,Kyle Leahy,Sean Newcomb,2889,Scheduled
 825035,2026-09-12,109,140,Arizona Diamondbacks,Texas Rangers,694297,677958,Brandon Pfaadt,Kumar Rocker,15,Scheduled
 824955,2026-09-12,133,136,Athletics,Seattle Mariners,695611,693433,Gage Jump,Bryan Woo,2529,Scheduled
 824225,2026-09-13,116,115,Detroit Tigers,Colorado Rockies,695549,687312,Jackson Jobe,Gabriel Hughes,2394,Scheduled
