@@ -1,32 +1,30 @@
 date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
-2026-09-12,Cincinnati Reds,Milwaukee Brewers,Brady Singer,Shane Drohan,0.6533,1.531,2.884,9.359
-2026-09-12,Texas Rangers,Arizona Diamondbacks,Kumar Rocker,Brandon Pfaadt,0.5777,1.731,2.368,9.091
-2026-09-12,Houston Astros,Tampa Bay Rays,Peter Lambert,Ian Seymour,0.5319,1.88,2.136,8.808
-2026-09-12,Philadelphia Phillies,Atlanta Braves,Tim Mayza,Tyler Mahle,0.5245,1.907,2.103,8.154
+2026-09-12,Texas Rangers,Arizona Diamondbacks,Kumar Rocker,Brandon Pfaadt,0.5777,1.731,2.368,9.09
+2026-09-12,Philadelphia Phillies,Atlanta Braves,Tim Mayza,Tyler Mahle,0.5245,1.907,2.103,8.153
 2026-09-12,Chicago White Sox,St. Louis Cardinals,Sean Newcomb,Kyle Leahy,0.5219,1.916,2.092,7.859
-2026-09-12,Seattle Mariners,Athletics,Bryan Woo,Gage Jump,0.484,2.066,1.938,10.5
-2026-09-13,New York Mets,New York Yankees,Christian Scott,Cam Schlittler,0.6282,1.592,2.69,7.681
-2026-09-13,Colorado Rockies,Detroit Tigers,Gabriel Hughes,Jackson Jobe,0.615,1.626,2.598,9.25
+2026-09-12,Seattle Mariners,Athletics,Bryan Woo,Gage Jump,0.484,2.066,1.938,10.499
+2026-09-13,New York Mets,New York Yankees,Christian Scott,Cam Schlittler,0.6214,1.609,2.641,7.718
+2026-09-13,Colorado Rockies,Detroit Tigers,Gabriel Hughes,Jackson Jobe,0.6178,1.619,2.616,9.341
 2026-09-13,Cincinnati Reds,Milwaukee Brewers,Chase Burns,TBD,0.5998,1.667,2.499,8.196
-2026-09-13,Kansas City Royals,Boston Red Sox,Noah Cameron,Payton Tolle,0.5963,1.677,2.477,8.251
-2026-09-13,Texas Rangers,Arizona Diamondbacks,TBD,Eduardo Rodriguez,0.5956,1.679,2.473,8.292
-2026-09-13,Los Angeles Angels,Washington Nationals,Grayson Rodriguez,Jake Irvin,0.5913,1.691,2.447,11.164
-2026-09-13,Pittsburgh Pirates,Chicago Cubs,Bubba Chandler,Matthew Boyd,0.5886,1.699,2.431,9.242
-2026-09-13,Philadelphia Phillies,Atlanta Braves,Andrew Painter,Grant Holmes,0.5865,1.705,2.418,8.659
-2026-09-13,Baltimore Orioles,Toronto Blue Jays,Trevor Rogers,Dylan Cease,0.5687,1.758,2.319,8.084
+2026-09-13,Kansas City Royals,Boston Red Sox,Noah Cameron,Payton Tolle,0.5992,1.669,2.495,8.225
+2026-09-13,Texas Rangers,Arizona Diamondbacks,TBD,Eduardo Rodriguez,0.5956,1.679,2.473,8.291
+2026-09-13,Los Angeles Angels,Washington Nationals,Grayson Rodriguez,Jake Irvin,0.5912,1.691,2.446,11.163
+2026-09-13,Pittsburgh Pirates,Chicago Cubs,Bubba Chandler,Matthew Boyd,0.5895,1.696,2.436,9.221
+2026-09-13,Philadelphia Phillies,Atlanta Braves,Andrew Painter,Grant Holmes,0.5864,1.705,2.418,8.658
+2026-09-13,Baltimore Orioles,Toronto Blue Jays,Trevor Rogers,Dylan Cease,0.5721,1.748,2.337,8.095
 2026-09-13,Chicago White Sox,St. Louis Cardinals,TBD,Michael McGreevy,0.5282,1.893,2.12,8.668
 2026-09-13,Cleveland Guardians,Minnesota Twins,Tanner Bibee,TBD,0.52,1.923,2.083,8.924
-2026-09-13,Houston Astros,Tampa Bay Rays,Hayden Wesneski,Freddy Peralta,0.5152,1.941,2.063,9.062
-2026-09-13,Seattle Mariners,Athletics,Bryce Miller,Jacob Lopez,0.4955,2.018,1.982,10.495
-2026-09-13,San Diego Padres,San Francisco Giants,Nick Pivetta,Logan Webb,0.4848,2.063,1.941,8.293
+2026-09-13,Houston Astros,Tampa Bay Rays,Hayden Wesneski,Freddy Peralta,0.5153,1.941,2.063,9.06
+2026-09-13,Seattle Mariners,Athletics,Bryce Miller,Jacob Lopez,0.4956,2.018,1.982,10.495
+2026-09-13,San Diego Padres,San Francisco Giants,Nick Pivetta,Logan Webb,0.484,2.066,1.938,8.306
 2026-09-13,Los Angeles Dodgers,Miami Marlins,TBD,Eury Pérez,0.4624,2.163,1.86,9.124
-2026-09-14,Atlanta Braves,Chicago Cubs,TBD,TBD,0.5568,1.796,2.256,8.911
-2026-09-14,San Francisco Giants,St. Louis Cardinals,TBD,TBD,0.5543,1.804,2.244,8.489
-2026-09-14,Miami Marlins,Arizona Diamondbacks,TBD,TBD,0.5395,1.853,2.172,9.061
+2026-09-14,Atlanta Braves,Chicago Cubs,TBD,TBD,0.557,1.795,2.258,8.899
+2026-09-14,San Francisco Giants,St. Louis Cardinals,TBD,TBD,0.5548,1.802,2.246,8.486
+2026-09-14,Miami Marlins,Arizona Diamondbacks,TBD,TBD,0.5395,1.854,2.172,9.061
+2026-09-14,Baltimore Orioles,New York Mets,TBD,Jonah Tong,0.5154,1.94,2.064,9.124
 2026-09-14,Chicago White Sox,Cleveland Guardians,TBD,TBD,0.5134,1.948,2.055,9.071
-2026-09-14,Baltimore Orioles,New York Mets,TBD,Jonah Tong,0.5097,1.962,2.04,9.109
 2026-09-14,Seattle Mariners,Los Angeles Angels,TBD,TBD,0.5055,1.978,2.022,8.529
-2026-09-14,Detroit Tigers,Toronto Blue Jays,Troy Melton,José Soriano,0.4892,2.044,1.958,7.679
-2026-09-14,New York Yankees,Minnesota Twins,TBD,TBD,0.4685,2.134,1.882,9.229
-2026-09-14,San Diego Padres,Colorado Rockies,TBD,TBD,0.4484,2.23,1.813,10.692
+2026-09-14,Detroit Tigers,Toronto Blue Jays,Troy Melton,José Soriano,0.489,2.045,1.957,7.711
+2026-09-14,New York Yankees,Minnesota Twins,TBD,TBD,0.472,2.119,1.894,9.228
+2026-09-14,San Diego Padres,Colorado Rockies,TBD,TBD,0.4474,2.235,1.809,10.689
 2026-09-14,Los Angeles Dodgers,Cincinnati Reds,TBD,Nick Lodolo,0.4166,2.4,1.714,9.519

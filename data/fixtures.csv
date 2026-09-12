@@ -1,12 +1,9 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-822927,2026-09-12,139,117,Tampa Bay Rays,Houston Astros,693855,663567,Ian Seymour,Peter Lambert,12,Pre-Game
-823737,2026-09-12,158,113,Milwaukee Brewers,Cincinnati Reds,675660,663903,Shane Drohan,Brady Singer,32,Pre-Game
 824870,2026-09-12,144,143,Atlanta Braves,Philadelphia Phillies,641816,641835,Tyler Mahle,Tim Mayza,4705,Pre-Game
 823009,2026-09-12,138,145,St. Louis Cardinals,Chicago White Sox,681517,656794,Kyle Leahy,Sean Newcomb,2889,Pre-Game
-825035,2026-09-12,109,140,Arizona Diamondbacks,Texas Rangers,694297,677958,Brandon Pfaadt,Kumar Rocker,15,Scheduled
-824955,2026-09-12,133,136,Athletics,Seattle Mariners,695611,693433,Gage Jump,Bryan Woo,2529,Scheduled
+825035,2026-09-12,109,140,Arizona Diamondbacks,Texas Rangers,694297,677958,Brandon Pfaadt,Kumar Rocker,15,Pre-Game
+824955,2026-09-12,133,136,Athletics,Seattle Mariners,695611,693433,Gage Jump,Bryan Woo,2529,Pre-Game
 824225,2026-09-13,116,115,Detroit Tigers,Colorado Rockies,695549,687312,Jackson Jobe,Gabriel Hughes,2394,Scheduled
-824708,2026-09-13,111,118,Boston Red Sox,Kansas City Royals,801139,702070,Payton Tolle,Noah Cameron,3,Scheduled
 822682,2026-09-13,120,108,Washington Nationals,Los Angeles Angels,663623,680570,Jake Irvin,Grayson Rodriguez,3309,Scheduled
 824869,2026-09-13,144,143,Atlanta Braves,Philadelphia Phillies,656550,691725,Grant Holmes,Andrew Painter,4705,Scheduled
 823495,2026-09-13,147,121,New York Yankees,New York Mets,693645,681035,Cam Schlittler,Christian Scott,3313,Scheduled
@@ -17,6 +14,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823734,2026-09-13,158,113,Milwaukee Brewers,Cincinnati Reds,,695505,,Chase Burns,32,Scheduled
 823008,2026-09-13,138,145,St. Louis Cardinals,Chicago White Sox,700241,,Michael McGreevy,,2889,Scheduled
 824628,2026-09-13,112,134,Chicago Cubs,Pittsburgh Pirates,571510,696149,Matthew Boyd,Bubba Chandler,17,Scheduled
+824708,2026-09-13,111,118,Boston Red Sox,Kansas City Royals,801139,702070,Payton Tolle,Noah Cameron,3,Scheduled
 824952,2026-09-13,133,136,Athletics,Seattle Mariners,682052,682243,Jacob Lopez,Bryce Miller,2529,Scheduled
 825033,2026-09-13,109,140,Arizona Diamondbacks,Texas Rangers,593958,,Eduardo Rodriguez,,15,Scheduled
 823171,2026-09-13,137,135,San Francisco Giants,San Diego Padres,657277,601713,Logan Webb,Nick Pivetta,2395,Scheduled
