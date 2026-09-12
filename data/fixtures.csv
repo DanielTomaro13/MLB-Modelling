@@ -1,13 +1,11 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824224,2026-09-12,116,115,Detroit Tigers,Colorado Rockies,808825,685299,Andrew Sears,Tanner Gordon,2394,Scheduled
-823496,2026-09-12,147,121,New York Yankees,New York Mets,543037,804267,Gerrit Cole,Zac Thornton,3313,Scheduled
-824630,2026-09-12,112,134,Chicago Cubs,Pittsburgh Pirates,605280,694973,Clay Holmes,Paul Skenes,17,Scheduled
-822768,2026-09-12,141,110,Toronto Blue Jays,Baltimore Orioles,693686,680694,Spencer Miles,Kyle Bradish,14,Scheduled
-822685,2026-09-12,120,108,Washington Nationals,Los Angeles Angels,674841,700712,Andrew Alvarez,Walbert Ureña,3309,Scheduled
-823170,2026-09-12,137,135,San Francisco Giants,San Diego Padres,702885,650633,Cesar Perdomo,Michael King,2395,Scheduled
-824712,2026-09-12,111,118,Boston Red Sox,Kansas City Royals,624133,677976,Ranger Suarez,Randy Dobnak,3,Scheduled
-823657,2026-09-12,142,114,Minnesota Twins,Cleveland Guardians,687570,682982,Connor Prielipp,Daniel Espino,3312,Scheduled
-823819,2026-09-12,146,119,Miami Marlins,Los Angeles Dodgers,663969,607192,Tyler Phillips,Tyler Glasnow,4169,Scheduled
+824630,2026-09-12,112,134,Chicago Cubs,Pittsburgh Pirates,605280,694973,Clay Holmes,Paul Skenes,17,Pre-Game
+822768,2026-09-12,141,110,Toronto Blue Jays,Baltimore Orioles,693686,680694,Spencer Miles,Kyle Bradish,14,Pre-Game
+822685,2026-09-12,120,108,Washington Nationals,Los Angeles Angels,674841,700712,Andrew Alvarez,Walbert Ureña,3309,Pre-Game
+823170,2026-09-12,137,135,San Francisco Giants,San Diego Padres,702885,650633,Cesar Perdomo,Michael King,2395,Pre-Game
+824712,2026-09-12,111,118,Boston Red Sox,Kansas City Royals,624133,677976,Ranger Suarez,Randy Dobnak,3,Pre-Game
+823657,2026-09-12,142,114,Minnesota Twins,Cleveland Guardians,687570,682982,Connor Prielipp,Daniel Espino,3312,Pre-Game
+823819,2026-09-12,146,119,Miami Marlins,Los Angeles Dodgers,663969,607192,Tyler Phillips,Tyler Glasnow,4169,Pre-Game
 822927,2026-09-12,139,117,Tampa Bay Rays,Houston Astros,693855,663567,Ian Seymour,Peter Lambert,12,Scheduled
 823737,2026-09-12,158,113,Milwaukee Brewers,Cincinnati Reds,,663903,,Brady Singer,32,Scheduled
 824870,2026-09-12,144,143,Atlanta Braves,Philadelphia Phillies,641816,,Tyler Mahle,,4705,Scheduled
@@ -31,7 +29,7 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 823171,2026-09-13,137,135,San Francisco Giants,San Diego Padres,657277,601713,Logan Webb,Nick Pivetta,2395,Scheduled
 824465,2026-09-14,113,119,Cincinnati Reds,Los Angeles Dodgers,666157,,Nick Lodolo,,2602,Scheduled
 824386,2026-09-14,114,145,Cleveland Guardians,Chicago White Sox,,,,,5,Scheduled
-822765,2026-09-14,141,116,Toronto Blue Jays,Detroit Tigers,667755,,José Soriano,,14,Scheduled
+822765,2026-09-14,141,116,Toronto Blue Jays,Detroit Tigers,667755,675512,José Soriano,Troy Melton,14,Scheduled
 823575,2026-09-14,121,110,New York Mets,Baltimore Orioles,804636,,Jonah Tong,,3289,Scheduled
 824629,2026-09-14,112,144,Chicago Cubs,Atlanta Braves,,,,,17,Scheduled
 823656,2026-09-14,142,147,Minnesota Twins,New York Yankees,,,,,3312,Scheduled
