@@ -1,15 +1,11 @@
 gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitcher,awayPitcher,venueId,status
-824870,2026-09-12,144,143,Atlanta Braves,Philadelphia Phillies,641816,641835,Tyler Mahle,Tim Mayza,4705,Pre-Game
-823009,2026-09-12,138,145,St. Louis Cardinals,Chicago White Sox,681517,656794,Kyle Leahy,Sean Newcomb,2889,Pre-Game
-825035,2026-09-12,109,140,Arizona Diamondbacks,Texas Rangers,694297,677958,Brandon Pfaadt,Kumar Rocker,15,Pre-Game
-824955,2026-09-12,133,136,Athletics,Seattle Mariners,695611,693433,Gage Jump,Bryan Woo,2529,Pre-Game
 824225,2026-09-13,116,115,Detroit Tigers,Colorado Rockies,695549,687312,Jackson Jobe,Gabriel Hughes,2394,Scheduled
 822682,2026-09-13,120,108,Washington Nationals,Los Angeles Angels,663623,680570,Jake Irvin,Grayson Rodriguez,3309,Scheduled
 824869,2026-09-13,144,143,Atlanta Braves,Philadelphia Phillies,656550,691725,Grant Holmes,Andrew Painter,4705,Scheduled
 823495,2026-09-13,147,121,New York Yankees,New York Mets,693645,681035,Cam Schlittler,Christian Scott,3313,Scheduled
 822764,2026-09-13,141,110,Toronto Blue Jays,Baltimore Orioles,656302,669432,Dylan Cease,Trevor Rogers,14,Scheduled
 822928,2026-09-13,139,117,Tampa Bay Rays,Houston Astros,642547,669713,Freddy Peralta,Hayden Wesneski,12,Scheduled
-823815,2026-09-13,146,119,Miami Marlins,Los Angeles Dodgers,691587,,Eury Pérez,,4169,Scheduled
+823815,2026-09-13,146,119,Miami Marlins,Los Angeles Dodgers,691587,686218,Eury Pérez,Emmet Sheehan,4169,Scheduled
 823658,2026-09-13,142,114,Minnesota Twins,Cleveland Guardians,,676440,,Tanner Bibee,3312,Scheduled
 823734,2026-09-13,158,113,Milwaukee Brewers,Cincinnati Reds,,695505,,Chase Burns,32,Scheduled
 823008,2026-09-13,138,145,St. Louis Cardinals,Chicago White Sox,700241,,Michael McGreevy,,2889,Scheduled
@@ -28,3 +24,18 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 824308,2026-09-14,115,135,Colorado Rockies,San Diego Padres,,,,,19,Scheduled
 823981,2026-09-14,108,136,Los Angeles Angels,Seattle Mariners,,,,,1,Scheduled
 825034,2026-09-14,109,146,Arizona Diamondbacks,Miami Marlins,,,,,15,Scheduled
+824466,2026-09-15,113,119,Cincinnati Reds,Los Angeles Dodgers,695076,,Rhett Lowder,,2602,Scheduled
+822925,2026-09-15,139,133,Tampa Bay Rays,Athletics,,,,,12,Scheduled
+824384,2026-09-15,114,145,Cleveland Guardians,Chicago White Sox,,,,,5,Scheduled
+823333,2026-09-15,134,158,Pittsburgh Pirates,Milwaukee Brewers,,,,,31,Scheduled
+822683,2026-09-15,120,143,Washington Nationals,Philadelphia Phillies,,,,,3309,Scheduled
+822762,2026-09-15,141,116,Toronto Blue Jays,Detroit Tigers,,623454,,Drew Anderson,14,Scheduled
+823574,2026-09-15,121,110,New York Mets,Baltimore Orioles,640455,,Sean Manaea,,3289,Scheduled
+824627,2026-09-15,112,144,Chicago Cubs,Atlanta Braves,,,,,17,Scheduled
+823654,2026-09-15,142,147,Minnesota Twins,New York Yankees,,,,,3312,Scheduled
+823007,2026-09-15,138,137,St. Louis Cardinals,San Francisco Giants,,,,,2889,Scheduled
+822849,2026-09-15,140,111,Texas Rangers,Boston Red Sox,,663776,,Patrick Sandoval,5325,Scheduled
+824143,2026-09-15,117,118,Houston Astros,Kansas City Royals,,,,,2392,Scheduled
+824307,2026-09-15,115,135,Colorado Rockies,San Diego Padres,,,,,19,Scheduled
+823980,2026-09-15,108,136,Los Angeles Angels,Seattle Mariners,,,,,1,Scheduled
+825030,2026-09-15,109,146,Arizona Diamondbacks,Miami Marlins,,,,,15,Scheduled
