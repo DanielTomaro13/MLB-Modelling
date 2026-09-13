@@ -7,12 +7,12 @@ gamePk,date,homeTeamId,awayTeamId,home,away,homePitcherId,awayPitcherId,homePitc
 822928,2026-09-13,139,117,Tampa Bay Rays,Houston Astros,642547,669713,Freddy Peralta,Hayden Wesneski,12,Scheduled
 823815,2026-09-13,146,119,Miami Marlins,Los Angeles Dodgers,691587,686218,Eury Pérez,Emmet Sheehan,4169,Scheduled
 823658,2026-09-13,142,114,Minnesota Twins,Cleveland Guardians,,676440,,Tanner Bibee,3312,Scheduled
-823734,2026-09-13,158,113,Milwaukee Brewers,Cincinnati Reds,,695505,,Chase Burns,32,Scheduled
+823734,2026-09-13,158,113,Milwaukee Brewers,Cincinnati Reds,688107,695505,Robert Gasser,Chase Burns,32,Scheduled
 823008,2026-09-13,138,145,St. Louis Cardinals,Chicago White Sox,700241,,Michael McGreevy,,2889,Scheduled
 824628,2026-09-13,112,134,Chicago Cubs,Pittsburgh Pirates,571510,696149,Matthew Boyd,Bubba Chandler,17,Scheduled
 824708,2026-09-13,111,118,Boston Red Sox,Kansas City Royals,801139,702070,Payton Tolle,Noah Cameron,3,Scheduled
 824952,2026-09-13,133,136,Athletics,Seattle Mariners,682052,682243,Jacob Lopez,Bryce Miller,2529,Scheduled
-825033,2026-09-13,109,140,Arizona Diamondbacks,Texas Rangers,593958,,Eduardo Rodriguez,,15,Scheduled
+825033,2026-09-13,109,140,Arizona Diamondbacks,Texas Rangers,593958,615698,Eduardo Rodriguez,Cal Quantrill,15,Scheduled
 823171,2026-09-13,137,135,San Francisco Giants,San Diego Padres,657277,601713,Logan Webb,Nick Pivetta,2395,Scheduled
 824465,2026-09-14,113,119,Cincinnati Reds,Los Angeles Dodgers,666157,,Nick Lodolo,,2602,Scheduled
 824386,2026-09-14,114,145,Cleveland Guardians,Chicago White Sox,,,,,5,Scheduled
