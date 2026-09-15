@@ -3,11 +3,11 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-09-15,San Francisco Giants,St. Louis Cardinals,Blade Tidwell,Andre Pallante,0.585,1.709,2.41,8.324
 2026-09-15,Miami Marlins,Arizona Diamondbacks,Janson Junk,Michael Soroka,0.5707,1.752,2.329,8.931
 2026-09-15,Kansas City Royals,Houston Astros,Michael Wacha,Hunter Brown,0.5335,1.874,2.144,8.112
-2026-09-15,Chicago White Sox,Cleveland Guardians,Davis Martin,Foster Griffin,0.5209,1.92,2.087,8.74
+2026-09-15,Chicago White Sox,Cleveland Guardians,Chris Murphy,Foster Griffin,0.5316,1.881,2.135,8.927
+2026-09-15,Boston Red Sox,Texas Rangers,Patrick Sandoval,Jacob deGrom,0.5154,1.94,2.064,7.797
 2026-09-15,Baltimore Orioles,New York Mets,Shane Baz,Sean Manaea,0.5117,1.954,2.048,9.262
 2026-09-15,Atlanta Braves,Chicago Cubs,Martín Pérez,Kevin Gausman,0.5106,1.958,2.043,8.717
 2026-09-15,Detroit Tigers,Toronto Blue Jays,Drew Anderson,Braydon Fisher,0.5071,1.972,2.029,8.445
-2026-09-15,Boston Red Sox,Texas Rangers,Patrick Sandoval,TBD,0.505,1.98,2.02,7.967
 2026-09-15,Seattle Mariners,Los Angeles Angels,Logan Gilbert,Ryan Johnson,0.4633,2.158,1.863,8.925
 2026-09-15,Philadelphia Phillies,Washington Nationals,Cristopher Sánchez,Jackson Kent,0.4338,2.305,1.766,9.344
 2026-09-15,New York Yankees,Minnesota Twins,Max Fried,Bailey Ober,0.4222,2.369,1.731,8.54
@@ -23,7 +23,7 @@ date,away,home,awayPitcher,homePitcher,win_home,fair_home,fair_away,total_mean
 2026-09-16,Baltimore Orioles,New York Mets,Chris Bassitt,Robert Stock,0.5156,1.94,2.064,9.49
 2026-09-16,Seattle Mariners,Los Angeles Angels,George Kirby,Yusei Kikuchi,0.5052,1.979,2.021,8.937
 2026-09-16,Philadelphia Phillies,Washington Nationals,Zack Wheeler,Cade Cavalli,0.4917,2.034,1.967,8.521
-2026-09-16,Boston Red Sox,Texas Rangers,Jake Bennett,TBD,0.4754,2.103,1.906,7.494
+2026-09-16,Boston Red Sox,Texas Rangers,Jake Bennett,MacKenzie Gore,0.4646,2.152,1.868,7.675
 2026-09-16,Detroit Tigers,Toronto Blue Jays,Keider Montero,Max Scherzer,0.4509,2.218,1.821,9.105
 2026-09-16,San Diego Padres,Colorado Rockies,Robbie Ray,Mason Adams,0.448,2.232,1.812,10.334
 2026-09-16,New York Yankees,Minnesota Twins,Carlos Rodón,Zebby Matthews,0.4276,2.339,1.747,9.261
