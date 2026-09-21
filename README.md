@@ -1,5 +1,7 @@
 # MLB 162-0
 
+> **Status, September 2026:** GitHub Actions are currently paused on this repo, so automated data refreshes and deploys are not running. The data and any live site reflect the last build.
+
 Statistical modelling of Major League Baseball, published as a static
 [GitHub Pages site](https://danieltomaro13.github.io/MLB-Modelling/) and rebuilt
 automatically every few hours.
